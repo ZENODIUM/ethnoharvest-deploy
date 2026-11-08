@@ -11,6 +11,7 @@ import os
 import hashlib
 import json
 import math
+import threading
 import time
 from functools import lru_cache
 from pathlib import Path
@@ -125,25 +126,30 @@ def planning_grid(reg: dict, max_cells: int = 400) -> list[dict]:
 
 
 # ------------------------------------------------------------------ WorldClim
+# Rasters are read from disk on demand (points or a region window), never held whole in memory, so the app fits a
+# small hosted instance. GDAL handles are not thread-safe, hence the lock.
+_WC_LOCK = threading.Lock()
+
+
 @lru_cache(maxsize=32)
 def _wc(var: int):
     import rasterio
-    f = WC_DIR / f"wc2.1_10m_bio_{var}.tif"
-    ds = rasterio.open(f)
-    return ds, ds.read(1, masked=True)
+    return rasterio.open(WC_DIR / f"wc2.1_10m_bio_{var}.tif")
 
 
 def worldclim_at(points: list[tuple[float, float]], variables=tuple(BIOCLIM)) -> dict[int, list]:
     out = {}
     for v in variables:
-        ds, arr = _wc(v)
-        vals = []
-        for lon, lat in points:
-            r, c = ds.index(lon, lat)
-            if 0 <= r < arr.shape[0] and 0 <= c < arr.shape[1] and not arr.mask[r, c]:
-                vals.append(round(float(arr[r, c]), 3))
-            else:
-                vals.append(None)
+        ds = _wc(v)
+        vals: list = [None] * len(points)
+        inside = [(i, (lon, lat)) for i, (lon, lat) in enumerate(points)
+                  if 0 <= ds.index(lon, lat)[0] < ds.height and 0 <= ds.index(lon, lat)[1] < ds.width]
+        if inside:
+            with _WC_LOCK:
+                sampled = list(ds.sample([p for _, p in inside], indexes=1, masked=True))
+            for (i, _), s in zip(inside, sampled):
+                if not np.ma.is_masked(s[0]):
+                    vals[i] = round(float(s[0]), 3)
         out[v] = vals
     return out
 
@@ -153,10 +159,11 @@ def worldclim_region(reg: dict) -> dict:
     import rasterio.windows
     stats = {}
     for v, (label, unit) in BIOCLIM.items():
-        ds, arr = _wc(v)
+        ds = _wc(v)
         win = rasterio.windows.from_bounds(*reg["bounds"], transform=ds.transform).round_offsets().round_lengths()
         win = rasterio.windows.Window(max(win.col_off, 0), max(win.row_off, 0), max(win.width, 1), max(win.height, 1))
-        sub = ds.read(1, window=win, masked=True)
+        with _WC_LOCK:
+            sub = ds.read(1, window=win, masked=True)
         tr = ds.window_transform(win)
         mask = rasterio.features.geometry_mask([reg["geojson"]], sub.shape, tr, invert=True, all_touched=True)
         vals = sub[mask & ~np.ma.getmaskarray(sub)].compressed() if np.ma.isMaskedArray(sub) else sub[mask]
