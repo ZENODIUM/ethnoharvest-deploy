@@ -1,0 +1,624 @@
+{
+ "generated_by": "scripts/build_plant_models.py",
+ "models": [
+  {
+   "id": "ginseng",
+   "source_file": "Plants New/American Ginseng.glb",
+   "label": "American Ginseng",
+   "kind": "species",
+   "species": [
+    "Panax quinquefolius"
+   ],
+   "display_height": 0.75,
+   "footprint": 0.7,
+   "archetypes": [
+    "herb",
+    "understorey-herb"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19998,
+   "triangles_source": 39998,
+   "bytes_source": 3836140,
+   "bytes_web": 458312
+  },
+  {
+   "id": "colchicum",
+   "source_file": "Plants New/Colchicum autumnale.glb",
+   "label": "Colchicum autumnale",
+   "kind": "species",
+   "species": [
+    "Colchicum autumnale"
+   ],
+   "display_height": 0.6,
+   "footprint": 0.5,
+   "archetypes": [
+    "herb",
+    "bulb",
+    "flowering-herb"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 3310320,
+   "bytes_web": 377752
+  },
+  {
+   "id": "echinacea",
+   "source_file": "Plants New/Echinacea.glb",
+   "label": "Echinacea",
+   "kind": "species",
+   "species": [
+    "Echinacea angustifolia",
+    "Echinacea purpurea",
+    "Echinacea pallida"
+   ],
+   "display_height": 1.0,
+   "footprint": 0.6,
+   "archetypes": [
+    "flowering-herb"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 4884724,
+   "bytes_web": 580660
+  },
+  {
+   "id": "frankincense",
+   "source_file": "Plants New/Frankincense.glb",
+   "label": "Frankincense",
+   "kind": "species",
+   "species": [
+    "Boswellia papyrifera"
+   ],
+   "display_height": 2.3,
+   "footprint": 2.0,
+   "archetypes": [
+    "dry-woody-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 21922,
+   "triangles_source": 39790,
+   "bytes_source": 3630200,
+   "bytes_web": 707948
+  },
+  {
+   "id": "amla",
+   "source_file": "Plants New/Indian Gooseberry.glb",
+   "label": "Indian Gooseberry",
+   "kind": "species",
+   "species": [
+    "Phyllanthus emblica"
+   ],
+   "display_height": 2.6,
+   "footprint": 2.2,
+   "archetypes": [
+    "broadleaf-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 29750,
+   "triangles_source": 39718,
+   "bytes_source": 4666324,
+   "bytes_web": 859060
+  },
+  {
+   "id": "jatamansi",
+   "source_file": "Plants New/Jatamansi.glb",
+   "label": "Jatamansi",
+   "kind": "species",
+   "species": [
+    "Nardostachys jatamansi"
+   ],
+   "display_height": 0.6,
+   "footprint": 0.8,
+   "archetypes": [
+    "herb",
+    "rosette",
+    "alpine-herb"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19926,
+   "triangles_source": 39852,
+   "bytes_source": 4128320,
+   "bytes_web": 613004
+  },
+  {
+   "id": "khaya",
+   "source_file": "Plants New/Khaya.glb",
+   "label": "Khaya",
+   "kind": "species",
+   "species": [
+    "Khaya senegalensis"
+   ],
+   "display_height": 2.7,
+   "footprint": 2.3,
+   "archetypes": [
+    "broadleaf-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 29080,
+   "triangles_source": 39786,
+   "bytes_source": 3956956,
+   "bytes_web": 742888
+  },
+  {
+   "id": "arnica",
+   "source_file": "Plants New/Mountain Arnica.glb",
+   "label": "Mountain Arnica",
+   "kind": "species",
+   "species": [
+    "Arnica montana"
+   ],
+   "display_height": 0.75,
+   "footprint": 0.6,
+   "archetypes": [
+    "flowering-herb",
+    "rosette"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 3315140,
+   "bytes_web": 401892
+  },
+  {
+   "id": "primula",
+   "source_file": "Plants New/Primula.glb",
+   "label": "Primula",
+   "kind": "species",
+   "species": [
+    "Primula veris"
+   ],
+   "display_height": 0.55,
+   "footprint": 0.55,
+   "archetypes": [
+    "flowering-herb",
+    "rosette"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 3822128,
+   "bytes_web": 436276
+  },
+  {
+   "id": "prunus",
+   "source_file": "Plants New/Prunus.glb",
+   "label": "Prunus",
+   "kind": "species",
+   "species": [
+    "Prunus africana"
+   ],
+   "display_height": 2.7,
+   "footprint": 2.3,
+   "archetypes": [
+    "broadleaf-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 27966,
+   "triangles_source": 39850,
+   "bytes_source": 4036000,
+   "bytes_web": 749844
+  },
+  {
+   "id": "sabal",
+   "source_file": "Plants New/Sabal.glb",
+   "label": "Sabal",
+   "kind": "species",
+   "species": [
+    "Sabal yapa"
+   ],
+   "display_height": 2.5,
+   "footprint": 2.3,
+   "archetypes": [
+    "palm"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19924,
+   "triangles_source": 39850,
+   "bytes_source": 4135972,
+   "bytes_web": 610604
+  },
+  {
+   "id": "g-cactus",
+   "source_file": "Plants New/Generic/Cactus.glb",
+   "label": "Cactus",
+   "kind": "generic",
+   "species": [],
+   "display_height": 1.0,
+   "footprint": 0.6,
+   "archetypes": [
+    "succulent",
+    "cactus"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 3483740,
+   "bytes_web": 347944
+  },
+  {
+   "id": "g-conifer",
+   "source_file": "Plants New/Generic/Conifer.glb",
+   "label": "Conifer",
+   "kind": "generic",
+   "species": [],
+   "display_height": 2.8,
+   "footprint": 1.7,
+   "archetypes": [
+    "conifer",
+    "tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19998,
+   "triangles_source": 39996,
+   "bytes_source": 5347904,
+   "bytes_web": 506536
+  },
+  {
+   "id": "g-flowering-herb",
+   "source_file": "Plants New/Generic/Flowering_Herb.glb",
+   "label": "Flowering Herb",
+   "kind": "generic",
+   "species": [],
+   "display_height": 0.85,
+   "footprint": 0.6,
+   "archetypes": [
+    "flowering-herb",
+    "herb"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19992,
+   "triangles_source": 39986,
+   "bytes_source": 4307140,
+   "bytes_web": 537488
+  },
+  {
+   "id": "g-low-herb",
+   "source_file": "Plants New/Generic/Low_Herb.glb",
+   "label": "Low Herb",
+   "kind": "generic",
+   "species": [],
+   "display_height": 0.5,
+   "footprint": 0.7,
+   "archetypes": [
+    "herb",
+    "rosette"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 20000,
+   "triangles_source": 40000,
+   "bytes_source": 3040668,
+   "bytes_web": 320768
+  },
+  {
+   "id": "g-palm",
+   "source_file": "Plants New/Generic/Palm.glb",
+   "label": "Palm",
+   "kind": "generic",
+   "species": [],
+   "display_height": 2.5,
+   "footprint": 2.3,
+   "archetypes": [
+    "palm"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19992,
+   "triangles_source": 39988,
+   "bytes_source": 3894884,
+   "bytes_web": 570644
+  },
+  {
+   "id": "g-shrub",
+   "source_file": "Plants New/Generic/Shrub.glb",
+   "label": "Shrub",
+   "kind": "generic",
+   "species": [],
+   "display_height": 1.2,
+   "footprint": 1.2,
+   "archetypes": [
+    "shrub",
+    "bush"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 29270,
+   "triangles_source": 39810,
+   "bytes_source": 4253832,
+   "bytes_web": 823372
+  },
+  {
+   "id": "g-tropical-tree",
+   "source_file": "Plants New/Generic/Tropical_broadleaf_tree.glb",
+   "label": "Tropical broadleaf tree",
+   "kind": "generic",
+   "species": [],
+   "display_height": 2.7,
+   "footprint": 2.3,
+   "archetypes": [
+    "broadleaf-tree",
+    "tropical-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 27730,
+   "triangles_source": 39840,
+   "bytes_source": 3737780,
+   "bytes_web": 692996
+  },
+  {
+   "id": "g-weedy-herb",
+   "source_file": "Plants New/Generic/Weedy_Herb.glb",
+   "label": "Weedy Herb",
+   "kind": "generic",
+   "species": [],
+   "display_height": 0.8,
+   "footprint": 0.6,
+   "archetypes": [
+    "herb",
+    "annual"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 19992,
+   "triangles_source": 39984,
+   "bytes_source": 3428588,
+   "bytes_web": 421584
+  },
+  {
+   "id": "g-temperate-tree",
+   "source_file": "Plants New/Generic/temperate_broadleaf_tree.glb",
+   "label": "temperate broadleaf tree",
+   "kind": "generic",
+   "species": [],
+   "display_height": 2.7,
+   "footprint": 2.3,
+   "archetypes": [
+    "broadleaf-tree",
+    "temperate-tree"
+   ],
+   "normals_added": 1,
+   "textures": [
+    {
+     "from": [
+      2048,
+      2048
+     ],
+     "to": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "triangles_web": 34308,
+   "triangles_source": 39544,
+   "bytes_source": 4839712,
+   "bytes_web": 956188
+  }
+ ]
+}

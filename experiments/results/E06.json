@@ -1,0 +1,91 @@
+{
+ "id": "E06",
+ "title": "Recovery time and rotation thresholds for Nardostachys (study-matrix extrapolation)",
+ "question": "Using only the study's own matrices, after how many years does abundance recover from one harvest, and what rest interval keeps the annualised growth rate >= 1 under repeated harvest?",
+ "hypothesis": "Recovery lengthens with intensity; minimal rotation length increases with intensity; values will NOT match the paper's recovery times (5/17/33 yr) because COMPADRE stores 3-year mean matrices that already include post-harvest recovery.",
+ "data": "COMPADRE 244455-244459",
+ "method": "recovery_time, periodic_lambda; sensitivity to control choice (outcrop control vs meadow)",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "exploratory",
+ "finding": "Recovery times are shorter than published (not reproduced) - a known limitation of mean matrices. Rotation thresholds are model extrapolations and depend on which control is used; shown in Simulate as 'study-matrix extrapolation', never as a permitted rotation.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:09:54+00:00",
+ "runtime_s": 0.0,
+ "command": "python -m backend.ethnoharvest.experiments E06",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E06.json",
+ "result": {
+  "rows": [
+   {
+    "control": "outcrop control",
+    "intensity": 10,
+    "recovery_years": 3,
+    "min_rotation_years_lambda_ge_1": 3,
+    "annualised_lambda_rotation_5": 1.0115
+   },
+   {
+    "control": "outcrop control",
+    "intensity": 25,
+    "recovery_years": 7,
+    "min_rotation_years_lambda_ge_1": 7,
+    "annualised_lambda_rotation_5": 0.9916
+   },
+   {
+    "control": "outcrop control",
+    "intensity": 50,
+    "recovery_years": 11,
+    "min_rotation_years_lambda_ge_1": 11,
+    "annualised_lambda_rotation_5": 0.9708
+   },
+   {
+    "control": "outcrop control",
+    "intensity": 75,
+    "recovery_years": 12,
+    "min_rotation_years_lambda_ge_1": 12,
+    "annualised_lambda_rotation_5": 0.9664
+   },
+   {
+    "control": "meadow (different habitat)",
+    "intensity": 10,
+    "recovery_years": 2,
+    "min_rotation_years_lambda_ge_1": 2,
+    "annualised_lambda_rotation_5": 1.1049
+   },
+   {
+    "control": "meadow (different habitat)",
+    "intensity": 25,
+    "recovery_years": 3,
+    "min_rotation_years_lambda_ge_1": 3,
+    "annualised_lambda_rotation_5": 1.0739
+   },
+   {
+    "control": "meadow (different habitat)",
+    "intensity": 50,
+    "recovery_years": 4,
+    "min_rotation_years_lambda_ge_1": 4,
+    "annualised_lambda_rotation_5": 1.0509
+   },
+   {
+    "control": "meadow (different habitat)",
+    "intensity": 75,
+    "recovery_years": 4,
+    "min_rotation_years_lambda_ge_1": 4,
+    "annualised_lambda_rotation_5": 1.0322
+   }
+  ],
+  "paper_recovery_years": {
+   "10": 5,
+   "25": 17,
+   "75": 33
+  },
+  "paper_recommendation": "<10% in outcrops, <25% in meadows, >=5 years between harvests",
+  "assumption": "each harvest year reuses the 1999-2002 mean treatment matrix; control years reuse the control mean matrix; no density dependence or stochasticity"
+ }
+}

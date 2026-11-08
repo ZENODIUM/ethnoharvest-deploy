@@ -1,0 +1,136 @@
+{
+ "id": "E04",
+ "title": "Cross-study synthesis of medicinal-plant harvest contrasts in COMPADRE",
+ "question": "Across all audited medicinal harvest studies in COMPADRE, does harvest consistently lower deterministic lambda, as the NTFP meta-analysis (Schmidt et al. 2011: pooled 1.04 control vs 0.92 harvest) suggests?",
+ "hypothesis": "Harvest lowers lambda in most studies, but effects are heterogeneous and weaker in observational (non-randomised) contrasts than in the experimental flagship.",
+ "data": "8 audited studies (harvest.STUDIES)",
+ "method": "per-study delta lambda, design-stratified; permutation tests where >=3 populations per arm",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "inconclusive",
+ "finding": "Harvest lowered lambda in 6/8 studies (sign test p=0.29). Only the randomised flagship shows a large effect; observational contrasts are small and confounded with site/period. Generic 'harvest lowers lambda by X' transfer across species is NOT supported.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:09:54+00:00",
+ "runtime_s": 0.31,
+ "command": "python -m backend.ethnoharvest.experiments E04",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E04.json",
+ "result": {
+  "table": [
+   {
+    "study": "nardostachys-ghimire2008",
+    "species": "Nardostachys jatamansi",
+    "organ": "rhizome",
+    "design": "experimental",
+    "n_control": 1,
+    "n_treatment": 4,
+    "mean_control": 1.0277,
+    "mean_treatment": 0.8542,
+    "delta": -0.1735,
+    "perm_p": null
+   },
+   {
+    "study": "khaya-gaoue2010",
+    "species": "Khaya senegalensis",
+    "organ": "bark + foliage",
+    "design": "observational",
+    "n_control": 6,
+    "n_treatment": 6,
+    "mean_control": 1.0077,
+    "mean_treatment": 0.9822,
+    "delta": -0.0255,
+    "perm_p": 0.2837
+   },
+   {
+    "study": "khaya-gaoue2013",
+    "species": "Khaya senegalensis",
+    "organ": "bark + foliage",
+    "design": "observational",
+    "n_control": 6,
+    "n_treatment": 6,
+    "mean_control": 0.9916,
+    "mean_treatment": 0.9747,
+    "delta": -0.017,
+    "perm_p": 0.3432
+   },
+   {
+    "study": "prunus-stewart2001",
+    "species": "Prunus africana",
+    "organ": "bark",
+    "design": "observational",
+    "n_control": 1,
+    "n_treatment": 4,
+    "mean_control": 0.9845,
+    "mean_treatment": 0.9992,
+    "delta": 0.0147,
+    "perm_p": null
+   },
+   {
+    "study": "echinacea-hurlburt1999",
+    "species": "Echinacea angustifolia",
+    "organ": "root",
+    "design": "observational",
+    "n_control": 2,
+    "n_treatment": 2,
+    "mean_control": 1.016,
+    "mean_treatment": 1.0137,
+    "delta": -0.0023,
+    "perm_p": null
+   },
+   {
+    "study": "phyllanthus-ticktin2012",
+    "species": "Phyllanthus emblica",
+    "organ": "fruit",
+    "design": "observational",
+    "n_control": 1,
+    "n_treatment": 1,
+    "mean_control": 0.9758,
+    "mean_treatment": 0.9301,
+    "delta": -0.0457,
+    "perm_p": null
+   },
+   {
+    "study": "boswellia-groenendijk2012",
+    "species": "Boswellia papyrifera",
+    "organ": "resin (stem tapping)",
+    "design": "observational",
+    "n_control": 1,
+    "n_treatment": 1,
+    "mean_control": 0.9539,
+    "mean_treatment": 0.9623,
+    "delta": 0.0084,
+    "perm_p": null
+   },
+   {
+    "study": "sabal-martinez2007",
+    "species": "Sabal yapa",
+    "organ": "leaf",
+    "design": "observational",
+    "n_control": 2,
+    "n_treatment": 1,
+    "mean_control": 1.011,
+    "mean_treatment": 0.9591,
+    "delta": -0.0519,
+    "perm_p": null
+   }
+  ],
+  "n_studies": 8,
+  "n_negative_delta": 6,
+  "sign_test_p": 0.2890625,
+  "median_delta_all": -0.021249999999999998,
+  "median_delta_observational": -0.017,
+  "experimental_delta": -0.1735,
+  "pooled_mean_control": 0.9960249999999999,
+  "pooled_mean_harvest": 0.9594374999999999,
+  "schmidt_2011_pooled": {
+   "control": 1.04,
+   "harvest": 0.92
+  }
+ }
+}

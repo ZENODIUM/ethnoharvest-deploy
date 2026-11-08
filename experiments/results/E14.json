@@ -1,0 +1,46 @@
+{
+ "id": "E14",
+ "title": "Khaya senegalensis stochastic growth: harvested vs unharvested (annual pooled matrices)",
+ "question": "Using COMPADRE's annual pooled matrices (2004-05, 2005-06), is stochastic lambda lower in high-harvest than unmanipulated populations, matching the direction reported by Gaoue & Ticktin?",
+ "hypothesis": "lambda_s(high harvest) < lambda_s(unmanipulated); only 2 annual matrices per arm so uncertainty is large.",
+ "data": "COMPADRE 247632-247635",
+ "method": "iid stochastic simulation (seed 42) + Tuljapurkar approximation",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "failed/negative",
+ "finding": "Stochastic lambda high-harvest 0.9725 vs unmanipulated 0.9724 (difference +0.0001): the published harvest penalty is NOT reproduced from COMPADRE's two pooled annual matrices per arm; the paper's stochastic analysis used a different (ecoregion-specific, multi-year) structure.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:51+00:00",
+ "runtime_s": 0.32,
+ "command": "python -m backend.ethnoharvest.experiments E14",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E14.json",
+ "result": {
+  "high_harvest": {
+   "log_lambda_s": -0.027883456847276545,
+   "lambda_s": 0.9725016986110805,
+   "se_log": 0.00032283966783423144,
+   "tuljapurkar_approx_lambda_s": 0.9722967512049602,
+   "lambda_mean_matrix": 0.9726527792412587,
+   "seed": 42,
+   "years": 50000
+  },
+  "unmanipulated": {
+   "log_lambda_s": -0.027960831098109012,
+   "lambda_s": 0.9724264549317163,
+   "se_log": 3.729119766985339e-05,
+   "tuljapurkar_approx_lambda_s": 0.9723412746467239,
+   "lambda_mean_matrix": 0.9724158237799695,
+   "seed": 42,
+   "years": 50000
+  },
+  "difference": 7.524367936417864e-05,
+  "paper_reported": "stochastic lambda lower under high harvest in both ecoregions (dossier: 0.9913 vs 1.0345 moist; 0.9659 vs 0.9999 dry)"
+ }
+}

@@ -1,0 +1,813 @@
+SpeciesAccepted,gbif_key,gbif_accepted,gbif_match,gbif_status,family,organism_type,n_synonyms,matched_names,matched_via_synonym,medicinal_documented,n_med_records,n_med_references,med_sources,example_uses,n_matrices,n_studies,n_populations,treatments
+Abies balsamea,2685383,Abies balsamea,EXACT,ACCEPTED,Pinaceae,Tree,2,abies balsamea,False,True,13,3,USDA Duke ETHNOBOT,Burn; Cancer; Cold; Cough; Heart; Sore; Steam-Bath; Wound,2,1,1,Unmanipulated
+Abies concolor,2685580,Abies concolor,EXACT,ACCEPTED,Pinaceae,Tree,28,,False,False,0,0,,,16,1,5,Unmanipulated
+Abies homolepis,2685663,Abies homolepis,EXACT,ACCEPTED,Pinaceae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Abies magnifica,2685422,Abies magnifica,EXACT,ACCEPTED,Pinaceae,Tree,3,,False,False,0,0,,,14,1,4,Unmanipulated
+Abies sachalinensis,2685437,Abies sachalinensis,EXACT,ACCEPTED,Pinaceae,Tree,1,,False,False,0,0,,,2,2,2,Unmanipulated
+Abutilon theophrasti,3152614,Abutilon theophrasti,EXACT,ACCEPTED,Malvaceae,Annual,20,abutilon avicennae,True,True,5,2,USDA Duke ETHNOBOT,Aperient; Dysentery; Dysuria; Keratitis; Diuretic,6,1,1,2 year (corn)|2 year (soybean)|4 year (Alfalf)|4 year (Trit+Alfalf)|4 year (corn)|4 year (soybean)
+Acacia aneura,2979331,Acacia aneura,EXACT,ACCEPTED,Leguminosae,Shrub,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Acacia bilimekii,3795611,Vachellia bilimekii,EXACT,SYNONYM,Leguminosae,Shrub,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Acacia pennatula,6362443,Vachellia pennatula,EXACT,SYNONYM,Leguminosae,Tree,5,acacia pennatula,False,True,1,1,USDA Duke ETHNOBOT,Dyspepsia,1,1,1,Unmanipulated
+Acacia suaveolens,2979671,Acacia suaveolens,EXACT,ACCEPTED,Leguminosae,Shrub,17,,False,False,0,0,,,7,1,7,Unmanipulated
+Acacia victoriae,2979105,Acacia victoriae,EXACT,ACCEPTED,Leguminosae,Shrub,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Acer palmatum,3189882,Acer palmatum,EXACT,ACCEPTED,Sapindaceae,Tree,33,,False,False,0,0,,,3,1,3,Unmanipulated
+Acer pictum,7262911,Acer pictum,EXACT,ACCEPTED,Sapindaceae,Tree,2,,False,False,0,0,,,3,1,3,Unmanipulated
+Acer rufinerve,7263145,Acer rufinerve,EXACT,ACCEPTED,Sapindaceae,Tree,5,,False,False,0,0,,,3,1,2,Unmanipulated
+Acer saccharum,3189859,Acer saccharum,EXACT,ACCEPTED,Sapindaceae,Tree,21,,False,False,0,0,,,10,1,4,Unmanipulated
+Achillea millefolium,3120060,Achillea millefolium,EXACT,ACCEPTED,Compositae,Herbaceous perennial,44,achillea lanulosa|achillea millefolium,False,True,113,18,USDA Duke ETHNOBOT,Abcess; Ache(Back); Ache(Ear); Ache(Head); Ache(Leg); Anesthetic; Apertif; Astringent,2,1,1,Competition (C)|Competition-free (NC)
+Aconitum noveboracense,3033676,Aconitum noveboracense,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Actaea cordifolia,5616574,Actaea podocarpa,EXACT,SYNONYM,Ranunculaceae,Herbaceous perennial,10,,False,False,0,0,,,5,1,2,Unmanipulated
+Actaea elata,6376174,Actaea elata,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,7,,False,False,0,0,,,24,2,7,Unmanipulated
+Actaea spicata,5371473,Actaea spicata,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,12,actaea spicata,False,True,24,6,USDA Duke ETHNOBOT,Angina Pectoris; Antidote; Asthma; Cardiotonic; Dropsy; Hysteria; Nerves; Nervine,15,1,3,Unmanipulated
+Actinostemon concolor,3063147,Actinostemon concolor,EXACT,ACCEPTED,Euphorbiaceae,Tree,53,,False,False,0,0,,,2,1,1,Flooded
+Adenocarpus gibbsianus,2951654,Adenocarpus complicatus,EXACT,SYNONYM,Leguminosae,Herbaceous perennial,8,,False,False,0,0,,,17,1,4,Unmanipulated
+Adenophora lobophylla,5409427,Adenophora lobophylla,EXACT,ACCEPTED,Campanulaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Adenophora potaninii,5409669,Adenophora potaninii,EXACT,ACCEPTED,Campanulaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Adesmia volckmannii,5356155,Adesmia volckmannii,EXACT,ACCEPTED,Leguminosae,Shrub,6,,False,False,0,0,,,2,1,1,Grazing|Unmanipulated
+Aechmea magdalenae,2697829,Aechmea magdalenae,EXACT,ACCEPTED,Bromeliaceae,Herbaceous perennial,7,,False,False,0,0,,,9,1,3,Unmanipulated
+Aechmea nudicaulis,2698486,Aechmea nudicaulis,EXACT,ACCEPTED,Bromeliaceae,Herbaceous perennial,6,,False,False,0,0,,,36,1,12,High Cover - Bare sand|High Cover - Border|High Cover - Inside|High Cover - Palm|Low cover - Bare sand|Low cover - Border|Low cover - Inside|Low cover - Palm|Medium cover - Bare sand|Medium cover - Border|Medium cover - Inside|Medium cover - Palm
+Aeschynomene virginica,2949101,Aeschynomene virginica,EXACT,ACCEPTED,Leguminosae,Annual,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Aesculus turbinata,3189819,Aesculus turbinata,EXACT,ACCEPTED,Sapindaceae,Tree,5,aesculus turbinata,False,True,3,2,USDA Duke ETHNOBOT,Antidiarrheic; Hemostatic; Collyrium,4,1,4,Unmanipulated
+Agave marmorata,2766724,Agave marmorata,EXACT,ACCEPTED,Asparagaceae,Succulent,1,,False,False,0,0,,,6,1,2,Cutting of flowering stalks|Unmanipulated
+Agave potatorum,2766741,Agave potatorum,EXACT,ACCEPTED,Asparagaceae,Succulent,13,,False,False,0,0,,,2,1,2,Unmanipulated
+Agave vivipara,2766811,Agave vivipara,EXACT,ACCEPTED,Asparagaceae,Succulent,12,,False,False,0,0,,,5,2,3,Grazing|Unmanipulated
+Agrimonia eupatoria,3001956,Agrimonia eupatoria,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,2,agrimonia eupatoria,False,True,39,7,USDA Duke ETHNOBOT,Astringent; Cancer; Cancer(Stomach); Cholagogue; Coagulant; Depurative; Diuretic; Emmenagogue,13,1,3,Unmanipulated
+Agropyron cristatum,2705196,Agropyron cristatum,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,120,,False,False,0,0,,,18,1,1,Clipping; Average soil moisture|Clipping; dry soil|Clipping; wet soil|Herbicide; Average soil moisture|Herbicide; Dry soil|Herbicide; Wet soil|Unmanipulated; Average soil moisture|Unmanipulated; dry soil treatment|Unmanipulated; wet soil treatment
+Ailanthus altissima,3190653,Ailanthus altissima,EXACT,ACCEPTED,Simaroubaceae,Tree,34,ailanthus altissima,False,True,42,8,USDA Duke ETHNOBOT,Asthma; Astringent; Bactericide; Cancer; Cardiac; Cathartic; Deobstruent; Diarrhea,2,2,1,Unmanipulated
+Alaria nana,5422572,Alaria nana,EXACT,ACCEPTED,Alariaceae,Algae,0,,False,False,0,0,,,3,1,1,Unmanipulated
+Alliaria petiolata,5376075,Alliaria petiolata,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,21,alliaria officinalis|alliaria petiolata|sisymbrium alliaria,False,True,19,4,USDA Duke ETHNOBOT,Antiseptic; Detersive; Diaphoretic; Diuretic; Expectorant; Lithontriptic; Scurvy; Stimulant,53,4,15,High density|Low density |Medium density|Unmanipulated
+Allium monanthum,2857379,Allium monanthum,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Allium sativum,2856681,Allium sativum,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,17,allium sativum,False,True,253,39,Herbolario (GBIF)|USDA Duke ETHNOBOT,Ache(Ear); Ache(Stomach); Alopecia; Antidote; Antiseptic; Antispasmodic; Arteriosclerosis; Arthritis,1,1,1,Unmanipulated
+Allium tricoccum,2856301,Allium tricoccum,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,4,,False,False,0,0,,,5,1,1,Unmanipulated
+Allium vineale,7792960,Allium vineale,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,44,allium vineale,False,True,1,1,USDA Duke ETHNOBOT,Tumor,1,1,1,Unmanipulated
+Alnus incana subsp. rugosa,2876469,Alnus incana,EXACT,ACCEPTED,Betulaceae,Tree,18,alnus incana,False,True,1,1,USDA Duke ETHNOBOT,Tumor,9,1,3,Unmanipulated
+Alseis blackiana,5334873,Alseis blackiana,EXACT,ACCEPTED,Rubiaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Alternanthera philoxeroides,3084923,Alternanthera philoxeroides,EXACT,ACCEPTED,Amaranthaceae,Herbaceous perennial,24,,False,False,0,0,,,1,1,1,20% soil moisture terrestrial experimental
+Alyxia stellata,7156128,Alyxia stellata,EXACT,ACCEPTED,Apocynaceae,Liana,35,alyxia stellata,False,True,1,1,USDA Duke ETHNOBOT,Bloody stool,8,1,8,Restoration population Closed canopy|Restoration population Open canopy|Unmanipulated
+Amaranthus retroflexus,6109534,Amaranthus retroflexus,EXACT,ACCEPTED,Amaranthaceae,Annual,23,amaranthus retroflexus,False,True,3,1,USDA Duke ETHNOBOT,Diarrhea; Dysmenorrhea; Enterorrhagia,12,1,1,Temperature 20/10˚C|Temperature 23/13˚C|Unmanipulated|With maize|With maize; Temperature 20/10˚C|With maize; Temperature 23/13˚C
+Ambrosia dumosa,3110634,Ambrosia dumosa,EXACT,ACCEPTED,Compositae,Shrub,4,,False,False,0,0,,,8,1,4,Influence of neighboring
+Anarrhinum fruticosum,8267849,Anarrhinum fruticosum,EXACT,ACCEPTED,Plantaginaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Andropogon gerardii,4932035,Andropogon gerardi,FUZZY,ACCEPTED,Poaceae,Herbaceous perennial,3,,False,False,0,0,,,20,1,20,Unmanipulated
+Androsace elongata,3169325,Androsace elongata,EXACT,ACCEPTED,Primulaceae,Annual,2,,False,False,0,0,,,16,1,6,Unmanipulated
+Anemone patens,3033620,Pulsatilla,HIGHERRANK,ACCEPTED,Ranunculaceae,Herbaceous perennial,0,anemone patens,False,True,5,2,USDA Duke ETHNOBOT,Counterirritant; Diuretic; Alterative; Emmenagogue; Expectorant,1,1,1,Unmanipulated
+Anisoptera laevis,5668936,Anisoptera laevis,EXACT,ACCEPTED,Dipterocarpaceae,Tree,0,,False,False,0,0,,,3,1,3,Unmanipualted|Unmanipulated
+Anthericum liliago,2773902,Anthericum liliago,EXACT,ACCEPTED,Asparagaceae,Herbaceous perennial,23,,False,False,0,0,,,6,1,3,Unmanipulated
+Anthericum ramosum,2773942,Anthericum ramosum,EXACT,ACCEPTED,Asparagaceae,Herbaceous perennial,10,,False,False,0,0,,,13,1,6,Unmanipulated
+Anthoxanthum odoratum,2705975,Anthoxanthum odoratum,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,52,anthoxanthum odoratum,False,True,3,2,USDA Duke ETHNOBOT,Emollient; Tumor,2,1,1,Competition (C)|Competition-free (NC)
+Anthyllis vulneraria,5352367,Anthyllis vulneraria,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,17,anthyllis vulneraria,False,True,6,2,USDA Duke ETHNOBOT,Depurative; Purgative; Vulnerary; Astringent; Diuretic,48,3,12,Controlled grazing - Good years|Controlled grazing - Poor years|Free grazing - Good years|Free grazing - Poor years|Unmanipulated
+Antirrhinum lopesianum,3740165,Antirrhinum lopesianum,EXACT,ACCEPTED,Acanthaceae,Herbaceous perennial,1,,False,False,0,0,,,4,1,1,Unmanipulated
+Antirrhinum subbaeticum,3739178,Antirrhinum subbaeticum,EXACT,ACCEPTED,Plantaginaceae,Herbaceous perennial,0,,False,False,0,0,,,13,1,3,Unmanipulated
+Aquilaria crassna,8162077,Aquilaria crassna,EXACT,ACCEPTED,Thymelaeaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Aquilaria malaccensis,5524063,Aquilaria malaccensis,EXACT,ACCEPTED,Thymelaeaceae,Tree,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Aquilaria microcarpa,5524056,Aquilaria microcarpa,EXACT,ACCEPTED,Thymelaeaceae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Aquilegia chrysantha,3033196,Aquilegia chrysantha,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,9,aquilegia chrysantha,False,True,1,1,USDA Duke ETHNOBOT,Cyanogenetic,1,1,1,Unmanipulated
+Aquilegia sp.,3033167,Aquilegia,HIGHERRANK,ACCEPTED,Ranunculaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Araucaria angustifolia,2684940,Araucaria angustifolia,EXACT,ACCEPTED,Araucariaceae,Tree,34,,False,False,0,0,,,1,1,1,Unmanipulated
+Araucaria araucana,2684984,Araucaria araucana,EXACT,ACCEPTED,Araucariaceae,Tree,24,araucaria imbricata,True,True,1,1,USDA Duke ETHNOBOT,Medicine,1,1,1,Unmanipulated
+Araucaria cunninghamii,2684996,Araucaria cunninghamii,EXACT,ACCEPTED,Araucariaceae,Tree,1,,False,False,0,0,,,6,2,4,Unmanipulated
+Araucaria hunsteinii,2684933,Araucaria hunsteinii,EXACT,ACCEPTED,Araucariaceae,Tree,6,,False,False,0,0,,,4,1,4,Unmanipulated
+Araucaria laubenfelsii,2684915,Araucaria laubenfelsii,EXACT,ACCEPTED,Araucariaceae,Tree,1,,False,False,0,0,,,24,1,12,Forest fragment|Open maquis|Tall maquis
+Araucaria muelleri,2685005,Araucaria muelleri,EXACT,ACCEPTED,Araucariaceae,Tree,3,,False,False,0,0,,,5,1,5,Unmanipulated
+Arctophila fulva,12266378,Dupontia fulva,EXACT,SYNONYM,Poaceae,Herbaceous perennial,41,,False,False,0,0,,,3,1,3,Unmanipulated
+Ardisia elliptica,5414375,Ardisia elliptica,EXACT,ACCEPTED,Primulaceae,Shrub,18,ardisia elliptica|ardisia littoralis,False,True,5,2,Herbolario (GBIF)|USDA Duke ETHNOBOT,Angina; Circulatory; Hemorrhage; Digestive; Diarrhea; Excretory; Bleeding; Reproductive; Postpartum care and recovery,13,1,5,Unmanipulated
+Ardisia escallonioides,5558603,Ardisia escallonioides,EXACT,ACCEPTED,Primulaceae,Shrub,10,,False,False,0,0,,,7,1,4,15% full sunlight|25% full sunlight|35% full sunlight|45% full sunlight|5% full sunlight (closed canopy)|55% full sunlight|65% full sunlight (open canopy)
+Arenaria grandiflora subsp. bolosii,5586304,Arenaria grandiflora,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,3,,False,False,0,0,,,6,1,1,Unmanipulated
+Arenaria serpyllifolia,8089871,Arenaria serpyllifolia,EXACT,ACCEPTED,Caryophyllaceae,Annual,1,arenaria serpyllifolia,False,True,7,1,USDA Duke ETHNOBOT,Alexiteric; Cough; Fever; Pterygium; Refrigerant; Tuberculosis; Diuretic,16,1,6,Unmanipulated
+Argyroxiphium sandwicense,3118115,Argyroxiphium sandwicense,EXACT,ACCEPTED,Compositae,Shrub,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Ariocarpus fissuratus,3084097,Ariocarpus fissuratus,EXACT,ACCEPTED,Cactaceae,Succulent,13,ariocarpus fissuratus,False,True,3,2,USDA Duke ETHNOBOT,Hallucinogen; Narcotic,10,1,2,High population density|Low population density
+Ariocarpus scaphirostris,4927403,Ariocarpus scaphirostris,EXACT,ACCEPTED,Cactaceae,Succulent,3,,False,False,0,0,,,2,1,1,Simulation of mortality|Unmanipulated
+Arisaema serratum,2866950,Arisaema serratum,EXACT,ACCEPTED,Araceae,Herbaceous perennial,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Arisaema triphyllum,2867316,Arisaema triphyllum,EXACT,ACCEPTED,Araceae,Herbaceous perennial,29,arisaema triphyllum,False,True,44,8,USDA Duke ETHNOBOT,Ache(Head); Aptha; Bactericide; Bronchitis; Cancer; Carminative; Colic; Tuberculosis,7,1,3,Unmanipulated
+Aristida bipartita,4129651,Aristida bipartita,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,1,,False,False,0,0,,,8,1,1,Heavily grazed|Lightly grazed
+Armeria caespitosa,4090567,Armeria caespitosa,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,5,,False,False,0,0,,,63,1,26,Seedlings emerging from seedbank scenario
+Armeria maritima,8930531,Armeria maritima,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,10,armeria maritima,False,True,1,1,USDA Duke ETHNOBOT,Obesity,1,1,1,Unmanipulated
+Armeria merinoi,5668291,Armeria merinoi,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,3,,False,False,0,0,,,13,1,3,Unmanipulated
+Arnica angustifolia,8138466,Arnica angustifolia,EXACT,ACCEPTED,Compositae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Artemisia genipi,3120878,Artemisia genipi,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,7,1,3,Unmanipulated
+Asarum canadense,2873947,Asarum canadense,EXACT,ACCEPTED,Aristolochiaceae,Herbaceous perennial,20,asarum canadense,False,True,22,6,USDA Duke ETHNOBOT,Abdomen; Carminative; Expectorant; Fever; Nerves; Palpitation; Polyp(Nose); Stimulant,27,1,7,Unmanipulated
+Asclepias meadii,3170259,Asclepias meadii,EXACT,ACCEPTED,Apocynaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,2,Unmanipulated
+Ascophyllum nodosum,3196524,Ascophyllum nodosum,EXACT,ACCEPTED,Fucaceae,Algae,29,,False,False,0,0,,,14,2,4,Unmanipulated
+Aspasia principissa,5306507,Aspasia principissa,EXACT,ACCEPTED,Orchidaceae,Epiphyte,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Asplenium adulterinum,2650652,Asplenium adulterinum,EXACT,ACCEPTED,Aspleniaceae,Fern,4,,False,False,0,0,,,25,1,7,Unmanipulated
+Asplenium cuneifolium,7310930,Asplenium cuneifolium,EXACT,ACCEPTED,Aspleniaceae,Fern,2,,False,False,0,0,,,17,1,5,Unmanipulated
+Asplenium scolopendrium,2650669,Asplenium scolopendrium,EXACT,ACCEPTED,Aspleniaceae,Fern,3,phyllitis scolopendrium,True,True,15,4,USDA Duke ETHNOBOT,Antidote; Astringent; Diuretic; Dysentery; Laxative; Lung; Refrigerant; Spleen,7,1,3,Thinned|Unmanipulated
+Aster amellus,8133114,Aster amellus,EXACT,ACCEPTED,Compositae,Herbaceous perennial,3,aster amellus,False,True,7,3,USDA Duke ETHNOBOT,Astringent; Cough; Hemorrhage; Nervine; Pulmonary; Tumor(Groin); Tonic,27,1,9,Unmanipulated
+Aster pyrenaeus,8137610,Aster pyrenaeus,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Astragalus alopecurus,5344299,Astragalus alopecurus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,12,,False,False,0,0,,,21,1,5,Unmanipulated
+Astragalus bibullatus,5347250,Astragalus bibullatus,EXACT,ACCEPTED,Fabaceae,Herbaceous perennial,0,,False,False,0,0,,,8,1,3,Drought|Non-Drought|Unmanipulated
+Astragalus cottonii,5343748,Astragalus cottonii,EXACT,ACCEPTED,Fabaceae,Herbaceous perennial,3,,False,False,0,0,,,5,1,5,Unmanipulated
+Astragalus cremnophylax var. cremnophylax,7225294,Astragalus cremnophylax,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,8,1,1,Protected|Unmanipulated
+Astragalus michauxii,5345882,Astragalus michauxii,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,5,,False,False,0,0,,,3,1,1,1yr postfire|2yr postfire|Burnt this year
+Astragalus peckii,5344645,Astragalus peckii,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,19,1,3,Moth infected plants excluded|Unmanipulated
+Astragalus scaphoides,5344058,Astragalus scaphoides,EXACT,ACCEPTED,Fabaceae,Herbaceous perennial,6,,False,False,0,0,,,116,3,4,Unmanipulated
+Astragalus tremolsianus,5346662,Astragalus tremolsianus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Astragalus tyghensis,5343612,Astragalus tyghensis,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,1,,False,False,0,0,,,51,1,6,Unmanipulated
+Astrocaryum aculeatissimum,2738058,Astrocaryum aculeatissimum,EXACT,ACCEPTED,Arecaceae,Palm,2,astrocaryum ayri,True,True,1,1,USDA Duke ETHNOBOT,Erysipelas,3,1,1,Unmanipulated
+Astrocaryum mexicanum,2738052,Astrocaryum mexicanum,EXACT,ACCEPTED,Arecaceae,Palm,7,,False,False,0,0,,,7,1,7,Unmanipulated
+Astrophytum asterias,5384219,Astrophytum asterias,EXACT,ACCEPTED,Cactaceae,Succulent,10,,False,False,0,0,,,13,1,5,Unmanipulated
+Astrophytum capricorne,7282583,Astrophytum capricorne,EXACT,ACCEPTED,Cactaceae,Succulent,26,,False,False,0,0,,,4,2,2,Unmanipulated
+Astrophytum myriostigma,7282451,Astrophytum myriostigma,EXACT,ACCEPTED,Cactaceae,Succulent,5,,False,False,0,0,,,3,1,3,
+Astrophytum ornatum,7282413,Astrophytum ornatum,EXACT,ACCEPTED,Cactaceae,Succulent,19,,False,False,0,0,,,4,2,1,Unmanipulated
+Atriplex acanthocarpa,6447673,Atriplex acanthocarpa,EXACT,ACCEPTED,Amaranthaceae,Shrub,1,,False,False,0,0,,,4,1,1,Unmanipulated
+Atriplex canescens,3083750,Atriplex canescens,EXACT,ACCEPTED,Amaranthaceae,Shrub,28,atriplex canescens,False,True,2,2,USDA Duke ETHNOBOT,Wart; Emetic,4,1,1,Unmanipulated
+Atriplex vesicaria,3083748,Atriplex vesicaria,EXACT,ACCEPTED,Amaranthaceae,Shrub,1,,False,False,0,0,,,30,1,10,Grazed 1|Grazed 2|Unmanipulated
+Attalea humilis,2732770,Attalea humilis,EXACT,ACCEPTED,Arecaceae,Palm,4,,False,False,0,0,,,2,1,2,Burnt mainly the edge|Extensively burnt
+Aurinia saxatilis subsp. saxatilis,7225675,Aurinia saxatilis,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,6,,False,False,0,0,,,6,1,1,Unmanipulated
+Avicennia germinans,2925400,Avicennia germinans,EXACT,ACCEPTED,Acanthaceae,Tree,27,avicennia germinans|avicennia nitida,False,True,10,5,USDA Duke ETHNOBOT,Piles; Repellant(Insect); Rheumatism; Swelling; Tumor; Wound; Diarrhea; Throat,1,1,1,Unmanipulated
+Avicennia marina,2925403,Avicennia marina,EXACT,ACCEPTED,Acanthaceae,Tree,4,,False,False,0,0,,,3,2,3,"Disturbance, large scale|Disturbance, small scale|Unmanipualted"
+Balduina angustifolia,3104988,Balduina angustifolia,EXACT,ACCEPTED,Compositae,Herbaceous perennial,11,,False,False,0,0,,,6,1,0,All treatments and unmanipulated|Bare sand|Degraded scrub|Intact scrub|Litter|Shrub 
+Balsamorhiza sagittata,10818007,Wyethia sagittata,EXACT,SYNONYM,Compositae,Herbaceous perennial,5,balsamorhiza sagittata,False,True,6,1,USDA Duke ETHNOBOT,Diuretic; Pertussis; Poultice; Laxative; Swelling; Tuberculosis,12,1,1,Herbicide picloram|Unmanipulated
+Banksia ericifolia,7124454,Banksia ericifolia,EXACT,ACCEPTED,Proteaceae,Shrub,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Beilschmiedia tovarensis,4182784,Beilschmiedia tovarensis,EXACT,ACCEPTED,Lauraceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Bencomia exstipulata,3032178,Bencomia exstipulata,EXACT,ACCEPTED,Rosaceae,Shrub,0,,False,False,0,0,,,10,1,1,Unmanipulated
+Bertholletia excelsa,3083180,Bertholletia excelsa,EXACT,ACCEPTED,Lecythidaceae,Tree,3,bertholletia excelsa,False,True,1,1,USDA Duke ETHNOBOT,Repellant(Insect),7,1,7,Unmanipulated
+Betula nana,5332004,Betula nana,EXACT,ACCEPTED,Betulaceae,Shrub,20,,False,False,0,0,,,2,1,1,Fertilizer runoff|Unmanipulated
+Betula pendula,5331916,Betula pendula,EXACT,ACCEPTED,Betulaceae,Tree,10,betula alba|betula verrucosa,True,True,26,7,USDA Duke ETHNOBOT,Antiseptic; Astringent; Bilious; Breast; Cancer; Dandruff; Depurative; Diuretic,1,1,1,Unmanipulated
+Betula pubescens var. pumila,5331751,Betula pubescens,EXACT,ACCEPTED,Betulaceae,Tree,21,,False,False,0,0,,,4,1,4,Unmanipulated
+Boltonia decurrens,5393595,Boltonia decurrens,EXACT,ACCEPTED,Compositae,Herbaceous perennial,3,,False,False,0,0,,,15,1,5,Unmanipulated
+Borassus aethiopum,2733925,Borassus aethiopum,EXACT,ACCEPTED,Arecaceae,Palm,5,,False,False,0,0,,,7,1,3,Unmanipulated
+Boswellia papyrifera,5421356,Boswellia papyrifera,EXACT,ACCEPTED,Burseraceae,Tree,5,boswellia papyrifera,False,True,3,1,USDA Duke ETHNOBOT,Evil eye; Fever; Tranquilizer,2,1,1,Tapped|Unmanipulated
+Bothriochloa insculpta,2704099,Bothriochloa insculpta,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,14,,False,False,0,0,,,8,1,1,Heavily grazed|Lightly grazed
+Bothriochloa ischaemum,2704102,Bothriochloa ischaemum,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,31,,False,False,0,0,,,9,1,1,Clipped lower-bound|Clipped upper-bound|Unmanipulated
+Botrychium mormo,2650197,Botrychium mormo,EXACT,ACCEPTED,Ophioglossaceae,Fern,0,,False,False,0,0,,,1,1,0,Simulation
+Bouteloua rigidiseta,5289872,Bouteloua rigidiseta,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,5,,False,False,0,0,,,12,1,1,Adult removal|Seed addition|Unmanipulated
+Brassavola cucullata,5314181,Brassavola cucullata,EXACT,ACCEPTED,Orchidaceae,Epiphyte,8,,False,False,0,0,,,10,1,3,Unmanipulated
+Brassica insularis,3042880,Brassica insularis,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,22,,False,False,0,0,,,41,1,5,Unmanipulated
+Brassica napus,3042636,Brassica napus,EXACT,ACCEPTED,Brassicaceae,Annual,73,brassica napus,False,True,7,3,USDA Duke ETHNOBOT,Chest-Cold; Diuretic; Gout; Pectoral; Soporific; Cancer; Catarrh,1,1,1,Unmanipulated
+Braya fernaldii,5373779,Braya fernaldii,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,1,Anthropogenically disturbed|Unmanipulated
+Braya longii,5373780,Braya longii,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,1,Anthropogenically disturbed|Unmanipulated
+Bromus tectorum,2703746,Bromus tectorum,EXACT,ACCEPTED,Poaceae,Annual,53,,False,False,0,0,,,109,2,44,Unmanipulated|Winter_dry/Summer_wet|Winter_wet|Winter_wet/Summer_dry
+Brosimum alicastrum,2984660,Brosimum alicastrum,EXACT,ACCEPTED,Moraceae,Tree,1,brosimum alicastrum,False,True,9,3,USDA Duke ETHNOBOT,Asthma; Cancer(Uterus); Chest; Coffee; Galactogogue; Lactagogue; Sedative; Bronchitis,2,2,2,Unmanipulated
+Broughtonia cubensis,5321294,Broughtonia cubensis,EXACT,ACCEPTED,Orchidaceae,Epiphyte,3,,False,False,0,0,,,34,1,3,Unmanipulated
+Bruguiera gymnorrhiza,7583876,Bruguiera gymnorhiza,FUZZY,ACCEPTED,Rhizophoraceae,Tree,18,bruguiera conjugata,True,True,1,1,USDA Duke ETHNOBOT,Astringent,1,1,1,Unmanipulated
+Bursera glabrifolia,3994146,Bursera glabrifolia,EXACT,ACCEPTED,Burseraceae,Tree,8,,False,False,0,0,,,3,1,1,Unmanipulated
+Caladenia amonea,2841517,Caladenia amoena,FUZZY,ACCEPTED,Orchidaceae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia argocalla,2841500,Caladenia argocalla,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia clavigera,2842049,Caladenia clavigera,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia elegans,2841672,Caladenia elegans,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia graniticola,2841783,Caladenia graniticola,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia macroclavia,2841302,Caladenia macroclavia,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia oenochila,2842044,Caladenia oenochila,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia orientalis,2842046,Caladenia orientalis,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Caladenia rosella,2841670,Caladenia rosella,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Caladenia valida,2841210,Caladenia valida,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Calamagrostis canescens,4108861,Calamagrostis canescens,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,47,,False,False,0,0,,,1,1,1,Unmanipulated
+Calamus nambariensis,5294326,Calamus inermis,EXACT,SYNONYM,Arecaceae,Palm,27,,False,False,0,0,,,1,1,1,Unmanipulated
+Calamus rhabdocladus,5294217,Calamus rhabdocladus,EXACT,ACCEPTED,Arecaceae,Palm,4,,False,False,0,0,,,5,1,1,Cutting all ramets ≥6 n stem length in August 2004|Unmanipulated
+Calathea marantifolia,9538544,Goeppertia marantifolia,EXACT,SYNONYM,Marantaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Calathea micans,8070508,Goeppertia micans,EXACT,SYNONYM,Marantaceae,Herbaceous perennial,15,,False,False,0,0,,,2,1,1,Unmanipulated
+Calathea ovandensis,9277281,Goeppertia ovandensis,EXACT,SYNONYM,Marantaceae,Herbaceous perennial,1,,False,False,0,0,,,17,1,4,Unmanipulated
+Callitris columellaris,2684338,Callitris columellaris,EXACT,ACCEPTED,Cupressaceae,Tree,22,,False,False,0,0,,,7,1,0,Fire|Unmanipulated
+Calluna vulgaris,2882482,Calluna vulgaris,EXACT,ACCEPTED,Ericaceae,Shrub,62,calluna vulgaris,False,True,16,4,USDA Duke ETHNOBOT,Antiseptic; Astringent; Bladder; Cancer; Depurative; Diuretic; Inflammation; Insomnia,1,1,1,Unmanipulated
+Calocedrus decurrens,2683936,Calocedrus decurrens,EXACT,ACCEPTED,Cupressaceae,Tree,9,,False,False,0,0,,,8,1,3,Unmanipulated
+Calocedrus macrolepis,2683942,Calocedrus macrolepis,EXACT,ACCEPTED,Cupressaceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Calochortus albus,2750779,Calochortus albus,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,7,,False,False,0,0,,,2,1,1,Unmanipulated
+Calochortus lyallii,2750807,Calochortus lyallii,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,1,,False,False,0,0,,,64,1,15,Unmanipulated
+Calochortus macrocarpus,2750714,Calochortus macrocarpus,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,1,,False,False,0,0,,,5,1,1,Unmanipulated
+Calochortus obispoensis,2750675,Calochortus obispoensis,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Calochortus pulchellus,2750710,Calochortus pulchellus,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,1,Unmanipulated
+Calochortus tiburonensis,2750777,Calochortus tiburonensis,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,0,,False,False,0,0,,,2,1,1,Unmanipulated
+Calycophyllum spruceanum,2904000,Calycophyllum spruceanum,EXACT,ACCEPTED,Rubiaceae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Camellia japonica,3189636,Camellia japonica,EXACT,ACCEPTED,Theaceae,Tree,72,camellia japonica,False,True,10,4,USDA Duke ETHNOBOT,Cardiotonic; Endocarditis; Hemoptysis; Ointment-Base; Pericarditis; Burn; Enterorrhagia; Hematemesis,1,1,1,Unmanipulated
+Carapa guianensis,3190513,Carapa guianensis,EXACT,ACCEPTED,Meliaceae,Tree,10,carapa guianensis,False,True,20,6,USDA Duke ETHNOBOT,Arthritis; Cold; Feet; Fever; Flu; Itch; Malaria; Parasiticide,11,2,3,Harvesting|Unmanipulated
+Carduus nutans,8185959,Carduus nutans,EXACT,ACCEPTED,Compositae,Herbaceous perennial,3,carduus nutans,False,True,2,1,USDA Duke ETHNOBOT,Depurative; Fever,10,4,9,Competitor Removal|Grazing|Unmanipulated
+Carex aquatilis var. minor,2724161,Carex aquatilis,EXACT,ACCEPTED,Cyperaceae,Herbaceous perennial,10,,False,False,0,0,,,4,1,4,Grazed|Unmanipulated
+Carex bigelowii,2722383,Carex bigelowii,EXACT,ACCEPTED,Cyperaceae,Herbaceous perennial,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Carex humilis,2723953,Carex humilis,EXACT,ACCEPTED,Cyperaceae,Herbaceous perennial,1,,False,False,0,0,,,11,1,3,Unmanipulated
+Carex membranacea,2723030,Carex membranacea,EXACT,ACCEPTED,Cyperaceae,Herbaceous perennial,5,,False,False,0,0,,,4,1,4,Grazed|Unmanipulated
+Carlina vulgaris,3105380,Carlina vulgaris,EXACT,ACCEPTED,Compositae,Herbaceous perennial,14,carlina vulgaris,False,True,10,1,USDA Duke ETHNOBOT,Cholagogue; Detergent; Emetic; Laxative; Vermifuge; Sudorific; Diuretic; Emmenagogue,33,2,17,Grazed|Unmanipulated
+Carnegiea gigantea,5384200,Carnegiea gigantea,EXACT,ACCEPTED,Cactaceae,Succulent,3,carnegiea gigantea,False,True,5,3,USDA Duke ETHNOBOT,Intoxicant; Liqueur; Rheumatism; Ache,1,1,1,Unmanipulated
+Carum carvi,3034714,Carum carvi,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,33,carum carvi,False,True,32,9,USDA Duke ETHNOBOT,Ache(Head); Ache(Stomach); Bactericide; Balsamic; Cancer; Carminative; Cholera; Diaphoretic,11,1,3,Grazed from end of june to the end of september|Grazed from end of may to the end of october|Grazed from end of mid-june to the end of september
+Carya sinensis,4205503,Annamocarya sinensis,EXACT,SYNONYM,Juglandaceae,Tree,10,,False,False,0,0,,,1,1,1,Unmanipulated
+Cassia nemophila,7278489,Senna artemisioides,EXACT,SYNONYM,Leguminosae,Shrub,7,,False,False,0,0,,,2,1,1,Unmanipulated
+Castanea dentata,5333230,Castanea dentata,EXACT,ACCEPTED,Fagaceae,Tree,13,castanea dentata,False,True,7,2,USDA Duke ETHNOBOT,Astringent; Sedative; Tonic; Vermifuge; Dysentery; Pertussis,24,1,6,Unmanipulated
+Catopsis compacta,2698846,Catopsis compacta,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,0,,False,False,0,0,,,4,1,1,Unmanipulated
+Catopsis sessiliflora,8411322,Catopsis sessiliflora,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,16,,False,False,0,0,,,3,1,1,Unmanipulated
+Cecropia obtusifolia,2984473,Cecropia obtusifolia,EXACT,ACCEPTED,Urticaceae,Tree,1,cecropia obtusifolia,False,True,9,1,USDA Duke ETHNOBOT,Asthma; Cardiotonic; Hepatitis; Nerves; Obesity; Chorea; Diabetes; Diuretic,5,1,1,Unmanipulated
+Cedrela odorata,3190511,Cedrela odorata,EXACT,ACCEPTED,Meliaceae,Tree,47,cedrela mexicana|cedrela odorata,False,True,19,6,USDA Duke ETHNOBOT,Astringent; Febrifuge; Fever; Gastralgia; Mouth; Rheumatism; Tonic; Ache(Tooth),16,1,16,Unmanipulated
+Centaurea corymbosa,3128595,Centaurea corymbosa,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,4,,False,False,0,0,,,166,2,14,Unmanipulated
+Centaurea horrida,7468889,Centaurea horrida,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,5,1,5,Herbivores exclusion|Unmanipulated
+Centaurea jacea,3128547,Centaurea jacea,EXACT,ACCEPTED,Compositae,Herbaceous perennial,8,centaurea jacea,False,True,5,1,USDA Duke ETHNOBOT,Diuretic; Fever; Stomachic; Tonic; Vulnerary,11,1,3,Mowing|Unmanipulated
+Centaurea podospermifolia,3128524,Centaurea podospermifolia,EXACT,ACCEPTED,Compositae,Herbaceous perennial,5,,False,False,0,0,,,7,1,7,Annual autumn|Annual spring|Annual summer|Unmanipulated
+Centaurea stoebe,3127727,Centaurea stoebe,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,6,,False,False,0,0,,,12,1,1,Herbivory|Unmanipulated
+Cephalanthera longifolia,2795869,Cephalanthera longifolia,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,54,,False,False,0,0,,,39,1,4,Defoliation in May/2002 and June/2003|Defoliation in May/2002 and June/2004|Defoliation in May/2002 and June/2005|Defoliation in May/2002 and June/2006|Shaded from 2002 to 2004|Shaded from 2002 to 2005|Shaded from 2002 to 2006|Shaded from 2002 to 2007|Unmanipulated
+Cephalocereus senilis,7283905,Cephalocereus senilis,EXACT,ACCEPTED,Cactaceae,Succulent,12,,False,False,0,0,,,1,1,1,Unmanipulated
+Cerastium fontanum,3085458,Cerastium fontanum,EXACT,ACCEPTED,Caryophyllaceae,Annual,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Cerastium pumilum,3085469,Cerastium pumilum,EXACT,ACCEPTED,Caryophyllaceae,Annual,24,,False,False,0,0,,,1,1,1,Unmanipulated
+Ceratozamia mirandae,2683628,Ceratozamia mirandae,EXACT,ACCEPTED,Zamiaceae,Palm,0,,False,False,0,0,,,3,1,3,Unmanipulated
+Ceratozamia norstogii,2683642,Ceratozamia norstogii,EXACT,ACCEPTED,Zamiaceae,Palm,0,,False,False,0,0,,,6,1,6,Disturbance|Protected from disturbance
+Chaerophyllum aureum,3642531,Chaerophyllum aureum,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,25,,False,False,0,0,,,3,1,3,Early and late cutting|One late cutting|Unmanipulated
+Chamaecrista fasciculata,2949728,Chamaecrista fasciculata,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,46,,False,False,0,0,,,6,1,0,All treatments and unmanipulated|Bare sand|Degraded scrub|Intact scrub|Litter|Shrub 
+Chamaecrista lineata var. keyensis,2950404,Chamaecrista lineata,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,2,,False,False,0,0,,,45,1,8,Burnt in summer 1999|Burnt in winter 1999|Burnt in winter 1999/2000|Burnt in winter 2000|Unmanipulated
+Chamaedorea elegans,2734661,Chamaedorea elegans,EXACT,ACCEPTED,Arecaceae,Palm,15,,False,False,0,0,,,9,1,3,Harvesting four times a year|Harvesting twice a year|Unmanipulated
+Chamaedorea radicalis,2734396,Chamaedorea radicalis,EXACT,ACCEPTED,Arecaceae,Palm,3,,False,False,0,0,,,64,3,10,Browsed|Browsed once per year|Browsed one to two times per year|Browsed twice per year|Harvested four times per year|Harvested four times per year but just one leaf|Harvested once per year|Harvested one to 4 times per year|Harvested twice per year|Removal of marketable leaves|Unmanipulated
+Chamaelirium luteum,2741647,Chamaelirium luteum,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,21,chamaelirium luteum|helonias dioica,False,True,24,5,USDA Duke ETHNOBOT,Ache(Head); Ache(Side); Alterative; Apertif; Colic; Depression; Diuretic; Emmenagogue,3,1,3,Unmanipulated
+Cheirolophus metlesicsii,7638130,Cheirolophus metlesicsii,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Chlorocardium rodiei,4178451,Chlorocardium rodiei,EXACT,ACCEPTED,Lauraceae,Tree,6,,False,False,0,0,,,2,1,1,Exploited|Unmanipulated
+Chrysophyllum argenteum,2885742,Chrysophyllum argenteum,EXACT,ACCEPTED,Sapotaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Cirsium acaule,3112799,Cirsium acaule,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,2,2,1,Unmanipulated
+Cirsium arvense,3113414,Cirsium arvense,EXACT,ACCEPTED,Compositae,Herbaceous perennial,82,cirsium arvense,False,True,5,2,USDA Duke ETHNOBOT,Cyanogenetic; Diaphoretic; Emetic; Emmenagogue; Tonic,1,1,1,Unmanipulated
+Cirsium dissectum,3113784,Cirsium dissectum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,22,,False,False,0,0,,,17,1,5,Unmanipulated
+Cirsium palustre,3113239,Cirsium palustre,EXACT,ACCEPTED,Compositae,Herbaceous perennial,32,,False,False,0,0,,,8,1,2,Strong grazing|Unmanipulated
+Cirsium pannonicum,3113390,Cirsium pannonicum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,13,,False,False,0,0,,,1,1,1,Unmanipulated
+Cirsium perplexans,3112931,Cirsium perplexans,EXACT,ACCEPTED,Compositae,Herbaceous perennial,6,,False,False,0,0,,,2,1,1,Unmanipulated
+Cirsium pitcheri,3113668,Cirsium pitcheri,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,2,,False,False,0,0,,,163,6,14,Native + non-native herbivore with feeding preference|Native + non-native herbivore without feeding preference|Native insects only|Transplanted plants|Unmanipulated
+Cirsium scariosum,3113127,Cirsium scariosum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,14,,False,False,0,0,,,1,1,1,Unmanipulated
+Cirsium tracyi,3113340,Cirsium tracyi,EXACT,ACCEPTED,Compositae,Herbaceous perennial,9,,False,False,0,0,,,2,1,1,Unmanipulated
+Cirsium undulatum,3113051,Cirsium undulatum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,11,,False,False,0,0,,,31,1,1,Unmanipulated
+Cirsium vulgare,3112801,Cirsium vulgare,EXACT,ACCEPTED,Compositae,Herbaceous perennial,103,,False,False,0,0,,,19,2,5,Grazed|Heavy grazing|Herbivory|Light grazing|Unmanipulated
+Clarkia xantiana subsp. xantiana,6427807,Clarkia xantiana,EXACT,ACCEPTED,Onagraceae,Annual,1,,False,False,0,0,,,21,1,21,Unmanipulated
+Cleistes bifaria,3653892,Cleistesiopsis bifaria,EXACT,SYNONYM,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,2,1,2,Unmanipulated
+Cleistesiopsis bifaria,3653892,Cleistesiopsis bifaria,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,17,1,4,Mown|Unmanipulated
+Cleistesiopsis divaricata,3653890,Cleistesiopsis divaricata,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,6,1,1,Unmanipulated
+Cleome droserifolia,9785180,Rorida droserifolia,EXACT,SYNONYM,Cleomaceae,Herbaceous perennial,11,,False,False,0,0,,,1,1,0,Unmanipulated
+Clidemia hirta,9404220,Miconia crenata,EXACT,SYNONYM,Melastomataceae,Shrub,32,clidemia hirta,False,True,4,2,USDA Duke ETHNOBOT,Cataplasm; Sore; Wound,9,1,3,Unmanipulated
+Clintonia borealis,2753574,Clintonia borealis,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,24,,False,False,0,0,,,5,1,1,Unmanipulated
+Coccothrinax readii,2735226,Coccothrinax readii,EXACT,ACCEPTED,Arecaceae,Palm,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Cochlearia bavarica,5373271,Cochlearia bavarica,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Cochlearia pyrenaica,5373255,Cochlearia pyrenaica,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,11,,False,False,0,0,,,1,1,1,Unmanipulated
+Coespeletia spicata,3109151,Espeletia spicata,EXACT,SYNONYM,Compositae,Succulent,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Coespeletia timotensis,3109147,Espeletia timotensis,EXACT,SYNONYM,Compositae,Succulent,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Colchicum autumnale,2739622,Colchicum autumnale,EXACT,ACCEPTED,Colchicaceae,Herbaceous perennial,30,colchicum autumnale,False,True,13,4,USDA Duke ETHNOBOT,Alterative; Diuretic; Laxative; Leukemia; Rheumatism; Sudorific; Cancer; Corn,32,1,2,Early May cut|Flower removal|Late May cut|Repeated May cut|Unmanipulated
+Collinsia verna,5414956,Collinsia verna,EXACT,ACCEPTED,Plantaginaceae,Annual,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Commelina benghalensis,2763941,Commelina benghalensis,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,24,commelina benghalensis,False,True,8,6,Herbolario (GBIF)|USDA Duke ETHNOBOT,Eye; Leprosy; Medicine; Stomach; Fertility; Skin; Cuts; Skin; Wound; Respiratory; Diptheria,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, high water|Unmanipulated"
+Commelina bracteosa,2764194,Commelina bracteosa,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,0,,False,False,0,0,,,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, high water|Unmanipulated"
+Conradina glabra,2927105,Conradina glabra,EXACT,ACCEPTED,Lamiaceae,Shrub,0,,False,False,0,0,,,15,2,15,Hand Pollination|Self hand pollinations|Unmanipulated
+Corallorhiza trifida,2797313,Corallorhiza trifida,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,33,,False,False,0,0,,,6,1,1,Unmanipulated
+Cordia bicolor,5660135,Cordia bicolor,EXACT,ACCEPTED,Cordiaceae,Tree,9,,False,False,0,0,,,1,1,1,Unmanipulated
+Cordia lasiocalyx,5661744,Cordia lasiocalyx,EXACT,ACCEPTED,Cordiaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Cornus florida,3082240,Cornus florida,EXACT,ACCEPTED,Cornaceae,Shrub,16,cornus florida|cornus urbiniana,False,True,21,6,USDA Duke ETHNOBOT,Astringent; Cancer(Breast); Cholera; Dentifrice; Fever; Liver; Malaria; Stomatitis,1,1,1,Unmanipulated
+Corymbia porrecta,5418442,Corymbia porrecta,EXACT,ACCEPTED,Myrtaceae,Tree,1,,False,False,0,0,,,8,1,2,Early dry season fire|Late dry season fire|Unmanipulated|Wet season fire
+Coryphantha werdermannii,7283165,Coryphantha werdermannii,EXACT,ACCEPTED,Cactaceae,Succulent,2,,False,False,0,0,,,11,2,4,Disturbance
+Crepidium acuminatum,5307089,Crepidium acuminatum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,11,,False,False,0,0,,,15,1,3,Unmanipulated
+Cryptantha flava,2926315,Oreocarya flava,EXACT,SYNONYM,Boraginaceae,Herbaceous perennial,3,,False,False,0,0,,,47,2,1,Droughted in 1999|Rainout shelter in 1998|Rainout shelter in 1999|Unmanipulated
+Cucurbita pepo,2874508,Cucurbita pepo,EXACT,ACCEPTED,Cucurbitaceae,Annual,130,cucurbita pepo,False,True,27,12,USDA Duke ETHNOBOT,Anthelminthic; Boil; Carbuncle; Diuretic; Fever; Funeral; Measles; Pregnancy,9,1,3,Cucumber mosaic virus|Unmanipulated|Zucchini yellow mosaic virus
+Cynoglossum officinale,2925815,Cynoglossum officinale,EXACT,ACCEPTED,Boraginaceae,Herbaceous perennial,36,cynoglossum officinale,False,True,14,4,USDA Duke ETHNOBOT,Anodyne; Astringent; Bronchitis; Cancer; Cancer(Face); Demulcent; Emollient; Hemostat,1,1,1,Unmanipulated
+Cynoglossum virginianum,7771613,Andersonglossum virginianum,EXACT,SYNONYM,Boraginaceae,Herbaceous perennial,4,,False,False,0,0,,,3,1,1,Closing gap|Full understory|Newly formed gap
+Cypripedium acaule,2820380,Cypripedium acaule,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,10,cypripedium acaule,False,True,3,1,USDA Duke ETHNOBOT,Tonic; Nervine; Stimulant,1,1,1,Unmanipulated
+Cypripedium calceolus,2820517,Cypripedium calceolus,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,16,cypripedium calceolus,False,True,12,3,USDA Duke ETHNOBOT,Ache(Head); Aphrodisiac; Nerves; Nervine; Soporific; Stimulant; Tonic; Anodyne,78,3,9,"Defoliation in May/2002 and June/2003|Defoliation in May/2002 and June/2004|Defoliation in May/2002 and June/2005|Defoliation in May/2002 and June/2006|Defoliation in May/2002 and June/2007|Dunes, Tilio-Carpinetum forest patches, Calamagrostis epigeios patches|Shaded from 2002 to 2004|Shaded from 2002 to 2005|Shaded from 2002 to 2006|Shaded from 2002 to 2007|Shaded from 2002 to 2008|Unmanipulated"
+Cypripedium fasciculatum,2820361,Cypripedium fasciculatum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,28,1,4,Unmanipulated
+Cypripedium lentiginosum,2820402,Cypripedium lentiginosum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Cypripedium parviflorum,2820475,Cypripedium parviflorum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,8,,False,False,0,0,,,1,1,1,Unmanipulated
+Cypripedium reginae,2820340,Cypripedium reginae,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,7,,False,False,0,0,,,1,1,1,Light grazing
+Cyrtandra dentata,5415300,Cyrtandra dentata,EXACT,ACCEPTED,Gesneriaceae,Shrub,1,,False,False,0,0,,,18,1,1,Unmanipulated
+Cystoseira zosteroides,12145967,Ericaria zosteroides,EXACT,SYNONYM,Fzcaceae,Algae,6,,False,False,0,0,,,10,2,4,Unmanipulated
+Cytisus scoparius,5354656,Cytisus scoparius,EXACT,ACCEPTED,Fabaceae,Shrub,11,cytisus scoparius|sarothamnus scoparius,False,True,25,8,USDA Duke ETHNOBOT,Abortifacient; Arrhythmia; Cardiotonic; Cough; Diuretic; Emetic; Palpitation; Purgative,21,1,7,Unmanipulated
+Dacrydium elatum,5286174,Dacrydium elatum,EXACT,ACCEPTED,Podocarpaceae,Tree,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Dactylorhiza hatagirea,2810884,Dactylorhiza hatagirea,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,6,,False,False,0,0,,,6,1,3,Unmanipulated
+Dactylorhiza lapponica,2810731,Dactylorhiza majalis,EXACT,SYNONYM,Orchidaceae,Herbaceous perennial,127,,False,False,0,0,,,8,2,3,Mown|Unmanipulated
+Daemonorops poilanei,9360934,Calamus eugenei,EXACT,SYNONYM,Arecaceae,Palm,1,,False,False,0,0,,,5,1,1,Cutting all ramets ≥6 n stem length in August 2004|Unmanipulated
+Danthonia sericea,2703256,Danthonia sericea,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,8,,False,False,0,0,,,16,1,6,Unmanipulated
+Daphne rodriguezii,5524064,Daphne rodriguezii,EXACT,ACCEPTED,Thymelaeaceae,Shrub,1,,False,False,0,0,,,47,1,6,Unmanipulated
+Daucus carota,3034742,Daucus carota,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,14,daucus carota,False,True,62,15,USDA Duke ETHNOBOT,Abortifacient; Aperient; Apertif; Aphrodisiac; Bladder; Bruise; Cancer; Cancer(Breast),1,1,1,Unmanipulated
+Dendropanax trifidus,8598984,Dendropanax trifidus,EXACT,ACCEPTED,Araliaceae,Tree,20,,False,False,0,0,,,1,1,1,Unmanipulated
+Dicentra canadensis,2888554,Dicentra canadensis,EXACT,ACCEPTED,Papaveraceae,Herbaceous perennial,6,dicentra canadensis,False,True,9,2,USDA Duke ETHNOBOT,Alterative; Diuretic; Nystagmus; Tonic; Tremor; Paralysis; Syphilis,32,1,4,No pollination|Supplemental pollination|Unmanipulated
+Dicerandra frutescens,2926872,Dicerandra frutescens,EXACT,ACCEPTED,Lamiaceae,Herbaceous perennial,0,,False,False,0,0,,,89,1,8,Fire|Unmanipulated
+Dicorynia guianensis,2944663,Dicorynia guianensis,EXACT,ACCEPTED,Leguminosae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Dicymbe altsonii,2965726,Dicymbe altsonii,EXACT,ACCEPTED,Leguminosae,Tree,0,,False,False,0,0,,,2,1,1,Exploited|Unmanipulated
+Digitalis purpurea,5414995,Digitalis purpurea,EXACT,ACCEPTED,Plantaginaceae,Herbaceous perennial,3,digitalis purpurea,False,True,27,12,USDA Duke ETHNOBOT,Bactericide; Cardiotonic; Diuretic; Dropsy; Fatality; Fever; Heart; Insanity,7,2,2,Disturbed|Unmanipulated
+Digitaria eriantha,5289987,Digitaria eriantha,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,23,,False,False,0,0,,,8,1,1,Heavily grazed|Lightly grazed|Unmanipulated
+Dioon caputoi,2683499,Dioon caputoi,EXACT,ACCEPTED,Zamiaceae,Palm,0,,False,False,0,0,,,4,1,1,Unmanipulated
+Dioon edule,2683503,Dioon edule,EXACT,ACCEPTED,Zamiaceae,Palm,11,dioon edule,False,True,3,3,USDA Duke ETHNOBOT,Neuralgia,4,1,4,Unmanipulated
+Dioon merolae,2683500,Dioon merolae,EXACT,ACCEPTED,Zamiaceae,Palm,1,,False,False,0,0,,,10,1,2,Unmanipulated
+Dioon sonorense,2683496,Dioon sonorense,EXACT,ACCEPTED,Zamiaceae,Palm,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Dioon spinulosum,2683495,Dioon spinulosum,EXACT,ACCEPTED,Zamiaceae,Palm,0,,False,False,0,0,,,3,1,3,Unmanipulated
+Dioscorea chouardii,2754399,Dioscorea chouardii,EXACT,ACCEPTED,Dioscoreaceae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Dioscorea pyrenaica,2754551,Dioscorea pyrenaica,EXACT,ACCEPTED,Dioscoreaceae,Herbaceous perennial,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Dipsacus fullonum,8435025,Dipsacus fullonum,EXACT,ACCEPTED,Caprifoliaceae,Herbaceous perennial,26,dipsacus fullonum,False,True,4,3,USDA Duke ETHNOBOT,Cancer(Penis); Sudorific; Diuretic,17,2,9,Unmanipulated
+Disporum sessile,2770845,Disporum sessile,EXACT,ACCEPTED,Colchicaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,1,Unmanipulated
+Disporum smilacinum,2770833,Disporum smilacinum,EXACT,ACCEPTED,Colchicaceae,Herbaceous perennial,4,,False,False,0,0,,,2,1,1,Unmanipulated
+Dodonaea viscosa subsp. angustifolia,5421146,Dodonaea viscosa,EXACT,ACCEPTED,Sapindaceae,Shrub,17,dodonaea thunbergiana|dodonaea viscosa,False,True,40,11,USDA Duke ETHNOBOT,Astringent; Bruise; Burn; Colic; Fever; Flatulence; Funereal; Gout,7,1,1,Disturbed|Disturbed-rocky|Disturbed-slope|Protected|Protected-closed|Protected-open|Protected; Disturbed
+Dorycnium spectabile,5356950,Lotus spectabilis,EXACT,SYNONYM,Leguminosae,Herbaceous perennial,2,,False,False,0,0,,,13,1,3,Unmanipulated
+Draba asterophora,3050269,Draba asterophora,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,2,,False,False,0,0,,,3,1,3,Unmanipulated
+Dracaena cinnabari,5304574,Dracaena cinnabari,EXACT,ACCEPTED,Asparagaceae,Tree,1,dracaena cinnabari,False,True,6,2,USDA Duke ETHNOBOT,Astringent; Cicatrizant; Diarrhea; Dysentery; Hemorrhage,1,1,1,Unmanipulated
+Dracocephalum austriacum,3903269,Dracocephalum austriacum,EXACT,ACCEPTED,Lamiaceae,Herbaceous perennial,5,,False,False,0,0,,,57,2,16,Unmanipulated
+Drypetes standleyi,3075619,Drypetes standleyi,EXACT,ACCEPTED,Putranjivaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Duguetia neglecta,3157621,Duguetia neglecta,EXACT,ACCEPTED,Annonaceae,Tree,0,,False,False,0,0,,,2,1,1,Exploited|Unmanipulated
+Dypsis decaryi,2736002,Dypsis decaryi,EXACT,ACCEPTED,Arecaceae,Palm,1,,False,False,0,0,,,3,1,3,Unmanipulated
+Echeveria longissima,7334437,Echeveria longissima,EXACT,ACCEPTED,Crassulaceae,Succulent,0,,False,False,0,0,,,8,1,1,Exposed|Fenced|Unmanipulated
+Echinacea angustifolia,3150933,Echinacea angustifolia,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,4,echinacea angustifolia,False,True,20,3,USDA Duke ETHNOBOT,Alterative; Antiseptic; Apertif; Aphrodisiac; Cancer(Breast); Cough; Depurative; Digestive,53,3,5,Harvested|Soil disturbance|Unmanipulated
+Echinocactus platyacanthus,7279711,Echinocactus platyacanthus,EXACT,ACCEPTED,Cactaceae,Succulent,43,,False,False,0,0,,,19,1,7,Unmanipulated
+Echinochloa crus-galli,2702808,Echinochloa crus-galli,EXACT,ACCEPTED,Poaceae,Annual,57,echinochloa crus-galli,False,True,7,3,USDA Duke ETHNOBOT,Carbuncle; Hemorrhage; Spleen; Sore; Splenitis,12,1,1,Temperature 20/10˚C|Temperature 23/13˚C|Unmanipulated|With maize|With maize; Temperature 20/10˚C|With maize; Temperature 23/13˚C
+Echinospartum ibericum subsp. algibicum,3971377,Echinospartum ibericum,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,1,,False,False,0,0,,,6,1,1,Unmanipulated
+Echium vulgare,2925892,Echium vulgare,EXACT,ACCEPTED,Boraginaceae,Herbaceous perennial,2,echium vulgare,False,True,11,3,USDA Duke ETHNOBOT,Demulcent; Diuretic; Expectorant; Fever; Nerves; Sudorific; Tonic; Bite(Snake),1,1,1,Unmanipulated
+Ecklonia radiata,3196095,Ecklonia radiata,EXACT,ACCEPTED,Lessoniaceae,Algae,0,,False,False,0,0,,,3,1,3,Unmanipulated
+Elymus repens,5290299,Elymus repens,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,42,agropyron repens,True,True,29,6,USDA Duke ETHNOBOT,Astringent; Bladder; Cancer; Coffee; Cough; Cystitis; Demulcent; Depurative,7,1,0,Unmanipulated
+Encephalartos cycadifolius,2683703,Encephalartos cycadifolius,EXACT,ACCEPTED,Zamiaceae,Palm,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Encephalartos villosus,2683794,Encephalartos villosus,EXACT,ACCEPTED,Zamiaceae,Palm,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Entandrophragma cylindricum,3850935,Entandrophragma cylindricum,EXACT,ACCEPTED,Meliaceae,Tree,8,entandrophragma cylindricum,False,True,3,1,USDA Duke ETHNOBOT,Anodyne; Dentifrice; Chest,1,1,1,Unmanipulated
+Eperua falcata,2943522,Eperua falcata,EXACT,ACCEPTED,Leguminosae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Epidendrum xanthinum,5320977,Epidendrum xanthinum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,0,,False,False,0,0,,,2,1,2,Unmanipulated
+Epilobium latifolium,8406741,Chamaenerion,HIGHERRANK,ACCEPTED,Onagraceae,Herbaceous perennial,0,,False,False,0,0,,,21,1,1,Herbicide 1|Herbicide 2|Herbicide 3|Herbicide 4|Herbicide 5|Herbicide 6|Unmanipulated
+Epipactis atrorubens,5318958,Epipactis atrorubens,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,56,,False,False,0,0,,,51,2,9,Dry site|Moist site|Unmanipulated
+Eremophila forrestii,8359560,Eremophila forrestii,EXACT,ACCEPTED,Scrophulariaceae,Shrub,2,,False,False,0,0,,,6,1,2,Unmanipulated
+Eremophila maitlandii,7594597,Eremophila maitlandii,EXACT,ACCEPTED,Scrophulariaceae,Shrub,3,,False,False,0,0,,,12,1,2,Unmanipulated
+Eremosparton songoricum,2964864,Eremosparton songoricum,EXACT,ACCEPTED,Leguminosae,Shrub,1,,False,False,0,0,,,2,1,2,Unmanipulated
+Eremospatha macrocarpa,7484957,Eremospatha macrocarpa,EXACT,ACCEPTED,Arecaceae,Palm,2,,False,False,0,0,,,8,1,1,Unmanipulated
+Erica ciliaris,5682320,Erica ciliaris,EXACT,ACCEPTED,Ericaceae,Shrub,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Erigeron canadensis,3146791,Erigeron canadensis,EXACT,ACCEPTED,Compositae,Annual,51,erigeron canadensis,False,True,38,10,Herbolario (GBIF)|USDA Duke ETHNOBOT,Astringent; Catarrh; Cystitis; Diarrhea; Diuretic; Dropsy; Dysentery; Eczema,1,1,0,Unmanipulated
+Erigeron kachinensis,3147057,Erigeron kachinensis,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Eriogonum longifolium var. gnaphalifolium,4038428,Eriogonum longifolium,EXACT,ACCEPTED,Polygonaceae,Herbaceous perennial,2,,False,False,0,0,,,48,1,6,Unmanipulated
+Eriophorum angustifolium subsp. triste,2730168,Eriophorum triste,EXACT,SYNONYM,Cyperaceae,Herbaceous perennial,2,,False,False,0,0,,,2,1,2,Unmanipulated
+Eritrichium caucasicum,4065104,Eritrichium caucasicum,EXACT,ACCEPTED,Boraginaceae,Shrub,1,,False,False,0,0,,,9,2,2,Unmanipulated
+Erodium paularense,3826450,Erodium paularense,EXACT,ACCEPTED,Geraniaceae,Herbaceous perennial,1,,False,False,0,0,,,13,1,3,Unmanipulated
+Erophila verna,3049396,Draba,HIGHERRANK,ACCEPTED,Brassicaceae,Annual,0,erophila verna,False,True,3,1,USDA Duke ETHNOBOT,Astringent; Vulnerary; Whitlow,2,1,1,Competitor Removal|Unmanipulated
+Erycina crista-galli,5325445,Erycina crista-galli,EXACT,ACCEPTED,Orchidaceae,Epiphyte,6,,False,False,0,0,,,4,2,4,Unmanipulated
+Eryngium alpinum,3633778,Eryngium alpinum,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,0,,False,False,0,0,,,133,2,9,Abandonment|Autumn grazing|Grazing|Mowing|Spring and autumn grazing|Spring grazing|Unmanipulated
+Eryngium cuneifolium,3034409,Eryngium cuneifolium,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,0,,False,False,0,0,,,58,1,8,Unmanipulated
+Eryngium maritimum,3034391,Eryngium maritimum,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,1,eryngium maritimum,False,True,2,2,USDA Duke ETHNOBOT,Cancer; Diuretic,3,1,1,Unmanipulated
+Erythronium japonicum,2752866,Erythronium japonicum,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,3,erythronium japonicum,False,True,2,1,USDA Duke ETHNOBOT,Aperient; Excipient,3,2,2,Unmanipulated
+Escobaria robbinsorum,3942438,Escobaria robbinsorum,EXACT,ACCEPTED,Cactaceae,Succulent,3,,False,False,0,0,,,16,1,4,Unmanipulated
+Escontria chiotilla,8659284,Myrtillocactus chiotilla,EXACT,SYNONYM,Cactaceae,Succulent,2,,False,False,0,0,,,3,1,3,Unmanipulated
+Eucalyptus miniata,3176769,Eucalyptus miniata,EXACT,ACCEPTED,Myrtaceae,Tree,2,,False,False,0,0,,,8,1,2,Early dry season fire|Late dry season fire|Unmanipulated|Wet season fire
+Eucalyptus tetrodonta,3176575,Eucalyptus tetrodonta,EXACT,ACCEPTED,Myrtaceae,Tree,0,,False,False,0,0,,,8,1,2,Early dry season fire|Late dry season fire|Unmanipulated|Wet season fire
+Eugenia coloradoensis,5417924,Eugenia coloradoensis,EXACT,ACCEPTED,Myrtaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Eugenia oerstediana,5418017,Eugenia oerstediana,EXACT,ACCEPTED,Myrtaceae,Tree,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Eupatorium perfoliatum,5402874,Eupatorium perfoliatum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,16,eupatorium perfoliatum,False,True,34,7,USDA Duke ETHNOBOT,Anodyne; Cathartic; Chest; Cold; Cough; Dengue; Diaphoretic; Emetic,4,1,4,Unmanipulated
+Eupatorium resinosum,5385285,Eupatorium resinosum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,3,,False,False,0,0,,,4,1,4,Unmanipulated
+Euphorbia fontqueriana,3065318,Euphorbia fontqueriana,EXACT,ACCEPTED,Euphorbiaceae,Succulent,2,,False,False,0,0,,,6,1,1,Unmanipulated
+Euphorbia telephioides,3065180,Euphorbia telephioides,EXACT,ACCEPTED,Euphorbiaceae,Herbaceous perennial,2,,False,False,0,0,,,15,1,3,Unmanipulated
+Euterpe edulis,5293403,Euterpe edulis,EXACT,ACCEPTED,Arecaceae,Palm,3,,False,False,0,0,,,7,3,3,Harvested|Unmanipulated
+Euterpe oleracea,5293398,Euterpe oleracea,EXACT,ACCEPTED,Arecaceae,Palm,6,,False,False,0,0,,,6,1,3,Canopy thinned|Unmanipulated
+Euterpe precatoria,5293425,Euterpe precatoria,EXACT,ACCEPTED,Arecaceae,Palm,2,,False,False,0,0,,,5,2,3,Unmanipulated|Unmanipulated; Dry
+Fabiana imbricata,2928726,Fabiana imbricata,EXACT,ACCEPTED,Solanaceae,Shrub,4,fabiana imbricata,False,True,17,2,USDA Duke ETHNOBOT,Bladder; Catarrh; Diuretic; Dyspepsia; Enuresis; Gonorrhea; Jaundice; Kidney,8,2,2,BN: fire and normal spring|BW: fire and wet spring|Fire; normal spring|Fire; wet spring|No fire; normal spring|No fire; wet spring|UN: no fire and normal spring|UW: no fire and wet spring
+Fagus crenata,2882300,Fagus crenata,EXACT,ACCEPTED,Fagaceae,Tree,11,,False,False,0,0,,,1,1,1,Unmanipulated
+Fagus grandifolia,2882274,Fagus grandifolia,EXACT,ACCEPTED,Fagaceae,Tree,4,fagus grandifolia,False,True,5,1,USDA Duke ETHNOBOT,Antidote(Rhus); Rash; Scald; Burn; Frostbite,3,1,3,Unmanipulated
+Fagus sylvatica,2882316,Fagus sylvatica,EXACT,ACCEPTED,Fagaceae,Tree,57,fagus sylvatica,False,True,14,3,USDA Duke ETHNOBOT,Antipyretic; Antiseptic; Apertif; Blood; Fever; Laxative; Refrigerant; Antidote,4,1,4,Unmanipulated
+Festuca eskia,4114382,Festuca eskia,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,9,,False,False,0,0,,,4,1,2,Fertilized|Unmanipulated
+Festuca gracillima,4932314,Festuca gracillima,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,0,,False,False,0,0,,,12,1,1,Exclosure|High stocking rate|Low stocking rate
+Fragaria vesca,3029817,Fragaria vesca,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,1,fragaria vesca,False,True,33,8,USDA Duke ETHNOBOT,Alterative; Astringent; Bladder; Blennorrhagia; Blood; Calculus; Cancer; Depurative,111,1,13,Unmanipulated
+Frasera speciosa,7948050,Frasera speciosa,EXACT,ACCEPTED,Gentianaceae,Herbaceous perennial,25,,False,False,0,0,,,35,2,2,Unmanipulated
+Fritillaria biflora,5299322,Fritillaria biflora,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,0,,False,False,0,0,,,2,1,2,Unmanipulated
+Fritillaria camschatcensis,5300639,Fritillaria camschatcensis,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,12,,False,False,0,0,,,2,1,2,Unmanipulated
+Fritillaria meleagris,5300535,Fritillaria meleagris,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,15,fritillaria meleagris,False,True,1,1,USDA Duke ETHNOBOT,Cancer,1,1,1,Unmanipulated
+Froelichia floridana,5384326,Froelichia floridana,EXACT,ACCEPTED,Amaranthaceae,Annual,6,,False,False,0,0,,,7,1,7,Competition reduction|Restoration|Unmanipulated
+Fucus serratus,3196437,Fucus serratus,EXACT,ACCEPTED,Fucaceae,Algae,8,,False,False,0,0,,,2,1,2,Unmanipulated
+Fucus vesiculosus,8222574,Fucus vesiculosus,EXACT,ACCEPTED,Fucaceae,Algae,25,fucus vesiculosus,False,True,4,1,USDA Duke ETHNOBOT,Alterative; Antiscorbutic; Goiter; Obesity,36,1,1,Unmanipulated
+Fumana procumbens,7331288,Fumana procumbens,EXACT,ACCEPTED,Cistaceae,Shrub,3,,False,False,0,0,,,7,1,1,Unmanipulated
+Furcraea parmentieri,2769854,Furcraea parmentieri,EXACT,ACCEPTED,Asparagaceae,Succulent,16,,False,False,0,0,,,3,1,1,MS (Mast-seedling simulation with high mortality and low fecundity)|PS (Post Mast-Seedling simulation with low mortality and high fecundity)|R (Regular with low mortality and low fecundity)
+Garcinia lucida,3713918,Garcinia lucida,EXACT,ACCEPTED,Clusiaceae,Tree,1,,False,False,0,0,,,5,1,1,Debarking only one side|Felling tree to 1 m after fruit production|Felling tree to 1 m before fruit production|Ring-barking entire circumference|Unmanipulated
+Garcinia recondita,7357551,Garcinia recondita,EXACT,DOUBTFUL,Clusiaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Gardenia actinocarpa,5335155,Gardenia actinocarpa,EXACT,ACCEPTED,Rubiaceae,Shrub,0,,False,False,0,0,,,4,1,4,Unmanipulated
+Gelidium sesquipedale,2662738,Gelidium spinosum,EXACT,SYNONYM,Gelidiaceae,Algae,10,,False,False,0,0,,,4,2,2,Unmanipulated
+Gentiana pneumonanthe,7270598,Gentiana pneumonanthe,EXACT,ACCEPTED,Gentianaceae,Herbaceous perennial,43,,False,False,0,0,,,13,1,6,Litter Removal|Unmanipulated
+Gentianella campestris,7270427,Gentianella campestris,EXACT,ACCEPTED,Gentianaceae,Herbaceous perennial,2,,False,False,0,0,,,4,1,4,Mown|Unmanipulated
+Geonoma deversa,2734119,Geonoma deversa,EXACT,ACCEPTED,Arecaceae,Palm,2,,False,False,0,0,,,6,1,2,Unmanipulated
+Geonoma macrostachys,2734267,Geonoma macrostachys,EXACT,ACCEPTED,Arecaceae,Palm,17,,False,False,0,0,,,2,1,1,Low illumination|Unmanipulated
+Geonoma orbignyana,2734052,Geonoma orbignyana,EXACT,ACCEPTED,Arecaceae,Palm,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Geonoma pohliana subsp. weddelliana,8947915,Geonoma pohliana,EXACT,ACCEPTED,Arecaceae,Palm,15,,False,False,0,0,,,3,1,3,Unmanipulated
+Geonoma schottiana,2734237,Geonoma schottiana,EXACT,ACCEPTED,Arecaceae,Palm,5,,False,False,0,0,,,5,1,1,Unmanipulated
+Geranium sylvaticum,2891147,Geranium sylvaticum,EXACT,ACCEPTED,Geraniaceae,Herbaceous perennial,57,,False,False,0,0,,,23,2,5,No pollen limitation|No sheep grazing|Sheep grazing - high sheep density|Sheep grazing - low sheep density|Unmanipulated
+Geum reptans,5369670,Geum reptans,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,11,,False,False,0,0,,,11,1,3,Unmanipulated
+Geum rivale,5369701,Geum rivale,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,38,geum rivale,False,True,19,5,USDA Duke ETHNOBOT,Astringent; Cancer; Dysmenorrhea; Hemorrhage; Stomachic; Tonic; Vermifuge; Antiseptic,9,1,3,Unmanipulated
+Gilia tenuiflora subsp. hoffmannii,5341582,Gilia tenuiflora,EXACT,ACCEPTED,Polemoniaceae,Annual,1,,False,False,0,0,,,3,1,1,Unmanipulated
+Glottidium vesicarium,2976463,Sesbania vesicaria,EXACT,SYNONYM,Leguminosae,Annual,16,,False,False,0,0,,,1,1,0,
+Gracilaria gracilis,5278844,Gracilaria gracilis,EXACT,ACCEPTED,Gracilariaceae,Algae,11,,False,False,0,0,,,11,1,4,Unmanipulated
+Grias peruviana,3082328,Grias peruviana,EXACT,ACCEPTED,Lecythidaceae,Tree,3,grias peruviana,False,True,1,1,USDA Duke ETHNOBOT,Emetic,1,1,1,Unmanipulated
+Guaiacum sanctum,3189908,Guaiacum sanctum,EXACT,ACCEPTED,Zygophyllaceae,Tree,6,guaiacum sanctum,False,True,22,6,USDA Duke ETHNOBOT,Alterative; Breast; Cancer(Breast); Diaphoretic; Diuretic; Gout; Laxative; Rheumatism,5,1,3,Unmanipulated
+Guarea guidonia,3190500,Guarea guidonia,EXACT,ACCEPTED,Meliaceae,Tree,44,guarea guara|guarea guidonia|guarea rusbyi|guarea trichilioides,False,True,11,4,USDA Duke ETHNOBOT,Emetic; Enterorrhagia; Expectorant; Hemostat; Hemostatic; Purgative; Tumor,1,1,1,Unmanipulated
+Guarianthe aurantiaca,2816071,Guarianthe aurantiaca,EXACT,ACCEPTED,Orchidaceae,Epiphyte,6,,False,False,0,0,,,3,1,1,Unmanipulated
+Guatteria lucens,3155712,Guatteria lucens,EXACT,ACCEPTED,Annonaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Guettarda viburnoides,2894663,Guettarda viburnoides,EXACT,ACCEPTED,Rubiaceae,Tree,6,,False,False,0,0,,,2,1,2,Unmanipulated
+Harrisia fragrans,5384192,Harrisia fragrans,EXACT,ACCEPTED,Cactaceae,Succulent,0,,False,False,0,0,,,2,1,2,Unmanipulated
+Heisteria concinna,7432012,Heisteria concinna,EXACT,ACCEPTED,Erythropalaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Helenium virginicum,5401858,Helenium virginicum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Helianthemum juliae,3596346,Helianthemum juliae,EXACT,ACCEPTED,Cistaceae,Shrub,0,,False,False,0,0,,,10,1,1,Unmanipulated
+Helianthemum polygonoides,3596403,Helianthemum polygonoides,EXACT,ACCEPTED,Cistaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Helianthemum teneriffae,3595399,Helianthemum teneriffae,EXACT,ACCEPTED,Cistaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Helianthus divaricatus,3119249,Helianthus divaricatus,EXACT,ACCEPTED,Compositae,Herbaceous perennial,7,,False,False,0,0,,,13,1,5,Unmanipulated
+Heliconia acuminata,2760947,Heliconia acuminata,EXACT,ACCEPTED,Heliconiaceae,Herbaceous perennial,2,,False,False,0,0,,,47,1,21,Isolated into 1ha or 10ha fragments|Isolated into a 10ha fragment|Isolated into a 1ha fragment|Unmanipulated
+Heliconia metallica,2760726,Heliconia metallica,EXACT,ACCEPTED,Heliconiaceae,Herbaceous perennial,4,,False,False,0,0,,,24,1,4,Flooded|Unmanipulated
+Heracleum mantegazzianum,3034825,Heracleum mantegazzianum,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Herminium monorchis,5310578,Herminium monorchis,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,14,,False,False,0,0,,,2,1,1,Unmanipulated
+Heteropogon contortus,5290179,Heteropogon contortus,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,50,heteropogon contortus,False,True,16,4,Herbolario (GBIF)|USDA Duke ETHNOBOT,Antidote(Scorpion); Atrophy; Bite(Dog); Dysentery; Fever; Myalgia; Rabies; Rheumatism,8,1,1,Heavily grazed|Lightly grazed
+Heteropsis flexuosa,5330225,Heteropsis flexuosa,EXACT,ACCEPTED,Araceae,Epiphyte,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Heteropsis macrophylla,5330217,Heteropsis macrophylla,EXACT,ACCEPTED,Araceae,Epiphyte,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Heteropsis oblongifolia,5330218,Heteropsis oblongifolia,EXACT,ACCEPTED,Araceae,Epiphyte,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Hilaria mutica,2702839,Hilaria mutica,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,1,,False,False,0,0,,,7,1,3,Unmanipulated
+Himantoglossum hircinum,5324951,Himantoglossum hircinum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,30,,False,False,0,0,,,1,1,1,Unmanipulated
+Himatanthus drasticus,3621592,Himatanthus drasticus,EXACT,ACCEPTED,Apocynaceae,Tree,5,,False,False,0,0,,,35,1,4,High harvest|Low harvest|Unmanipulated
+Hirtella triandra,2985089,Hirtella triandra,EXACT,ACCEPTED,Chrysobalanaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Holocarpha macradenia,3091319,Holocarpha macradenia,EXACT,ACCEPTED,Compositae,Annual,1,,False,False,0,0,,,2,1,2,Grazing and Clipping
+Horkelia congesta,5368914,Potentilla congesta,EXACT,SYNONYM,Rosaceae,Herbaceous perennial,9,,False,False,0,0,,,7,1,1,Unmanipulated
+Hudsonia montana,5331112,Hudsonia montana,EXACT,ACCEPTED,Cistaceae,Herbaceous perennial,1,,False,False,0,0,,,4,1,4,After Burn|Burned|Unmanipulated
+Hydrangea paniculata,2985995,Hydrangea paniculata,EXACT,ACCEPTED,Hydrangeaceae,Shrub,16,hydrangea paniculata,False,True,3,1,USDA Duke ETHNOBOT,Cough; Diuretic; Malaria,1,1,1,Unmanipulated
+Hydrastis canadensis,3033110,Hydrastis canadensis,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,7,hydrastis canadensis,False,True,34,6,USDA Duke ETHNOBOT,Alterative; Antiseptic; Astringent; Cancer; Catarrh; Cicatrizant; Diuretic; Enterorrhagia,51,2,19,Unmanipulated
+Hylocomium splendens,2679696,Hylocomium splendens,EXACT,ACCEPTED,Hylocomiaceae,Bryophyte,34,,False,False,0,0,,,28,3,6,Unmanipulated
+Hyparrhenia diplandra,4147250,Hyparrhenia diplandra,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,22,,False,False,0,0,,,3,1,3,Unmanipulated
+Hypericum cumulicola,7349499,Hypericum cumulicola,EXACT,ACCEPTED,Hypericaceae,Herbaceous perennial,2,,False,False,0,0,,,120,2,72,Long unburned|Unmanipulated
+Hypochaeris radicata,3093702,Hypochaeris radicata,EXACT,ACCEPTED,Compositae,Herbaceous perennial,7,,False,False,0,0,,,28,2,10,Grazed extensivley|Mowing|Mown|Mown; Late grazing|Unmanipulated
+Impatiens capensis,2891774,Impatiens capensis,EXACT,ACCEPTED,Balsaminaceae,Annual,7,impatiens biflora|impatiens capensis,False,True,7,4,USDA Duke ETHNOBOT,Anodyne; Antidote(Urtica); Eczema; Rash; Antidote(Rhus); Wart; Bruise,4,1,2,Herbivory|Unmanipulated
+Inga marginata,7546887,Inga marginata,EXACT,ACCEPTED,Fabaceae,Tree,19,,False,False,0,0,,,1,1,1,Unmanipulated
+Ipomoea leptophylla,2928569,Ipomoea leptophylla,EXACT,ACCEPTED,Convolvulaceae,Herbaceous perennial,1,ipomoea leptophylla,False,True,4,1,USDA Duke ETHNOBOT,Dreams; Fainting; Nervousness; Pain,1,1,1,Unmanipulated
+Ipomopsis aggregata,2927979,Ipomopsis aggregata,EXACT,ACCEPTED,Polemoniaceae,Herbaceous perennial,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Ipomopsis tenuituba,2927976,Ipomopsis tenuituba,EXACT,ACCEPTED,Polemoniaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Iriartea deltoidea,2739059,Iriartea deltoidea,EXACT,ACCEPTED,Arecaceae,Palm,13,,False,False,0,0,,,6,1,6,Unmanipulated
+Iridaea splendens,2666297,Iridaea splendens,EXACT,ACCEPTED,Gigartinaceae,Algae,0,,False,False,0,0,,,2,1,1,Unmanipulated
+Iris germanica,5298069,Iris germanica,EXACT,ACCEPTED,Iridaceae,Herbaceous perennial,63,iris germanica,False,True,24,7,USDA Duke ETHNOBOT,Antidote; Bronchitis; Cathartic; Cholagogue; Cold; Diuretic; Emetic; Expectorant,1,1,1,Unmanipulated
+Iris hexagona,5298732,Iris hexagona,EXACT,ACCEPTED,Iridaceae,Herbaceous perennial,3,iris hexagona,False,True,1,1,USDA Duke ETHNOBOT,Metrorrhagia,2,1,1,Unmanipulated
+Isatis tinctoria,5374118,Isatis tinctoria,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,53,isatis oblongata|isatis tinctoria,False,True,15,7,USDA Duke ETHNOBOT,Cancer; Cancer(Cervix); Fever; Parotitis; Sore; Sore(Throat); Tumor; Antidote,1,1,1,Unmanipulated
+Isotria medeoloides,2808818,Isotria medeoloides,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Jacobaea vulgaris,5388602,Jacobaea vulgaris,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,5,,False,False,0,0,,,115,3,100,Disturbance in fall 1986|Disturbance in fall 1986; background vegetation clipped using grass shears to height of 5 cm|Disturbance in fall 1986; background vegetation removed by hand|Disturbance in fall 1986; herbivory by cinnabar moths|Disturbance in fall 1986; herbivory by cinnabar moths; background vegetation clipped using grass shears to height of 5 cm|Disturbance in fall 1986; herbivory by cinnabar moths; background vegetation removed by hand|Disturbance in fall 1986; herbivory by ragwort fl
+Jacquiniella leucomelana,2808829,Jacquiniella leucomelana,EXACT,ACCEPTED,Orchidaceae,Epiphyte,1,,False,False,0,0,,,8,1,2,Unmanipulated
+Jacquiniella teretifolia,2808834,Jacquiniella teretifolia,EXACT,ACCEPTED,Orchidaceae,Epiphyte,9,,False,False,0,0,,,8,1,2,Unmanipulated
+Juniperus procera,2684500,Juniperus procera,EXACT,ACCEPTED,Cupressaceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Jurinea fontqueri,5694634,Jurinea fontqueri,EXACT,ACCEPTED,Compositae,Herbaceous perennial,1,,False,False,0,0,,,6,1,1,Unmanipulated
+Khaya senegalensis,3190508,Khaya senegalensis,EXACT,ACCEPTED,Meliaceae,Tree,3,khaya senegalensis,False,True,2,2,Curated citation|USDA Duke ETHNOBOT,Repellant(Insect); Bark: fever/malaria and other ethnomedicinal uses (Benin),76,2,18,Harvested|High harvest|High harvesting intensity|Low harvesting intensity|Medium harvesting intensity|Unmanipualted|Unmanipulated|Unmanipulated + High Harvest
+Knautia arvensis,2888808,Knautia arvensis,EXACT,ACCEPTED,Dipsacaceae,Herbaceous perennial,12,knautia arvensis,False,True,11,3,USDA Duke ETHNOBOT,Antiseptic; Astringent; Condyloma; Depurative; Detersive; Expectorant; Laxative; Scabies,1,1,1,Unmanipulated
+Koeleria macrantha,2705914,Koeleria macrantha,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,27,,False,False,0,0,,,2,1,2,Nitrogen addition|Unmanipulated
+Kosteletzkya pentacarpos,4939647,Kosteletzkya pentacarpos,EXACT,ACCEPTED,Malvaceae,Herbaceous perennial,37,,False,False,0,0,,,9,1,1,Unmanipulated
+Kummerowia striata,5352523,Kummerowia striata,EXACT,ACCEPTED,Legumiosae,Annual,9,,False,False,0,0,,,2,1,1,Competitor Removal|Unmanipulated
+Kunkeliella subsucculenta,7720261,Thesium subsucculentum,EXACT,SYNONYM,Santalaceae,Herbaceous perennial,1,,False,False,0,0,,,6,1,1,Unmanipulated
+Laccosperma secundiflorum,2736071,Laccosperma secundiflorum,EXACT,ACCEPTED,Arecaceae,Palm,9,,False,False,0,0,,,4,1,1,Unmanipulated
+Lactuca serriola,3140490,Lactuca serriola,EXACT,ACCEPTED,Compositae,Annual,37,lactuca scariola|lactuca serriola,False,True,20,6,USDA Duke ETHNOBOT,Bronchitis; Burn; Chafe; Diuretic; Emollient; Hypnotic; Lactogogue; Leukemia,14,2,3,Shelter|Shrub removal|Unmanipulated
+Lactuca virosa,3140346,Lactuca virosa,EXACT,ACCEPTED,Compositae,Herbaceous perennial,22,lactuca scariola|lactuca virosa,False,True,40,9,USDA Duke ETHNOBOT,Anodyne; Cancer; Chafe; Cough; Diuretic; Emollient; Expectorant; Hypnotic,2,1,1,Unmanipulated
+Laelia autumnalis,5314551,Laelia autumnalis,EXACT,ACCEPTED,Orchidaceae,Epiphyte,8,laelia autumnalis,False,True,1,1,USDA Duke ETHNOBOT,Cough,4,1,2,Unmanipulated
+Laelia speciosa,5314544,Laelia speciosa,EXACT,ACCEPTED,Orchidaceae,Epiphyte,9,,False,False,0,0,,,4,1,1,"Unmanipulated|Unmanipulated, anthropic"
+Laminaria digitata,5422479,Laminaria digitata,EXACT,ACCEPTED,Laminariaceae,Algae,21,laminaria digitata,False,True,10,1,USDA Duke ETHNOBOT,Aphrodisiac; Dentifrice; Hand Water; Pill; Sulfanilimide; Dental; Alterative; Boiler Water,1,1,1,Unmanipulated
+Laminaria longicruris,4377206,Saccharina longicruris,EXACT,SYNONYM,Laminariaceae,Algae,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Lantana camara,2925303,Lantana camara,EXACT,ACCEPTED,Verbenaceae,Shrub,8,lantana camara,False,True,139,30,Herbolario (GBIF)|USDA Duke ETHNOBOT,Abdomen; Alexiteric; Anemia; Antibiotic; Antiseptic; Antispasmodic; Bilious; Catarrh,38,2,4,Burned|Grazed|Unmanipulated
+Laserpitium longiradium,3630000,Laserpitium longiradium,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Lathyrus vernus,5356704,Lathyrus vernus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,36,lathyrus vernus,False,True,1,1,USDA Duke ETHNOBOT,Cataplasm,47,3,15,Unmanipulated
+Lechea cernua,5331116,Lechea cernua,EXACT,ACCEPTED,Cistaceae,Herbaceous perennial,0,,False,False,0,0,,,30,1,6,Burned (intermediate-aged)|Recently burned|Unmanipulated
+Lechea deckertii,5331130,Lechea deckertii,EXACT,ACCEPTED,Cistaceae,Herbaceous perennial,1,,False,False,0,0,,,33,1,9,Burned (intermediate-aged)|Recently burned|Unmanipulated
+Leontopodium nivale subsp. alpinum,4252246,Leontopodium nivale,EXACT,ACCEPTED,Compositae,Herbaceous perennial,20,,False,False,0,0,,,9,1,3,Unmanipulated
+Lepanthes acuminata,2851473,Lepanthes acuminata,EXACT,ACCEPTED,Orchidaceae,Epiphyte,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Lepanthes caritensis,2851918,Lepanthes caritensis,EXACT,ACCEPTED,Orchidaceae,Epiphyte,0,,False,False,0,0,,,164,2,20,Unmanipulated
+Lepanthes eltoroensis,2851827,Lepanthes eltoroensis,EXACT,ACCEPTED,Orchidaceae,Epiphyte,0,,False,False,0,0,,,3,1,3,Unmanipulated
+Lepanthes rubripetala,2851275,Lepanthes rubripetala,EXACT,ACCEPTED,Orchidaceae,Epiphyte,0,,False,False,0,0,,,20,3,20,Unmanipulated
+Lepanthes rupestris,2851232,Lepanthes rupestris,EXACT,ACCEPTED,Orchidaceae,Epiphyte,0,,False,False,0,0,,,14,2,14,Unmanipulated
+Lepidium davisii,5376805,Lepidium davisii,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,1,,False,False,0,0,,,39,1,13,Unmanipulated|Weeded
+Lepidocaryum tenue,2732630,Lepidocaryum tenue,EXACT,ACCEPTED,Arecaceae,Palm,1,,False,False,0,0,,,1,1,1,
+Leptocoryphium lanatum,4933022,Anthenantia lanata,EXACT,SYNONYM,Poaceae,Herbaceous perennial,15,,False,False,0,0,,,1,1,1,Unmanipulated
+Lespedeza juncea var. sericea,2955600,Lespedeza,HIGHERRANK,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,7,2,1,20% clipping treatment|40% clipping treatment|60% clipping treatment|80% clipping treatment|Competitor Removal|Unmanipulated
+Lespedeza virginica,2955685,Lespedeza virginica,EXACT,ACCEPTED,Fabaceae,Herbaceous perennial,14,,False,False,0,0,,,2,1,1,Herbivory reduction|Unmanipulated
+Leucopogon setiger,4009824,Styphelia setigera,EXACT,SYNONYM,Ericaceae,Shrub,1,,False,False,0,0,,,1,1,0,Unmanipulated
+Liatris scariosa,3104328,Liatris scariosa,EXACT,ACCEPTED,Compositae,Herbaceous perennial,46,,False,False,0,0,,,19,1,4,Unmanipulated
+Licania heteromorpha,11124642,Licania heteromorpha,EXACT,ACCEPTED,Chrysobalanaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Ligularia sibirica,6445722,Ligularia sibirica,EXACT,ACCEPTED,Compositae,Herbaceous perennial,8,,False,False,0,0,,,27,1,9,Unmanipulated
+Limonium carolinianum,3082300,Limonium carolinianum,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,28,limonium carolinianum|statice caroliniana,False,True,11,1,USDA Duke ETHNOBOT,Astringent; Bronchitis; Diarrhea; Dysentery; Hemorrhage; Tonic; Hematoptysis,1,1,1,Unmanipulated
+Limonium delicatulum,7298216,Limonium delicatulum,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Limonium erectum,4089876,Limonium erectum,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Limonium geronense,4089424,Limonium geronense,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Limonium malacitanum,4090264,Limonium malacitanum,EXACT,ACCEPTED,Plumbaginaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Lindera benzoin,5371740,Lindera benzoin,EXACT,ACCEPTED,Lauraceae,Shrub,18,lindera benzoin,False,True,11,4,USDA Duke ETHNOBOT,Circulation; Cold; Cough; Dysentery; Sudorific; Tonic; Vermifuge; Medicine,3,2,2,Gap|Understorey|Unmanipulated
+Lindera umbellata,7304416,Lindera umbellata,EXACT,ACCEPTED,Lauraceae,Shrub,16,,False,False,0,0,,,1,1,1,Unmanipulated
+Linnaea borealis,5334220,Linnaea borealis,EXACT,ACCEPTED,Caprifoliaceae,Shrub,27,,False,False,0,0,,,10,1,6,Unmanipulated
+Linum catharticum,2873865,Linum catharticum,EXACT,ACCEPTED,Linaceae,Annual,5,linum catharticum,False,True,8,4,USDA Duke ETHNOBOT,Cyanogenetic; Diuretic; Liver; Purgative; Vermifuge,1,1,1,Unmanipulated
+Linum flavum,7293238,Linum flavum,EXACT,ACCEPTED,Linaceae,Herbaceous perennial,0,,False,False,0,0,,,13,1,4,Unmanipulated
+Linum tenuifolium,8069406,Linum tenuifolium,EXACT,ACCEPTED,Linaceae,Herbaceous perennial,6,,False,False,0,0,,,13,1,4,Unmanipulated
+Lithospermum ruderale,2926094,Lithospermum ruderale,EXACT,ACCEPTED,Boraginaceae,Herbaceous perennial,9,lithospermum ruderale,False,True,6,3,USDA Duke ETHNOBOT,Contraceptive; Diarrhea; Laxative; Pleurisy,8,1,4,Unmanipulated|seed predation
+Lobelia boykinii,5408626,Lobelia boykinii,EXACT,ACCEPTED,Campanulaceae,Herbaceous perennial,3,,False,False,0,0,,,12,1,3,Unmanipulated
+Lomatium bradshawii,3034265,Lomatium bradshawii,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,1,,False,False,0,0,,,56,2,10,Burned|Unmanipulated
+Lomatium cookii,3034289,Lomatium cookii,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,0,,False,False,0,0,,,13,1,3,Unmanipulated
+Lonchocarpus heptaphyllus,2969089,Lonchocarpus heptaphyllus,EXACT,ACCEPTED,Fabaceae,Tree,19,,False,False,0,0,,,1,1,1,Unmanipulated
+Lonicera maackii,7902463,Lonicera maackii,EXACT,ACCEPTED,Caprifoliaceae,Shrub,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Lophophora diffusa,7282936,Lophophora diffusa,EXACT,ACCEPTED,Cactaceae,Succulent,14,,False,False,0,0,,,3,1,1,Unmanipulated
+Lotus arinagensis,5356835,Lotus arinagensis,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,9,1,3,Unmanipulated
+Lotus corniculatus,5357013,Lotus corniculatus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,3,lotus corniculatus,False,True,7,3,USDA Duke ETHNOBOT,Carminative; Cyanogenetic; Fever; Restorative; Thirst; Tonic; Nerves,12,1,0,Clipped|Unmanipulated
+Lupinus arboreus,2963807,Lupinus arboreus,EXACT,ACCEPTED,Leguminosae,Shrub,3,,False,False,0,0,,,2,1,2,Unmanipulated
+Lupinus lepidus,2963975,Lupinus lepidus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,4,,False,False,0,0,,,33,1,7,Unmanipulated
+Lupinus tidestromii,2963895,Lupinus tidestromii,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,24,1,3,Herbivory exclosure|Unmanipulated
+Lycaste aromatica,5313395,Lycaste aromatica,EXACT,ACCEPTED,Orchidaceae,Epiphyte,8,,False,False,0,0,,,8,1,2,Unmanipulated
+Lythrum salicaria,3188736,Lythrum salicaria,EXACT,ACCEPTED,Lythraceae,Herbaceous perennial,47,lythrum anceps|lythrum salicaria,False,True,11,5,USDA Duke ETHNOBOT,Astringent; Diarrhea; Eye; Piles; Tonic; Wound; Antidiarrheic; Dysentery,6,1,2,Seed germination
+Machaerium cuspidatum,5355114,Machaerium cuspidatum,EXACT,ACCEPTED,Leguminosae,Liana,0,,False,False,0,0,,,3,1,1,Unmanipulated
+Macrocystis pyrifera,5422328,Macrocystis pyrifera,EXACT,ACCEPTED,Laminariaceae,Algae,14,,False,False,0,0,,,1,1,1,Unmanipulated
+Magnolia fordiana,3153727,Magnolia fordiana,EXACT,ACCEPTED,Magnoliaceae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Magnolia macrophylla var. dealbata,3153789,Magnolia dealbata,EXACT,SYNONYM,Magnoliaceae,Tree,2,,False,False,0,0,,,8,1,1,Livestock exclusion|Unmanipulated
+Magnolia salicifolia,3153771,Magnolia salicifolia,EXACT,ACCEPTED,Magnoliaceae,Shrub,10,magnolia conspicua|magnolia salicifolia,False,True,12,2,USDA Duke ETHNOBOT,Ache(Head); Anodyne; Expectorant; Rhinitis; Sedative; Swelling; Ache(Tooth); Hair-Tonic,1,1,0,Unmanipulated
+Malacothrix indecora,5387219,Malacothrix indecora,EXACT,ACCEPTED,Compositae,Annual,1,,False,False,0,0,,,3,1,1,Unmanipulated
+Mammillaria crucigera,7280835,Mammillaria crucigera,EXACT,ACCEPTED,Cactaceae,Succulent,0,,False,False,0,0,,,4,2,1,Unmanipulated
+Mammillaria dixanthocentron,7465040,Mammillaria dixanthocentron,EXACT,ACCEPTED,Cactaceae,Succulent,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Mammillaria gaumeri,5619696,Mammillaria heyderi,EXACT,SYNONYM,Cactaceae,Succulent,2,,False,False,0,0,,,24,1,8,Unmanipulated
+Mammillaria hernandezii,5619743,Mammillaria hernandezii,EXACT,ACCEPTED,Cactaceae,Succulent,1,,False,False,0,0,,,9,1,3,Unmanipulated
+Mammillaria huitzilopochtli,7279865,Mammillaria huitzilopochtli,EXACT,ACCEPTED,Cactaceae,Succulent,0,,False,False,0,0,,,24,2,4,Disturbed|Unmanipulated
+Mammillaria magnimamma,7284530,Mammillaria magnimamma,EXACT,ACCEPTED,Cactaceae,Succulent,134,mammillaria magnimamma,False,True,1,1,USDA Duke ETHNOBOT,Lactogogue,7,1,3,Unmanipulated
+Mammillaria mystax,7854119,Mammillaria mystax,EXACT,ACCEPTED,Cactaceae,Succulent,31,,False,False,0,0,,,1,1,1,Unmanipulated
+Mammillaria napina,7284206,Mammillaria napina,EXACT,ACCEPTED,Cactaceae,Succulent,3,,False,False,0,0,,,4,1,1,Unmanipulated
+Mammillaria pectinifera,7283917,Mammillaria pectinifera,EXACT,ACCEPTED,Cactaceae,Succulent,5,,False,False,0,0,,,3,3,3,Unmanipulated
+Mammillaria solisioides,5623849,Mammillaria solisioides,EXACT,ACCEPTED,Cactaceae,Succulent,2,,False,False,0,0,,,4,1,1,Unmanipulated
+Mammillaria supertexta,7282398,Mammillaria supertexta,EXACT,ACCEPTED,Cactaceae,Succulent,11,,False,False,0,0,,,1,1,1,Unmanipulated
+Manilkara zapota,2885158,Manilkara zapota,EXACT,ACCEPTED,Sapotaceae,Tree,76,achras sapota|achras zapota|manilkara zapota,False,True,36,10,Herbolario (GBIF)|USDA Duke ETHNOBOT,Amenorrhea; Astringent; Catarrh; Cold; Cough; Diarrhea; Diuretic; Dysentery,3,1,1,Unmanipulated
+Maquira guianensis,3763686,Maquira guianensis,EXACT,ACCEPTED,Moraceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Mauritia flexuosa,5294777,Mauritia flexuosa,EXACT,ACCEPTED,Arecaceae,Palm,7,mauritia flexuosa|mauritia vinifera,False,True,8,5,USDA Duke ETHNOBOT,Digestive; Intoxicant; Laxative,1,1,1,Unmanipulated
+Melaleuca viridiflora,5416109,Melaleuca viridiflora,EXACT,ACCEPTED,Myrtaceae,Tree,13,melaleuca viridiflora,False,True,4,1,USDA Duke ETHNOBOT,Antiseptic; Cough; Neuralgia; Rheumatism,9,1,5,Burned|Unmanipulated
+Melampyrum pratense,7693914,Melampyrum pratense,EXACT,ACCEPTED,Orobanchaceae,Annual,7,,False,False,0,0,,,16,1,4,Unmanipulated
+Melocactus bahiensis,7281086,Melocactus bahiensis,EXACT,ACCEPTED,Cactaceae,Succulent,1,,False,False,0,0,,,2,1,1,Unmanipulated
+Melocactus ernestii,7280846,Melocactus ernestii,EXACT,ACCEPTED,Cactaceae,Succulent,0,,False,False,0,0,,,4,1,2,Unmanipulated
+Mezilaurus mahuba,4182178,Mezilaurus mahuba,EXACT,ACCEPTED,Lauraceae,Tree,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Miconia albicans,3860779,Miconia albicans,EXACT,ACCEPTED,Melastomataceae,Shrub,18,,False,False,0,0,,,3,1,1,1 year after burning|Burned|Unmanipulated
+Miconia argentea,3859926,Miconia argentea,EXACT,ACCEPTED,Melastomataceae,Tree,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Miconia prasina,3188562,Miconia prasina,EXACT,ACCEPTED,Melastomataceae,Shrub,38,,False,False,0,0,,,25,1,5,Unmanipulated
+Microberlinia bisulcata,2941148,Microberlinia bisulcata,EXACT,ACCEPTED,Leguminosae,Tree,2,,False,False,0,0,,,2,1,1,Exclosure of small mammals|Unmanipulated
+Mimulus cardinalis,3170959,Erythranthe cardinalis,EXACT,SYNONYM,Phrymaceae,Herbaceous perennial,8,,False,False,0,0,,,20,1,4,Unmanipulated
+Mimulus guttatus,3171742,Erythranthe,HIGHERRANK,ACCEPTED,Phrymaceae,Herbaceous perennial,0,,False,False,0,0,,,29,3,18,Flood|Flood; Herbivory; Predatory|Herbivory; Predatory|Unmanipulated|Waterlogged
+Mimulus lewisii,7346096,Erythranthe lewisii,EXACT,SYNONYM,Phrymaceae,Herbaceous perennial,7,,False,False,0,0,,,20,1,4,Unmanipulated
+Minuartia obtusiloba,8375485,Cherleria obtusiloba,EXACT,SYNONYM,Caryophyllaceae,Herbaceous perennial,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Miscanthus giganteus,4149689,Miscanthus longiberbis,EXACT,SYNONYM,Poaceae,Herbaceous perennial,11,,False,False,0,0,,,3,1,1,Unmanipulated
+Molinia caerulea,5289877,Molinia caerulea,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,97,,False,False,0,0,,,34,1,5,Burnt plot|Unmanipulated
+Mora paraensis,5355418,Mora paraensis,EXACT,ACCEPTED,Leguminosae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Mulinum spinosum,9463119,Azorella prolifera,EXACT,SYNONYM,Apiaceae,Shrub,23,,False,False,0,0,,,2,1,1,Grazing|Unmanipulated
+Murdannia nudiflora,2764680,Murdannia nudiflora,EXACT,ACCEPTED,Commelinaceae,Annual,36,,False,False,0,0,,,4,1,0,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Murdannia simplex,2764739,Murdannia simplex,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,15,,False,False,0,0,,,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Myosotis ramosissima,7589756,Myosotis ramosissima,EXACT,ACCEPTED,Boraginaceae,Annual,1,,False,False,0,0,,,16,1,6,Unmanipulated
+Myrsine guianensis,3169446,Myrsine guianensis,EXACT,ACCEPTED,Primulaceae,Tree,23,,False,False,0,0,,,2,1,1,Burned|Unmanipulated
+Narcissus poeticus,2858581,Narcissus poeticus,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,14,narcissus poeticus,False,True,5,1,USDA Duke ETHNOBOT,Sclerosis; Sclerosis(Uterus); Tumor(Breast); Tumor(Ear); Tumor(Uterus),1,1,1,Unmanipulated
+Narcissus pseudonarcissus,2858244,Narcissus pseudonarcissus,EXACT,ACCEPTED,Amaryllidaceae,Herbaceous perennial,81,,False,False,0,0,,,3,1,3,Unmanipulated
+Nardostachys jatamansi,4095989,Nardostachys jatamansi,EXACT,ACCEPTED,Caprifoliaceae,Herbaceous perennial,8,nardostachys jatamansi,False,True,61,8,USDA Duke ETHNOBOT,Bronchitis; Carminative; Cholera; Chorea; CNS depressant; Tuberculosis; Convulsion; Cough,6,1,2,Harvesting|Unmanipulated
+Neobuxbaumia macrocephala,3957888,Cephalocereus macrocephalus,EXACT,SYNONYM,Cactaceae,Succulent,9,,False,False,0,0,,,9,3,2,Unmanipulated
+Neobuxbaumia mezcalaensis,3954267,Cephalocereus mezcalaensis,EXACT,SYNONYM,Cactaceae,Succulent,12,,False,False,0,0,,,8,2,1,Unmanipulated
+Neobuxbaumia polylopha,3957527,Cephalocereus polylophus,EXACT,SYNONYM,Cactaceae,Succulent,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Neobuxbaumia tetetzo,8365573,Cephalocereus tetetzo,EXACT,SYNONYM,Cactaceae,Succulent,11,,False,False,0,0,,,10,4,3,Unmanipulated
+Neotinea ustulata,2812375,Neotinea ustulata,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,2,,False,False,0,0,,,6,1,6,Unmanipulated
+Nothofagus fusca,2874959,Nothofagus fusca,EXACT,ACCEPTED,Nothofagaceae,Tree,3,,False,False,0,0,,,6,1,6,Unmanipulated
+Ocotea usambarensis,10804941,Kuloa usambarensis,EXACT,SYNONYM,Lauraceae,Tree,1,,False,False,0,0,,,1,1,1,
+Ocotea whitei,4180728,Ocotea whitei,EXACT,ACCEPTED,Lauraceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Oeceoclades maculata,5323741,Eulophia maculata,EXACT,SYNONYM,Orchidaceae,Herbaceous perennial,28,,False,False,0,0,,,8,1,4,Unmanipulated
+Oenothera californica,3188921,Oenothera californica,EXACT,ACCEPTED,Onagraceae,Herbaceous perennial,7,,False,False,0,0,,,9,1,3,Unmanipulated
+Oenothera coloradensis subsp. coloradensis,7161853,Oenothera coloradensis,HIGHERRANK,ACCEPTED,Onagraceae,Herbaceous perennial,3,,False,False,0,0,,,28,1,10,Unmanipulated
+Oenothera deltoides,3188882,Oenothera deltoides,EXACT,ACCEPTED,Onagraceae,Herbaceous perennial,3,,False,False,0,0,,,20,1,4,Unmanipulated
+Olearia flocktoniae,10841177,Linealia flocktoniae,EXACT,SYNONYM,Asteraceae,Shrub,1,,False,False,0,0,,,9,1,0,Unmanipulated
+Oncidium poikilostalix,5826319,Oncidium poikilostalix,EXACT,ACCEPTED,Orchidaceae,Epiphyte,7,,False,False,0,0,,,4,2,1,Unmanipulated
+Ophrys sphegodes,2793334,Ophrys sphegodes,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,22,,False,False,0,0,,,2,1,1,Cattle grazed|Sheep grazed
+Opuntia macrocentra,5384155,Opuntia macrocentra,EXACT,ACCEPTED,Cactaceae,Succulent,6,,False,False,0,0,,,3,1,3,Unmanipulated
+Opuntia macrorhiza,5384048,Opuntia macrorhiza,EXACT,ACCEPTED,Cactaceae,Succulent,28,,False,False,0,0,,,27,1,5,Unmanipulated
+Opuntia microdasys,7283961,Opuntia microdasys,EXACT,ACCEPTED,Cactaceae,Succulent,8,,False,False,0,0,,,4,1,4,Unmanipulated
+Opuntia rastrera,5625224,Opuntia rastrera,EXACT,ACCEPTED,Cactaceae,Succulent,3,,False,False,0,0,,,14,1,2,Unmanipulated
+Orchis purpurea,8794742,Orchis purpurea,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,4,,False,False,0,0,,,43,1,7,Unmanipulated
+Oryza sativa,2703459,Oryza sativa,EXACT,ACCEPTED,Poaceae,Annual,299,oryza sativa,False,True,61,19,Herbolario (GBIF)|USDA Duke ETHNOBOT,Abdomen; Antidote(Arsenic); Astringent; Beri-Beri; Bowel; Breath; Burn; Cancer(Breast),4,1,0,Minimum tillage (rigid tine cultivation)|Ploughing|Ploughing; Minimum tillage|Unmanipulated
+Oxalis acetosella,8211958,Oxalis acetosella,EXACT,ACCEPTED,Oxalidaceae,Herbaceous perennial,32,oxalis acetosella,False,True,23,4,USDA Duke ETHNOBOT,Cancer; Catarrh; Diuretic; Dyspepsia; Fever; Hemorrhage; Homeopathy; Liver,10,1,4,Unmanipulated
+Oxandra asbeckii,3154736,Oxandra asbeckii,EXACT,ACCEPTED,Annonaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Oxytropis jabalambrensis,5360831,Oxytropis jabalambrensis,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,1,,False,False,0,0,,,7,1,3,Unmanipulated
+Pachycereus pecten-aboriginum,7282300,Pachycereus pecten-aboriginum,EXACT,ACCEPTED,Cactaceae,Succulent,3,,False,False,0,0,,,3,1,1,Unmanipulated
+Paeonia officinalis,3083488,Paeonia officinalis,EXACT,ACCEPTED,Paeoniaceae,Herbaceous perennial,8,paeonia officinalis,False,True,23,6,USDA Duke ETHNOBOT,Alterative; Bilious; Depurative; Dropsy; Emetic; Epilepsy; Epistaxis; Hemorrhage,66,2,11,Unmanipulated
+Paliurus ramosissimus,5603062,Paliurus ramosissimus,EXACT,ACCEPTED,Rhamnaceae,Shrub,7,paliurus ramosissimus,False,True,10,1,USDA Duke ETHNOBOT,Neuralgia; Shampoo; Sore; Stitch; Wound; Refrigerant; Anodyne; Diuretic,2,1,1,Unmanipulated
+Panax quinquefolius,5372246,Panax quinquefolius,EXACT,ACCEPTED,Araliaceae,Herbaceous perennial,12,panax quinquefolius,False,True,25,5,Herbolario (GBIF)|USDA Duke ETHNOBOT,Apertif; Aphrodisiac; Cachexia; Contraceptive; Energy; Forgetfulness; Hangover; Nerves,61,6,13,Compliant harvester treatments applied|No Browsing|Non-compliant harvester treatments applied|Protected|Steward harvester treatments applied|Subject to human disturbance|Subjected to obvious human disturbance|Unmanipulated
+Parashorea chinensis,4096465,Shorea wangtianshuea,EXACT,SYNONYM,Dipterocarpaceae,Tree,5,,False,False,0,0,,,1,1,1,Unmanipulated
+Parkinsonia aculeata,5357217,Parkinsonia aculeata,EXACT,ACCEPTED,Leguminosae,Tree,3,parkinsonia aculeata,False,True,15,5,USDA Duke ETHNOBOT,Abortifacient; Ache(Stomach); Epilepsy; Fever; Sudorific; Diaphoretic,95,2,23,Unmanipulated
+Parolinia glabriuscula,5552387,Parolinia glabriuscula,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,0,,False,False,0,0,,,6,1,1,Unmanipulated
+Paronychia jamesii,5384689,Paronychia jamesii,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,5,,False,False,0,0,,,34,1,1,Unmanipulated
+Paronychia pulvinata,5384731,Paronychia pulvinata,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Pedicularis furbishiae,3171686,Pedicularis furbishiae,EXACT,ACCEPTED,Orobanchaceae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Pediocactus bradyi,3084063,Pediocactus bradyi,EXACT,ACCEPTED,Cactaceae,Succulent,1,,False,False,0,0,,,110,1,5,Unmanipulated
+Pentaclethra macroloba,2943558,Pentaclethra macroloba,EXACT,ACCEPTED,Leguminosae,Tree,10,pentaclethra filamentosa,True,True,4,2,USDA Duke ETHNOBOT,Emetic; Astringent; Bite(Snake); Sore,1,1,1,Unmanipulated
+Periandra mediterranea,5352500,Periandra mediterranea,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,11,,False,False,0,0,,,3,1,3,Burned|Unmanipulated
+Perilla frutescens,5341394,Perilla frutescens,EXACT,ACCEPTED,Lamiaceae,Annual,6,perilla frutescens|perilla ocymoides,False,True,40,7,USDA Duke ETHNOBOT,Abdomen; Anodyne; Antidote; Antiseptic; Antitussive; Asthma; Carminative; Cephalgia,2,1,1,Competitor Removal|Unmanipulated
+Persoonia bargoensis,5637868,Persoonia bargoensis,EXACT,ACCEPTED,Proteaceae,Shrub,0,,False,False,0,0,,,7,1,3,Unmanipulated
+Persoonia glaucescens,5637547,Persoonia glaucescens,EXACT,ACCEPTED,Proteaceae,Shrub,2,,False,False,0,0,,,4,1,2,Unmanipulated
+Persoonia lanceolata,8337061,Persoonia lanceolata,EXACT,ACCEPTED,Proteaceae,Shrub,5,,False,False,0,0,,,3,1,1,Burned
+Persoonia mollis,7610386,Persoonia mollis,EXACT,ACCEPTED,Proteaceae,Shrub,1,,False,False,0,0,,,6,1,4,Burned
+Petrocoptis pyrenaica subsp. pseudoviscosa,3808387,Petrocoptis pyrenaica,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,4,,False,False,0,0,,,18,1,4,Unmanipulated
+Petrophile pulchella,7286981,Petrophile pulchella,EXACT,ACCEPTED,Proteaceae,Shrub,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Phaius australis,12246654,Calanthe tankervilleae,EXACT,SYNONYM,Orchidaceae,Herbaceous perennial,47,,False,False,0,0,,,12,1,12,Unmanipulated
+Phaseolus lunatus,5350438,Phaseolus lunatus,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,36,phaseolus lunatus,False,True,20,11,Herbolario (GBIF)|USDA Duke ETHNOBOT,Ache(Stomach); Cyanogenetic; Tumor; Wart; Fever; Nutritive; Skin; Rashes; Skin; Wound,1,1,1,Unmanipulated
+Phyllanthus emblica,5381660,Phyllanthus emblica,EXACT,ACCEPTED,Phyllanthaceae,Tree,14,phyllanthus emblica,False,True,32,6,USDA Duke ETHNOBOT,Acrid; Anemia; Anodyne; Anthrax; Bactericide; Candida; Carbuncle; Cholera,61,3,3,Fire|Fruit harvesting|Fruit harvesting; Lantana cover|Fruit harvesting; Mistletoe cover|Fruit harvesting; Mistletoe cover; Lantana cover|Lantana cover|Mistletoe cover|Mistletoe cover; Lantana cover|Time since last fire: 0 years|Time since last fire: 1 year|Time since last fire: 2 years|Time since last fire: 3 years|Time since last fire: 4 years|Time since last fire: 5 years|Unmanipulated
+Phyllanthus indofischeri,5381305,Phyllanthus indofischeri,EXACT,ACCEPTED,Phyllanthaceae,Tree,3,,False,False,0,0,,,24,1,1,Fruit harvesting and Mistletoe cover|Fruit harvesting and no cover|Mistletoe cover|Unmanipulated
+Physaria ovalifolia,3049249,Physaria ovalifolia,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,3,,False,False,0,0,,,29,1,1,Unmanipulated
+Phytelephas seemannii,2736300,Phytelephas macrocarpa,EXACT,SYNONYM,Arecaceae,Palm,17,,False,False,0,0,,,1,1,1,Unmanipulated
+Picea glehnii,5284792,Picea glehnii,EXACT,ACCEPTED,Pinaceae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Picea jezoensis,5284798,Picea jezoensis,EXACT,ACCEPTED,Pinaceae,Tree,7,,False,False,0,0,,,1,1,1,Unmanipulated
+Picris hieracioides,3093337,Picris hieracioides,EXACT,ACCEPTED,Compositae,Herbaceous perennial,17,picris hieracioides,False,True,1,1,USDA Duke ETHNOBOT,Fever,2,1,1,Unmanipulated
+Pilosella floribunda,3123193,Pilosella floribunda,EXACT,ACCEPTED,Compositae,Herbaceous perennial,267,,False,False,0,0,,,1,1,1,Unmanipulated
+Pimpinella saxifraga,7622278,Pimpinella saxifraga,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,62,pimpinella magna|pimpinella saxifraga,False,True,21,5,USDA Duke ETHNOBOT,Antiphlogistic; Apertif; Carminative; Diarrhea; Digestive; Diuretic; Epistaxis; Expectorant,18,1,6,Cutting in August; Removal of hay|Cutting in June & August|Cutting in June & August; Removal of hay|Grazing|Grazing; cutting; Removal of hay|Unmanipulated
+Pinguicula alpina,5667864,Pinguicula alpina,EXACT,ACCEPTED,Lentibulariaceae,Herbaceous perennial,32,,False,False,0,0,,,1,1,1,Unmanipulated
+Pinguicula ionantha,5415068,Pinguicula ionantha,EXACT,ACCEPTED,Lentibulariaceae,Herbaceous perennial,0,,False,False,0,0,,,27,1,14,Unmanipulated
+Pinguicula villosa,5415064,Pinguicula villosa,EXACT,ACCEPTED,Lentibulariaceae,Herbaceous perennial,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Pinguicula vulgaris,5415065,Pinguicula vulgaris,EXACT,ACCEPTED,Lentibulariaceae,Herbaceous perennial,46,pinguicula vulgaris,False,True,5,3,USDA Duke ETHNOBOT,Rennet; Pertussis; Expectorant; Spasm; Tumor,1,1,1,Unmanipulated
+Pinus albicaulis,5285183,Pinus albicaulis,EXACT,ACCEPTED,Pinaceae,Tree,4,,False,False,0,0,,,2,1,1,Blister rust infection|Unmanipulated
+Pinus fenzeliana,5284993,Pinus fenzeliana,EXACT,ACCEPTED,Pinaceae,Tree,16,,False,False,0,0,,,1,1,1,Unmanipulated
+Pinus flexilis,5285551,Pinus flexilis,EXACT,ACCEPTED,Pinaceae,Tree,2,,False,False,0,0,,,8,1,2,Heat-watered|Heated|Unmanipulated|Watered
+Pinus jeffreyi,8892957,Pinus jeffreyi,EXACT,ACCEPTED,Pinaceae,Tree,9,,False,False,0,0,,,1,1,1,Unmanipulated
+Pinus lambertiana,5284989,Pinus lambertiana,EXACT,ACCEPTED,Pinaceae,Tree,5,pinus lambertiana,False,True,1,1,USDA Duke ETHNOBOT,Laxative,18,2,13,Unmanipulated
+Pinus maximartinezii,5285632,Pinus maximartinezii,EXACT,ACCEPTED,Pinaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Pinus nigra,5284809,Pinus nigra,EXACT,ACCEPTED,Pinaceae,Tree,5,pinus nigra,False,True,1,1,USDA Duke ETHNOBOT,Vermifuge,6,1,4,Grazing|Unmanipulated
+Pinus palustris,5285816,Pinus palustris,EXACT,ACCEPTED,Pinaceae,Tree,9,pinus palustris,False,True,30,6,USDA Duke ETHNOBOT,Antiseptic; Arthritis; Bronchitis; Carminative; Cystitis; Diuretic; Emmenagogue; Expectorant,1,1,1,Burned
+Pinus ponderosa,5285053,Pinus ponderosa,EXACT,ACCEPTED,Pinaceae,Tree,3,pinus ponderosa,False,True,7,2,USDA Duke ETHNOBOT,Abortifacient; Boil; Dandruff; Parturition; Placenta; Rheumatism; Ache(Back),1,1,1,Unmanipulated
+Pinus radiata,5285727,Pinus radiata,EXACT,ACCEPTED,Pinaceae,Tree,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Pinus strobus,5284982,Pinus strobus,EXACT,ACCEPTED,Pinaceae,Tree,7,pinus strobus,False,True,15,4,USDA Duke ETHNOBOT,Antitussive; Burn; Demulcent; Diuretic; Dysentery; Expectorant; Itch; Laxative,12,1,3,Unmanipulated
+Pinus sylvestris,5285637,Pinus sylvestris,EXACT,ACCEPTED,Pinaceae,Tree,14,pinus sylvestris,False,True,3,3,USDA Duke ETHNOBOT,Cough; Medicine; Tumor,1,1,1,Unmanipulated
+Piriqueta cistoides subsp. caroliniana,4161209,Piriqueta cistoides,EXACT,ACCEPTED,Turneraceae,Herbaceous perennial,19,,False,False,0,0,,,3,1,1,Unmanipulated
+Pityopsis aspera var. aspera,6444721,Pityopsis aspera,EXACT,ACCEPTED,Compositae,Herbaceous perennial,1,,False,False,0,0,,,52,2,1,Density = 130 shoots per m2|Density = 132 shoots per m2|Density = 138 shoots per m2|Density = 179 shoots per m2|Density = 196 shoots per m2|Density = 206 shoots per m2|Density = 71 shoots per m2|Density = 71 shoots per m2; Density = 77 shoots per m2; Density = 91 shoots per m2; Density = 130 shoots per m2; Density = 132 shoots per m2; Density = 138 shoots per m2; Density = 179 shoots per m2; Density = 196 shoots per m2; Density = 206 shoots per m2; |Density = 77 shoots per m2|Density = 91 shoots
+Plantago coronopus,3189739,Plantago coronopus,EXACT,ACCEPTED,Plantaginaceae,Herbaceous perennial,60,plantago coronopus,False,True,2,2,USDA Duke ETHNOBOT,Diuretic; Wart,47,2,12,Unmanipulated
+Plantago media,3189747,Plantago media,EXACT,ACCEPTED,Plantaginaceae,Herbaceous perennial,1,plantago media,False,True,2,2,USDA Duke ETHNOBOT,Bronchitis; Cancer,11,1,3,Unmanipulated
+Platanthera hookeri,8574803,Platanthera hookeri,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,12,,False,False,0,0,,,4,1,4,Unmanipulated
+Platanthera macrophylla,2797879,Platanthera orbiculata,EXACT,SYNONYM,Orchidaceae,Herbaceous perennial,4,,False,False,0,0,,,8,1,1,Unmanipulated
+Platanthera orbiculata,2797877,Platanthera orbiculata,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,5,habenaria orbiculata,True,True,1,1,USDA Duke ETHNOBOT,Blister,8,1,1,Unmanipulated
+Platanthera praeclara,2798503,Platanthera praeclara,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,3,,False,False,0,0,,,4,1,1,Unmanipulated
+Platymiscium filipes,2944752,Platymiscium filipes,EXACT,ACCEPTED,Leguminosae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Poa alpina,2704234,Poa alpina,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,95,,False,False,0,0,,,6,1,3,Unmanipulated
+Podococcus barteri,2735641,Podococcus barteri,EXACT,ACCEPTED,Arecaceae,Palm,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Podophyllum peltatum,3033839,Podophyllum peltatum,EXACT,ACCEPTED,Berberidaceae,Herbaceous perennial,4,podophyllum peltatum,False,True,23,8,USDA Duke ETHNOBOT,Bile; Bowel; Cancer; Emetic; Hydragogue; Jaundice; Liver; Medicine,2,1,2,Unmanipulated
+Polemonium van-bruntiae,2927841,Polemonium vanbruntiae,FUZZY,ACCEPTED,Polemoniaceae,Herbaceous perennial,3,,False,False,0,0,,,16,1,5,Browsed|Unmanipulated
+Polygonella basiramia,5334484,Polygonella basiramia,EXACT,ACCEPTED,Polygonaceae,Herbaceous perennial,3,,False,False,0,0,,,31,1,7,Burned (intermediate-aged)|Recently burned|Unmanipulated
+Polygonella robusta,5334503,Polygonella robusta,EXACT,ACCEPTED,Polygonaceae,Herbaceous perennial,4,,False,False,0,0,,,29,1,6,Burned (intermediate-aged)|Recently burned
+Polygonum perfoliatum,4033648,Persicaria perfoliata,EXACT,SYNONYM,Polygonaceae,Annual,9,polygonum perfoliatum,False,True,14,3,USDA Duke ETHNOBOT,Bite(Snake); Circulation; Diuretic; Dysentery; Enteritis; Fever; Trauma; Tumor,80,1,10,Unmanipulated
+Polystichum setiferum,4044517,Polystichum setiferum,EXACT,ACCEPTED,Dryopteridaceae,Fern,22,,False,False,0,0,,,7,1,1,Unmanipulated
+Potentilla anserina,7272211,Argentina anserina,EXACT,SYNONYM,Rosaceae,Herbaceous perennial,45,potentilla anserina,False,True,30,4,USDA Duke ETHNOBOT,Arthritis; Astringent; Cancer; Corn; Cramp; Diarrhea; Dysmenorrhea; Intestine,3,1,1,Unmanipulated
+Potentilla recta,5367294,Potentilla recta,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,7,potentilla recta,False,True,1,1,USDA Duke ETHNOBOT,Tumor,6,3,3,"Competitor Removal|Mean of unmanipulated an different treatments: tilling, vegetation clipped, new soil, overseeding with grasses|Unmanipulated"
+Poulsenia armata,5570848,Poulsenia armata,EXACT,ACCEPTED,Moraceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Pouteria reticulata,2884054,Pouteria reticulata,EXACT,ACCEPTED,Sapotaceae,Tree,19,,False,False,0,0,,,1,1,1,Unmanipulated
+Prasophyllum correctum,2802744,Prasophyllum correctum,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,1,,False,False,0,0,,,2,1,1,< 3 years between fire|> 3 yrs between fire
+Primula elatior,5414326,Primula elatior,EXACT,ACCEPTED,Primulaceae,Herbaceous perennial,0,,False,False,0,0,,,29,1,8,Unmanipulated
+Primula farinosa,7931979,Primula farinosa,EXACT,ACCEPTED,Primulaceae,Herbaceous perennial,6,,False,False,0,0,,,45,2,9,Clipping|Intermediate grazing pressure|Low grazing pressure|Mowing|Soil disturbance; Grazing|Soil disturbance; Grazing; Drought|Unmanipulated
+Primula nutans,5414318,Primula nutans,EXACT,ACCEPTED,Primulaceae,Herbaceous perennial,18,,False,False,0,0,,,2,1,2,Unmanipulated
+Primula veris,8377689,Primula veris,EXACT,ACCEPTED,Primulaceae,Herbaceous perennial,5,primula veris,False,True,10,4,USDA Duke ETHNOBOT,Bronchitis; Cough; Nervine; Sedative; Sudorific; Diuretic; Expectorant; Nerves,123,5,21,Autumn moving|Grazing|Litter + vegetation removal|Mowing|Mown|Mown; Grazed|No moving|Soil disturbance + vegetation removal|Summer moving|Unmanipulated|Vegetation removal
+Primula vulgaris,5414335,Primula vulgaris,EXACT,ACCEPTED,Primulaceae,Herbaceous perennial,1,primula vulgaris,False,True,3,2,USDA Duke ETHNOBOT,Anodyne; Emetic,111,3,39,Mown|Unmanipulated
+Prioria copaifera,2947108,Prioria copaifera,EXACT,ACCEPTED,Leguminosae,Tree,0,prioria copaifera,False,True,4,2,USDA Duke ETHNOBOT,Maggot; Mange; Sore; Venereal,4,2,1,Unmanipulated
+Prosartes lanuginosa,2752944,Prosartes lanuginosa,EXACT,ACCEPTED,Liliaceae,Herbaceous perennial,3,,False,False,0,0,,,8,1,4,Unmanipulated
+Prosopis flexuosa,5358452,Prosopis flexuosa,EXACT,ACCEPTED,Fabaceae,Tree,4,,False,False,0,0,,,2,1,1,Grazing|Unmanipulated
+Prosopis glandulosa,5358457,Prosopis glandulosa,EXACT,ACCEPTED,Leguminosae,Tree,5,,False,False,0,0,,,5,1,1,Unmanipulated
+Prosopis laevigata,5358498,Prosopis laevigata,EXACT,ACCEPTED,Leguminosae,Tree,9,,False,False,0,0,,,3,1,1,Unmanipulated
+Protium tenuifolium,7286790,Protium tenuifolium,EXACT,ACCEPTED,Burseraceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Prunus africana,3022853,Prunus africana,EXACT,ACCEPTED,Rosaceae,Tree,5,prunus africana,False,True,1,1,Curated citation,Bark: benign prostatic hyperplasia (Cortex Pruni africanae),16,1,6,Harvested once per year|Harvested once per year; Harvested twice per year|Harvested twice per year|Unmanipulated
+Prunus serotina,3021850,Prunus serotina,EXACT,ACCEPTED,Rosaceae,Tree,33,prunus serotina,False,True,35,12,USDA Duke ETHNOBOT,Anodyne; Astringent; Bronchitis; Cancer; Cold; Cough; Cyanogenetic; Dyspepsia,3,1,3,Unmanipulated
+Pseudomisopates rivas-martinezii,3725568,Pseudomisopates rivas-martinezii,EXACT,ACCEPTED,Scrophulariaceae,Herbaceous perennial,2,,False,False,0,0,,,13,1,3,Unmanipulated
+Pseudomitrocereus fulviceps,3958145,Cephalocereus fulviceps,EXACT,SYNONYM,Cactaceae,Succulent,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Pseudophoenix sargentii,2737019,Pseudophoenix sargentii,EXACT,ACCEPTED,Arecaceae,Palm,13,,False,False,0,0,,,9,2,8,Reintroduced|Unmanipulated
+Psidium guajava,5420380,Psidium guajava,EXACT,ACCEPTED,Myrtaceae,Tree,36,psidium guajava,False,True,379,63,Herbolario (GBIF)|USDA Duke ETHNOBOT,Ache(Stomach); Astringent; Bactericide; Bronchitis; Cachexia; Carbuncle; Catarrh; Cholera,1,1,1,Weeded
+Psoralea esculenta,2959963,Pediomelum,HIGHERRANK,ACCEPTED,Fabaceae,Herbaceous perennial,0,,False,False,0,0,,,12,1,4,Unmanipulated
+Psoralea tenuiflora,7931484,Pediomelum tenuiflorum,EXACT,SYNONYM,Leguminosae,Herbaceous perennial,20,,False,False,0,0,,,34,1,1,Unmanipulated
+Pterocarpus angolensis,5349240,Pterocarpus angolensis,EXACT,ACCEPTED,Leguminosae,Tree,3,pterocarpus angolensis,False,True,1,1,USDA Duke ETHNOBOT,Aphrodisiac,1,1,1,Unmanipulated
+Pterocarya rhoifolia,4205300,Pterocarya rhoifolia,EXACT,ACCEPTED,Juglandaceae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Pterocereus gaumeri,10860674,Pachycereus gaumeri,EXACT,SYNONYM,Cactaceae,Succulent,3,,False,False,0,0,,,6,1,2,Unmanipulated
+Pterygophora californica,3196092,Pterygophora californica,EXACT,ACCEPTED,Alariaceae,Algae,0,,False,False,0,0,,,6,1,3,Unmanipulated
+Ptychosperma macarthurii,2733897,Ptychosperma macarthurii,EXACT,ACCEPTED,Arecaceae,Palm,10,,False,False,0,0,,,1,1,1,Unmanipulated
+Purshia subintegra,5370310,Purshia subintegra,EXACT,ACCEPTED,Rosaceae,Shrub,1,,False,False,0,0,,,17,1,3,Unmanipulated
+Pyrrocoma radiata,3134370,Pyrrocoma radiata,EXACT,ACCEPTED,Compositae,Herbaceous perennial,3,,False,False,0,0,,,147,2,17,Grazed|Unmanipulated
+Pyxidanthera brevifolia,2882392,Pyxidanthera brevifolia,EXACT,ACCEPTED,Diapensiaceae,Herbaceous perennial,1,,False,False,0,0,,,10,1,4,Burned
+Quararibea asterolepis,4073498,Quararibea asterolepis,EXACT,ACCEPTED,Malvaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Quercus mongolica subsp. crispula,6289828,Quercus mongolica,EXACT,SYNONYM,Fagaceae,Tree,15,,False,False,0,0,,,1,1,1,Unmanipulated
+Quercus rugosa,8386328,Quercus rugosa,EXACT,ACCEPTED,Fagaceae,Tree,20,quercus reticulata,True,True,1,1,USDA Duke ETHNOBOT,Coffee,1,1,1,Unmanipulated
+Ramonda myconi,5588846,Ramonda myconi,EXACT,ACCEPTED,Gesneriaceae,Herbaceous perennial,15,ramonda myconi,False,True,1,1,USDA Duke ETHNOBOT,Pectoral,19,1,6,Unmanipulated
+Ranunculus acris,3033363,Ranunculus acris,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,10,ranunculus acris,False,True,14,3,USDA Duke ETHNOBOT,Ague; Cancer; Hallucinogen; Sore; Wart; Counterirritant; Colic; Inflammation,2,1,1,Unmanipulated
+Ranunculus bulbosus,3033329,Ranunculus bulbosus,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,9,ranunculus bulbosus,False,True,3,1,USDA Duke ETHNOBOT,Cancer(Breast); Corn; Wart,2,1,1,Grazing; Thistle cutting; Manuring
+Ranunculus peltatus,8365713,Ranunculus peltatus,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,25,,False,False,0,0,,,6,1,1,Unmanipulated
+Ranunculus repens,3033339,Ranunculus repens,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,47,ranunculus repens,False,True,2,2,USDA Duke ETHNOBOT,Wart; Cyanogenetic,2,1,1,Grazing; Thistle cutting; Manuring
+Raphanus raphanistrum,3040983,Raphanus raphanistrum,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,21,raphanus raphanistrum,False,True,2,2,Herbolario (GBIF)|USDA Duke ETHNOBOT,Scurvy; Excretory; Diabetes,27,1,27,Plants protected from biotic and abiotic stress; pans watered every other day until August 31st; weeds were removed by hand; Insecticide was used to control insect herbivory three times during the first month after planting
+Ratibida columnifera,3087173,Ratibida columnifera,EXACT,ACCEPTED,Compositae,Herbaceous perennial,22,,False,False,0,0,,,30,1,1,Unmanipulated
+Rhinanthus minor,3172043,Rhinanthus minor,EXACT,ACCEPTED,Orobanchaceae,Annual,12,rhinanthus minor,False,True,1,1,USDA Duke ETHNOBOT,Vulnerary,4,1,0,GR: Grazed only |H1: Hay-cut once|H2: Hay-cut twice|HG: Hay-cut and grazed
+Rhizophora mangle,3086528,Rhizophora mangle,EXACT,ACCEPTED,Rhizophoraceae,Tree,2,rhizophora mangle,False,True,49,12,USDA Duke ETHNOBOT,Angina; Astringent; Boil; Dyspepsia; Elephantiasis; Emmenagogue; Enuresis; Evil eye,1,1,1,Unmanipulated
+Rhizophora mucronata,3086527,Rhizophora mucronata,EXACT,ACCEPTED,Rhizophoraceae,Tree,8,rhizophora mucronata,False,True,7,3,USDA Duke ETHNOBOT,Angina; Hematuria; Hemorrhage; Parturition; Astringent; Diabetes,1,1,1,Unmanipulated
+Rhododendron maximum,2883094,Rhododendron maximum,EXACT,ACCEPTED,Ericaceae,Shrub,13,rhododendron maximum,False,True,1,1,USDA Duke ETHNOBOT,Rheumatism,3,1,1,Unmanipulated
+Rhododendron ponticum,7327990,Rhododendron ponticum,EXACT,ACCEPTED,Ericaceae,Tree,6,rhododendron ponticum,False,True,7,2,USDA Duke ETHNOBOT,Gout; Intoxicant; Narcotic; Rheumatism; Hydrocoele,32,2,11,Unmanipulated
+Rhopalostylis sapida,8532149,Rhopalostylis sapida,EXACT,ACCEPTED,Arecaceae,Palm,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Rhus aromatica,3190558,Rhus aromatica,EXACT,ACCEPTED,Anacardiaceae,Shrub,27,rhus aromatica,False,True,15,2,USDA Duke ETHNOBOT,Antiseptic; Astringent; Bladder; Diabetes; Diarrhea; Diuretic; Dysentery; Enuresis,13,1,5,Unmanipulated
+Rhus copallinum,3190557,Rhus copallina,FUZZY,ACCEPTED,Anacardiaceae,Shrub,13,rhus copallina,True,True,3,2,USDA Duke ETHNOBOT,Tetters; Wart; Dysentery,12,1,4,Fine fuel removal|Pine needle addition|Unmanipulated|Wood addition
+Rodriguezia granadensis,5313664,Rodriguezia granadensis,EXACT,ACCEPTED,Orchidaceae,Epiphyte,2,,False,False,0,0,,,30,1,10,Unmanipulated
+Rorippa palustris,3053168,Rorippa palustris,EXACT,ACCEPTED,Brassicaceae,Herbaceous perennial,76,,False,False,0,0,,,8,1,1,Injured|Unmanipulated
+Rosa canina,3002461,Rosa canina,EXACT,ACCEPTED,Rosaceae,Shrub,582,rosa canina,False,True,19,7,USDA Duke ETHNOBOT,Astringent; Calculus; Cancer(Kidney); Diarrhea; Diuretic; Refrigerant; Scurvy; Tumor(Genital),1,1,1,Unmanipulated
+Rosa multiflora,3003244,Rosa multiflora,EXACT,ACCEPTED,Rosaceae,Shrub,58,rosa multiflora,False,True,21,5,USDA Duke ETHNOBOT,Anodyne; Astringent; Bactericide; Carminative; Cathartic; Diuretic; Polyuria; Purgative,1,1,1,Unmanipulated
+Rosmarinus tomentosus,10836683,Salvia granatensis,EXACT,SYNONYM,Lamiaceae,Shrub,2,,False,False,0,0,,,15,1,3,Unmanipulated
+Roupala montana,7831077,Roupala montana,EXACT,ACCEPTED,Proteaceae,Tree,51,roupala montana,False,True,1,1,USDA Duke ETHNOBOT,Nervine,3,1,1,1 year after burning|Burned|Unmanipulated
+Rourea induta,7326640,Rourea induta,EXACT,ACCEPTED,Connaraceae,Shrub,3,,False,False,0,0,,,3,1,1,Burned|Unmanipulated
+Rubus praecox,8019170,Rubus praecox,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,17,,False,False,0,0,,,4,1,3,Unmanipulated
+Rubus saxatilis,2992808,Rubus saxatilis,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,15,rubus saxatilis,False,True,1,1,USDA Duke ETHNOBOT,Cancer,9,1,3,Unmanipulated
+Rubus ursinus,2990646,Rubus ursinus,EXACT,ACCEPTED,Rosaceae,Herbaceous perennial,10,rubus ursinus,False,True,5,2,USDA Duke ETHNOBOT,Hemoptysis; Sore; Hematemesis; Swelling; Diarrhea,4,1,3,Unmanipulated
+Rumex obtusifolius,2889011,Rumex obtusifolius,EXACT,ACCEPTED,Polygonaceae,Herbaceous perennial,4,rumex obtusifolius,False,True,20,6,USDA Duke ETHNOBOT,Antidote(Nettle); Burn; Cancer; Depurative; Itch; Laxative; Poultice; Scald,3,1,3,Harvesting
+Rumex rupestris,4036610,Rumex rupestris,EXACT,ACCEPTED,Polygonaceae,Herbaceous perennial,1,,False,False,0,0,,,6,1,1,Unmanipulated
+Ruppia maritima,2864004,Ruppia maritima,EXACT,ACCEPTED,Ruppiaceae,Herbaceous perennial,43,ruppia maritima,False,True,2,1,USDA Duke ETHNOBOT,Vulnerary; Depurative,3,1,3,Unmanipulated
+Rutidosis leptorrhynchoides,4253866,Rutidosis leptorrhynchoides,EXACT,ACCEPTED,Asteraceae,Annual,0,,False,False,0,0,,,5,1,5,Unmanipulated
+Rytigynia kigeziensis,2904283,Rytigynia kigeziensis,EXACT,ACCEPTED,Rubiaceae,Shrub,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Sabal minor,2732511,Sabal minor,EXACT,ACCEPTED,Arecaceae,Palm,22,,False,False,0,0,,,3,1,3,Unmanipulated
+Sabal yapa,2732498,Sabal yapa,EXACT,ACCEPTED,Arecaceae,Palm,7,inodes japa,True,True,3,1,USDA Duke ETHNOBOT,Apertif; Nerves; Tonic,10,1,4,Harvested|Unmanipulated
+Salix arctica,5372665,Salix arctica,EXACT,ACCEPTED,Salicaceae,Shrub,6,,False,False,0,0,,,14,1,8,Grazed|Unmanipulated
+Salsola kali,3083957,Salsola kali,EXACT,ACCEPTED,Amaranthaceae,Annual,27,salsola kali,False,True,9,3,USDA Duke ETHNOBOT,Cathartic; Diuretic; Dropsy; Emmenagogue; Stimulant; Vermifuge; Excrescence,1,1,1,Unmanipulated
+Sambucus sieboldiana,6369731,Sambucus sieboldiana,EXACT,ACCEPTED,Adoxaceae,Shrub,14,sambucus sieboldiana,False,True,5,2,USDA Duke ETHNOBOT,Antiphlogistic; Diuretic; Fracture; Bruise,4,1,4,Dynamic-canopied|Gap|Shaded|Shaded; Gap
+Sanicula europaea,6027128,Sanicula europaea,EXACT,ACCEPTED,Apiaceae,Herbaceous perennial,11,sanicula europaea,False,True,21,4,USDA Duke ETHNOBOT,Alterative; Antiseptic; Astringent; Hemostat; Leucorrhea; Lung; Menorrhagia; Pectoral,4,1,1,Conspecifc|Conspecific & Heterospecifc |Heterospecifc|Unmanipulated
+Santolina melidensis,3125950,Santolina melidensis,EXACT,ACCEPTED,Compositae,Herbaceous perennial,2,,False,False,0,0,,,6,1,1,Unmanipulated
+Sapium sebiferum,3054399,Triadica sebifera,EXACT,SYNONYM,Euphorbiaceae,Tree,19,sapium sebiferum|stillingia sebifera,False,True,30,5,USDA Duke ETHNOBOT,Antidote; Bite(Snake); Diuretic; Edema; Emetic; Hydrogogue; Laxative; Purgative,21,1,6,Clearcutting|Unmanipulated
+Saponaria bellidifolia,3812815,Saponaria bellidifolia,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,1,,False,False,0,0,,,19,1,5,Unmanipulated
+Sarcocapnos baetica,7314901,Sarcocapnos baetica,EXACT,ACCEPTED,Papaveraceae,Herbaceous perennial,1,,False,False,0,0,,,3,1,1,Unmanipulated
+Sarcocapnos enneaphylla,7314894,Sarcocapnos enneaphylla,EXACT,ACCEPTED,Papaveraceae,Herbaceous perennial,0,,False,False,0,0,,,7,1,3,Unmanipulated
+Sarcocapnos pulcherrima,3601748,Sarcocapnos pulcherrima,EXACT,ACCEPTED,Papaveraceae,Herbaceous perennial,0,,False,False,0,0,,,7,1,3,Unmanipulated
+Sargassum siliquosum,3196989,Sargassum siliquosum,EXACT,ACCEPTED,Sargassaceae,Algae,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Sarracenia alata,5421377,Sarracenia alata,EXACT,ACCEPTED,Sarraceniaceae,Herbaceous perennial,12,,False,False,0,0,,,2,1,1,Fire|Unmanipulated
+Sarracenia purpurea,5421389,Sarracenia purpurea,EXACT,ACCEPTED,Sarraceniaceae,Herbaceous perennial,6,sarracenia purpurea,False,True,14,1,USDA Duke ETHNOBOT,Alterative; Diuretic; Laxative; Preventitive; Stimulant; Stomachic; Tonic,8,2,4,20 % harvesting|50 % harvesting|80 % harvesting|Unmanipulated
+Saussurea medusa,5404320,Saussurea medusa,EXACT,ACCEPTED,Compositae,Herbaceous perennial,6,,False,False,0,0,,,5,1,1,Unmanipulated
+Saxifraga aizoides,8165236,Saxifraga aizoides,EXACT,ACCEPTED,Saxifragaceae,Herbaceous perennial,22,,False,False,0,0,,,7,1,3,Unmanipulated
+Saxifraga cotyledon,3753330,Saxifraga cotyledon,EXACT,ACCEPTED,Saxifragaceae,Herbaceous perennial,15,,False,False,0,0,,,11,1,3,Unmanipulated
+Saxifraga tridactylites,3032833,Saxifraga tridactylites,EXACT,ACCEPTED,Saxifragaceae,Annual,27,saxifraga tridactylites,False,True,1,1,USDA Duke ETHNOBOT,Whitlow,16,1,6,Unmanipulated
+Scabiosa columbaria,2888802,Scabiosa columbaria,EXACT,ACCEPTED,Caprifoliaceae,Herbaceous perennial,12,scabiosa columbaria,False,True,5,2,USDA Duke ETHNOBOT,Cancer; Dysmenorrhea; Intestine; Parturition; Colic,1,1,1,Unmanipulated
+Scaphium macropodum,5546217,Scaphium macropodum,EXACT,ACCEPTED,Malvaceae,Tree,7,scaphium macropodum,False,True,4,1,USDA Duke ETHNOBOT,Cough; Fever; Sprue; Stomachic,13,2,7,Unmanipulated
+Schizachyrium brevifolium,8303121,Schizachyrium brevifolium,EXACT,ACCEPTED,Poaceae,Annual,25,,False,False,0,0,,,2,1,2,Burned|Unmanipulated
+Schizachyrium sanguineum,2704446,Schizachyrium sanguineum,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,70,,False,False,0,0,,,2,1,1,Annual burning|Fire protected 1 year
+Sclerocarya birrea,7160810,Sclerocarya birrea,EXACT,ACCEPTED,Anacardiaceae,Tree,1,sclerocarya birrea,False,True,5,2,USDA Duke ETHNOBOT,Dysentery; Eruption; Intoxicant; Skin,1,1,1,Harvested
+Scorzonera hispanica,10769750,Pseudopodospermum hispanicum,EXACT,SYNONYM,Compositae,Herbaceous perennial,30,scorzonera hispanica,False,True,15,3,USDA Duke ETHNOBOT,Apertif; Coffee; Diuretic; Fever; Pectoral; Stomachic; Sudorific; Calmative,1,1,1,Unmanipulated
+Scorzonera humilis,3111049,Scorzonera humilis,EXACT,ACCEPTED,Compositae,Herbaceous perennial,37,,False,False,0,0,,,6,1,6,Mowing
+Senecio filaginoides,3108649,Senecio filaginoides,EXACT,ACCEPTED,Compositae,Shrub,15,,False,False,0,0,,,2,1,1,Grazing|Unmanipulated
+Sequoia sempervirens,2683909,Sequoia sempervirens,EXACT,ACCEPTED,Cupressaceae,Tree,14,,False,False,0,0,,,2,2,1,Unmanipulated
+Serapias cordigera,5314725,Serapias cordigera,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,23,,False,False,0,0,,,78,1,6,"Unmanipulated|Unmanipulated, anthropic"
+Setaria faberi,5289666,Setaria faberi,EXACT,ACCEPTED,Poaceae,Annual,2,,False,False,0,0,,,24,1,3,R (wheat/red clocer crop mixture)|W (wheat sole-crop)
+Setaria incrassata,5673948,Setaria incrassata,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,39,,False,False,0,0,,,16,1,2,Heavily grazed|Lightly grazed
+Shorea acuminata,4096530,Shorea acuminata,EXACT,ACCEPTED,Dipterocarpaceae,Tree,0,,False,False,0,0,,,3,1,3,Unmanipulated
+Shorea bracteolata,12210805,Anthoshorea bracteolata,EXACT,SYNONYM,Dipterocarpaceae,Tree,2,,False,False,0,0,,,3,1,3,Unmanipulated
+Shorea leprosula,4097193,Shorea leprosula,EXACT,ACCEPTED,Dipterocarpaceae,Tree,3,shorea leprosula,False,True,2,2,USDA Duke ETHNOBOT,Medicine; Tonic,7,2,4,Unmanipulated
+Shorea maxwelliana,4096877,Shorea maxwelliana,EXACT,ACCEPTED,Dipterocarpaceae,Tree,3,,False,False,0,0,,,3,1,3,Unmanipulated
+Shorea ovalis,4096486,Shorea ovalis,EXACT,ACCEPTED,Dipterocarpaceae,Tree,1,,False,False,0,0,,,3,1,3,Unmanipulated
+Silene Ciliata,11783268,Silene spec,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,0,,False,False,0,0,,,7,1,3,Unmanipulated
+Silene acaulis,5384754,Silene acaulis,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,5,,False,False,0,0,,,32,2,7,Alpine fell field with small scale ice wedging and freeze-thaw soil movements|Unmanipulated
+Silene douglasii var. oraria,5588502,Silene douglasii,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,1,,False,False,0,0,,,3,1,3,Unmanipulated
+Silene regia,5384746,Silene regia,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Silene spaldingii,5384775,Silene spaldingii,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,0,,False,False,0,0,,,15,2,3,Unmanipulated
+Silene tatarica,5588145,Silene tatarica,EXACT,ACCEPTED,Caryophyllaceae,Herbaceous perennial,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Simarouba amara,7720664,Simarouba amara,EXACT,ACCEPTED,Simaroubaceae,Tree,12,,False,False,0,0,,,1,1,1,Unmanipulated
+Solidago altissima,5389058,Solidago altissima,EXACT,ACCEPTED,Compositae,Herbaceous perennial,15,,False,False,0,0,,,3,1,1,Unmanipulated
+Solidago mollis,8214219,Solidago mollis,EXACT,ACCEPTED,Compositae,Herbaceous perennial,6,,False,False,0,0,,,31,1,1,Unmanipulated
+Sonchus pustulatus,3105824,Sonchus pustulatus,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Spartina alterniflora,9394776,Sporobolus alterniflorus,EXACT,SYNONYM,Poaceae,Herbaceous perennial,26,,False,False,0,0,,,1,1,1,Unmanipulated
+Spathoglottis plicata,2816456,Spathoglottis plicata,EXACT,ACCEPTED,Orchidaceae,Herbaceous perennial,19,spathoglottis plicata,False,True,5,3,Herbolario (GBIF)|USDA Duke ETHNOBOT,Anodyne; Arthritis; Rheumatism; Reproductive; Postpartum care and recovery,4,1,1,Unmanipulated
+Sphaeralcea coccinea,3152438,Sphaeralcea coccinea,EXACT,ACCEPTED,Malvaceae,Herbaceous perennial,15,sphaeralcea coccinea,False,True,4,1,USDA Duke ETHNOBOT,Sore; Wound; Salve; Burn,36,1,1,Unmanipulated
+Sporobolus heterolepis,2704766,Sporobolus heterolepis,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,2,,False,False,0,0,,,6,1,2,Nitrogen|Unmanipulated
+Stachyurus macrocarpus,3701704,Stachyurus praecox,EXACT,SYNONYM,Stachyuraceae,Shrub,4,,False,False,0,0,,,1,1,1,
+Stenaria nigricans,2909424,Stenaria nigricans,EXACT,ACCEPTED,Rubiaceae,Herbaceous perennial,4,,False,False,0,0,,,30,1,1,Unmanipulated
+Stenocactus crispatus,3941347,Stenocactus crispatus,EXACT,ACCEPTED,Cactaceae,Succulent,83,,False,False,0,0,,,1,1,1,Unmanipulated
+Stenocereus eruca,3960636,Stenocereus eruca,EXACT,ACCEPTED,Cactaceae,Succulent,4,,False,False,0,0,,,20,1,4,Unmanipulated
+Stipa aristiglumis,4105661,Austrostipa aristiglumis,EXACT,SYNONYM,Poaceae,Herbaceous perennial,2,,False,False,0,0,,,6,1,6,Unmanipulated
+Stipa calamagrostis,4142326,Achnatherum calamagrostis,EXACT,SYNONYM,Poaceae,Herbaceous perennial,40,,False,False,0,0,,,4,1,2,Unmanipulated
+Stryphnodendron microstachyum,2951716,Stryphnodendron microstachyum,EXACT,ACCEPTED,Leguminosae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Styrax obassis,5541162,Styrax obassia,EXACT,SYNONYM,Styracaceae,Tree,2,,False,False,0,0,,,11,1,11,Unmanipulated
+Succisa pratensis,2888811,Succisa pratensis,EXACT,ACCEPTED,Caprifoliaceae,Herbaceous perennial,83,scabiosa succisa|succisa pratensis,False,True,15,4,USDA Duke ETHNOBOT,Demulcent; Depurative; Diaphoretic; Expectorant; Fever; Pectoral; Sudorific; Tumor(Throat),63,3,17,Grazed|Mowing|Mown|Raking|Raking and Mowing|Raking and Mown|Unmanipulated
+Swallenia alexandrae,2702720,Swallenia alexandrae,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Swartzia simplex,5352047,Swartzia simplex,EXACT,ACCEPTED,Fabaceae,Tree,39,,False,False,0,0,,,1,1,1,Unmanipulated
+Swietenia macrophylla,3190484,Swietenia macrophylla,EXACT,ACCEPTED,Meliaceae,Tree,6,swietenia macrophylla,False,True,37,10,Herbolario (GBIF)|USDA Duke ETHNOBOT,Alopecia; Astringent; Chest; Febrifuge; Fever; Neurosis; Styptic; Tonic,4,1,1,Intensive silviculture|Light silviculture|Normal logging|Unmanipulated
+Syngonanthus nitens,2689651,Syngonanthus nitens,EXACT,ACCEPTED,Eriocaulaceae,Herbaceous perennial,13,,False,False,0,0,,,60,1,9,Burned|Early harvest at 40% level year 2|Early harvest at 40% level year 3|Early harvest at 5% level year 2|Early harvest at 5% level year 3|Late harvest - harvest year 1|Late harvest - harvest year 2|Late harvest - harvest year 3|Unmanipulated
+Syzygium jambos,3183534,Syzygium jambos,EXACT,ACCEPTED,Myrtaceae,Tree,21,syzygium jambos,False,True,5,4,USDA Duke ETHNOBOT,Epilepsy; Eye; Narcotic; Diabetes; Ache(Head),1,1,1,Unmanipulated
+Tabernaemontana arborea,3618940,Tabernaemontana arborea,EXACT,ACCEPTED,Apocynaceae,Tree,4,,False,False,0,0,,,1,1,1,Unmanipulated
+Tachigali vasquezii,3932197,Tachigali setifera,EXACT,SYNONYM,Leguminosae,Tree,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Taraxacum campylodes,5394016,Taraxacum campylodes,EXACT,ACCEPTED,Compositae,Herbaceous perennial,7,,False,False,0,0,,,5,2,5,Unmanipulated
+Taraxacum erythrospermum,5393872,Taraxacum erythrospermum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,21,,False,False,0,0,,,1,1,1,Unmanipulated
+Taxus brevifolia,5284555,Taxus brevifolia,EXACT,ACCEPTED,Taxaceae,Tree,8,taxus brevifolia,False,True,3,2,USDA Duke ETHNOBOT,Depilatory; Emmenagogue; Fumitory,1,1,1,Unmanipulated
+Taxus floridana,5284513,Taxus floridana,EXACT,ACCEPTED,Taxaceae,Tree,3,,False,False,0,0,,,16,1,4,Unmanipulated
+Telipogon helleri,2790841,Telipogon helleri,EXACT,ACCEPTED,Orchidaceae,Epiphyte,2,,False,False,0,0,,,1,1,1,Unmanipulated
+Tetraberlinia bifoliolata,2952752,Tetraberlinia bifoliolata,EXACT,ACCEPTED,Leguminosae,Tree,3,,False,False,0,0,,,2,1,1,Exclosure of small mammals|Unmanipulated
+Tetragastris panamensis,7286863,Tetragastris panamensis,EXACT,ACCEPTED,Burseraceae,Tree,9,,False,False,0,0,,,1,1,1,Unmanipulated
+Tetramolopium arenarium,3122303,Tetramolopium arenarium,EXACT,ACCEPTED,Compositae,Shrub,1,,False,False,0,0,,,3,1,1,Unmanipulated
+Tetraneuris herbacea,3112429,Tetraneuris herbacea,EXACT,ACCEPTED,Compositae,Herbaceous perennial,4,,False,False,0,0,,,3,1,3,Unmanipulated
+Thelesperma megapotamicum,8209518,Thelesperma megapotamicum,EXACT,ACCEPTED,Compositae,Herbaceous perennial,8,,False,False,0,0,,,30,1,1,Unmanipulated
+Themeda triandra,2703467,Themeda triandra,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,71,themeda triandra,False,True,1,1,USDA Duke ETHNOBOT,Cyanogenetic,16,1,2,Heavily grazed|Lightly grazed; Survival higher than one: maybe asexual reproduction included in matrix but unsure
+Thlaspi perfoliatum,7639623,Noccaea perfoliata,EXACT,SYNONYM,Brassicaceae,Annual,41,,False,False,0,0,,,2,1,1,Competitor Removal|Unmanipulated
+Thrinax radiata,6109608,Thrinax radiata,EXACT,ACCEPTED,Arecaceae,Palm,16,thrinax wendlandiana,True,True,8,1,USDA Duke ETHNOBOT,Dyspepsia; Lactogogue; Lung; Tonic; Bronchitis; Phthisis; Aphrodisiac; Sedative,4,1,4,Unmanipulated
+Thymus vulgaris,5341442,Thymus vulgaris,EXACT,ACCEPTED,Lamiaceae,Herbaceous perennial,2,thymus vulgaris,False,True,48,11,USDA Duke ETHNOBOT,Antiseptic; Antitussive; Bronchitis; Cancer; Carminative; Colic; Demulcent; Diaphoretic,7,1,3,Unmanipulated
+Tillandsia brachycaulos,2695328,Tillandsia brachycaulos,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,4,,False,False,0,0,,,4,1,1,Unmanipulated
+Tillandsia butzii,2695501,Tillandsia butzii,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Tillandsia deppeana,2694922,Tillandsia deppeana,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,4,,False,False,0,0,,,3,1,1,Unmanipulated
+Tillandsia flexuosa,2695344,Tillandsia flexuosa,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,9,,False,False,0,0,,,1,1,1,Electric cable
+Tillandsia juncea,2695675,Tillandsia juncea,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,6,,False,False,0,0,,,4,1,1,Unmanipulated
+Tillandsia multicaulis,2694501,Tillandsia multicaulis,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,4,,False,False,0,0,,,6,2,2,Unmanipulated
+Tillandsia punctulata,2695302,Tillandsia punctulata,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,1,,False,False,0,0,,,6,2,2,Unmanipulated
+Tillandsia recurvata,2695588,Tillandsia recurvata,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,13,,False,False,0,0,,,28,1,10,Unmanipulated
+Tillandsia violacea,2695257,Tillandsia violacea,EXACT,ACCEPTED,Bromeliaceae,Epiphyte,2,,False,False,0,0,,,4,1,1,Unmanipulated
+Tolumnia variegata,5308211,Tolumnia variegata,EXACT,ACCEPTED,Orchidaceae,Epiphyte,22,,False,False,0,0,,,4,1,1,High pollination|Intermediate pollination|Unmanipulated
+Torreya taxifolia,5284481,Torreya taxifolia,EXACT,ACCEPTED,Taxaceae,Tree,6,,False,False,0,0,,,1,1,1,Unmanipulated
+Tradescantia brevifolia,2765347,Tradescantia brevifolia,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,7,,False,False,0,0,,,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Tradescantia cerinthoides,2765318,Tradescantia cerinthoides,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,3,,False,False,0,0,,,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Tradescantia fluminensis,2765156,Tradescantia fluminensis,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,8,,False,False,0,0,,,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Tradescantia zebrina,2765359,Tradescantia zebrina,EXACT,ACCEPTED,Commelinaceae,Herbaceous perennial,7,zebrina pendula,True,True,1,1,USDA Duke ETHNOBOT,Corn,4,1,1,"High nutrients, high water|High nutrients, low water|Low nutrients, hgh water|Unmanipulated"
+Tragopogon dubius,6443709,Tragopogon dubius,EXACT,ACCEPTED,Compositae,Herbaceous perennial,4,,False,False,0,0,,,9,1,1,Shelter|Shrub removal|Unmanipulated
+Tragopogon orientalis,5386903,Tragopogon orientalis,EXACT,ACCEPTED,Asteraceae,Herbaceous perennial,4,,False,False,0,0,,,12,1,4,Grazed|Mown
+Tragopogon pratensis,5386897,Tragopogon pratensis,EXACT,ACCEPTED,Compositae,Herbaceous perennial,18,tragopogon pratensis,False,True,11,3,USDA Duke ETHNOBOT,Cold; Emollient; Lithontriptic; Resolvent; Stomach; Sudorific; Tumor; Bile,12,2,4,Grazed|Mown|Mown and grazing|Unmanipulated
+Trichilia tuberculata,3850448,Trichilia tuberculata,EXACT,ACCEPTED,Meliaceae,Tree,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Trifolium dasyphyllum,5358964,Trifolium dasyphyllum,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Pollinatior density
+Trifolium montanum,5359047,Trifolium montanum,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Mostly grazed
+Trifolium parryi,5359289,Trifolium parryi,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,0,,False,False,0,0,,,1,1,1,Pollinatior density
+Trifolium pratense,8324121,Trifolium pratense,EXACT,ACCEPTED,Leguminosae,Herbaceous perennial,17,trifolium pratense,False,True,39,10,USDA Duke ETHNOBOT,Alterative; Bronchitis; Burn; Cancer; Catarrh; Corn; Cough; Expectorant,2,1,1,Competition (C)|Competition-free (NC)
+Trillium apetalon,2742312,Trillium apetalon,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Trillium camschatcense,2742392,Trillium camschatcense,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,9,,False,False,0,0,,,1,1,1,Unmanipulated
+Trillium grandiflorum,2742283,Trillium grandiflorum,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,10,trillium grandiflorum,False,True,1,1,USDA Duke ETHNOBOT,Tumor,146,4,37,Grazed by white-tailed deer|Herbivory|Herbivory; Unmanipulated|Unmanipulated
+Trillium ovatum,2742413,Trillium ovatum,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,0,,False,False,0,0,,,27,1,4,Unmanipulated
+Trillium persistens,2742276,Trillium persistens,EXACT,ACCEPTED,Melanthiaceae,Herbaceous perennial,0,,False,False,0,0,,,22,1,13,Burned|Unmanipulated
+Trollius europaeus,3033289,Trollius europaeus,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,27,,False,False,0,0,,,48,1,15,Unmanipulated
+Trollius laxus,3033292,Trollius laxus,EXACT,ACCEPTED,Ranunculaceae,Herbaceous perennial,0,,False,False,0,0,,,26,2,17,Experimental gaps|Unmanipulated
+Tsuga canadensis,2687182,Tsuga canadensis,EXACT,ACCEPTED,Pinaceae,Tree,44,tsuga americana|tsuga canadensis,False,True,14,7,USDA Duke ETHNOBOT,Astringent; Cough; Diaphoretic; Flu; Medicine; Scurvy; Sore; Sudorific,6,1,1,Unmanipulated
+Ulex gallii,2951998,Ulex gallii,EXACT,ACCEPTED,Leguminosae,Shrub,11,,False,False,0,0,,,3,1,2,Unmanipulated
+Ulex minor,2951968,Ulex minor,EXACT,ACCEPTED,Leguminosae,Shrub,13,,False,False,0,0,,,3,1,2,Unmanipulated
+Unonopsis pittieri,3157769,Unonopsis pittieri,EXACT,ACCEPTED,Annonaceae,Tree,1,,False,False,0,0,,,1,1,1,Unmanipulated
+Vatica mangachapoi,7299081,Vatica mangachapoi,EXACT,ACCEPTED,Dipterocarpaceae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Vella pseudocytisus subsp. paui,5375674,Vella pseudocytisus,EXACT,ACCEPTED,Brassicaceae,Shrub,3,,False,False,0,0,,,31,2,8,Unmanipulated
+Vellozia sinconara,2863541,Vellozia sincorana,FUZZY,ACCEPTED,Velloziaceae,Shrub,0,,False,False,0,0,,,8,1,8,No Fire|Recent Fire
+Verbascum fontqueri,3739620,Verbascum fontqueri,EXACT,ACCEPTED,Scrophulariaceae,Herbaceous perennial,2,,False,False,0,0,,,10,1,4,Unmanipulated
+Verbascum thapsus,3171949,Verbascum thapsus,EXACT,ACCEPTED,Scropulariaceae,Herbaceous perennial,10,verbascum thapsus,False,True,70,12,USDA Duke ETHNOBOT,Ache(Ear); Alterative; Anodyne; Aphrodisiac; Asthma; Baldness; Bruise; Catarrh,2,1,1,Competitor Removal|Unmanipulated
+Veronica arvensis,3172048,Veronica arvensis,EXACT,ACCEPTED,Plantaginaceae,Annual,41,veronica arvensis,False,True,14,3,USDA Duke ETHNOBOT,Bladder; Diaphoretic; Diuretic; Expectorant; Hemoptysis; Scrofula; Scurvy; Skin,17,2,7,Unmanipulated
+Verticordia fimbrilepis,5420140,Verticordia fimbrilepis,EXACT,ACCEPTED,Myrtaceae,Shrub,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Verticordia staminosa,5420242,Verticordia staminosa,EXACT,ACCEPTED,Myrtaceae,Shrub,0,,False,False,0,0,,,5,1,1,Unmanipulated
+Viburnum furcatum,7272764,Viburnum furcatum,EXACT,ACCEPTED,Adoxaceae,Shrub,2,,False,False,0,0,,,2,1,1,Unmanipulated
+Vincetoxicum nigrum,5414551,Vincetoxicum nigrum,EXACT,ACCEPTED,Apocynaceae,Herbaceous perennial,21,,False,False,0,0,,,10,1,2,Unmanipulated
+Vincetoxicum rossicum,5414550,Vincetoxicum rossicum,EXACT,ACCEPTED,Apocynaceae,Herbaceous perennial,10,,False,False,0,0,,,20,1,4,Unmanipulated
+Viola biflora,5331325,Viola biflora,EXACT,ACCEPTED,Violaceae,Herbaceous perennial,24,viola biflora,False,True,7,1,USDA Duke ETHNOBOT,Antiseptic; Diaphoretic; Emollient; Expectorant; Laxative; Emetic; Pectoral,18,1,3,Grazing|Unmanipulated
+Viola elatior,7707374,Viola elatior,EXACT,ACCEPTED,Violaceae,Herbaceous perennial,19,,False,False,0,0,,,2,1,2,Unmanipulated
+Viola persicifolia,5664390,Viola stagnina,EXACT,SYNONYM,Violaceae,Herbaceous perennial,32,,False,False,0,0,,,2,1,2,Mowing
+Viola pumila,7499288,Viola pumila,EXACT,ACCEPTED,Violaceae,Herbaceous perennial,17,,False,False,0,0,,,2,1,2,Unmanipulated
+Viola sagittata var. ovata,6397021,Viola fimbriatula,EXACT,SYNONYM,Violaceae,Herbaceous perennial,8,,False,False,0,0,,,1,1,1,Unmanipulated
+Virola sebifera,3152846,Virola sebifera,EXACT,ACCEPTED,Myristicaceae,Tree,19,virola sebifera|virola venezuelensis,False,True,3,2,USDA Duke ETHNOBOT,Fever; Fumitory; Rheumatism,1,1,1,Unmanipulated
+Virola surinamensis,3152848,Virola surinamensis,EXACT,ACCEPTED,Myristicaceae,Tree,14,virola surinamensis,False,True,1,1,USDA Duke ETHNOBOT,Rheumatism,1,1,1,Unmanipulated
+Vitaliana primuliflora,7290834,Androsace vitaliana,EXACT,SYNONYM,Primulaceae,Herbaceous perennial,11,,False,False,0,0,,,3,1,1,Unmanipulated
+Vochysia ferruginea,7378543,Vochysia ferruginea,EXACT,ACCEPTED,Vochysiaceae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Vouacapoua americana,2940383,Vouacapoua americana,EXACT,ACCEPTED,Leguminosae,Tree,3,,False,False,0,0,,,1,1,1,Unmanipulated
+Vriesea sanguinolenta,2700541,Werauhia sanguinolenta,EXACT,SYNONYM,Bromeliaceae,Epiphyte,5,,False,False,0,0,,,5,1,4,Unmanipulated
+Vulpicida pinastri,2605831,Vulpicida pinastri,EXACT,ACCEPTED,Parmeliaceae,Lichen,20,,False,False,0,0,,,6,1,1,Unmanipulated
+Zamia amblyphyllidia,5284054,Zamia erosa,EXACT,SYNONYM,Zamiaceae,Palm,1,,False,False,0,0,,,3,1,1,Unmanipulated
+Zamia inermis,5284044,Zamia inermis,EXACT,ACCEPTED,Zamiaceae,Palm,0,,False,False,0,0,,,1,1,1,Unmanipulated
+Zea diploperennis,5290048,Zea diploperennis,EXACT,ACCEPTED,Poaceae,Herbaceous perennial,1,,False,False,0,0,,,15,1,3,"Unmanipulated|slashed secondary vegetation in 1991 (without burning), slash-and-burn secondary vegetation in 1993|slashed secondary vegetation in 1991 and 1993"
+Ziziphus jujuba,3039423,Ziziphus jujuba,EXACT,ACCEPTED,Rhamnaceae,Tree,34,ziziphus jujuba|ziziphus sativa|ziziphus vulgaris,False,True,97,17,Herbolario (GBIF)|USDA Duke ETHNOBOT,Ague; Anodyne; Antidote; Antidote(Aconite); Antidote(Scorpion); Anxiety; Apprehension; Bronchitis,4,1,4,Unmanipulated
+syagrus Syagrus Coronata,6,Plantae,HIGHERRANK,ACCEPTED,Arecaceae,Palm,0,,False,False,0,0,,,2,1,1,Natural Conditions|Pasture
+trichocentrum undulatum,2846404,Trichocentrum undulatum,EXACT,ACCEPTED,Orchidaceae,Epiphyte,8,,False,False,0,0,,,15,1,5,Core|Peripheral

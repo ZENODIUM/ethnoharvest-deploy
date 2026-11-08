@@ -1,0 +1,1 @@
+{"status": "ok", "compadre_version": "6.26.3.0", "matrices": 9178, "providers": {"jev": false, "groq": false, "gemini": false, "tavily": false, "speciesplus": false, "cesium": false, "firms": false, "groq_model": ""}, "medicinal_taxa": 201, "rule_version": "eligibility-1.0", "mode": "static-snapshot"}

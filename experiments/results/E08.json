@@ -1,0 +1,46 @@
+{
+ "id": "E08",
+ "title": "PhenObs: is peak flowering of medicinal species predictable across gardens (monitoring calendar)?",
+ "question": "For medicinal species monitored in >=3 botanical gardens, how much of peak-flowering-day variance is species identity vs garden vs year, and does a species-mean model beat a grand-mean baseline in leave-one-garden-out prediction?",
+ "hypothesis": "Species explains most variance; species-mean beats grand mean (lower MAE); adding a garden offset improves further. Gardens are not wild populations.",
+ "data": "PhenObs 2019-2023 Phenology_stages (Zenodo 15411418)",
+ "method": "variance components via OLS sums of squares; leave-one-garden-out CV",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "validated within scope",
+ "finding": "Species identity explains 79% of peak-flowering variance (garden 4%, year 0.4%). Leave-one-garden-out MAE: grand mean 35.5 d, species mean 15.4 d, +garden offset 14.1 d. Published C-score/intensity link: rho=0.14, p=0.025 (weak, same direction). Garden plants, not wild populations: monitoring-window suggestion only.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:51+00:00",
+ "runtime_s": 1.2,
+ "command": "python -m backend.ethnoharvest.experiments E08",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E08.json",
+ "result": {
+  "n_medicinal_species": 128,
+  "n_gardens": 17,
+  "n_records": 2434,
+  "variance_share_FlPeak": {
+   "C(Species)": 0.786,
+   "C(Botanic_Garden)": 0.045,
+   "C(Year)": 0.004,
+   "Residual": 0.165
+  },
+  "loo_garden_mae_days": {
+   "grand_mean": 35.521163499812566,
+   "species_mean": 15.354086702318073,
+   "species_plus_garden": 14.065341166500245
+  },
+  "published_relation_check": {
+   "description": "competitive ability (CSR C-score) vs mean maximum flowering intensity, all species",
+   "n_species": 260,
+   "spearman_rho": 0.13899551707249913,
+   "p": 0.02500490736041347
+  }
+ }
+}

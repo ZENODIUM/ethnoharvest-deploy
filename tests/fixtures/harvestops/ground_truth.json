@@ -1,0 +1,820 @@
+{
+  "generator": "scripts/generate_demo_documents.py",
+  "seed": 20261107,
+  "watermark": "SYNTHETIC DEMO — NOT VALID FOR HARVEST, TRADE, LABORATORY OR REGULATORY USE",
+  "packets": [
+    {
+      "id": "P01-consistent",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [],
+      "story": "Everything agrees: species, part, area, dates inside the authorisation window, quantities within the authorised amount, and the drying mass balance closes.",
+      "documents": [
+        {
+          "file": "plan.pdf",
+          "kind": "collection_plan",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-PLAN-101",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "area": "Block A",
+            "planned_quantity": "80 kg fresh",
+            "collection_date": "2026-09-10",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-101",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "authorised_quantity": "100 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "id-sheet.pdf",
+          "kind": "id_sheet",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-ID-101",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "voucher_id": "SYN-V-101",
+            "identified_by": "Botanist Eta (fictional)"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-101",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "80 kg fresh",
+            "lot_code": "JAT-F1"
+          }
+        },
+        {
+          "file": "drying-log.pdf",
+          "kind": "drying_log",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-DRY-101",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "input_lot": "JAT-F1",
+            "output_lot": "JAT-D1",
+            "fresh_input": "80 kg",
+            "dry_output": "21 kg",
+            "moisture_loss": "56 kg",
+            "rejected": "2 kg",
+            "waste": "1 kg"
+          }
+        },
+        {
+          "file": "batch.pdf",
+          "kind": "batch_statement",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-BATCH-101",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "lot_code": "JAT-D1",
+            "quantity": "21 kg dry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P02-expired-authorisation",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "date_outside_authorisation"
+      ],
+      "story": "Collection on 12 Sep 2026 (written day-first) happened after the authorisation expired on 30 Jun 2026.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-102",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "authorised_quantity": "100 kg fresh",
+            "valid_from": "2025-07-01",
+            "valid_until": "2026-06-30",
+            "area": "Block A",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-102",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "12/09/2026",
+            "collector": "Collector A (fictional)",
+            "quantity": "80 kg fresh",
+            "lot_code": "JAT-F2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P03-synonym-and-wrong-species",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "species_synonym",
+        "species_mismatch"
+      ],
+      "story": "The authorisation uses the synonym Nardostachys grandiflora (fine, flagged for information); the weigh-in names a different plant, Valeriana jatamansi.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-103",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Nardostachys grandiflora",
+            "organ": "rhizome",
+            "authorised_quantity": "100 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-103",
+            "species": "Valeriana jatamansi",
+            "organ": "rhizome",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "80 kg fresh",
+            "lot_code": "JAT-F3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P04-wrong-organ",
+      "passport": {
+        "species": "Prunus africana",
+        "organ": "bark",
+        "jurisdiction": "Cameroon"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "organ_mismatch"
+      ],
+      "story": "Leaves are authorised but bark was collected.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-104",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Prunus africana",
+            "organ": "leaves",
+            "authorised_quantity": "300 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Cameroon"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-104",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "120 kg fresh",
+            "lot_code": "PRU-F4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P05-over-authorised-quantity",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "quantity_exceeds_authorised"
+      ],
+      "story": "Two slips (one in grams) add up to 62 kg against 50 kg authorised.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-105",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "authorised_quantity": "50 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "weigh-in-1.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-1051",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "38 kg fresh",
+            "lot_code": "JAT-F5"
+          }
+        },
+        {
+          "file": "weigh-in-2.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-1052",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "13 Sep 2026",
+            "collector": "Collector B (fictional)",
+            "quantity": "24000 g fresh",
+            "lot_code": "JAT-F5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P06-area-mismatch",
+      "passport": {
+        "species": "Boswellia papyrifera",
+        "organ": "resin",
+        "jurisdiction": "Ethiopia"
+      },
+      "cites_listed": false,
+      "expected_rules": [
+        "area_mismatch"
+      ],
+      "story": "The plan targets Block C; the authorisation covers Block A.",
+      "documents": [
+        {
+          "file": "plan.pdf",
+          "kind": "collection_plan",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-PLAN-106",
+            "issuer": "Lowland Resin Group Gamma",
+            "species": "Boswellia papyrifera",
+            "organ": "resin",
+            "area": "Block C",
+            "planned_quantity": "20 kg fresh",
+            "collection_date": "2026-09-10",
+            "jurisdiction": "Ethiopia"
+          }
+        },
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-106",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Boswellia papyrifera",
+            "organ": "resin",
+            "authorised_quantity": "40 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Ethiopia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P07-batch-id-mismatch",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "lot_not_traceable"
+      ],
+      "story": "The batch statement refers to lot JAT-D9, which no collection or drying record produced.",
+      "documents": [
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-107",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "80 kg fresh",
+            "lot_code": "JAT-F7"
+          }
+        },
+        {
+          "file": "drying-log.pdf",
+          "kind": "drying_log",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-DRY-107",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "input_lot": "JAT-F7",
+            "output_lot": "JAT-D7",
+            "fresh_input": "80 kg",
+            "dry_output": "21 kg",
+            "moisture_loss": "56 kg",
+            "rejected": "2 kg",
+            "waste": "1 kg"
+          }
+        },
+        {
+          "file": "batch.pdf",
+          "kind": "batch_statement",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-BATCH-107",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "lot_code": "JAT-D9",
+            "quantity": "21 kg dry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P08-duplicate-record",
+      "passport": {
+        "species": "Prunus africana",
+        "organ": "bark",
+        "jurisdiction": "Cameroon"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "duplicate_document"
+      ],
+      "story": "The same weigh-in slip was submitted twice; counting both would double the stock.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-AUTH-108",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "authorised_quantity": "300 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Cameroon"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-108",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "60 kg fresh",
+            "lot_code": "PRU-F8"
+          }
+        },
+        {
+          "file": "weigh-in-copy.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-108",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "60 kg fresh",
+            "lot_code": "PRU-F8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P09-drying-mass-gap",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "mass_balance_gap"
+      ],
+      "story": "80 kg fresh in, 21 kg dry out, only 40 kg water loss recorded: 19 kg unaccounted.",
+      "documents": [
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-109",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "80 kg fresh",
+            "lot_code": "JAT-F9"
+          }
+        },
+        {
+          "file": "drying-log.pdf",
+          "kind": "drying_log",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-DRY-109",
+            "issuer": "Himalayan Herb Cooperative Alpha",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "input_lot": "JAT-F9",
+            "output_lot": "JAT-D9b",
+            "fresh_input": "80 kg",
+            "dry_output": "21 kg",
+            "moisture_loss": "40 kg",
+            "rejected": "0 kg",
+            "waste": "0 kg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P10-coa-out-of-range",
+      "passport": {
+        "species": "Prunus africana",
+        "organ": "bark",
+        "jurisdiction": "Cameroon"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "coa_out_of_range",
+        "coa_missing_result"
+      ],
+      "story": "Loss on drying 14.2% exceeds the documented 12% limit; total ash was not tested. Pages are in reverse order.",
+      "documents": [
+        {
+          "file": "batch.pdf",
+          "kind": "batch_statement",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-BATCH-110",
+            "issuer": "Montane Bark Cooperative Beta",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "lot_code": "PRU-D10",
+            "quantity": "66 kg dry"
+          }
+        },
+        {
+          "file": "coa.pdf",
+          "kind": "coa",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [
+            "swap_pages"
+          ],
+          "fields": {
+            "document_id": "SYN-COA-110",
+            "issuer": "Laboratory Epsilon (fictional)",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "lot_code": "PRU-D10",
+            "qc:loss on drying": "14.2 %",
+            "limit:loss on drying": "<= 12 %",
+            "qc:total ash": "not tested",
+            "limit:total ash": "<= 8 %",
+            "qc:foreign matter": "1.1 %",
+            "limit:foreign matter": "<= 2 %"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P11-cites-cross-border",
+      "passport": {
+        "species": "Prunus africana",
+        "organ": "bark",
+        "jurisdiction": "Cameroon"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "cites_cross_border"
+      ],
+      "story": "A CITES Appendix II species is invoiced to France; trade documents need checking by the Management Authority. The authorisation is in French.",
+      "documents": [
+        {
+          "file": "autorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "fr",
+          "variant": [
+            "fr"
+          ],
+          "fields": {
+            "document_id": "SYN-AUTH-111",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Prunus africana",
+            "organ": "écorce",
+            "authorised_quantity": "300 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026-12-31",
+            "area": "Block A",
+            "jurisdiction": "Cameroon"
+          }
+        },
+        {
+          "file": "batch.pdf",
+          "kind": "batch_statement",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-BATCH-111",
+            "issuer": "Montane Bark Cooperative Beta",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "lot_code": "PRU-D11",
+            "quantity": "66 kg dry"
+          }
+        },
+        {
+          "file": "invoice.pdf",
+          "kind": "invoice",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-INV-111",
+            "issuer": "Montane Bark Cooperative Beta",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "lot_code": "PRU-D11",
+            "quantity": "20 kg dry",
+            "destination_country": "France",
+            "consignee": "Buyer Zeta GmbH (fictional)"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-WEIGH-111",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "collection_date": "2026-09-12",
+            "collector": "Collector A (fictional)",
+            "quantity": "150 kg fresh",
+            "lot_code": "PRU-F11"
+          }
+        },
+        {
+          "file": "drying-log.pdf",
+          "kind": "drying_log",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-DRY-111",
+            "issuer": "Montane Bark Cooperative Beta",
+            "species": "Prunus africana",
+            "organ": "bark",
+            "input_lot": "PRU-F11",
+            "output_lot": "PRU-D11",
+            "fresh_input": "150 kg",
+            "dry_output": "66 kg",
+            "moisture_loss": "80 kg",
+            "rejected": "3 kg",
+            "waste": "1 kg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P12-corrupt-and-scanned",
+      "passport": {
+        "species": "Khaya senegalensis",
+        "organ": "bark",
+        "jurisdiction": "Benin"
+      },
+      "cites_listed": false,
+      "expected_rules": [
+        "document_unreadable",
+        "needs_ocr"
+      ],
+      "story": "One file is damaged and must be rejected; one is an image-only scan, where the system must abstain rather than guess.",
+      "documents": [
+        {
+          "file": "corrupt.pdf",
+          "kind": null,
+          "expect": "rejected",
+          "fields": {}
+        },
+        {
+          "file": "scanned-weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "needs-ocr",
+          "language": "en",
+          "variant": [
+            "scan"
+          ],
+          "fields": {}
+        },
+        {
+          "file": "monitoring.pdf",
+          "kind": "monitoring",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [],
+          "fields": {
+            "document_id": "SYN-MON-112",
+            "species": "Khaya senegalensis",
+            "area": "Block A",
+            "monitoring_date": "2026-06-15",
+            "plants_counted": "412"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P13-heldout-unseen-labels",
+      "passport": {
+        "species": "Nardostachys jatamansi",
+        "organ": "rhizome",
+        "jurisdiction": "Nepal"
+      },
+      "cites_listed": true,
+      "expected_rules": [
+        "quantity_exceeds_authorised"
+      ],
+      "story": "HELD-OUT: same facts as P05 (55 kg collected, 40 kg authorised) but with unseen labels. Measures what the rules extractor misses on a new layout; missed fields should lead to abstention, not a false 'consistent'.",
+      "documents": [
+        {
+          "file": "authorisation.pdf",
+          "kind": "authorisation",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [
+            "labels"
+          ],
+          "fields": {
+            "document_id": "SYN-AUTH-113",
+            "issuer": "District Forest Office (synthetic issuer)",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "authorised_quantity": "40 kg fresh",
+            "valid_from": "2026-07-01",
+            "valid_until": "2026/12/31",
+            "area": "Block A",
+            "jurisdiction": "Nepal"
+          }
+        },
+        {
+          "file": "weigh-in.pdf",
+          "kind": "weigh_in",
+          "expect": "extracted",
+          "language": "en",
+          "variant": [
+            "labels"
+          ],
+          "fields": {
+            "document_id": "SYN-WEIGH-113",
+            "species": "Nardostachys jatamansi",
+            "organ": "rhizome",
+            "collection_date": "Sep 14, 2026",
+            "collector": "Collector A (fictional)",
+            "quantity": "55 kg fresh",
+            "lot_code": "JAT-F13"
+          }
+        }
+      ]
+    }
+  ]
+}

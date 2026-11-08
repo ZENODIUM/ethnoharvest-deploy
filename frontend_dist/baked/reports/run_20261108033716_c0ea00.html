@@ -1,0 +1,56 @@
+<!doctype html><meta charset=utf-8><title>EthnoHarvest report</title><style>body{font:15px/1.55 Georgia,serif;max-width:860px;margin:40px auto;padding:0 20px;color:#1d2a24}h1{font-size:28px}h2{margin-top:32px;border-bottom:1px solid #ccd;}td{border:1px solid #ccd;padding:4px 8px;font:13px system-ui}li{margin:3px 0}</style><h1>EthnoHarvest assessment: Nardostachys jatamansi</h1>
+<li>Run ID: `run_20261108033716_c0ea00`  </li>
+<li>Created: 2026-11-08T08:37:16+00:00  </li>
+<li>Status: completed-with-failures  </li>
+<li>COMPADRE version: 6.26.3.0; eligibility rules: eligibility-1.0  </li>
+<li>Geographic scope: {&quot;bounds&quot;: null}</li>
+<h2>Evidence tier and harvest-rate answer</h2>
+<p>**Tier A** · local harvest rate: **study-backed scenario only**</p>
+<li>`demographic_projection`: enabled - 6 QC-passing COMPADRE matrices (1 studies)</li>
+<li>`harvest_comparison`: enabled - Ghimire SK, Gimenez O, Pradel R, McKey D, Aumeeruddy‐Thomas Y (experimental, organ: rhizome)</li>
+<li>`rotation_extrapolation`: enabled-with-caveats - experimental harvest + control matrices in same population; repeated-harvest response is assumed (E06)</li>
+<li>`hypothetical_harvest`: enabled-with-caveats - survival/fecundity split available; counterfactual removal is a mathematical assumption; E05 back-test: generic removal models mis-predicted the Nardostachys experiment (MAE 0.068): show as sensitivity range only</li>
+<li>`local_quota`: blocked - Not estimable from the available evidence: COMPADRE matrices describe studied populations, not this site&#x27;s stock. (missing: Stage-structured counts of the local population (permanent plots, &gt;=2 censuses); Measured harvestable organ yield per plant/area at the site; Monitored survival/regrowth of harvested plants at the site (matched unharvested controls); Voucher-verified species identity (e.g. Nardostachys jatamansi vs Valeriana jatamansi); Documented collection rights / permits and community consent (FPIC) for the site; Expert-agreed sustainability threshold and monitoring interval)</li>
+<li>`habitat_model`: unknown - occurrence data not yet fetched for this region (missing: fetch GBIF occurrences)</li>
+<li>`phenology_window`: blocked - species not monitored in PhenObs 2019-2023 (missing: flowering monitoring across &gt;=3 sites/years)</li>
+<li>`survey_planning`: enabled - planning grid + environmental representation (always available for a valid region)</li>
+<li>`evidence_planning`: enabled - ranks missing measurements by the decisions they would unlock</li>
+<h2>Demographic model</h2>
+<li>Preset matrix 244454: λ = 1.1522 (power-iteration check 1.1522)</li>
+<li>Study `nardostachys-ghimire2008` (experimental): mean λ control 1.028, harvest 0.854, Δ -0.174</li>
+<li>Source: Ghimire SK, Gimenez O, Pradel R, McKey D, Aumeeruddy‐Thomas Y (2008) Demographic variation and population viability in a threatened Himalayan medicinal and aromatic herb Nardostachys grandiflora: matrix modelling of harvesting effects in two contrasting habitats. Journal of Applied Ecology 45:41-51. doi:10.1111/j.1365-2664.2007.01375.x</li>
+<h2>Explanation (LLM, grounded on computed facts)</h2>
+<p>The species Nardostachys jatamansi is classified as Tier A. A study (nardostachys-ghimire2008) indicated a reduction in a measured parameter by 0.174 in treated groups compared to controls. A safe local harvest rate cannot be estimated because crucial data is missing, including local population counts, site-specific yield, regrowth monitoring, voucher-verified identity, collection rights, and expert-agreed sustainability thresholds. The quota answer is &#x27;study-backed scenario only&#x27;.</p>
+<li>Initiate local population counts and monitor regrowth.</li>
+<li>Measure site-specific harvestable organ yield.</li>
+<li>Obtain voucher-verified species identification.</li>
+<li>Secure documented collection rights and community consent.</li>
+<p>
+_Model: gemini:gemini-2.5-flash-lite; ungrounded numbers flagged: []_</p>
+<h2>JEV decisions</h2>
+<tr><td>question</td><td>choice</td><td>confidence</td><td>accepted</td><td>action</td></tr>
+<tr><td>study_triage</td><td>irrelevant</td><td>1.00</td><td>True</td><td>irrelevant</td></tr>
+<tr><td>study_triage</td><td>human_review</td><td>0.54</td><td>False</td><td>human_review</td></tr>
+<tr><td>study_triage</td><td>irrelevant</td><td>0.99</td><td>True</td><td>irrelevant</td></tr>
+<tr><td>study_triage</td><td>irrelevant</td><td>1.00</td><td>True</td><td>irrelevant</td></tr>
+<tr><td>study_triage</td><td>irrelevant</td><td>0.40</td><td>False</td><td>human_review</td></tr>
+<tr><td>study_triage</td><td>irrelevant</td><td>1.00</td><td>True</td><td>irrelevant</td></tr>
+<h2>Execution trace</h2>
+<tr><td>node</td><td>state</td><td>duration ms</td><td>note</td></tr>
+<tr><td>intake</td><td>completed</td><td>20.8</td><td></td></tr>
+<tr><td>route</td><td>skipped</td><td>48.2</td><td>no free-text question</td></tr>
+<tr><td>taxonomy</td><td>completed</td><td>38.3</td><td>exact accepted-name match</td></tr>
+<tr><td>gate</td><td>completed</td><td>30.6</td><td>deterministic rule set eligibility-1.0</td></tr>
+<tr><td>geo</td><td>failed</td><td>36.7</td><td>RuntimeError: injected provider failure: GBIF/POWER unreachable</td></tr>
+<tr><td>demography</td><td>completed</td><td>49.7</td><td></td></tr>
+<tr><td>literature</td><td>completed</td><td>967.8</td><td>145 hits; top 8 retrieved (live)</td></tr>
+<tr><td>habitat</td><td>blocked</td><td>9.5</td><td>upstream geo failed</td></tr>
+<tr><td>triage</td><td>human-review</td><td>3187.6</td><td>classification is triage only; it never marks a study as verified evidence</td></tr>
+<tr><td>plan</td><td>completed</td><td>71.8</td><td></td></tr>
+<tr><td>verify</td><td>human-review</td><td>9.0</td><td>deterministic post-hoc checks; failures are surfaced, not hidden</td></tr>
+<tr><td>explain</td><td>completed</td><td>18938.4</td><td>numeric grounding check: passed</td></tr>
+<tr><td>report</td><td>completed</td><td>9.6</td><td></td></tr>
+<h2>Limits</h2>
+<li>Matrix projections describe studied populations; they are not forecasts for any local site.</li>
+<li>No output of this report is a harvest permit, legal permission, quota or medicinal-efficacy claim.</li>
+<li>Occurrence records are presence-only; suitability is not abundance.</li></table>

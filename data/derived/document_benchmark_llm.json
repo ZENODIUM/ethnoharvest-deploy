@@ -1,0 +1,595 @@
+{
+  "mode": "rules + grounded LLM fill",
+  "extractor": "rules-1.0",
+  "ocr_engine_installed": false,
+  "documents": 37,
+  "packets": 13,
+  "handling": {
+    "expected extracted → got extracted": 35,
+    "expected needs-ocr → got needs-ocr": 1,
+    "expected rejected → got rejected": 1
+  },
+  "classification": {
+    "correct": 35,
+    "total": 35,
+    "accuracy": 1.0
+  },
+  "fields_micro": {
+    "tp": 278,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "fields": {
+    "area": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "authorised_quantity": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "collection_date": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "collector": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "consignee": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "destination_country": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_id": {
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "dry_output": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fresh_input": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "identified_by": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "input_lot": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "issuer": {
+      "tp": 21,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "jurisdiction": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "limit:foreign matter": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "limit:loss on drying": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "limit:total ash": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "lot_code": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "moisture_loss": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "monitoring_date": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "organ": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "output_lot": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "planned_quantity": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "plants_counted": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "qc:foreign matter": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "qc:loss on drying": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "qc:total ash": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "quantity": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "rejected": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "species": {
+      "tp": 35,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "valid_from": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "valid_until": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "voucher_id": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "waste": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "rules_micro": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "rules": {
+    "area_mismatch": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cites_cross_border": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "coa_missing_result": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "coa_out_of_range": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "date_outside_authorisation": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_unreadable": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "duplicate_document": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "lot_not_traceable": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "mass_balance_gap": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "needs_ocr": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "organ_mismatch": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "quantity_exceeds_authorised": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "species_mismatch": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "species_synonym": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "packets_passed": 13,
+  "missed_findings_with_abstention": 0,
+  "missed_findings_silent": 0,
+  "packet_results": [
+    {
+      "packet": "P01-consistent",
+      "expected": [],
+      "fired": [],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P02-expired-authorisation",
+      "expected": [
+        "date_outside_authorisation"
+      ],
+      "fired": [
+        "date_outside_authorisation"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P03-synonym-and-wrong-species",
+      "expected": [
+        "species_mismatch",
+        "species_synonym"
+      ],
+      "fired": [
+        "species_mismatch",
+        "species_synonym"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P04-wrong-organ",
+      "expected": [
+        "organ_mismatch"
+      ],
+      "fired": [
+        "organ_mismatch"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P05-over-authorised-quantity",
+      "expected": [
+        "quantity_exceeds_authorised"
+      ],
+      "fired": [
+        "quantity_exceeds_authorised"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P06-area-mismatch",
+      "expected": [
+        "area_mismatch"
+      ],
+      "fired": [
+        "area_mismatch"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P07-batch-id-mismatch",
+      "expected": [
+        "lot_not_traceable"
+      ],
+      "fired": [
+        "lot_not_traceable"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P08-duplicate-record",
+      "expected": [
+        "duplicate_document"
+      ],
+      "fired": [
+        "duplicate_document"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P09-drying-mass-gap",
+      "expected": [
+        "mass_balance_gap"
+      ],
+      "fired": [
+        "mass_balance_gap"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P10-coa-out-of-range",
+      "expected": [
+        "coa_missing_result",
+        "coa_out_of_range"
+      ],
+      "fired": [
+        "coa_missing_result",
+        "coa_out_of_range"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P11-cites-cross-border",
+      "expected": [
+        "cites_cross_border"
+      ],
+      "fired": [
+        "cites_cross_border"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P12-corrupt-and-scanned",
+      "expected": [
+        "document_unreadable",
+        "needs_ocr"
+      ],
+      "fired": [
+        "document_unreadable",
+        "needs_ocr"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    },
+    {
+      "packet": "P13-heldout-unseen-labels",
+      "expected": [
+        "quantity_exceeds_authorised"
+      ],
+      "fired": [
+        "quantity_exceeds_authorised"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "pass": true,
+      "abstained_on_missing_fields": false
+    }
+  ],
+  "latency_ms": {
+    "median": 9.0,
+    "max": 848.7
+  },
+  "field_errors": [],
+  "caveat": "Synthetic documents generated by the same team that wrote the extractor. Measures robustness to the built variants, not real-world accuracy. No real permits, certificates or lab reports were used."
+}

@@ -1,0 +1,65 @@
+{
+ "id": "E07",
+ "title": "Elasticity structure of medicinal taxa by growth form (harvest-vulnerability screening)",
+ "question": "Do medicinal trees/long-lived perennials have higher survival-stasis elasticity than short-lived herbs, implying adult/organ harvest is riskier?",
+ "hypothesis": "Median stasis elasticity: trees > perennials > short-lived; fecundity elasticity the reverse (Kruskal-Wallis p<0.05), one value per species (not per matrix).",
+ "data": "COMPADRE medicinal taxa, unmanipulated mean/pooled matrices passing QC",
+ "method": "species-level averages; Kruskal-Wallis; study-grouped",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "validated within scope",
+ "finding": "Median stasis elasticity: woody 0.857, herbaceous perennial 0.486, annual 0.005 (Kruskal-Wallis p=4.3e-12); fecundity elasticity reverses. Used only as a qualitative screening flag for species without harvest experiments; descriptive, species-level, not phylogenetically corrected.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:36+00:00",
+ "runtime_s": 0.25,
+ "command": "python -m backend.ethnoharvest.experiments E07",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E07.json",
+ "result": {
+  "n_species": 141,
+  "n_matrices": 602,
+  "group_counts": {
+   "herbaceous perennial / other": 74,
+   "woody": 59,
+   "annual": 8
+  },
+  "medians": {
+   "stasis": {
+    "annual": 0.005,
+    "herbaceous perennial / other": 0.486,
+    "woody": 0.857
+   },
+   "progression": {
+    "annual": 0.071,
+    "herbaceous perennial / other": 0.293,
+    "woody": 0.127
+   },
+   "fecundity": {
+    "annual": 0.768,
+    "herbaceous perennial / other": 0.065,
+    "woody": 0.015
+   },
+   "clonality": {
+    "annual": 0.0,
+    "herbaceous perennial / other": 0.0,
+    "woody": 0.0
+   },
+   "survival_total": {
+    "annual": 0.232,
+    "herbaceous perennial / other": 0.921,
+    "woody": 0.985
+   }
+  },
+  "kruskal_p": {
+   "stasis": 4.324081939509528e-12,
+   "fecundity": 1.7556041158228582e-08
+  },
+  "screening_rule": "If species-level survival elasticity (stasis+progression+retrogression) >= 0.8, flag harvest of established plants/organs as high-sensitivity; do not infer a rate."
+ }
+}

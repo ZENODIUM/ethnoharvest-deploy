@@ -1,0 +1,878 @@
+{
+ "llm_providers": {
+  "openai/gpt-oss-20b": 41,
+  "gemini:gemini-2.5-flash-lite": 18
+ },
+ "labels": {
+  "harvest_effect_same_species": 10,
+  "harvest_effect_other_species": 10,
+  "demography_no_harvest": 22,
+  "other_topic": 17
+ },
+ "n": 59,
+ "systems": {
+  "rules": {
+   "n": 59,
+   "accuracy_all": 0.729,
+   "coverage": 0.881,
+   "accuracy_answered": 0.827,
+   "macro_f1": 0.773,
+   "confusion": {
+    "harvest_effect_same_species": {
+     "harvest_effect_same_species": 7,
+     "harvest_effect_other_species": 1,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "harvest_effect_other_species": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 8,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "demography_no_harvest": {
+     "harvest_effect_same_species": 3,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 17,
+     "other_topic": 1,
+     "needs_human": 1
+    },
+    "other_topic": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 0,
+     "other_topic": 11,
+     "needs_human": 6
+    }
+   }
+  },
+  "jev": {
+   "n": 59,
+   "accuracy_all": 0.78,
+   "coverage": 0.966,
+   "accuracy_answered": 0.807,
+   "macro_f1": 0.768,
+   "confusion": {
+    "harvest_effect_same_species": {
+     "harvest_effect_same_species": 6,
+     "harvest_effect_other_species": 1,
+     "demography_no_harvest": 3,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "harvest_effect_other_species": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 6,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 2
+    },
+    "demography_no_harvest": {
+     "harvest_effect_same_species": 2,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 19,
+     "other_topic": 1,
+     "needs_human": 0
+    },
+    "other_topic": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 2,
+     "other_topic": 15,
+     "needs_human": 0
+    }
+   }
+  },
+  "policy": {
+   "n": 59,
+   "accuracy_all": 0.729,
+   "coverage": 0.864,
+   "accuracy_answered": 0.843,
+   "macro_f1": 0.757,
+   "confusion": {
+    "harvest_effect_same_species": {
+     "harvest_effect_same_species": 6,
+     "harvest_effect_other_species": 1,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 1
+    },
+    "harvest_effect_other_species": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 6,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 2
+    },
+    "demography_no_harvest": {
+     "harvest_effect_same_species": 2,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 19,
+     "other_topic": 0,
+     "needs_human": 1
+    },
+    "other_topic": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 1,
+     "other_topic": 12,
+     "needs_human": 4
+    }
+   }
+  },
+  "groq": {
+   "n": 59,
+   "accuracy_all": 0.847,
+   "coverage": 1.0,
+   "accuracy_answered": 0.847,
+   "macro_f1": 0.825,
+   "confusion": {
+    "harvest_effect_same_species": {
+     "harvest_effect_same_species": 7,
+     "harvest_effect_other_species": 1,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "harvest_effect_other_species": {
+     "harvest_effect_same_species": 1,
+     "harvest_effect_other_species": 7,
+     "demography_no_harvest": 2,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "demography_no_harvest": {
+     "harvest_effect_same_species": 2,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 20,
+     "other_topic": 0,
+     "needs_human": 0
+    },
+    "other_topic": {
+     "harvest_effect_same_species": 0,
+     "harvest_effect_other_species": 0,
+     "demography_no_harvest": 1,
+     "other_topic": 16,
+     "needs_human": 0
+    }
+   }
+  }
+ },
+ "jev_calibration": [
+  {
+   "bin": "0.00-0.50",
+   "n": 10,
+   "mean_conf": 0.295,
+   "accuracy": 0.4
+  },
+  {
+   "bin": "0.50-0.70",
+   "n": 12,
+   "mean_conf": 0.586,
+   "accuracy": 0.667
+  },
+  {
+   "bin": "0.70-0.85",
+   "n": 9,
+   "mean_conf": 0.796,
+   "accuracy": 0.889
+  },
+  {
+   "bin": "0.85-0.95",
+   "n": 17,
+   "mean_conf": 0.904,
+   "accuracy": 0.941
+  },
+  {
+   "bin": "0.95-1.00",
+   "n": 11,
+   "mean_conf": 0.965,
+   "accuracy": 0.909
+  }
+ ],
+ "jev_errors": 0,
+ "rows": [
+  {
+   "id": "W1999127465",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "needs_human",
+   "jev_confidence": 0.22,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1970824301",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.89,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1997215961",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.84,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2323285535",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.52,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2156364647",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.51,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2156707967",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "other_topic",
+   "jev_confidence": 0.82,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1521326833",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.65,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1971474452",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.99,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1977002781",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.61,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2326088528",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.92,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2035623996",
+   "label": "harvest_effect_same_species",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.86,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W4250893337",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.82,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1980491497",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.95,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2330674103",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.91,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1969429487",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.92,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2550724669",
+   "label": "demography_no_harvest",
+   "rules": "harvest_effect_same_species",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.96,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W1977002781",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.59,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2035623996",
+   "label": "harvest_effect_same_species",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.84,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W1792967186",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.99,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2044944705",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.91,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2035623996",
+   "label": "harvest_effect_other_species",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.31,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2021264767",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.77,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2039633562",
+   "label": "demography_no_harvest",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.59,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2160711383",
+   "label": "demography_no_harvest",
+   "rules": "other_topic",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.89,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2132250495",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.68,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2145636568",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.96,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1991818212",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "other_topic",
+   "jev_confidence": 0.3,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W7221894147",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.91,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2005167122",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "other_topic",
+   "jev_confidence": 0.94,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1982368428",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "needs_human",
+   "jev_confidence": 0.29,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2188572863",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.99,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W7224684460",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "other_topic",
+   "jev_confidence": 0.91,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1553536739",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.91,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2033763170",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "other_topic",
+   "jev_confidence": 0.7,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2108739912",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.95,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2083756169",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.27,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1980491497",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.54,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2023791574",
+   "label": "demography_no_harvest",
+   "rules": "needs_human",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.92,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2062117443",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.95,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2127981789",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.87,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W1942692537",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.59,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2024611931",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.96,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W1982368428",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.21,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2165336224",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.89,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1997215961",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.68,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2035496577",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.96,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2166525361",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.95,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2054433553",
+   "label": "other_topic",
+   "rules": "needs_human",
+   "jev": "other_topic",
+   "jev_confidence": 0.82,
+   "policy": "needs_human",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1521326833",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.74,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2083756169",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.42,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2035623996",
+   "label": "harvest_effect_other_species",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.21,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2046904771",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.94,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W4250893337",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.81,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1999127465",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.32,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2132250495",
+   "label": "harvest_effect_same_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.51,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W2020359822",
+   "label": "other_topic",
+   "rules": "other_topic",
+   "jev": "other_topic",
+   "jev_confidence": 0.87,
+   "policy": "other_topic",
+   "jev_error": null,
+   "groq": "other_topic",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2072194769",
+   "label": "demography_no_harvest",
+   "rules": "harvest_effect_same_species",
+   "jev": "harvest_effect_same_species",
+   "jev_confidence": 0.56,
+   "policy": "harvest_effect_same_species",
+   "jev_error": null,
+   "groq": "harvest_effect_same_species",
+   "llm_provider": "gemini:gemini-2.5-flash-lite"
+  },
+  {
+   "id": "W2156364647",
+   "label": "harvest_effect_other_species",
+   "rules": "harvest_effect_other_species",
+   "jev": "harvest_effect_other_species",
+   "jev_confidence": 0.4,
+   "policy": "harvest_effect_other_species",
+   "jev_error": null,
+   "groq": "harvest_effect_other_species",
+   "llm_provider": "openai/gpt-oss-20b"
+  },
+  {
+   "id": "W1997215961",
+   "label": "demography_no_harvest",
+   "rules": "demography_no_harvest",
+   "jev": "demography_no_harvest",
+   "jev_confidence": 0.91,
+   "policy": "demography_no_harvest",
+   "jev_error": null,
+   "groq": "demography_no_harvest",
+   "llm_provider": "openai/gpt-oss-20b"
+  }
+ ],
+ "label_file": "experiments\\data\\e11_labels.json",
+ "rubric": "E11: does JEV classify harvest-evidence papers better than keyword rules, and is its confidence calibrated?\n\nLabels are rubric-derived from data that is independent of every classifier prompt, then frozen before any system runs:\n  harvest_effect_same_species   COMPADRE source paper (DOI) whose matrices include a harvest treatment for the target species\n                                (MatrixTreatment mentions harvest, tapping, defoliation, debarking or clipping; competitor\n                                removal excluded), plus the audited harvest-study DOIs\n  harvest_effect_other_species  one of those harvest papers presented with a DIFFERENT medicinal target species\n  demography_no_harvest         COMPADRE source paper whose matrices for the target species are all \"Unmanipulated\"\n  other_topic                   OpenAlex work about a target medicinal species whose OpenAlex primary topic field is chemistry,\n                                pharmacology, medicine or biochemistry (topic assigned by OpenAlex, not by our keywords)\nThese are rubric labels, not expert labels: a COMPADRE harvest paper can still be ambiguous from its abstract alone.",
+ "history": [
+  {
+   "run": 1,
+   "note": "same frozen labels; LLM was Groq only and 19/59 rows failed on rate limits, so its score covers 40 rows",
+   "macro_f1": {
+    "rules": 0.773,
+    "jev": 0.802,
+    "policy": 0.791,
+    "llm": 0.885
+   },
+   "llm_n": 40,
+   "policy_accuracy_answered": 0.849,
+   "policy_coverage": 0.898
+  },
+  {
+   "run": 2,
+   "note": "Groq with Gemini fallback (41 Groq, 18 Gemini)",
+   "macro_f1": {
+    "rules": 0.773,
+    "jev": 0.768,
+    "policy": 0.757,
+    "groq": 0.825
+   },
+   "llm_n": 59,
+   "policy_accuracy_answered": 0.843,
+   "policy_coverage": 0.864
+  }
+ ],
+ "run_to_run": "JEV is not deterministic: its macro-F1 moved from 0.802 to 0.768 between two runs on identical inputs; rules are deterministic."
+}

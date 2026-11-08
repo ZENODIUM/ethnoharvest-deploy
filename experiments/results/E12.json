@@ -1,0 +1,181 @@
+{
+ "id": "E12",
+ "title": "Survey planner benchmark: ILP vs greedy vs random vs top-suitability",
+ "question": "Under identical constraints (budget, no adjacent cells), does the exact ILP improve the stated survey objective over simple baselines, and does it respond monotonically to budget?",
+ "hypothesis": "ILP objective >= every baseline at every budget (by construction) with gains largest at larger budgets; objective is non-decreasing in budget; top-suitability covers fewer environmental strata.",
+ "data": "3 regions x 4 budgets; WorldClim, Open-Meteo DEM, GBIF, habitat model where eligible",
+ "method": "PuLP/CBC; seeded random (200 draws)",
+ "registered_utc": "2026-11-07T10:40:00Z",
+ "status": "validated within scope",
+ "finding": "ILP >= all baselines in every case: True; budget-monotone: True. Median gain vs greedy 0.1% (max 5.9%), vs random 28.6%. Greedy is near-optimal at small budgets; gains are in the modelled objective, not demonstrated field outcomes.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:27:58+00:00",
+ "runtime_s": 7.7,
+ "command": "python -m backend.ethnoharvest.experiments E12",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E12.json",
+ "result": {
+  "rows": [
+   {
+    "region": "Alps (Arnica montana)",
+    "budget": 5,
+    "n_cells": 72,
+    "ilp": 57.676,
+    "greedy": 57.676,
+    "random_mean": 36.403,
+    "top_suitability": 24.817,
+    "ilp_strata": 5,
+    "top_strata": 2,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Alps (Arnica montana)",
+    "budget": 10,
+    "n_cells": 72,
+    "ilp": 91.489,
+    "greedy": 91.436,
+    "random_mean": 57.549,
+    "top_suitability": 61.242,
+    "ilp_strata": 8,
+    "top_strata": 5,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Alps (Arnica montana)",
+    "budget": 20,
+    "n_cells": 72,
+    "ilp": 105.145,
+    "greedy": 105.083,
+    "random_mean": 84.149,
+    "top_suitability": 102.28,
+    "ilp_strata": 8,
+    "top_strata": 8,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Alps (Arnica montana)",
+    "budget": 40,
+    "n_cells": 72,
+    "ilp": 124.176,
+    "greedy": 117.236,
+    "random_mean": 106.724,
+    "top_suitability": 119.106,
+    "ilp_strata": 8,
+    "top_strata": 8,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Dolpa-Jumla, Nepal (Nardostachys jatamansi)",
+    "budget": 5,
+    "n_cells": 88,
+    "ilp": 45.696,
+    "greedy": 45.3,
+    "random_mean": 25.062,
+    "top_suitability": 23.892,
+    "ilp_strata": 4,
+    "top_strata": 2,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Dolpa-Jumla, Nepal (Nardostachys jatamansi)",
+    "budget": 10,
+    "n_cells": 88,
+    "ilp": 70.963,
+    "greedy": 70.734,
+    "random_mean": 42.291,
+    "top_suitability": 25.867,
+    "ilp_strata": 6,
+    "top_strata": 2,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Dolpa-Jumla, Nepal (Nardostachys jatamansi)",
+    "budget": 20,
+    "n_cells": 88,
+    "ilp": 101.194,
+    "greedy": 99.969,
+    "random_mean": 65.234,
+    "top_suitability": 53.884,
+    "ilp_strata": 8,
+    "top_strata": 4,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Dolpa-Jumla, Nepal (Nardostachys jatamansi)",
+    "budget": 40,
+    "n_cells": 88,
+    "ilp": 119.296,
+    "greedy": 119.174,
+    "random_mean": 94.118,
+    "top_suitability": 80.901,
+    "ilp_strata": 8,
+    "top_strata": 5,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Appalachians (Panax quinquefolius)",
+    "budget": 5,
+    "n_cells": 117,
+    "ilp": 57.5,
+    "greedy": 57.5,
+    "random_mean": 46.181,
+    "top_suitability": null,
+    "ilp_strata": 5,
+    "top_strata": null,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Appalachians (Panax quinquefolius)",
+    "budget": 10,
+    "n_cells": 117,
+    "ilp": 95.0,
+    "greedy": 95.0,
+    "random_mean": 72.846,
+    "top_suitability": null,
+    "ilp_strata": 8,
+    "top_strata": null,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Appalachians (Panax quinquefolius)",
+    "budget": 20,
+    "n_cells": 117,
+    "ilp": 110.0,
+    "greedy": 110.0,
+    "random_mean": 102.139,
+    "top_suitability": null,
+    "ilp_strata": 8,
+    "top_strata": null,
+    "all_constraints_satisfied": true
+   },
+   {
+    "region": "Appalachians (Panax quinquefolius)",
+    "budget": 40,
+    "n_cells": 117,
+    "ilp": 140.0,
+    "greedy": 140.0,
+    "random_mean": 135.57,
+    "top_suitability": null,
+    "ilp_strata": 8,
+    "top_strata": null,
+    "all_constraints_satisfied": true
+   }
+  ],
+  "budget_monotone": {
+   "Alps (Arnica montana)": true,
+   "Dolpa-Jumla, Nepal (Nardostachys jatamansi)": true,
+   "Appalachians (Panax quinquefolius)": true
+  },
+  "ilp_ge_all_baselines": true,
+  "median_gain_vs_greedy": 0.0006,
+  "max_gain_vs_greedy": 0.0592,
+  "median_gain_vs_random": 0.2858
+ }
+}

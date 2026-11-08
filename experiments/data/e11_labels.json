@@ -1,0 +1,603 @@
+{
+ "created_utc": "2026-11-07T21:45:39+00:00",
+ "seed": 11,
+ "rubric": "E11: does JEV classify harvest-evidence papers better than keyword rules, and is its confidence calibrated?\n\nLabels are rubric-derived from data that is independent of every classifier prompt, then frozen before any system runs:\n  harvest_effect_same_species   COMPADRE source paper (DOI) whose matrices include a harvest treatment for the target species\n                                (MatrixTreatment mentions harvest, tapping, defoliation, debarking or clipping; competitor\n                                removal excluded), plus the audited harvest-study DOIs\n  harvest_effect_other_species  one of those harvest papers presented with a DIFFERENT medicinal target species\n  demography_no_harvest         COMPADRE source paper whose matrices for the target species are all \"Unmanipulated\"\n  other_topic                   OpenAlex work about a target medicinal species whose OpenAlex primary topic field is chemistry,\n                                pharmacology, medicine or biochemistry (topic assigned by OpenAlex, not by our keywords)\nThese are rubric labels, not expert labels: a COMPADRE harvest paper can still be ambiguous from its abstract alone.",
+ "counts": {
+  "harvest_effect_same_species": 10,
+  "harvest_effect_other_species": 10,
+  "demography_no_harvest": 22,
+  "other_topic": 17
+ },
+ "items": [
+  {
+   "id": "W1999127465",
+   "doi": "10.1890/ES11-00328.1",
+   "title": "Linking vegetative dormancy to fitness in two long\u2010lived herbaceous perennials",
+   "year": 2012,
+   "abstract": "Vegetative dormancy occurs in many plant families, but its evolutionary context remains a mystery. We asked whether vegetative dormancy is an adaptive response to environmental stress and environmental stochasticity in certain long\u2010lived plant species. We conducted an in situ experimental study in two and three populations of Cypripedium calceolus and Cephalanthera longifolia, respectively, in Estonia. Plants were defoliated, shaded, or simply observed at the beginning of the growing season in 2002 and 2003, and monitored demographically through 2008. We assessed links between fitness and vegetative dormancy using stochastic life table response experiments (SLTREs), in which the impact of treatment on the log stochastic population growth rate (a = log \u03bbS) via shifts in projection matrix transitions in treated plants relative to controls was used to assess the fitness impacts of treatment\u2010induced life history responses. In Cypripedium, the observed lifespans of individuals that became vegetatively dormant in 2003/04 was significantly higher than plants that had not done so (P = 0.050). Defoliation and shading resulted in lower levels of flowering in both species. Both defoliation and shading decreased a relative to controls in Cypripedium and Cephalanthera. Defoliation\u2010 and shading\u2010induced shifts in transitions involving vegetative dormancy were generally associated with significantly positive SLTRE contributions to \u0394a, and shifts in the standard deviations of demographic rates generally contributed little to \u0394a. Thus, vegetative dormancy is likely to be an adaptive response to environmental stress and stochasticity. Further work on the genetic basis to vegetative dormancy will clarify whether enough heritability may have existed in the past, or exists now, to support vegetative dormancy as an adaptation.",
+   "target_species": "Picris hieracioides",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Cypripedium calceolus presented with a different target species"
+  },
+  {
+   "id": "W1970824301",
+   "doi": "10.1021/np9600661",
+   "title": "Pyrrolizidine Alkaloids from Echium setosum and Echium vulgare",
+   "year": 1996,
+   "abstract": "The major pyrrolizidine alkaloids (PAs) of Echium setosum and Echium vulgare were isolated and characterized as echimidine and a tigloyl isomer of echimidine. 3\u2018-Acetylechimidine was identified in E. vulgare as a major new PA on the basis of MS and 1 H and 13 C NMR. Sixteen further alkaloids were recorded by GLC\u2212MS in the reduced alkaloid extracts.",
+   "target_species": "Echium vulgare",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Pharmacology, Toxicology and Pharmaceutics"
+  },
+  {
+   "id": "W1997215961",
+   "doi": "10.1890/12-1310.1",
+   "title": "Greater sexual reproduction contributes to differences in demography of invasive plants and their noninvasive relatives",
+   "year": 2013,
+   "abstract": "An understanding of the demographic processes contributing to invasions would improve our mechanistic understanding of the invasion process and improve the efficiency of prevention and control efforts. However, field comparisons of the demography of invasive and noninvasive species have not previously been conducted. We compared the in situ demography of 17 introduced plant species in St. Louis, Missouri, USA, to contrast the demographic patterns of invasive species with their less invasive relatives across a broad sample of angiosperms. Using herbarium records to estimate spread rates, we found higher maximum spread rates in the landscape for species classified a priori as invasive than for noninvasive introduced species, suggesting that expert classifications are an accurate reflection of invasion rate. Across 17 species, projected population growth was not significantly greater in invasive than in noninvasive introduced species. Among five taxonomic pairs of close relatives, however, four of the invasive species had higher projected population growth rates compared with their noninvasive relative. A Life Table Response Experiment suggested that the greater projected population growth rate of some invasive species relative to their noninvasive relatives was primarily a result of sexual reproduction. The greater sexual reproduction of invasive species is consistent with invaders having a life history strategy more reliant on fecundity than survival and is consistent with a large role of propagule pressure in invasion. Sexual reproduction is a key demographic correlate of invasiveness, suggesting that local processes influencing sexual reproduction, such as enemy escape, might be of general importance. However, the weak correlation of projected population growth with spread rates in the landscape suggests that regional processes, such as dispersal, may be equally important in determining invasion rate.",
+   "target_species": "Allium vineale",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2323285535",
+   "doi": "10.2307/2258643",
+   "title": "Studies on Plant Demography: Ranunculus Repens L., R. Bulbosus L. and R. Acris L.: I. Population Flux and Survivorship",
+   "year": 1973,
+   "abstract": "Jose Sarukhan, John L. Harper, Studies on Plant Demography: Ranunculus Repens L., R. Bulbosus L. and R. Acris L.: I. Population Flux and Survivorship, Journal of Ecology, Vol. 61, No. 3 (Nov., 1973), pp. 675-716",
+   "target_species": "Ranunculus acris",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2156364647",
+   "doi": "10.1111/j.1365-2664.2012.02156.x",
+   "title": "Disentangling the effects of multiple anthropogenic drivers on the decline of two tropical dry forest trees",
+   "year": 2012,
+   "abstract": "Summary 1. Tropical plant populations are often subject to multiple types of anthropogenic disturbance. Effective management requires disentangling the effects of these disturbances and prioritizing interventions for the driver(s) most responsible for population decline. However, the effects of multiple drivers on plant population dynamics are rarely examined. 2. We assessed the independent and combined effects of common anthropogenic disturbances on the transient and long\u2010term population dynamics of two economically important, declining tree species in an Indian dry forest. Specifically, we drew on 10 years of demographic monitoring to assess the effects of non\u2010timber forest product (NTFP) harvest and two invasive species (an understorey shrub Lantana camara and a mistletoe Taxillus tomentosus) on amla (Phyllanthus emblica and Phyllanthus indofischeri) populations. 3. Although fruit harvest has been blamed for declining amla populations, the current policy and management strategies implemented to restrict it have little effect on long\u2010term stochastic growth rates (\u03bbs) of amla both with and without invasive species. In contrast, mistletoes significantly decreased \u03bbs of both species. 4. Lantana had both direct and indirect effects on P. emblica, causing a regeneration bottleneck. Lantana had a direct negative effect on seeding and sapling growth, whereas populations without lantana experienced higher levels of grazing by wild animals. Over 10 years, P. emblica populations dropped to 16% of their original size in areas with invasive species. 5. Synthesis and applications. Our results illustrate that mistletoe and lantana, not fruit harvest, are the main drivers of amla decline, and these species are likely to be driving the decline of other Indian dry forest tree species. Management directed only at limiting fruit harvest will be ineffective. Instead, control of both invasive species combined with temporary protection from grazing is urgently needed. The ban on fruit ",
+   "target_species": "Phyllanthus emblica",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2156707967",
+   "doi": "10.1093/aob/mcs236",
+   "title": "Resin secretory structures of Boswellia papyrifera and implications for frankincense yield",
+   "year": 2012,
+   "abstract": "BACKGROUND AND AIMS: Frankincense, a gum-resin, has been tapped from Boswellia papyrifera trees for centuries. Despite the intensive tapping and economic interest of B. papyrifera, information on the resin secretory structures, which are responsible for synthesis, storage and transport of frankincense, is virtually absent. This study describes the type, architecture and distribution of resin secretory structures of B. papyrifera and its relevance for the ecophysiology and economic use of the tree. METHODS: The type and architecture of resin secretory structures present in bark and wood was investigated from transversal, tangential and radial sections of bark and wood samples. The diameter and density (number of resin canals mm(-2)) of axial resin canals were determined from digital images of thin sections across the different zones of inner bark. KEY RESULTS: Resin canals form a three-dimensional network within the inner bark. Yet, the intact resin-conducting and producing network is on average limited to the inner 6\u00b76 mm of the inner bark. Within the inner bark, the density of non-lignified axial resin canals decreases and the density of lignified resin canals increases from the vascular cambium towards the outer bark. In the wood, only radial resin canals were encountered. CONCLUSIONS: Frankincense tapping techniques can be improved based on knowledge of bark anatomy and distribution and architecture of resin secretory structures. The suggested new techniques will contribute to a more sustainable frankincense production that enhances the contribution of frankincense to rural livelihoods and the national economy.",
+   "target_species": "Boswellia papyrifera",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Medicine"
+  },
+  {
+   "id": "W1521326833",
+   "doi": "10.1111/j.1365-2664.2011.02078.x",
+   "title": "Limitations to sustainable frankincense production: blocked regeneration, high adult mortality and declining populations",
+   "year": 2011,
+   "abstract": "Summary 1. Resins are highly valued non\u2010timber forest products (NTFP). One of the most widely traded resins is frankincense, tapped from several Boswellia tree species (Burseraceae). Exploited Boswellia populations often show poor regeneration, but the demographic consequences of these bottlenecks are unknown. Here we report on the first large\u2010scale demographic study of frankincense\u2010producing trees. 2. We studied 12 populations of Boswellia papyrifera in northern Ethiopia, varying in altitude and productivity. Six of these populations had been tapped before and were tapped during the study. Survival, growth and fecundity were determined for 4370 trees and 2228 seedlings, in 22.8 ha over a 2\u2010year period. We also studied a remote population where no grazing and tapping took place. Matrix models were used to project population growth and frankincense production under four restoration scenarios. 3. Population structures of both tapped and untapped populations showed clear gaps. Small seedlings were abundant in all populations, but none developed into persistent saplings. Such saplings were only present in the remote population. Fire and grazing are the likely causes of this regeneration bottleneck. 4. Adult mortality was high (6\u20137% per year) in both tapped and untapped populations, probably caused by beetle attacks and fire. Unexpectedly, tapped populations presented higher diameter growth rates and fecundity compared to untapped populations. These differences are probably caused by non\u2010random selection of exploited populations by tappers. 5. Under the \u2018business as usual\u2019 scenario, population models projected a 90% decline in the size of tapped and untapped populations within 50 years and a 50% decline in frankincense yield within 15 years. Model simulations for restoration scenarios revealed that populations and frankincense production could only be sustained with intensive management leading to full sapling recruitment and a 50\u201375% reduction in adult mortality. 6. Syn",
+   "target_species": "Boswellia papyrifera",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1971474452",
+   "doi": "10.1248/bpb.27.251",
+   "title": "Antiproliferative Activity of the Main Constituents from Phyllanthus emblica",
+   "year": 2004,
+   "abstract": "Eighteen main compounds, including four norsesquiterpenoids (1-4) and 14 phenolic compounds (5-18) isolated previously from Phyllanthus emblica, together with a main constituent, proanthocyanidin polymers (19) identified at this time from the roots, were estimated for their antiproliferative activities against MK-1 (human gastric adenocarcinoma), HeLa (human uterine carcinoma), and B16F10 (murine melanoma) cells using an MTT method. All of the phenolic compounds including the major components 5-8 from the fruit juice, 8, 9, and 12 from the branches and leaves, and 19 from the roots showed stronger inhibition against B16F10 cell growth than against HeLa and MK-1 cell growth. Norsesquiterpenoid glycosides 3 and 4 from the roots exhibited significant antiproliferative activities, although their aglycon 1 and monoglucoside 2 showed no inhibitory activity against these tumor cells.",
+   "target_species": "Phyllanthus emblica",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Pharmacology, Toxicology and Pharmaceutics"
+  },
+  {
+   "id": "W1977002781",
+   "doi": "10.1111/j.1523-1739.2009.01345.x",
+   "title": "Effects of Harvest of Nontimber Forest Products and Ecological Differences between Sites on the Demography of African Mahogany",
+   "year": 2009,
+   "abstract": "The demographic impacts of harvesting nontimber forest products (NTFP) have been increasingly studied because of reports of potentially unsustainable harvest. Nevertheless, our understanding of how plant demographic response to harvest is altered by variation in ecological conditions, which is critical for developing realistic sustainable-use plans, is limited. We built matrix population models to test whether and how variation in ecological conditions affects population responses to harvest. In particular, we examined the effect of bark and foliage harvest on the demography of populations of African mahogany (Khaya senegalensis) in two contrasting ecological regions of Benin, West Africa. K. senegalensis bark and foliage harvest significantly reduced its stochastic population growth rates, but ecological differences between regions had a greater effect on population growth rates than did harvest. The effect of harvest on population growth rates (Deltalambda) was slightly stronger in the moist than in the drier region. Life-table response experiments revealed that the mechanism by which harvesting reduced lambda differed between ecological regions. Lowered stasis (persistence) of larger life stages lead to a reduction in lambda in the drier region, whereas lowered growth of all life stages lowered lambda in moist region. Potential strategies to increase population growth rates should include decreasing the proportion of individuals harvested, promoting harvester-owned plantations of African mahogany, and increasing survival and growth by promoting no-fire zones in gallery forests. Our results show how population responses to harvest of NTFP may be altered by ecological differences across sites and emphasize the importance of monitoring populations over the climatic range in which they occur to develop more realistic recommendations for conservation.",
+   "target_species": "Khaya senegalensis",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2326088528",
+   "doi": "10.2307/2260610",
+   "title": "Ramet Behaviour and Population Growth in the Clonal Herb Potentilla Anserina",
+   "year": 1988,
+   "abstract": "SUMMARY (1) Potentilla anserina is a stoloniferous plant in which the daughter ramets become independent during their first year of life. Ramets of P. anserina behave in four different ways. They may be inactive, flowering only, stolon-producing only, or both flowering and stolon-producing. The relationships between ramet size and type of behaviour, and transition probabilities between behavioural states during four successive years were derived from a field study of P. anserina on a Baltic seashore meadow. (2) Ramet behaviour and mortality were significantly size related. The results suggest that flowers and stolons are initiated when the physiological condition of ramets has reached some internal resource threshold. The size relationships form the basis for inferring phenotypically-expressed costs of different behaviour patterns from transition probabilities. (3) Several transition probabilities varied significantly between years, but some patterns of variation emerged. Inactive ramets which changed behaviour usually became 'flowering only' next year. There were no indications that reproduction per se incurred any costs for ramets. Flowering ramets had the greatest probability of flowering the following year. In contrast, stolon production had negative consequences both for survivorship and for future reproduction of ramets. (4) Simulations of a matrix model yielded different population growth rates (1 05, 0 91 and 0-68) during the study years. Simulated stable state distributions differed from the observed ones, which also varied significantly between years. Population growth rate was most sensitive to alterations in transitions from inactive to stoloniferous ramets, but these transitions are not common in the real population. Elasticity analysis revealed that growth rate instead depends mainly on survivorship of inactive ramets, and transitions from ramets which were flowering only. In addition, population growth rate depends much more on vegetative propagation ",
+   "target_species": "Potentilla anserina",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2035623996",
+   "doi": "10.1017/S0266467406003877",
+   "title": "Variation in the population dynamics of the palm Sabal yapa in a landscape shaped by shifting cultivation in the Yucatan Peninsula, Mexico",
+   "year": 2007,
+   "abstract": "To understand the population dynamics of a species, it is necessary to document the way in which its demographic behaviour varies through space and time. Anthropogenic disturbance, such as shifting cultivation, is an important factor causing demographic variation in many tropical non-timber forest products. The leaves of the palm Sabal yapa are an important non-timber forest product used for thatching by Mayan peoples. The demography of Sabal yapa was studied in three habitats (mature forest, successional forest and crop fields), representing successional phases along the slash-and-burn agricultural cycle in the Yucatan Peninsula. Matrix population models, along with elasticity analyses and life-table-response experiments were employed. Population growth rate differed between patches (MF: \u03bb = 1.043; SF: \u03bb = 1.027; CF: \u03bb = 0.959). Only the \u03bb value of the mature forest was significantly higher than unity. Fecundity and seedling survival were lowest in the crop fields and highest in the mature forest. The elasticity analyses and life-table-response experiments showed that entries with a high positive contribution to \u03bb also showed high elasticity values, while those with a negative contribution to \u03bb showed low elasticity. Thus, both analyses are crucial to understand the demography of a species and to aid in conservation and management practices.",
+   "target_species": "Sabal yapa",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W4250893337",
+   "doi": "10.1111/j.1654-1103.2007.tb02519.x",
+   "title": "Population dynamics of annuals in perennial grassland controlled by ants and environmental stochasticity",
+   "year": 2007,
+   "abstract": "Abstract Questions:In a system of five annual plant species restricted to nest\u2010mounds of the antLasiusflavusin a perennial grassland: 1. Are the population dynamics influenced by ant disturbance? 2. Is the survival of the annuals at the scale of the whole grassland possible under the observed conditions of disturbance dynamics? 3. Which phases in the annuals\u2019 life cycle and patch types contribute most to population growth? Location:Borec hill, northern Czechia, 50\u00b031\u2019 N, 13\u00b059\u2019 E, 446 m a.s.l. Methods:Local population dynamics of the annuals were analysed separately for five patch types that differed in the proportion of bare soil. Vitality rates were assessed directly in the field, but also in a garden experiment, during 2000\u20132001 and 2001\u20132002. Population dynamics at the scale of the whole grassland was analysed with a megamatrix approach, combining patch dynamics of the nest\u2010mounds with patch\u2010specific population dynamics. Contributions of different phases and patch types to growth rate were estimated by elasticity analysis. Results:Nest\u2010mounds differed in the percentage of bare soil. Increasing moss cover significantly reduced germination and seed production of all studied annuals and decreased their population growth rates (\u03bb). Although successional processes dominated over ant disturbance, populations of all species could survive well (\u03bb\u226b 1) in the grassland according to the 2000\u20132001 megamatrix dynamics. Based on the dynamics from the following period, two species would not survive in a long\u2010term perspective due to random environmental variation. Whereas the A\u2010A transition (adult plants originating from adults of the previous year) had the highest elasticity under open conditions and \u2018good period\u2019 demography, the importance of persistent seeds increased under reverse conditions. This, however, differed among species. Conclusions:Ant\u2010disturbance was shown to be critical for the population survival of five annual species in the studied grassland. The fate of the",
+   "target_species": "Veronica arvensis",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1980491497",
+   "doi": "10.1111/1365-2745.12140",
+   "title": "Defoliation and bark harvesting affect life\u2010history traits of a tropical tree",
+   "year": 2013,
+   "abstract": "Summary Selectively harvesting whole individuals in managed populations (e.g. fisheries, hunting) has substantial effects on life expectancy and age at maturity. Although demographic rates of trees are impacted by recurrent harvest of plant organs (e.g. fruit, leaf, bark) known as non\u2010timber forest products, the effect of such harvesting on life\u2010history traits is less explored. Here, we investigate how different strategies of foliage and bark harvest by local people affect life expectancy and age at maturity of Khaya senegalensis across two climatic regions in West Africa. We compare elasticities of life expectancy to perturbation of vital rates to the elasticities of population growth rate, emphasizing how the two kinds of elasticity address distinct biological issues and management goals. Life expectancy was shorter and reproduction delayed in the dry than in the moist region, indicating a cost of drought to life\u2010history traits. Harvesting at constant rates only affects (increased) life expectancy in the moist region and (reduced) age at first reproduction in the dry region. Models in which harvest intensity varies stochastically over time show results similar to those with constant harvesting rate. However, there is an interactive effect of harvest on life\u2010history traits between regions. Increasing harvesting pressure accelerates maturity and reduces life expectancy in the dry region but delays reproduction and increases life expectancy in the moist region. This indicates that stochasticity magnifies the effect of harvesting on life\u2010history traits. With the notable exception of heavily harvested populations in the moist region, life expectancy is more elastic to survival of early rather than late life stages. This pattern contrasts with the elasticity of population growth rate; the latter is more elastic to survival of late rather than early life stages. Synthesis. Our results suggest that plant harvesting can affect life\u2010history traits but in different ways acro",
+   "target_species": "Cedrela odorata",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Khaya senegalensis presented with a different target species"
+  },
+  {
+   "id": "W2330674103",
+   "doi": "10.2307/2259775",
+   "title": "Demography of Two Facultative Biennial Plant Species in an Unproductive Habitat",
+   "year": 1985,
+   "abstract": "SUMMARY character: the 'sparse' and 'dense' sites. The number of seeds produced were also estimated on the two sites. (2) The demography of P. hieracioides differed greatly on the two sites. On the dense site, more seedlings emerged and a greater proportion established, probably due to the higher water retention than on the sparse site. Conversely, a lower proportion of plants at the dense site survived to maturity, reproduction was delayed, and there was reduced seed output by mature plants, possibly due to competition. Survival and reproduction was highest in 1976, the year with the most rainfall during the growing season. Populations of P. hieracioides declined during the study on both sites, apparently because of low survival and establishment of seedlings during 4 subsequent years of drought. Populations persisted through the dry years by reproductive delay coupled with comparatively high survival of established plants. (3) Most aspects of Echium vulgare demography appeared unaffected by site conditions; only reproduction was delayed longer on the dense site. Moreover, the rates of survival from seedling emergence to maturity were as l gh during years of drought as when rainfall was abundant. Echium vulgare plants survived better during drought than those of Picris hieracioides. Populations of Echium vulgare increased even during 4 years of drought, suggesting that the species may have only recently begun colonizing the quarry. Echium vulgare appears to tolerate better the dry, infertile quarry habitat than Picris hieracioides, indicating that there is substantial between-species variability among facultative biennials in their ability to colonize unproductive sites. (4) Unlike old-field populations of facultative biennials that typically become extinct after one or two generations due to successional changes, P. hieracioides and Echium vulgare showed no decline resulting from competitive displacement. The populations will probably continue to persist in the qu",
+   "target_species": "Echium vulgare",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1969429487",
+   "doi": "10.1111/j.1523-1739.2008.01073.x",
+   "title": "Invasion, Disturbance, and Competition: Modeling the Fate of Coastal Plant Populations",
+   "year": 2008,
+   "abstract": "Wetland habitats are besieged by biotic and abiotic disturbances such as invasive species, hurricanes, habitat fragmentation, and salinization. Predicting how these factors will alter local population dynamics and community structure is a monumental challenge. By examining ecologically similar congeners, such as Iris hexagona and I. pseudacorus (which reproduce clonally and sexually and tolerate a wide range of environmental conditions), one can identify life-history traits that are most influential to population growth and viability. We combined empirical data and stage-structured matrix models to investigate the demographic responses of native (I. hexagona) and invasive (I. pseudacorus) plant populations to hurricanes and salinity stress in freshwater and brackish wetlands. In our models I. hexagona and I. pseudacorus responded differently to salinity stress, and species coexistence was rare. In 82% of computer simulations of freshwater marsh, invasive iris populations excluded the native species within 50 years, whereas native populations excluded the invasive species in 99% of the simulations in brackish marsh. The occurrence of hurricanes allowed the species to coexist, and species persistence was determined by the length of time it took the ecosystem to recover. Rapid recovery (2 years) favored the invasive species, whereas gradual recovery (30 years) favored the native species. Little is known about the effects of hurricanes on competitive interactions between native and invasive plant species in marsh ecosystems. Our models contribute new insight into the relationship between environmental disturbance and invasion and demonstrate how influential abiotic factors such as climate change will be in determining interspecific interactions.",
+   "target_species": "Iris hexagona",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2550724669",
+   "doi": "10.1111/1365-2745.12695",
+   "title": "Demographic stimulation of the obligate understorey herb,Panax quinquefoliusL., in response to natural forest canopy disturbances",
+   "year": 2016,
+   "abstract": "Summary Natural and anthropogenic forest canopy disturbances significantly alter forest dynamics and lead to multi\u2010dimensional shifts in the forest understorey. An understorey plant's ability to exploit alterations to the light environment caused by canopy disturbance leads to changes in population dynamics. The purpose of this work was to determine if population growth of a species adapted to low light increases in response to additional light inputs caused by canopy disturbance, or alternatively, declines due to long\u2010term selection under low light conditions. To address this question, we quantified the demographic response of an understorey herb to three contrasting forest canopy disturbances (ice storms, tent caterpillar defoliation and lightning strikes) that encompass a broad range of disturbance severity. We used a model shade\u2010adapted understorey species,Panax quinquefolius, to parameterize stage\u2010based matrix models. Asymptotic growth rates, stochastic growth rates and simulations of transient dynamics were used to quantify the population\u2010level response to canopy disturbance. Life table response experiments were used to partition the underlying controls over differences in population growth rates. Population growth rates at all three disturbed sites increased in the transition period immediately after the canopy disturbance relative to the transition period prior to disturbance. Stochastic population models revealed that growth rates increased significantly in simulations that included disturbance matrices relative to those simulations that excluded disturbance. Additionally, transient models indicated that population size (n) was larger for all three populations when the respective disturbance matrix was included in the model. Synthesis. Obligate shade species are most likely to be pre\u2010adapted to take advantage of canopy gaps and light influx to a degree, and this pre\u2010adaptation may be due to long\u2010term selection under dynamic old growth forest canopies. We pr",
+   "target_species": "Panax quinquefolius",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1977002781",
+   "doi": "10.1111/j.1523-1739.2009.01345.x",
+   "title": "Effects of Harvest of Nontimber Forest Products and Ecological Differences between Sites on the Demography of African Mahogany",
+   "year": 2009,
+   "abstract": "The demographic impacts of harvesting nontimber forest products (NTFP) have been increasingly studied because of reports of potentially unsustainable harvest. Nevertheless, our understanding of how plant demographic response to harvest is altered by variation in ecological conditions, which is critical for developing realistic sustainable-use plans, is limited. We built matrix population models to test whether and how variation in ecological conditions affects population responses to harvest. In particular, we examined the effect of bark and foliage harvest on the demography of populations of African mahogany (Khaya senegalensis) in two contrasting ecological regions of Benin, West Africa. K. senegalensis bark and foliage harvest significantly reduced its stochastic population growth rates, but ecological differences between regions had a greater effect on population growth rates than did harvest. The effect of harvest on population growth rates (Deltalambda) was slightly stronger in the moist than in the drier region. Life-table response experiments revealed that the mechanism by which harvesting reduced lambda differed between ecological regions. Lowered stasis (persistence) of larger life stages lead to a reduction in lambda in the drier region, whereas lowered growth of all life stages lowered lambda in moist region. Potential strategies to increase population growth rates should include decreasing the proportion of individuals harvested, promoting harvester-owned plantations of African mahogany, and increasing survival and growth by promoting no-fire zones in gallery forests. Our results show how population responses to harvest of NTFP may be altered by ecological differences across sites and emphasize the importance of monitoring populations over the climatic range in which they occur to develop more realistic recommendations for conservation.",
+   "target_species": "Quercus rugosa",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Khaya senegalensis presented with a different target species"
+  },
+  {
+   "id": "W2035623996",
+   "doi": "10.1017/S0266467406003877 ",
+   "title": "Variation in the population dynamics of the palm Sabal yapa in a landscape shaped by shifting cultivation in the Yucatan Peninsula, Mexico",
+   "year": 2007,
+   "abstract": "To understand the population dynamics of a species, it is necessary to document the way in which its demographic behaviour varies through space and time. Anthropogenic disturbance, such as shifting cultivation, is an important factor causing demographic variation in many tropical non-timber forest products. The leaves of the palm Sabal yapa are an important non-timber forest product used for thatching by Mayan peoples. The demography of Sabal yapa was studied in three habitats (mature forest, successional forest and crop fields), representing successional phases along the slash-and-burn agricultural cycle in the Yucatan Peninsula. Matrix population models, along with elasticity analyses and life-table-response experiments were employed. Population growth rate differed between patches (MF: \u03bb = 1.043; SF: \u03bb = 1.027; CF: \u03bb = 0.959). Only the \u03bb value of the mature forest was significantly higher than unity. Fecundity and seedling survival were lowest in the crop fields and highest in the mature forest. The elasticity analyses and life-table-response experiments showed that entries with a high positive contribution to \u03bb also showed high elasticity values, while those with a negative contribution to \u03bb showed low elasticity. Thus, both analyses are crucial to understand the demography of a species and to aid in conservation and management practices.",
+   "target_species": "Sabal yapa",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1792967186",
+   "doi": "10.1186/1472-6882-6-8",
+   "title": "Cytisus scoparius link - A natural antioxidant",
+   "year": 2006,
+   "abstract": "BACKGROUND: Recent investigations have shown that the antioxidant properties of plants could be correlated with oxidative stress defense and different human diseases. In this respect flavonoids and other polyphenolic compounds have gained the greatest attention. The plant Cytisus scoparius contains the main constituent of flavone and flavonals. The present study was undertaken to evaluate the in vitro antioxidant activities of extract of aerial part of Cytisus scoparius. METHODS: The plant extract was tested for DPPH (1, 1-diphenyl, 2-picryl hydrazyl) radical scavenging, nitric oxide radical scavenging, superoxide anion radical scavenging, hydroxyl radical scavenging, antilipid peroxidation assay, reducing power and total phenol content. RESULTS: The extract exhibited scavenging potential with IC50 value of 1.5 microg/ml, 116.0 microg/ml and 4.7 microg/ml for DPPH, nitric oxide and superoxide anion radicals. The values were found to lesser than those of vitamin C, rutin, and curcumin, as standards. The extract showed 50% protection at the dose of 104.0 microg/ml in lipid peroxidation induced by Fe2+/ ascorbate system in rat liver microsomal preparation. There is decrease in hydroxyl radical generation with IC50 value of 27.0 microg/ml when compared with standard vitamin E. The reducing power of the extract depends on the amount of extract. A significant amount of polyphenols could be detected by the equivalent to 0.0589 microg of pyrocatechol from 1 mg of extract. CONCLUSION: The results obtained in the present study indicate that hydro alcoholic extract of aerial part of Cytisus scoparius is a potential source of natural antioxidants.",
+   "target_species": "Cytisus scoparius",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Medicine"
+  },
+  {
+   "id": "W2044944705",
+   "doi": "10.1371/journal.pone.0056953",
+   "title": "Variability in the Contribution of Different Life Stages to Population Growth as a Key Factor in the Invasion Success of Pinus strobus",
+   "year": 2013,
+   "abstract": "BACKGROUND: Despite the increasing number of studies attempting to model population growth in various organisms, we still know relatively little about the population dynamics of long-lived species that reproduce only in the later stages of their life cycle, such as trees. Predictions of the dynamics of these species are, however, urgently needed for planning management actions when species are either endangered or invasive. In long-lived species, a single management intervention may have consequences for several decades, and detailed knowledge of long-term performance can therefore elucidate possible outcomes during the management planning phase. METHODOLOGY AND PRINCIPAL FINDINGS: We studied the population dynamics of an invasive tree species, Pinus strobus, in three habitat types represented by their position along the elevation gradient occupied by the species. In agreement with previous studies on the population dynamics of long-lived perennials, our results show that the survival of the largest trees exhibits the highest elasticity in all of the studied habitats. In contrast, life table response experiments (LTRE) analysis showed that different stages contribute the most to population growth rates in different habitats, with generative reproduction being more important in lower slopes and valley bottoms and survival being more important on rock tops and upper slopes. CONCLUSIONS: The results indicate that P. strobus exhibits different growth strategies in different habitats that result in similar population growth rates. We propose that this plasticity in growth strategies is a key factor in the invasion success of the white pine. In all of the investigated habitats, the population growth rates are above 1, indicating that the population of the species is still increasing and has the ability to spread and occupy a wide range of habitats.",
+   "target_species": "Pinus strobus",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2035623996",
+   "doi": "10.1017/S0266467406003877",
+   "title": "Variation in the population dynamics of the palm Sabal yapa in a landscape shaped by shifting cultivation in the Yucatan Peninsula, Mexico",
+   "year": 2007,
+   "abstract": "To understand the population dynamics of a species, it is necessary to document the way in which its demographic behaviour varies through space and time. Anthropogenic disturbance, such as shifting cultivation, is an important factor causing demographic variation in many tropical non-timber forest products. The leaves of the palm Sabal yapa are an important non-timber forest product used for thatching by Mayan peoples. The demography of Sabal yapa was studied in three habitats (mature forest, successional forest and crop fields), representing successional phases along the slash-and-burn agricultural cycle in the Yucatan Peninsula. Matrix population models, along with elasticity analyses and life-table-response experiments were employed. Population growth rate differed between patches (MF: \u03bb = 1.043; SF: \u03bb = 1.027; CF: \u03bb = 0.959). Only the \u03bb value of the mature forest was significantly higher than unity. Fecundity and seedling survival were lowest in the crop fields and highest in the mature forest. The elasticity analyses and life-table-response experiments showed that entries with a high positive contribution to \u03bb also showed high elasticity values, while those with a negative contribution to \u03bb showed low elasticity. Thus, both analyses are crucial to understand the demography of a species and to aid in conservation and management practices.",
+   "target_species": "Brassica napus",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Sabal yapa presented with a different target species"
+  },
+  {
+   "id": "W2021264767",
+   "doi": "10.1021/np1000158",
+   "title": "Limonoids and Triterpenoids from Khaya senegalensis",
+   "year": 2010,
+   "abstract": "Seven new limonoids (1-7), named khayalenoids C-I, three new triterpenoids (8-10), named senegalenes A-C, and eight known limonoids have been isolated from stems of Khaya senegalensis. The structures of these compounds were elucidated on the basis of spectroscopic analyses.",
+   "target_species": "Khaya senegalensis",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Pharmacology, Toxicology and Pharmaceutics"
+  },
+  {
+   "id": "W2039633562",
+   "doi": "10.1017/S0266467402002018",
+   "title": "Demography of the Brazil nut tree (Bertholletia excelsa) in the Bolivian Amazon: impact of seed extraction on recruitment and population dynamics",
+   "year": 2002,
+   "abstract": "A demographic study was carried out on Bertholletia excelsa, the Brazil nut tree, in two primary forest sites in Northern Bolivia where Brazil nuts have been harvested for several decades. In spite of the large proportion (93%) of seeds that are harvested, reasonable densities of recently emerged seedlings were found. Seeds of Bertholletia are contained in woody fruits that are primarily opened by agoutis. Most fruits are left untouched on the forest floor for 1\u20132 y before they are opened, possibly due to high energetic costs of fruit opening just after fruit fall. However, the proportion of viable seeds is strongly reduced in older fruits. Growth in diameter at breast height (dbh) was low for pole-sized trees (< 15 cm dbh) and adult trees (> 100 cm dbh) and peaked for intermediate-sized trees (30\u201360 cm). These trees often attained a growth rate of > 1.5 cm y\u22121, which is high compared with other non-pioneer tropical trees. This, and the strong growth response to increased light availability found for seedlings and saplings, suggest that Bertholletia excelsa can be classified as a gap-dependent species. Matrix population models were constructed for both study populations. Population growth rates (\u03bb) were close to one, and were most sensitive to persistence in one size category. Age estimates revealed that age at first reproduction (at dbh > 60 cm) amounts to over 120 y, and age in the last category (dbh > 160 cm) to almost 300 y. Given the continuous rejuvenation of the population, the stable population size, the high age at maturity and the long reproductive period, it is concluded that current levels of Brazil nut extraction may be sustained at least for several decades and perhaps for even longer periods.",
+   "target_species": "Bertholletia excelsa",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2160711383",
+   "doi": "10.2307/2426148",
+   "title": "Survivorship and Recruitment in a Long-lived Prairie Perennial, Ipomoea leptophylla (Convolvulaceae)",
+   "year": 1991,
+   "abstract": "Little is known of the lifespans of herbaceous plants, especially in grasslands, although this information is basic to understanding the dynamics of species and ecosystems. Permanently marked plants of the bush morning glory, Ipomoea leptophylla (Convolvulaceae), in Nebraska sandhills prairie were censused annually from 1979-1989. While the average annual death rate was 2.6 per 100, virtually all the mortality was among smaller and probably younger plants. Recruitment varied greatly among years. Of plants of known age, the median age at first flowering was 6 yr. After 9 yr 30% had never flowered. Larger size classes flowered more frequently than smaller mature plants and were more likely to mature seeds successfully. For this polycarpic nonrhizomatous herb, a generation is probably over 2 decades and some plants may live more than a century. As a result, environmental variation on the scale of even the Great Drought may be a passing interval of minor impact on lifetime fecundity for established adults, although until extreme years have been observed this cannot be proven.",
+   "target_species": "Ipomoea leptophylla",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2132250495",
+   "doi": "10.1111/j.1365-2664.2007.01375.x",
+   "title": "Demographic variation and population viability in a threatened Himalayan medicinal and aromatic herb Nardostachys grandiflora: matrix modelling of harvesting effects in two contrasting habitats",
+   "year": 2007,
+   "abstract": "Summary Despite significant interest in the sustainable use of medicinal plants, the population ecology of many medicinal plant species remains unstudied. Also, few demographic studies have compared effects of harvesting across habitats. We studied the demography of a highly threatened perennial Himalayan medicinal herb, Nardostachys grandiflora, in two habitats and examined effects of indigenous harvesting regimes on its population dynamics. In a rocky\u2010outcrop population in 1998, different levels of rhizome harvesting were applied directly by the local users. In meadows, we sampled an unharvested population and another population that was commercially harvested. Data on recruitment, growth and survival of individuals classified by size were gathered over 4 years. Population growth rate (\u03bb) was significantly higher in the unharvested meadow population than in control subplots of the outcrop population. Harvesting significantly reduced \u03bb. Matrix model projections revealed that the size of outcrop populations would return to initial values within \u22485 years, only after 10% rhizome harvesting. In other treatments, recovery time varied from 17 (25% harvesting) to 33 (75%) years. In contrast, in the commercially harvested meadow population (with harvesting levels >25%), projected recovery time was 6 years. Higher growth rates and faster recovery in meadow populations appear to be due to higher recruitment and faster vegetative growth. In outcrops, slow growth and low fecundity slow down recovery after harvesting. Synthesis and application. Nardostachys grandiflora is extremely sensitive to harvesting of rhizomes, but this sensitivity is higher in outcrop than in meadow habitats. Given the constraints on its population growth and its high sensitivity to harvesting, N. grandiflora should be strictly managed, with low harvest rates (<10% in outcrop and <25% in meadow) and fairly long rotations (at least 5 years) between successive harvests. This work shows the importance of c",
+   "target_species": "Rhus copallinum",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Nardostachys jatamansi presented with a different target species"
+  },
+  {
+   "id": "W2145636568",
+   "doi": "10.1890/0012-9658(2006)87[3200:TIOIGO]2.0.CO;2",
+   "title": "THE IMPACT OF INVASIVE GRASSES ON THE POPULATION GROWTH OFANEMONE PATENS, A LONG-LIVED NATIVE FORB",
+   "year": 2006,
+   "abstract": "Negative impacts of invasive plants on natives have been well documented, but much less is known about whether invasive plants can cause population level declines. We used demographic models to investigate the effects of two invasive grasses on the demography and population growth of Anemone patens, a long-lived native perennial of North American grasslands. Demographic data of A. patens growing in patches characterized by Bromus inermis, Poa pratensis, or native grasses were used to parameterize integral projection models. Models based on both average conditions and those allowing for environmental stochasticity indicate that A. patens is slowly increasing in patches of native grass (lambda = 1.02) and declining in patches of invasive grasses, particularly those dominated by B. inermis (lambda = 0.93). Extinction probabilities indicate that A. patens should persist in native grass patches, but has a much higher probability of extinction in Bromus patches compared to Poa patches. While sensitivity analyses showed that survival had the biggest effect on population growth rates in all habitats, results of a Life Table Response Experiment (LTRE) revealed that slower individual growth rates in patches of invasive grasses contributed the most to the observed reduction in population growth. These results suggest that invasive grasses may cause slow declines in A. patens, despite short-term coexistence, and that controlling B. inermis only would not be sufficient to ensure A. patens persistence.",
+   "target_species": "Anemone patens",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1991818212",
+   "doi": "10.1111/j.0272-4332.2004.00481.x",
+   "title": "Projecting Rates of Spread for Invasive Species",
+   "year": 2004,
+   "abstract": "All else being equal, the faster an invading species spreads, the more dangerous its invasion. The projection of spread rate therefore ought to be a central part of the determination of invasion risk. Originally formulated in the 1970s to describe the spatial spread of advantageous alleles, integrodifference equation (IDE) models have since been co-opted by population biologists to describe the spread of populations. More recently, they have been modified to include population structure and environmental variability. We review how IDE models are formulated, how they are parameterized, and how they can be analyzed to project spread rates and the sensitivity of those rates to changes in model parameters. For illustrative purposes, we apply these models to Cytisus scoparius, a large shrub in the legume family that is considered a noxious invasive species in eastern and western North America, Chile, Australia, and New Zealand.",
+   "target_species": "Cytisus scoparius",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W7221894147",
+   "doi": "10.1007/s12231-026-09704-1",
+   "title": "DNA Barcoding Validation of Medicinal Ipomoea Species from the Morning Glory Family",
+   "year": 2026,
+   "abstract": "The growing consumption of herbal products has been accompanied by a concerning increase in the use of adulterants during production, which could affect the quality of traditional herbal medicine. DNA barcoding is a powerful method for accurately identifying plants at various taxonomic levels, and for authenticating medicinal plants. In this study, the DNA barcoding regions rbcL and ITS were used to corroborate the botanical classification of commercial seeds from five Ipomoea species and one hybrid, all commonly used as herbal medicines and widely cultivated as ornamentals. These comprised Ipomoea alba , Ipomoea leptophylla , Ipomoea nil \u201cScarlet O\u2019Hara,\u201d Ipomoea nil \u00d7 imperialis , Ipomoea tricolor \u201cHeavenly Blue,\u201d and Ipomoea violacea . It was not possible to differentiate individuals that were sold as different species, i.e., Ipomoea violacea and Ipomoea tricolor \u201cHeavenly Blue,\u201d due to the mislabeling of the source material. Our results confirmed that both analyzed commercial seeds belonged to Ipomoea tricolor. The phylogenetic analysis confirmed the effectiveness of the ITS1 and ITS2 markers as DNA barcodes for identifying medicinal species within the genus. DNA barcoding enables precise species identification and supports botanical authenticity. Our findings underscore the importance of taxonomic and analytical accuracy in studying medicinal plants, ensuring that identity assumptions are scientifically sound. DNA barcodes and ethnobotanical genomics can be integrated into regulatory frameworks for quality control of herbal medicines.",
+   "target_species": "Ipomoea leptophylla",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W2005167122",
+   "doi": "10.1097/00043764-196505000-00050",
+   "title": "Vesicant Dermatitis Due to Prairie Crocus(Anemone Patens L.)",
+   "year": 1965,
+   "abstract": "A case is presented of severe vesication of the skin due to contact with the prairie crocus which contains an active vesicant principle.",
+   "target_species": "Anemone patens",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Medicine"
+  },
+  {
+   "id": "W1982368428",
+   "doi": "10.1046/j.1365-3180.1998.00068.x",
+   "title": "Population dynamics of Rumex obtusifolius under contrasting lucerne cropping systems",
+   "year": 1998,
+   "abstract": "The population dynamics of Rumex obtusifolius L. was analysed in a lucerne:winter cereal crop rotation by means of a matrix population model that takes into consideration two crop rotation periods: the lucerne (Medicago sativa L.) cropping period and the cereal cropping period. Several transition matrices based on life\u2010cycle stages were calculated for each cropping period using experimental data and were used in the construction of a model that analyses the population dynamics of R. obtusifolius under different harvest dates and lengths of lucerne cropping periods. Model projections showed that populations of R. obtusifolius increased during the lucerne cropping period regardless of harvest date and decreased during the cereal cropping period. Under a late harvest date, populations decreased at each crop rotation when lucerne was grown for 3 years, remained close to the equilibrium when lucerne was left to grow for 5 years, and increased for longer lucerne cropping periods. In contrast, populations of R. obtusifolius decreased even with a lucerne cropping period of 9 years under an early harvest date. The significance of these results in relation to the biology and the non\u2010chemical control of the species is discussed.",
+   "target_species": "Betula pendula",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Rumex obtusifolius presented with a different target species"
+  },
+  {
+   "id": "W2188572863",
+   "doi": "",
+   "title": "Effect of Boswellia papyrifera on cognitive impairment in multiple sclerosis.",
+   "year": 2014,
+   "abstract": "BACKGROUND: Cognitive impairment is one of the most crucial disorders among multiple sclerosis (MS) patients. Since MS is an inflammatory disease and Boswellia papyrifera has anti-inflammatory effects, the influence of B. papyrifera on cognitive impairment in MS patients has been investigated in the present study. METHODS: In this clinical trial, 80 MS patients who referred to the clinic of Shafa Hospital, Kerman, Iran were selected. Having completed a written consent form, patients with relapsing remitting MS, with no occurrence of a new attack throughout 1 month before the study, with no pregnancy or breastfeeding entered the study. The patients were randomly divided into two groups; then Brief International Cognitive Assessment for MS (BICAMS) test was carried out. One group received B. papyrifera (capsule 300 mg, twice a day) while the other group received placebo with the same dose for 2 months. After 2 months of treatment, BICAMS was redone and changes were analyzed. The significant change value on the before-after BICAMS points were considered to be 8, 13, and 7 points for the symbol digit modality test (SDMT), the California verbal learning test (CVLT), and the brief visual-spatial memory test revised (BVMT-R), respectively. RESULTS: The patients' mean age was 36.58 8.50 years. The mean duration of disease was 7.41 4.13 years. About 84.2% (n = 64) of the patients was female. In the BVMT-R, 13 patients (34.2%), who had already taken B. papyrifera, were shown to have significant improvement compared to the placebo group with no improvement (P < 0. 001). About 12 and 8 patients in the treatment and placebo groups in the SDMT, respectively (P = 0.200) and 17 and 12 patients in the treatment and placebo groups in the CVLT, respectively (P = 0.170) had significant change values. CONCLUSION: B. papyrifera showed significant improvement in visuospatial memory, but had no effect on verbal memory and information processing speed.",
+   "target_species": "Boswellia papyrifera",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Medicine"
+  },
+  {
+   "id": "W7224684460",
+   "doi": "",
+   "title": "Primula vulgaris",
+   "year": 2025,
+   "abstract": "The PalDat entry for Primula vulgaris (Primulaceae) presents a detailed description of the pollen morphology and ultrastructure of this species. The pollen grains are monads, medium-sized (26\u201350 \u00b5m), isopolar and spheroidal when hydrated. They exhibit a distinctive heterostylous pollen dimorphism: pollen grains from long-styled flowers are smaller and typically have approximately seven colpi, whereas those from short-styled flowers have approximately nine colpi. This variation in aperture number and pollen size is a characteristic feature of the species.The pollen surface displays a reticulate ornamentation, observable by light and scanning electron microscopy (SEM). The pollen wall includes a semitectate tectum and a compact, continuous endexine. The pollen grains are coated with pollenkitt, contain lipid reserves and are two-celled. Ubisch bodies are absent. The entry is illustrated with images of flowers, hydrated and dry pollen grains, polar and equatorial views, apertures, exine ornamentation and pollen wall cross-sections. These observations provide a detailed overview of the pollen morphology and structural characteristics of Primula vulgaris.",
+   "target_species": "Primula vulgaris",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W1553536739",
+   "doi": "10.1111/j.1365-2745.2005.01007.x",
+   "title": "The accuracy of matrix population model projections for coniferous trees in the Sierra Nevada, California",
+   "year": 2005,
+   "abstract": "1 We assess the use of simple, size-based matrix population models for projecting population trends for six coniferous tree species in the Sierra Nevada, California. We used demographic data from 16 673 trees in 15 permanent plots to create 17 separate time-invariant, density-independent population projection models, and determined differences between trends projected from initial surveys with a 5-year interval and observed data during two subsequent 5-year time steps. 2 We detected departures from the assumptions of the matrix modelling approach in terms of strong growth autocorrelations. We also found evidence of observation errors for measurements of tree growth and, to a more limited degree, recruitment. Loglinear analysis provided evidence of significant temporal variation in demographic rates for only two of the 17 populations. 3 Total population sizes were strongly predicted by model projections, although population dynamics were dominated by carryover from the previous 5-year time step (i.e. there were few cases of recruitment or death). Fractional changes to overall population sizes were less well predicted. Compared with a null model and a simple demographic model lacking size structure, matrix model projections were better able to predict total population sizes, although the differences were not statistically significant. Matrix model projections were also able to predict short-term rates of survival, growth and recruitment. Mortality frequencies were not well predicted. 4 Our results suggest that simple size-structured models can accurately project future short-term changes for some tree populations. However, not all populations were well predicted and these simple models would probably become more inaccurate over longer projection intervals. The predictive ability of these models would also be limited by disturbance or other events that destabilize demographic rates.",
+   "target_species": "Pinus ponderosa",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2033763170",
+   "doi": "10.1104/pp.31.4.284",
+   "title": "Exogenous Substrate Utilization and Fermentation by the Pollen of Pinus ponderosa.",
+   "year": 1956,
+   "abstract": "Henry Hellmers, Leonard Machlis; Exogenous Substrate Utilization and Fermentation by the Pollen of Pinus ponderosa. 1, Plant Physiology, Volume 31, Issue 4",
+   "target_species": "Pinus ponderosa",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W2108739912",
+   "doi": "10.1002/ptr.2148",
+   "title": "Anticancer activity of limonoid from Khaya senegalensis",
+   "year": 2007,
+   "abstract": "Two limonoids were isolated from the methanol extract of Khaya senegalensis (Meliaceae), and their structures were identified as 3alpha,7alpha-dideacetylkhivorin (1) and 1-O-acetylkhayanolide B (2) on the basis of MS and NMR spectral data. Complete assignments of (1)H and (13)C chemical shifts for compounds 1 and 2 were achieved by means of 1D and 2D NMR including DEPT, (1)H-(1)H COSY, HMQC, HMBC experiments. Compound 1 showed significant growth inhibitory activities against MCF-7, SiHa and Caco-2 cells with IC(50) values in the range of 0.07-0.14 microm (35-69 ppm) while compound 2 did not.",
+   "target_species": "Khaya senegalensis",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Pharmacology, Toxicology and Pharmaceutics"
+  },
+  {
+   "id": "W2083756169",
+   "doi": "10.1046/j.1469-8137.1999.00540.x",
+   "title": "Evaluation of the population dynamics of the forage legume (Lotus corniculatus), using matrix population models",
+   "year": 1999,
+   "abstract": "The population dynamics of perennial crop plants are influenced by numerous factors, including management practices. Conditions in the field vary from year to year, and matrix population models are useful for evaluating population behaviour in relation to environmental variability. In Missouri, the stand persistence of birdsfoot trefoil (Lotus corniculatus), a perennial legume, is often limited by disease and poor seed production. A stage-based, matrix population model was developed to evaluate the population dynamics of birdsfoot trefoil in relation to clipping treatment. The plant growth stages represented in the model were seeds, seedlings, mature vegetative and reproductive plants. Two phases of population growth were evaluated in clipped and unclipped stands. Establishment-phase populations were characterized by relatively high mortality and low reproduction. Elasticity analysis indicated that growth of these populations was most sensitive to the survival of vegetative plants. Mature vegetative plants and seeds comprised the majority of surviving individuals in clipped and unclipped populations, respectively; however, establishment-phase populations under both management treatments tended toward extinction. Populations in the post-establishment phase of growth were characterized by relatively low mortality and high reproduction. Population growth in this phase of growth was most sensitive to seed production, and most individuals in these populations were at the seed stage.",
+   "target_species": "Lotus corniculatus",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1980491497",
+   "doi": "10.1111/1365-2745.12140",
+   "title": "Defoliation and bark harvesting affect life\u2010history traits of a tropical tree",
+   "year": 2013,
+   "abstract": "Summary Selectively harvesting whole individuals in managed populations (e.g. fisheries, hunting) has substantial effects on life expectancy and age at maturity. Although demographic rates of trees are impacted by recurrent harvest of plant organs (e.g. fruit, leaf, bark) known as non\u2010timber forest products, the effect of such harvesting on life\u2010history traits is less explored. Here, we investigate how different strategies of foliage and bark harvest by local people affect life expectancy and age at maturity of Khaya senegalensis across two climatic regions in West Africa. We compare elasticities of life expectancy to perturbation of vital rates to the elasticities of population growth rate, emphasizing how the two kinds of elasticity address distinct biological issues and management goals. Life expectancy was shorter and reproduction delayed in the dry than in the moist region, indicating a cost of drought to life\u2010history traits. Harvesting at constant rates only affects (increased) life expectancy in the moist region and (reduced) age at first reproduction in the dry region. Models in which harvest intensity varies stochastically over time show results similar to those with constant harvesting rate. However, there is an interactive effect of harvest on life\u2010history traits between regions. Increasing harvesting pressure accelerates maturity and reduces life expectancy in the dry region but delays reproduction and increases life expectancy in the moist region. This indicates that stochasticity magnifies the effect of harvesting on life\u2010history traits. With the notable exception of heavily harvested populations in the moist region, life expectancy is more elastic to survival of early rather than late life stages. This pattern contrasts with the elasticity of population growth rate; the latter is more elastic to survival of late rather than early life stages. Synthesis. Our results suggest that plant harvesting can affect life\u2010history traits but in different ways acro",
+   "target_species": "Khaya senegalensis",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2023791574",
+   "doi": "10.1111/j.1469-8137.1984.tb04155.x",
+   "title": "ON THE ECOLOGY OF SHORT\u2010LIVED FORBS IN CHALK GRASSLANDS: LIFE\u2010HISTORY CHARACTERISTICS",
+   "year": 1984,
+   "abstract": "Summary The life\u2010histories of Carlina vulgaris L., Daucus carota L., Euphrasia officinalis L., Gentianella germanica (Willd). B\u00f6rner, Linum catharticum L., and Scabiosa columbaria L. in a chalk grassland in the Netherlands are described on the basis of frequent observations during a period of three and a half years. E. officinalis and a small part of the L. catharticum population were found to be annual. G. germanica and the major part of the L. catharticum population were biennial, whereas the other species took several years to reach maturity. All species except the major part of the Scabiosa columbaria population were monocarpic. Vegetation cover influenced the occurrence of short\u2010lived forbs, but a large variation is found in the data. In D. carota, E. officinalis and Scabiosa columbaria seed production had a marked effect on seedling density in the following year. Shoot growth in Scabiosa columbaria seedlings varied at various vegetation densities. Furthermore, a marked correlation was found between rosette size and the probability of becoming mature in the subsequent year. Within one grassland, life\u2010history types within the group of short\u2010lived species are found to vary. On the one hand, there are the small\u2010seeded annuals with high mortality, but rather constant density of mature plants (Euphrasia), and on the other hand there are the more conservative life histories (Carlina, Daucus and Scabiosa), with larger seeds, lower mortality rates, but higher age of first reproduction and considerable variation in the density' of individuals.",
+   "target_species": "Linum catharticum",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2062117443",
+   "doi": "10.1111/j.1365-2745.2007.01298.x",
+   "title": "Gap\u2010dependence in mangrove life\u2010history strategies: a consideration of the entire life cycle and patch dynamics",
+   "year": 2007,
+   "abstract": "1 Tropical rain forest trees have been classified according to the importance of canopy disturbances for their life histories. To assess gap-dependence vs. shade tolerance, we propose using demographic analysis of the degree to which gaps are critical for population growth. 2 Population growth is the composite of the successes and failures of individuals experiencing different life-cycle pathways (i.e. gap, building, and mature forest patches). To assess the contribution of each pathway, it is necessary to study patch dynamics. 3 We use stage and patch structured matrix models and loop analysis to assess the life-history strategies of two Neotropical mangrove trees, Avicennia germinans and Rhizophora mangle. We use data from field studies in Lake Maracaibo, Venezuela, that were specifically designed to parameterize these models. 4 In R. mangle, seedling to juvenile progression was limited to high light patches (> 20% canopy openness), even though they comprised < 10% of the area, and population growth depended entirely on gaps. A. germinans seedlings progressed to juveniles from all light patches, and progression rates increased with light level. However, low and medium light patches (< 20% openness) were most important to population growth because they were most frequent. We suggest that R. mangle is gap-dependent while A. germinans is shade-promoted (i.e. shaded patches are demographically more important to A. germinans population growth even though seedling progression rates increase with canopy openness). 5 Previous studies considered R. mangle shade-tolerant because its propagules can establish and initially survive in the shade, but our classification was based on its entire life cycle. For A. germinans, the important measure was not the growth response to light, but the frequency and demographic importance of different light patches. 6 Synthesis: These examples show that observations of a plant's germination biology or photosynthetic/growth response to light ",
+   "target_species": "Avicennia germinans",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2127981789",
+   "doi": "10.1111/j.1654-1103.2004.tb02286.x",
+   "title": "Population dynamics of four understorey shrub species in beech forest",
+   "year": 2004,
+   "abstract": "Abstract: Question: In the population dynamics of four understorey shrub species (Hp, Hydrangea paniculata Sieb, et Zucc.; Lu, Lindera umbellata Thunb. var. membranacea (Maxim.) Momiyama; Ms, Magnolia salicifolia (Sieb, et Zucc.) Maxim.; Vf, Viburnum furcatum Blume ex Maxim.), (1) What is the relative importance of seedling regeneration versus vegetative growth? (2) Can these shrubs persist stably for a long time in the understorey? (3) What kind of variation in demographic features is observed among these shrubs? Location: 780m a.s.l., north\u2010eastern Japan. Methods: Population dynamics were analyzed by using stage\u2010classified matrix models. Models were mainly constructed from five years stem\u2010census data, including current\u2010year seedlings and sprouts. Results: Current\u2010year sprouts emerged every year in every species. Current\u2010year seedlings emerged every year in Lu and Vf, but densities were very low. In every species, population growth rate (A) was close to the equilibrium value 1.0 and no statistical difference was found among species. The stable stage\u2010distribution predicted from the matrix model was similar to the observed distribution for Lu, Ms and Vf, but much different for Hp. Elasticity matrix was also similar among Lu, Ms and Vf, but was quite different for Hp. Conclusions: Lu, Ms and Vf were considered as climax shrubs that can regenerate and maintain their population stably in the understorey, even if canopy gaps form infrequently. Hp is a pioneer shrub that require more frequent formation of canopy gaps for long\u2010term persistence in the understorey.",
+   "target_species": "Hydrangea paniculata",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1942692537",
+   "doi": "10.1093/jhered/esv045",
+   "title": "Neutral and Selective Processes Drive Population Differentiation for Iris hexagona",
+   "year": 2015,
+   "abstract": "Gene flow among widespread populations can be reduced by geographical distance or by divergent selection resulting from local adaptation. In this study, we tested for the divergence of phenotypes and genotypes among 8 populations of Iris hexagona. Using a genotyping-by-sequencing approach, we generated a panel of 750 single nucleotide polymorphisms (SNPs) and used population genetic analyses to determine what may affect patterns of divergence across I. hexagona populations. Specifically, genetic differentiation was compared between populations at neutral and nonneutral SNPs and detected significant differences between the 2 types of markers. We then asked whether loci with the strongest degree of population genetic differentiation were also the loci with the strongest association to morphology or climate differences, allowing us to test if pollinators or climate drive population differentiation or some combination of both. We found 2 markers that were associated with morphology and 1 marker associated with 2 of the environmental variables, which were also identified in the outlier analysis. We then show that the SNPs putatively under selection were positively correlated with both geographic distance and phenotypic distance, albeit weakly to phenotypic distance. Moreover, neutral SNPs were only correlated with geographic distance and thus isolation-by-distance was observed for neutral SNPs. Our data suggest that both deterministic and neutral processes have contributed to the evolutionary trajectory of I. hexagona populations.",
+   "target_species": "Iris hexagona",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W2024611931",
+   "doi": "10.1111/j.1601-5223.1972.tb01035.x",
+   "title": "Chromosome studies in Allium sativum",
+   "year": 2009,
+   "abstract": "The chromosomes were studied in 4 strains of garlic, Allium sativum, belonging to 2 different morphologic types, 3 strains to the so-called H type and 1 strain to the U type. Since Allium sativum never sets any seed, each strain can be regarded as a clone. One aim of the study was to define whether their genetic isolation had resulted in the accumulation of chromosomal differences between the clones. It was demonstrated by measurements of all chromosomes of 55 root mitoses that the karyotypes of the clones, although generally maintaining their differentiation in 2 homologous sets, exhibited a significantly higher variation between clones than between cells within clones, the parameters studied being total chromosome length, arm ratio and 2 satellite indices. The differences were especially pronounced in the 2 satellite-carrying chromosome pairs. The results of the measurements were born out by observations on meiosis: even though normal bivalent formation characterized the 2 clones of the H type studied (the U type could not be studied, because it very rarely forms flowers), meiotic disturbances were frequent, indicating small structural differences between the homologues. In one of the clones a large structural change, a ring of 4 chromosomes, was observed regularly at first meiosis. The implications of our observations for karyotypic evolution in Allium are discussed.",
+   "target_species": "Allium sativum",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W1982368428",
+   "doi": "10.1046/j.1365-3180.1998.00068.x",
+   "title": "Population dynamics of Rumex obtusifolius under contrasting lucerne cropping systems",
+   "year": 1998,
+   "abstract": "The population dynamics of Rumex obtusifolius L. was analysed in a lucerne:winter cereal crop rotation by means of a matrix population model that takes into consideration two crop rotation periods: the lucerne (Medicago sativa L.) cropping period and the cereal cropping period. Several transition matrices based on life\u2010cycle stages were calculated for each cropping period using experimental data and were used in the construction of a model that analyses the population dynamics of R. obtusifolius under different harvest dates and lengths of lucerne cropping periods. Model projections showed that populations of R. obtusifolius increased during the lucerne cropping period regardless of harvest date and decreased during the cereal cropping period. Under a late harvest date, populations decreased at each crop rotation when lucerne was grown for 3 years, remained close to the equilibrium when lucerne was left to grow for 5 years, and increased for longer lucerne cropping periods. In contrast, populations of R. obtusifolius decreased even with a lucerne cropping period of 9 years under an early harvest date. The significance of these results in relation to the biology and the non\u2010chemical control of the species is discussed.",
+   "target_species": "Rumex obtusifolius",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2165336224",
+   "doi": "10.1093/jhered/est059",
+   "title": "Genetic Architecture of Floral Traits in Iris hexagona and Iris fulva",
+   "year": 2013,
+   "abstract": "The formation of hybrids among closely related species has been observed in numerous plant taxa. Selection by pollinators on floral traits can act as an early reproductive isolating barrier and may be especially important when there is overlap in distribution and flowering time. In this study, we use Quantitative Trait Locus (QTL) mapping based on 293 codominant SNP markers in an F2 population (n = 328) to assess the size, magnitude, and location of the genetic regions controlling floral traits known to be important for pollinator attraction in 2 species of Lousiana Irises, Iris fulva and Iris hexagona. We also evaluate correlations among F2 traits and identify transgression in the hybrid population. Overall, we observe that differences in most floral traits between I. fulva and I. hexagona are controlled by multiple QTLs and are distributed across several linkage groups. We also find evidence of transgression at several QTL, suggesting that hybridization can contribute to generating phenotypic variation, which may be adaptive in rapidly changing environments.",
+   "target_species": "Iris hexagona",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W1997215961",
+   "doi": "10.1890/12-1310.1",
+   "title": "Greater sexual reproduction contributes to differences in demography of invasive plants and their noninvasive relatives",
+   "year": 2013,
+   "abstract": "An understanding of the demographic processes contributing to invasions would improve our mechanistic understanding of the invasion process and improve the efficiency of prevention and control efforts. However, field comparisons of the demography of invasive and noninvasive species have not previously been conducted. We compared the in situ demography of 17 introduced plant species in St. Louis, Missouri, USA, to contrast the demographic patterns of invasive species with their less invasive relatives across a broad sample of angiosperms. Using herbarium records to estimate spread rates, we found higher maximum spread rates in the landscape for species classified a priori as invasive than for noninvasive introduced species, suggesting that expert classifications are an accurate reflection of invasion rate. Across 17 species, projected population growth was not significantly greater in invasive than in noninvasive introduced species. Among five taxonomic pairs of close relatives, however, four of the invasive species had higher projected population growth rates compared with their noninvasive relative. A Life Table Response Experiment suggested that the greater projected population growth rate of some invasive species relative to their noninvasive relatives was primarily a result of sexual reproduction. The greater sexual reproduction of invasive species is consistent with invaders having a life history strategy more reliant on fecundity than survival and is consistent with a large role of propagule pressure in invasion. Sexual reproduction is a key demographic correlate of invasiveness, suggesting that local processes influencing sexual reproduction, such as enemy escape, might be of general importance. However, the weak correlation of projected population growth with spread rates in the landscape suggests that regional processes, such as dispersal, may be equally important in determining invasion rate.",
+   "target_species": "Allium sativum",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2035496577",
+   "doi": "10.1046/j.1365-2745.1998.00280.x",
+   "title": "Variation in the demography of a woodland understorey herb (Primula vulgaris) along the forest regeneration cycle: projection matrix analysis",
+   "year": 1998,
+   "abstract": "1 Gaps in the forest canopy allow establishment of many understorey species. As gaps close, their demographic behaviour is affected by changing environmental conditions. A demographic analysis of Primula vulgaris populations in forest patches with varying canopy openness was carried out to investigate the effect of forest canopy dynamics on the demography of this forest understorey herb. 2 Eight P. vulgaris populations across a range of light conditions were studied in three deciduous temperate forests in Britain. Demographic data were collected in each population during summer 1992, 1993 and 1994, and stage\u2010based population projection matrices were built to describe their demography for two growth periods (1992\u201393 and 1993\u201394). 3 Population growth rate (\u03bb) varied from 0.97 to 1.98 in 1992\u201393, and from 0.88 to 1.23 in 1993\u201394. There was a significant positive correlation between \u03bb and diffuse light for the two periods studied: generally, population growth rate was lower in darker patches, implying that populations decline as the canopy closes. Lower \u03bb\u2010values in 1993\u201394 were the result of increased mortality and decreased fecundity compared to 1992\u201393. In most cases the observed population structures were significantly different from the calculated stable\u2010stage distributions. 4 Sensitivity analysis showed that \u03bb was most sensitive to changes in matrix transitions that corresponded to growth from small to adult stages, especially those that implied fast growth. Elasticity analysis revealed that the contribution of fecundity elements to \u03bb was small, but populations in brighter patches showed comparatively higher fecundity elasticities than populations under the closed canopy. High elasticities corresponded to the entries that implied growth (especially in brighter patches) or persistence in adult categories (predominantly in darker patches). 5 The observed variation in the demography of P. vulgaris in different patches along the forest regeneration cycle stresses the i",
+   "target_species": "Primula vulgaris",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2166525361",
+   "doi": "10.1046/j.0022-0477.2004.00840.x",
+   "title": "Reduced reproductive success in small populations of the self\u2010incompatible Primula vulgaris",
+   "year": 2004,
+   "abstract": "1 Habitat fragmentation and the resulting decline in population size can affect biotic interactions and reproductive success of plant species. We investigated the impact of habitat type, population size, morph type and frequency, plant density, floral display and predation on different reproductive components in 16 populations of the distylous self-incompatible perennial herb, Primula vulgaris , a rare, declining species in Belgium. 2 Although habitat type accounted for significant variation in population size, we did not find any relation between habitat type and either reproductive and vegetative characteristics. Population size, however, strongly affected reproductive success, such that plants in small populations produced significantly fewer fruits per plant and seeds per fruit, and therefore fewer seeds per plant. 3 No significant difference was found between morph types for any reproductive characteristic, nor an interaction with population size. However, when morph frequency was strongly biased (\u2265 1 : 3), the proportion of flowers setting fruit and the number of seeds per fruit were significantly lower in individuals of the common morph type. 4 Within populations, individual plants varied tremendously in size and floral display. Total number of fruits per plant significantly increased with floral display, but the highest fruit set per flower was found at intermediate flower number. 5 The proportion of fruit suffering pre-dispersal predation per plant significantly increased with floral display, but this did not offset the potential fitness gains of producing a large display. Furthermore, the absolute number of predated fruits per plant was significantly and positively affected by the interaction of the total number of fruits per plant and the density of the population.",
+   "target_species": "Primula vulgaris",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W2054433553",
+   "doi": "10.1111/j.1756-1051.1998.tb01535.x",
+   "title": "Breeding systems and crossing experiments in Anemone patens and in the Anemome pulsatilla group (Ranunculaceae)",
+   "year": 1998,
+   "abstract": "Breeding system studies of Anemone patens, A. pulsatilla ssp. pulsatilla, A. pulsatilla ssp. gotlandica , and A. pulsatilla ssp. grandis in cultivation showed that all taxa are self\u2010compatible. Fruit and seed set were usually low after auto\u2010deposition of pollen but increased in artificially self\u2010pollinated flowers. Cross\u2010pollination usually resulted in increased fruit and seed set compared with self\u2010pollination, but the level varied noticeably among crossing combinations and for different material due probably to the great variation in the frequency of fruit abortion. Plants of A. pulsatilla ssp. pulsatilla derived from one site showed especially low fruit set. Resource limitation is probably an important component determining reproductive success. No crossing barriers between taxa could be established. Significant differences between the three subspecies of A. pulsatilla were found for several morphological characters.",
+   "target_species": "Anemone patens",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Biochemistry, Genetics and Molecular Biology"
+  },
+  {
+   "id": "W1521326833",
+   "doi": "10.1111/j.1365-2664.2011.02078.x",
+   "title": "Limitations to sustainable frankincense production: blocked regeneration, high adult mortality and declining populations",
+   "year": 2011,
+   "abstract": "Summary 1. Resins are highly valued non\u2010timber forest products (NTFP). One of the most widely traded resins is frankincense, tapped from several Boswellia tree species (Burseraceae). Exploited Boswellia populations often show poor regeneration, but the demographic consequences of these bottlenecks are unknown. Here we report on the first large\u2010scale demographic study of frankincense\u2010producing trees. 2. We studied 12 populations of Boswellia papyrifera in northern Ethiopia, varying in altitude and productivity. Six of these populations had been tapped before and were tapped during the study. Survival, growth and fecundity were determined for 4370 trees and 2228 seedlings, in 22.8 ha over a 2\u2010year period. We also studied a remote population where no grazing and tapping took place. Matrix models were used to project population growth and frankincense production under four restoration scenarios. 3. Population structures of both tapped and untapped populations showed clear gaps. Small seedlings were abundant in all populations, but none developed into persistent saplings. Such saplings were only present in the remote population. Fire and grazing are the likely causes of this regeneration bottleneck. 4. Adult mortality was high (6\u20137% per year) in both tapped and untapped populations, probably caused by beetle attacks and fire. Unexpectedly, tapped populations presented higher diameter growth rates and fecundity compared to untapped populations. These differences are probably caused by non\u2010random selection of exploited populations by tappers. 5. Under the \u2018business as usual\u2019 scenario, population models projected a 90% decline in the size of tapped and untapped populations within 50 years and a 50% decline in frankincense yield within 15 years. Model simulations for restoration scenarios revealed that populations and frankincense production could only be sustained with intensive management leading to full sapling recruitment and a 50\u201375% reduction in adult mortality. 6. Syn",
+   "target_species": "Laminaria digitata",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Boswellia papyrifera presented with a different target species"
+  },
+  {
+   "id": "W2083756169",
+   "doi": "10.1046/j.1469-8137.1999.00540.x",
+   "title": "Evaluation of the population dynamics of the forage legume (Lotus corniculatus), using matrix population models",
+   "year": 1999,
+   "abstract": "The population dynamics of perennial crop plants are influenced by numerous factors, including management practices. Conditions in the field vary from year to year, and matrix population models are useful for evaluating population behaviour in relation to environmental variability. In Missouri, the stand persistence of birdsfoot trefoil (Lotus corniculatus), a perennial legume, is often limited by disease and poor seed production. A stage-based, matrix population model was developed to evaluate the population dynamics of birdsfoot trefoil in relation to clipping treatment. The plant growth stages represented in the model were seeds, seedlings, mature vegetative and reproductive plants. Two phases of population growth were evaluated in clipped and unclipped stands. Establishment-phase populations were characterized by relatively high mortality and low reproduction. Elasticity analysis indicated that growth of these populations was most sensitive to the survival of vegetative plants. Mature vegetative plants and seeds comprised the majority of surviving individuals in clipped and unclipped populations, respectively; however, establishment-phase populations under both management treatments tended toward extinction. Populations in the post-establishment phase of growth were characterized by relatively low mortality and high reproduction. Population growth in this phase of growth was most sensitive to seed production, and most individuals in these populations were at the seed stage.",
+   "target_species": "Rosa canina",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Lotus corniculatus presented with a different target species"
+  },
+  {
+   "id": "W2035623996",
+   "doi": "10.1017/S0266467406003877 ",
+   "title": "Variation in the population dynamics of the palm Sabal yapa in a landscape shaped by shifting cultivation in the Yucatan Peninsula, Mexico",
+   "year": 2007,
+   "abstract": "To understand the population dynamics of a species, it is necessary to document the way in which its demographic behaviour varies through space and time. Anthropogenic disturbance, such as shifting cultivation, is an important factor causing demographic variation in many tropical non-timber forest products. The leaves of the palm Sabal yapa are an important non-timber forest product used for thatching by Mayan peoples. The demography of Sabal yapa was studied in three habitats (mature forest, successional forest and crop fields), representing successional phases along the slash-and-burn agricultural cycle in the Yucatan Peninsula. Matrix population models, along with elasticity analyses and life-table-response experiments were employed. Population growth rate differed between patches (MF: \u03bb = 1.043; SF: \u03bb = 1.027; CF: \u03bb = 0.959). Only the \u03bb value of the mature forest was significantly higher than unity. Fecundity and seedling survival were lowest in the crop fields and highest in the mature forest. The elasticity analyses and life-table-response experiments showed that entries with a high positive contribution to \u03bb also showed high elasticity values, while those with a negative contribution to \u03bb showed low elasticity. Thus, both analyses are crucial to understand the demography of a species and to aid in conservation and management practices.",
+   "target_species": "Ranunculus acris",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Sabal yapa presented with a different target species"
+  },
+  {
+   "id": "W2046904771",
+   "doi": "10.2307/2937350",
+   "title": "The Demography of Jack\u2010in\u2010the\u2010Pulpit, a Forest Perennial that Changes Sex",
+   "year": 1982,
+   "abstract": "A size\u2014classified transition matrix model of the demography of Arisaema triphyllum, a perennial herb of temperate deciduous forest, was constructed from 3 yr of field data from two different sites. Arisaema is quite unusual in that individuals change sex in a pattern determined by their sizes: small individuals do not flower, larger individuals reproduce as males, and the largest as females. As plants increase or decrease in size, they also may change sex. Though demographic parameters varied with the site and with the year, some consistent patterns were seen Mortality rates ranged from 20 to 40%/yr for small, nonflowering plants, but decreased to much lower levels as plants reached reproductive size. For these large plants, mortality rates did not differ between sexes or among size\u2014classes. Because rates of sexual reproduction were severely pollinator limited, levels of seed production were low (averaging 7 seeds\u00b0female\u20141\u00b0yr\u20141) and were not correlated with plant size. All plants engaged in clonal reproduction, regardless of their size. Transition matrices based on these data were compared statistically and were found to vary in time, as a result of year\u2014to\u2014year environmental variability. No population had achieved a stable size distribution. The classical method of calculating rate of increase, @l, was therefore rejected, and an alternative method incorporating temporal stochasticity substituted. A sensitivity analysis was performed to evaluate the effect on population growth of changing various life history parameters. Differences in rates of individual growth and of clonal reproduction were found to be largely responsible for the relative success of the two populations, one of which was increasing, the other declining. Arisaema's status as a climax\u2014forest herb suggests that temporally varying transition matrices might be common even in environments traditionally regarded as \"stable.\" The prevalence of temporal variability has consequences both for the future dire",
+   "target_species": "Arisaema triphyllum",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W4250893337",
+   "doi": "10.1111/j.1654-1103.2007.tb02519.x",
+   "title": "Population dynamics of annuals in perennial grassland controlled by ants and environmental stochasticity",
+   "year": 2007,
+   "abstract": "Abstract Questions:In a system of five annual plant species restricted to nest\u2010mounds of the antLasiusflavusin a perennial grassland: 1. Are the population dynamics influenced by ant disturbance? 2. Is the survival of the annuals at the scale of the whole grassland possible under the observed conditions of disturbance dynamics? 3. Which phases in the annuals\u2019 life cycle and patch types contribute most to population growth? Location:Borec hill, northern Czechia, 50\u00b031\u2019 N, 13\u00b059\u2019 E, 446 m a.s.l. Methods:Local population dynamics of the annuals were analysed separately for five patch types that differed in the proportion of bare soil. Vitality rates were assessed directly in the field, but also in a garden experiment, during 2000\u20132001 and 2001\u20132002. Population dynamics at the scale of the whole grassland was analysed with a megamatrix approach, combining patch dynamics of the nest\u2010mounds with patch\u2010specific population dynamics. Contributions of different phases and patch types to growth rate were estimated by elasticity analysis. Results:Nest\u2010mounds differed in the percentage of bare soil. Increasing moss cover significantly reduced germination and seed production of all studied annuals and decreased their population growth rates (\u03bb). Although successional processes dominated over ant disturbance, populations of all species could survive well (\u03bb\u226b 1) in the grassland according to the 2000\u20132001 megamatrix dynamics. Based on the dynamics from the following period, two species would not survive in a long\u2010term perspective due to random environmental variation. Whereas the A\u2010A transition (adult plants originating from adults of the previous year) had the highest elasticity under open conditions and \u2018good period\u2019 demography, the importance of persistent seeds increased under reverse conditions. This, however, differed among species. Conclusions:Ant\u2010disturbance was shown to be critical for the population survival of five annual species in the studied grassland. The fate of the",
+   "target_species": "Arenaria serpyllifolia",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W1999127465",
+   "doi": "10.1890/ES11-00328.1",
+   "title": "Linking vegetative dormancy to fitness in two long\u2010lived herbaceous perennials",
+   "year": 2012,
+   "abstract": "Vegetative dormancy occurs in many plant families, but its evolutionary context remains a mystery. We asked whether vegetative dormancy is an adaptive response to environmental stress and environmental stochasticity in certain long\u2010lived plant species. We conducted an in situ experimental study in two and three populations of Cypripedium calceolus and Cephalanthera longifolia, respectively, in Estonia. Plants were defoliated, shaded, or simply observed at the beginning of the growing season in 2002 and 2003, and monitored demographically through 2008. We assessed links between fitness and vegetative dormancy using stochastic life table response experiments (SLTREs), in which the impact of treatment on the log stochastic population growth rate (a = log \u03bbS) via shifts in projection matrix transitions in treated plants relative to controls was used to assess the fitness impacts of treatment\u2010induced life history responses. In Cypripedium, the observed lifespans of individuals that became vegetatively dormant in 2003/04 was significantly higher than plants that had not done so (P = 0.050). Defoliation and shading resulted in lower levels of flowering in both species. Both defoliation and shading decreased a relative to controls in Cypripedium and Cephalanthera. Defoliation\u2010 and shading\u2010induced shifts in transitions involving vegetative dormancy were generally associated with significantly positive SLTRE contributions to \u0394a, and shifts in the standard deviations of demographic rates generally contributed little to \u0394a. Thus, vegetative dormancy is likely to be an adaptive response to environmental stress and stochasticity. Further work on the genetic basis to vegetative dormancy will clarify whether enough heritability may have existed in the past, or exists now, to support vegetative dormancy as an adaptation.",
+   "target_species": "Cypripedium calceolus",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2132250495",
+   "doi": "10.1111/j.1365-2664.2007.01375.x",
+   "title": "Demographic variation and population viability in a threatened Himalayan medicinal and aromatic herb Nardostachys grandiflora: matrix modelling of harvesting effects in two contrasting habitats",
+   "year": 2007,
+   "abstract": "Summary Despite significant interest in the sustainable use of medicinal plants, the population ecology of many medicinal plant species remains unstudied. Also, few demographic studies have compared effects of harvesting across habitats. We studied the demography of a highly threatened perennial Himalayan medicinal herb, Nardostachys grandiflora, in two habitats and examined effects of indigenous harvesting regimes on its population dynamics. In a rocky\u2010outcrop population in 1998, different levels of rhizome harvesting were applied directly by the local users. In meadows, we sampled an unharvested population and another population that was commercially harvested. Data on recruitment, growth and survival of individuals classified by size were gathered over 4 years. Population growth rate (\u03bb) was significantly higher in the unharvested meadow population than in control subplots of the outcrop population. Harvesting significantly reduced \u03bb. Matrix model projections revealed that the size of outcrop populations would return to initial values within \u22485 years, only after 10% rhizome harvesting. In other treatments, recovery time varied from 17 (25% harvesting) to 33 (75%) years. In contrast, in the commercially harvested meadow population (with harvesting levels >25%), projected recovery time was 6 years. Higher growth rates and faster recovery in meadow populations appear to be due to higher recruitment and faster vegetative growth. In outcrops, slow growth and low fecundity slow down recovery after harvesting. Synthesis and application. Nardostachys grandiflora is extremely sensitive to harvesting of rhizomes, but this sensitivity is higher in outcrop than in meadow habitats. Given the constraints on its population growth and its high sensitivity to harvesting, N. grandiflora should be strictly managed, with low harvest rates (<10% in outcrop and <25% in meadow) and fairly long rotations (at least 5 years) between successive harvests. This work shows the importance of c",
+   "target_species": "Nardostachys jatamansi",
+   "label": "harvest_effect_same_species",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2020359822",
+   "doi": "10.1515/jbcpp.2010.21.1.93",
+   "title": "Therapeutic potential of Phyllanthus emblica (amla): the ayurvedic wonder",
+   "year": 2010,
+   "abstract": "Medicinal plants are nature's gift to human beings to promote a disease free healthy life. Many medicinal plants are present in a group of herbal preparations of the Indian traditional health care system (Ayurveda) named Rasayana proposed for their interesting antioxidant activities. Phyllanthus emblica Linn. (syn. Emblica officinalis), commonly known as Indian gooseberry or amla, family Euphorbiaceae, is an important herbal drug used in unani (Graceo - arab) and ayurvedic systems of medicine. The plant is used both as a medicine and as a tonic to build up lost vitality and vigor. Phyllanthus emblica is highly nutritious and could be an important dietary source of vitamin C, amino acids, and minerals. The plant also contains phenolic compounds, tannins, phyllembelic acid, phyllembelin, rutin, curcum-inoids, and emblicol. All parts of the plant are used for medicinal purposes, especially the fruit, which has been used in Ayurveda as a potent rasayana and in traditional medicine for the treatment of diarrhea, jaundice, and inflammation. Various plant parts show antidiabetic, hypolipidemic, antibacterial, antioxidant, antiulcerogenic, hepatoprotective, gastroprotective, and chemopreventive properties. Here we discuss its historical, etymological, morphological and pharmacological aspects.",
+   "target_species": "Phyllanthus emblica",
+   "label": "other_topic",
+   "label_source": "OpenAlex primary topic field: Pharmacology, Toxicology and Pharmaceutics"
+  },
+  {
+   "id": "W2072194769",
+   "doi": "10.1139/b02-070",
+   "title": "Impact of flower harvesting on the salt marsh plant Limonium carolinianum",
+   "year": 2002,
+   "abstract": "Because of the potentially detrimental effects of seed production on adult survivorship and growth, moderate flower harvesting may have little negative impact on population growth of long-lived perennial plants such as Limonium carolinianum (Walter) Britton. We examined this by collecting data on survivorship, growth, and fecundity of an unharvested population over a period of 5 years and conducted a controlled experiment to examine the effect of harvesting on adult survivorship and growth over a 3-year period. Data were summarized in the form of a stage-structured matrix population model with a stochastic element that incorporated year-to-year variation in transition probabilities. Contrary to our original hypothesis, we found that preventing seed set through removal of flowers did not increase adult survivorship or growth. By determining the harvest level that reduced population growth rate to 1.0, we estimated the maximum sustainable harvest level to be 16%, a value that is approximately half that of reported harvest levels on accessible marshes in the study area. In spite of this, the reported harvest levels are unlikely to drive local populations to extinction in the foreseeable future. Providing the adult population size is >100 and harvest levels are <90%, time to local extinction will exceed 100 years. This is a function of the very high survivorship of adults in this species and the fact that harvesting has no negative impact on adult survivorship or growth. However, because of the long preadult phase in this species (8\u00969 years) and the fact that fecundity of young adults is low, recovery from overharvesting is extremely slow. Adult population size can be reduced to 25% of its original value in 7 years at high harvest levels, but it will take 34 years on average to recover once harvesting is terminated.Key words: cost of reproduction, stage\u0096structures matrix population model, sustainable harvest, conservation of biodiversity.",
+   "target_species": "Limonium carolinianum",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  },
+  {
+   "id": "W2156364647",
+   "doi": "10.1111/j.1365-2664.2012.02156.x",
+   "title": "Disentangling the effects of multiple anthropogenic drivers on the decline of two tropical dry forest trees",
+   "year": 2012,
+   "abstract": "Summary 1. Tropical plant populations are often subject to multiple types of anthropogenic disturbance. Effective management requires disentangling the effects of these disturbances and prioritizing interventions for the driver(s) most responsible for population decline. However, the effects of multiple drivers on plant population dynamics are rarely examined. 2. We assessed the independent and combined effects of common anthropogenic disturbances on the transient and long\u2010term population dynamics of two economically important, declining tree species in an Indian dry forest. Specifically, we drew on 10 years of demographic monitoring to assess the effects of non\u2010timber forest product (NTFP) harvest and two invasive species (an understorey shrub Lantana camara and a mistletoe Taxillus tomentosus) on amla (Phyllanthus emblica and Phyllanthus indofischeri) populations. 3. Although fruit harvest has been blamed for declining amla populations, the current policy and management strategies implemented to restrict it have little effect on long\u2010term stochastic growth rates (\u03bbs) of amla both with and without invasive species. In contrast, mistletoes significantly decreased \u03bbs of both species. 4. Lantana had both direct and indirect effects on P. emblica, causing a regeneration bottleneck. Lantana had a direct negative effect on seeding and sapling growth, whereas populations without lantana experienced higher levels of grazing by wild animals. Over 10 years, P. emblica populations dropped to 16% of their original size in areas with invasive species. 5. Synthesis and applications. Our results illustrate that mistletoe and lantana, not fruit harvest, are the main drivers of amla decline, and these species are likely to be driving the decline of other Indian dry forest tree species. Management directed only at limiting fruit harvest will be ineffective. Instead, control of both invasive species combined with temporary protection from grazing is urgently needed. The ban on fruit ",
+   "target_species": "Oxalis acetosella",
+   "label": "harvest_effect_other_species",
+   "label_source": "harvest paper on Phyllanthus emblica presented with a different target species"
+  },
+  {
+   "id": "W1997215961",
+   "doi": "10.1890/12-1310.1",
+   "title": "Greater sexual reproduction contributes to differences in demography of invasive plants and their noninvasive relatives",
+   "year": 2013,
+   "abstract": "An understanding of the demographic processes contributing to invasions would improve our mechanistic understanding of the invasion process and improve the efficiency of prevention and control efforts. However, field comparisons of the demography of invasive and noninvasive species have not previously been conducted. We compared the in situ demography of 17 introduced plant species in St. Louis, Missouri, USA, to contrast the demographic patterns of invasive species with their less invasive relatives across a broad sample of angiosperms. Using herbarium records to estimate spread rates, we found higher maximum spread rates in the landscape for species classified a priori as invasive than for noninvasive introduced species, suggesting that expert classifications are an accurate reflection of invasion rate. Across 17 species, projected population growth was not significantly greater in invasive than in noninvasive introduced species. Among five taxonomic pairs of close relatives, however, four of the invasive species had higher projected population growth rates compared with their noninvasive relative. A Life Table Response Experiment suggested that the greater projected population growth rate of some invasive species relative to their noninvasive relatives was primarily a result of sexual reproduction. The greater sexual reproduction of invasive species is consistent with invaders having a life history strategy more reliant on fecundity than survival and is consistent with a large role of propagule pressure in invasion. Sexual reproduction is a key demographic correlate of invasiveness, suggesting that local processes influencing sexual reproduction, such as enemy escape, might be of general importance. However, the weak correlation of projected population growth with spread rates in the landscape suggests that regional processes, such as dispersal, may be equally important in determining invasion rate.",
+   "target_species": "Alliaria petiolata",
+   "label": "demography_no_harvest",
+   "label_source": "COMPADRE MatrixTreatment for this DOI and species"
+  }
+ ]
+}

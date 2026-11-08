@@ -1,0 +1,84 @@
+{
+ "id": "E03",
+ "title": "Flagship reproduction: Nardostachys jatamansi rhizome-harvest experiment",
+ "question": "Do COMPADRE matrices for Ghimire et al. (2008) reproduce the paper's monotonic decline of lambda with harvest intensity, and through which vital rates?",
+ "hypothesis": "lambda decreases monotonically with intensity (0-75%); harvest effect acts mainly through survival/growth (stasis+progression) rather than fecundity, consistent with elasticity of a long-lived clonal herb.",
+ "data": "COMPADRE 244454-244459; Ghimire et al. 2008 (full text, docs/research)",
+ "method": "eigen-analysis, power check, fixed LTRE by process, Spearman",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "replicated",
+ "finding": "Ordering identical to the paper and strictly monotonic (Spearman rho=-1.00); each +10% harvest lowers lambda by 0.036. Exact values differ (COMPADRE = 1999-2002 means). LTRE share of |effect|: progression 38%, retrogression 31%, stasis 29%, fecundity 2%: harvest acts through growth/survival and shrinkage of ramet clusters, not seed production.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:36+00:00",
+ "runtime_s": 0.11,
+ "command": "python -m backend.ethnoharvest.experiments E03",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E03.json",
+ "result": {
+  "compadre_lambda_by_intensity": {
+   "0": 1.0277,
+   "10": 0.9582,
+   "25": 0.8912,
+   "50": 0.8305,
+   "75": 0.7369
+  },
+  "paper_lambda_1999_2000": {
+   "0": 1.014,
+   "10": 0.928,
+   "25": 0.838,
+   "50": 0.779,
+   "75": 0.637
+  },
+  "paper_note": "Paper reports year-specific lambdas (1999-2000 shown); COMPADRE stores 1999-2002 mean matrices, so values are expected to be higher (paper states lambda rose after year 1) and not identical.",
+  "ordering_identical_to_paper": true,
+  "spearman_rho": -0.9999999999999999,
+  "spearman_p": 1.4042654220543602e-24,
+  "slope_lambda_per_10pct": -0.03637885958668408,
+  "r2_linear": 0.9758104837072276,
+  "unharvested_meadow_lambda": 1.15223271240996,
+  "paper_meadow_range": [
+   1.12,
+   1.17
+  ],
+  "meadow_within_paper_range": true,
+  "ltre_abs_share": {
+   "stasis": 0.29,
+   "progression": 0.375,
+   "retrogression": 0.312,
+   "fecundity": 0.024
+  },
+  "ltre_detail": {
+   "244456": {
+    "stasis": -0.07648898601781409,
+    "progression": -0.06624283594294622,
+    "retrogression": 0.08253652344550107,
+    "fecundity": -0.009107704376085555
+   },
+   "244457": {
+    "stasis": -0.14786605465492347,
+    "progression": -0.1432779670743801,
+    "retrogression": 0.16578342005250238,
+    "fecundity": -0.009697200752410328
+   },
+   "244458": {
+    "stasis": -0.12665517918406588,
+    "progression": -0.2053968194178163,
+    "retrogression": 0.1487802128846869,
+    "fecundity": -0.010917809442594835
+   },
+   "244459": {
+    "stasis": -0.1727010847113265,
+    "progression": -0.2630245747957753,
+    "retrogression": 0.16644186450371962,
+    "fecundity": -0.014009131376057476
+   }
+  }
+ }
+}

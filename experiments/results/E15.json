@@ -1,0 +1,47 @@
+{
+ "id": "E15",
+ "title": "Data-quality sensitivity: do COMPADRE QC failures change medicinal-species conclusions?",
+ "question": "How many medicinal matrices fail QC (NA, survival>1, A!=U+F+C) and would including them shift species-level median lambda?",
+ "hypothesis": "<10% fail QC; species-level median lambda shifts <0.01 when failing matrices are excluded.",
+ "data": "COMPADRE medicinal subset",
+ "method": "QC flags; paired species medians",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "failed/negative",
+ "finding": "15% of medicinal matrices fail at least one QC check (hypothesis <10% rejected). Median species-level lambda shift is 0.000, but 9 species shift >0.05 (survival>1 matrices can produce extreme lambda). Decision: QC-failing matrices are never used as Simulate presets.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:38+00:00",
+ "runtime_s": 0.02,
+ "command": "python -m backend.ethnoharvest.experiments E15",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E15.json",
+ "result": {
+  "n_medicinal_matrices": 2612,
+  "share_fail_any": 0.15122511485451762,
+  "fail_breakdown": {
+   "A_has_na": 15,
+   "U_survival_gt1": 205,
+   "A_ne_UFC": 205
+  },
+  "species_compared": 185,
+  "median_abs_shift": 0.0,
+  "max_abs_shift": 134.85018926765406,
+  "species_shift_gt_0.05": [
+   "Achillea millefolium",
+   "Carlina vulgaris",
+   "Colchicum autumnale",
+   "Elymus repens",
+   "Mammillaria magnimamma",
+   "Potentilla anserina",
+   "Raphanus raphanistrum",
+   "Sambucus sieboldiana",
+   "Tragopogon pratensis"
+  ]
+ }
+}

@@ -1,0 +1,351 @@
+{
+ "id": "E10",
+ "title": "Habitat suitability: spatial-block vs random CV, climate-4 baseline vs complex models, negative control",
+ "question": "For medicinal species with sufficient GBIF presences, does a 19-variable model beat a 4-variable climate baseline under spatial-block CV, and how optimistic is random CV?",
+ "hypothesis": "Random CV overstates AUC relative to 5-degree spatial blocks; complex models gain <0.03 AUC over the baseline under spatial CV; shuffled-label control ~0.5; Nardostachys is suppressed (<100 presences).",
+ "data": "GBIF occurrence API (tile-stratified), WorldClim 2.1 10' bioclim",
+ "method": "presence-background; 5-fold random vs 5-degree block CV; AUC/AP",
+ "registered_utc": "2026-11-07T10:05:00Z",
+ "status": "validated within scope",
+ "finding": "Primula veris: baseline spatial AUC 0.593, best gbm_bio19 0.642, random-CV optimism +0.188, shuffled 0.49, served gbm_bio19 (suppressed) | Arnica montana: baseline spatial AUC 0.715, best gbm_bio19 0.751, random-CV optimism +0.162, shuffled 0.49, served gbm_bio19 (eligible) | Nardostachys jatamansi: baseline spatial AUC 0.773, best logistic_bio19_l2 0.786, random-CV optimism +0.025, shuffled 0.47, served logistic_bio19_l2 (eligible) | Hypothesis check: random-CV optimism confirmed; complex-model gain over baseline Primula +0.049, Arnica +0.036, Nardostachys +0.014; Nardostachys suppression prediction REJECTED (134 presences passed the >=100 rule; small-sample model flagged in UI).",
+ "error": null,
+ "ran_utc": "2026-11-07T09:26:26+00:00",
+ "runtime_s": 44.44,
+ "command": "python -m backend.ethnoharvest.experiments E10",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E10.json",
+ "result": {
+  "Primula veris": {
+   "species": "Primula veris",
+   "extent": [
+    -10,
+    36,
+    40,
+    66
+   ],
+   "n_presence": 10544,
+   "n_background": 33321,
+   "n_tiles": 52,
+   "block_deg": 5.0,
+   "negative_control_shuffled_auc": 0.4928388304452169,
+   "models": {
+    "logistic_climate4": {
+     "random_cv": {
+      "auc_mean": 0.6249641491448342,
+      "auc_sd": 0.005070868567881285,
+      "ap_mean": 0.3889363056425449,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.5930027180677612,
+      "auc_sd": 0.04886837558415454,
+      "ap_mean": 0.3464446118120431,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.031961431077073055
+    },
+    "logistic_bio19_l2": {
+     "random_cv": {
+      "auc_mean": 0.739572501966907,
+      "auc_sd": 0.005435019743345526,
+      "ap_mean": 0.5356378402911423,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.634175873585267,
+      "auc_sd": 0.054505922141030116,
+      "ap_mean": 0.41424549589195747,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.1053966283816401
+    },
+    "gbm_bio19": {
+     "random_cv": {
+      "auc_mean": 0.8299263139041543,
+      "auc_sd": 0.005848132073383785,
+      "ap_mean": 0.6871191836631247,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.6418861493888206,
+      "auc_sd": 0.06467655480701631,
+      "ap_mean": 0.4183058379723029,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.18804016451533367
+    }
+   },
+   "best_model": "gbm_bio19",
+   "best_beats_baseline_by": 0.048883431321059434,
+   "served_model": "gbm_bio19",
+   "status": "suppressed"
+  },
+  "Arnica montana": {
+   "species": "Arnica montana",
+   "extent": [
+    -10,
+    36,
+    30,
+    66
+   ],
+   "n_presence": 3709,
+   "n_background": 12300,
+   "n_tiles": 32,
+   "block_deg": 5.0,
+   "negative_control_shuffled_auc": 0.4927735524112635,
+   "models": {
+    "logistic_climate4": {
+     "random_cv": {
+      "auc_mean": 0.7876569663224264,
+      "auc_sd": 0.002860744600560898,
+      "ap_mean": 0.5434884028506524,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.714996603170935,
+      "auc_sd": 0.07624624379139039,
+      "ap_mean": 0.44533799654803286,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.07266036315149138
+    },
+    "logistic_bio19_l2": {
+     "random_cv": {
+      "auc_mean": 0.857603710283907,
+      "auc_sd": 0.00596859485812326,
+      "ap_mean": 0.6696224683722299,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.7345430927614003,
+      "auc_sd": 0.05867390456322107,
+      "ap_mean": 0.49540926797711676,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.12306061752250674
+    },
+    "gbm_bio19": {
+     "random_cv": {
+      "auc_mean": 0.9129187328503907,
+      "auc_sd": 0.0016575198963584051,
+      "ap_mean": 0.7990973172904556,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.7509373157740934,
+      "auc_sd": 0.06130523531990635,
+      "ap_mean": 0.5037514388405018,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.16198141707629732
+    }
+   },
+   "best_model": "gbm_bio19",
+   "best_beats_baseline_by": 0.03594071260315834,
+   "served_model": "gbm_bio19",
+   "status": "eligible",
+   "envelope": {
+    "bios": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "min": [
+     -3.347,
+     3.928,
+     20.631,
+     318.22,
+     8.166,
+     -16.812,
+     14.654,
+     -6.303,
+     -9.696,
+     3.766,
+     -11.42,
+     387.0,
+     45.0,
+     3.0,
+     6.97,
+     134.0,
+     22.0,
+     28.0,
+     49.0
+    ],
+    "max": [
+     17.457,
+     13.59,
+     47.926,
+     942.248,
+     33.412,
+     7.532,
+     34.976,
+     20.369,
+     24.004,
+     24.352,
+     11.574,
+     2930.0,
+     351.0,
+     121.0,
+     67.462,
+     1020.0,
+     417.0,
+     573.0,
+     914.0
+    ]
+   }
+  },
+  "Nardostachys jatamansi": {
+   "species": "Nardostachys jatamansi",
+   "extent": [
+    70,
+    20,
+    105,
+    40
+   ],
+   "n_presence": 134,
+   "n_background": 693,
+   "n_tiles": 12,
+   "block_deg": 5.0,
+   "negative_control_shuffled_auc": 0.46811590234519224,
+   "models": {
+    "logistic_climate4": {
+     "random_cv": {
+      "auc_mean": 0.798819040146466,
+      "auc_sd": 0.030053700408918464,
+      "ap_mean": 0.42437611102552364,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.7725294588892677,
+      "auc_sd": 0.02762229641161903,
+      "ap_mean": 0.34027600773743255,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.02628958125719827
+    },
+    "logistic_bio19_l2": {
+     "random_cv": {
+      "auc_mean": 0.8113900124805955,
+      "auc_sd": 0.021387587940999462,
+      "ap_mean": 0.4550787765369092,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.786049055787042,
+      "auc_sd": 0.047332654648631,
+      "ap_mean": 0.36183610339782657,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.025340956693553518
+    },
+    "gbm_bio19": {
+     "random_cv": {
+      "auc_mean": 0.823268323363315,
+      "auc_sd": 0.019567133206254386,
+      "ap_mean": 0.5265561907918045,
+      "folds": 5
+     },
+     "spatial_block_cv": {
+      "auc_mean": 0.7003422875296049,
+      "auc_sd": 0.05683255249852933,
+      "ap_mean": 0.32209080541220875,
+      "folds": 5
+     },
+     "optimism_random_minus_spatial": 0.12292603583371009
+    }
+   },
+   "best_model": "logistic_bio19_l2",
+   "best_beats_baseline_by": 0.013519596897774266,
+   "served_model": "logistic_bio19_l2",
+   "status": "eligible",
+   "envelope": {
+    "bios": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "min": [
+     -5.717,
+     8.698,
+     32.15,
+     449.915,
+     6.028,
+     -24.441,
+     21.578,
+     -5.33,
+     -13.99,
+     1.363,
+     -14.972,
+     272.0,
+     39.0,
+     0.0,
+     38.892,
+     109.0,
+     3.0,
+     60.0,
+     3.0
+    ],
+    "max": [
+     25.57,
+     15.45,
+     49.462,
+     993.424,
+     42.933,
+     9.898,
+     40.565,
+     28.69,
+     30.162,
+     33.267,
+     18.768,
+     2435.0,
+     615.0,
+     17.0,
+     148.099,
+     1602.0,
+     147.0,
+     1602.0,
+     230.0
+    ]
+   }
+  }
+ }
+}

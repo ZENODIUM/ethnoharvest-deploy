@@ -1,0 +1,419 @@
+{
+  "generated": "2026-11-08 00:14:53",
+  "literature": true,
+  "note": "Operational records and documents are SYNTHETIC (demo workspace, watermarked PDFs). Scientific numbers come from COMPADRE v6.26.3.0 matrices. No result here is a harvest rate, quota or permit.",
+  "cases": [
+    {
+      "id": "panax",
+      "species": "Panax quinquefolius",
+      "organ": "root",
+      "jurisdiction": "United States",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 61,
+        "n_studies": 6,
+        "n_populations": 13,
+        "median_lambda": 1.0514,
+        "family": "Araliaceae",
+        "harvest_studies": [
+          "panax-vandervoort2006"
+        ],
+        "medicinal_sources": "Herbolario (GBIF)|USDA Duke ETHNOBOT",
+        "example_uses": "Apertif; Aphrodisiac; Cachexia; Contraceptive; Energy; Forgetfulness; Hangover; Nerves",
+        "sensitive": true,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 862
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "panax-vandervoort2006",
+            "design": "modelled",
+            "caveat": "Harvest treatments are the authors' model scenarios applied to field-measured matrices, not harvests observed in plots.",
+            "series": [
+              {
+                "matrix": 244577,
+                "role": "control",
+                "label": "No harvest",
+                "lambda": 1.0389,
+                "qc_ok": true,
+                "relative_size_y30": 314.5
+              },
+              {
+                "matrix": 244578,
+                "role": "treatment",
+                "label": "Non-compliant harvester (ignores size limit and season)",
+                "lambda": 0.8523,
+                "qc_ok": true,
+                "relative_size_y30": 0.8
+              },
+              {
+                "matrix": 244579,
+                "role": "treatment",
+                "label": "Compliant harvester (follows state rules)",
+                "lambda": 0.9593,
+                "qc_ok": true,
+                "relative_size_y30": 27.2
+              },
+              {
+                "matrix": 244580,
+                "role": "treatment",
+                "label": "Steward harvester (later season, self-limits, plants seed)",
+                "lambda": 1.0412,
+                "qc_ok": true,
+                "relative_size_y30": 314.2
+              }
+            ],
+            "mean_control": 1.0389,
+            "mean_treatment": 0.9509,
+            "delta_mean": -0.088,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "244578": "stasis",
+              "244579": "stasis",
+              "244580": "progression"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 134
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 1.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 44
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "root",
+        "agent_organ": "rhizome",
+        "process": "survival",
+        "methods": [
+          "Whole-plant digging",
+          "Partial rhizome cutting, replanting the crown"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_0d24c0c1eff2",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1001",
+        "prefill": {
+          "organ": "root",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": true,
+            "appendices": [
+              "II"
+            ]
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "computed-from-matrices": 1,
+          "ai-found-literature": 1,
+          "transferred-from-other-species": 1,
+          "regulatory-listing": 1,
+          "requires-authority-confirmation": 1,
+          "needs-review": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published modelled harvest scenarios on field-measured matrices on root harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "How sensitive this population is to the harvested process (survival)",
+            "kind": "computed-from-matrices",
+            "applicability": "this species",
+            "review": "shown with caveats; awaiting expert review",
+            "route": "publishable_with_caveat"
+          },
+          {
+            "issue": "1 paper on other species reports that harvest reduced reproduction (plant part differs or is not stated).",
+            "kind": "ai-found-literature",
+            "applicability": "other species (transferability uncertain)",
+            "review": "needs expert review before use",
+            "route": "needs_expert_review"
+          },
+          {
+            "issue": "Evidence from another species harvested for root: Echinacea angustifolia",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "CITES Appendix II listing",
+            "kind": "regulatory-listing",
+            "applicability": "same species; parts covered depend on the annotation",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for United States",
+            "kind": "requires-authority-confirmation",
+            "applicability": "United States",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "5 papers the AI could not classify confidently",
+            "kind": "needs-review",
+            "applicability": "search results",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [
+          {
+            "text": "1 paper on other species reports that harvest reduced reproduction (plant part differs or is not stated).",
+            "applicability": "other species (transferability uncertain)",
+            "route": "needs_expert_review",
+            "proof": [
+              {
+                "quote": "per capita and per-area seed number and seed mass were similarly promoted by both favorable environmental conditions, represented by rugged landscapes with relatively cold winters and wet summers, and reduced exposure to harvesting, represented by the distance\u2026",
+                "url": "https://europepmc.org/article/MED/34594502",
+                "label": "JEV/rules label: harvest_effect_other_species (JEV confidence 0.87)"
+              }
+            ]
+          }
+        ],
+        "agent": {
+          "retrieved": 22,
+          "triage": {
+            "other_topic": 13,
+            "needs_human": 5,
+            "harvest_effect_other_species": 1,
+            "demography_no_harvest": 1
+          },
+          "triage_mode": "JEV + rule agreement gate",
+          "jev_calls": 20,
+          "agreement": 0.55,
+          "claims": 1,
+          "claims_dropped": 0,
+          "claims_mode": "grounded extraction (openai/gpt-oss-20b), 1 abstracts",
+          "verification": {
+            "checked": 1,
+            "rejected": 0,
+            "partly": 0,
+            "mode": "second-model check (gemini:gemini-2.5-flash-lite)"
+          },
+          "flags": [
+            {
+              "kind": "single-study",
+              "detail": "Only one audited study (panax-vandervoort2006) covers this species and part."
+            }
+          ],
+          "duration_ms": 22404.7
+        },
+        "sensitivity": {
+          "status": "ok",
+          "basis": "this species",
+          "process": "survival",
+          "matrices": 59,
+          "share_mean": 0.932,
+          "share_ci95": [
+            0.925,
+            0.94
+          ],
+          "declining_fraction": 0.22,
+          "groups": {
+            "unharvested": {
+              "matrices": 1,
+              "median_lambda": 1.0389,
+              "mean_share": 0.945
+            },
+            "harvested": {
+              "matrices": 3,
+              "median_lambda": 0.9593,
+              "mean_share": 0.927
+            },
+            "other": {
+              "matrices": 12,
+              "median_lambda": 1.0514,
+              "mean_share": 0.955,
+              "note": "non-harvest manipulations (e.g. grazing, shading, protection); not used in the harvest contrast"
+            }
+          },
+          "plain": "About 93% (95% range 92\u201394%) of this plant's long-run population growth depends on survival, the process a root harvest affects (59 published matrices, this species)."
+        },
+        "stochastic": {
+          "status": "ok",
+          "groups": {
+            "unharvested": {
+              "matrices": 1,
+              "status": "needs at least 2 same-size matrices"
+            },
+            "harvested": {
+              "matrices": 3,
+              "stochastic_lambda": 0.9521,
+              "tuljapurkar_approx": 0.9524,
+              "years_simulated": 20000,
+              "matrix_kind": "single-year matrices"
+            }
+          },
+          "plain": null,
+          "latency_ms": 83.1,
+          "studies": [
+            "10.1016/j.biocon.2006.01.010"
+          ],
+          "note": "Each simulated year draws one of the published matrices at random: a model of year-to-year variation, not a forecast."
+        },
+        "forbidden_phrases": [],
+        "tasks_open": 10,
+        "ms": 22895
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 12000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 6000.0
+        },
+        "lots": [
+          {
+            "code": "PAN-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PAN-D1",
+            "basis": "dry",
+            "on_hand_g": 4000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PAN-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 68
+      },
+      "documents": {
+        "ok": true,
+        "planted": "date_outside_authorisation",
+        "found": true,
+        "rules": [
+          "date_outside_authorisation"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "date_outside_authorisation",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf is dated 2026-09-12, outside the authorisation window 2026-07-01 to 2026-08-31 in authorisation.pdf."
+          }
+        ],
+        "ms": 213
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 14870,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4532,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4318,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3951,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 8300,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4422,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 115
+      }
+    }
+  ]
+}

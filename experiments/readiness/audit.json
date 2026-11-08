@@ -1,0 +1,1004 @@
+{
+ "started_utc": "2026-11-07T17:10:12Z",
+ "demography_all_medicinal": {
+  "medicinal_taxa": 200,
+  "with_qc_preset": 196,
+  "projection_executes": 196,
+  "failures": [],
+  "power_disagree_species": [
+   "Isatis tinctoria",
+   "Lactuca serriola"
+  ],
+  "imprimitive_presets": [
+   "Abies balsamea",
+   "Abutilon theophrasti",
+   "Acacia pennatula",
+   "Amaranthus retroflexus",
+   "Betula pendula",
+   "Brosimum alicastrum",
+   "Camellia japonica",
+   "Cedrela odorata",
+   "Dioon edule",
+   "Dracaena cinnabari",
+   "Echinochloa crus-galli",
+   "Fagus sylvatica",
+   "Fragaria vesca",
+   "Guarea guidonia",
+   "Isatis tinctoria",
+   "Lactuca serriola",
+   "Lactuca virosa",
+   "Lotus corniculatus",
+   "Lythrum salicaria",
+   "Melaleuca viridiflora",
+   "Oryza sativa",
+   "Paliurus ramosissimus",
+   "Pinguicula vulgaris",
+   "Polygonum perfoliatum",
+   "Ranunculus bulbosus",
+   "Rhus copallinum",
+   "Ruppia maritima",
+   "Tragopogon pratensis",
+   "Virola sebifera"
+  ],
+  "no_preset_species": [
+   "Chamaelirium luteum",
+   "Erophila verna",
+   "Heteropogon contortus",
+   "Themeda triandra"
+  ],
+  "with_uf_split": 183,
+  "_ok": true,
+  "_seconds": 3.4
+ },
+ "simulator": {
+  "studies": {
+   "nardostachys-ghimire2008": {
+    "series": 5,
+    "lambdas": {
+     "0% (control subplots)": 1.0277,
+     "10% rhizome harvest": 0.9582,
+     "25% rhizome harvest": 0.8912,
+     "50% rhizome harvest": 0.8305,
+     "75% rhizome harvest": 0.7369
+    },
+    "all_qc_ok": true,
+    "design": "experimental"
+   },
+   "khaya-gaoue2010": {
+    "series": 12,
+    "lambdas": {
+     "Unmanipulated \u00b7 Boukoussera": 1.0423,
+     "Unmanipulated \u00b7 Fetekou": 0.9999,
+     "Unmanipulated \u00b7 Sinisson": 1.0751,
+     "Unmanipulated \u00b7 Penelan": 0.9255,
+     "Unmanipulated \u00b7 Nipuni": 1.0002,
+     "Unmanipulated \u00b7 Barabon": 1.0032,
+     "High harvest \u00b7 Gbeba": 1.0002,
+     "Harvested \u00b7 Dogue": 0.9799,
+     "High harvest \u00b7 Nigoussourou": 0.9999,
+     "High harvest \u00b7 Soassararou": 0.9641,
+     "High harvest \u00b7 Sakarou": 0.9946,
+     "High harvest \u00b7 Okpara": 0.9545
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "khaya-gaoue2013": {
+    "series": 12,
+    "lambdas": {
+     "Unmanipulated \u00b7 Barabon": 1.0032,
+     "Unmanipulated \u00b7 Boukoussera": 1.0142,
+     "Unmanipulated \u00b7 Fetekou": 0.9696,
+     "Unmanipulated \u00b7 Nipuni": 1.001,
+     "Unmanipulated \u00b7 Penelan": 0.9416,
+     "Unmanipualted \u00b7 Sinisson": 1.0201,
+     "Harvested \u00b7 Dogue": 0.9866,
+     "Harvested \u00b7 Gbeba": 0.9988,
+     "Harvested \u00b7 Nigoussourou": 0.9224,
+     "Harvested \u00b7 Okpara": 0.9696,
+     "Harvested \u00b7 Sakarou": 0.9938,
+     "Harvested \u00b7 Soassararou": 0.9767
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "prunus-stewart2001": {
+    "series": 5,
+    "lambdas": {
+     "Unmanipulated \u00b7 Plot 1": 0.9845,
+     "Harvested once per year \u00b7 Plot 2": 1.0006,
+     "Harvested twice per year \u00b7 Plot 3": 1.0044,
+     "Harvested twice per year \u00b7 Plot 4": 0.9664,
+     "Harvested once per year \u00b7 Plot 5": 1.0254
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "echinacea-hurlburt1999": {
+    "series": 4,
+    "lambdas": {
+     "Unmanipulated \u00b7 Natoma": 0.9884,
+     "Unmanipulated \u00b7 Woodston": 1.0436,
+     "Harvested \u00b7 Natoma": 1.0515,
+     "Harvested \u00b7 Woodston": 0.9759
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "phyllanthus-ticktin2012": {
+    "series": 2,
+    "lambdas": {
+     "Unmanipulated \u00b7 Biligiri Rangaswamy Temp": 0.9758,
+     "Fruit harvesting \u00b7 Biligiri Rangaswamy T": 0.9301
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "boswellia-groenendijk2012": {
+    "series": 2,
+    "lambdas": {
+     "Unmanipulated \u00b7 Metema; Adi Arkay": 0.9539,
+     "Tapped \u00b7 Metema; Adi Arkay": 0.9623
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   },
+   "sabal-martinez2007": {
+    "series": 3,
+    "lambdas": {
+     "Unmanipulated \u00b7 Successional forest": 1.0269,
+     "Unmanipulated \u00b7 Mature forest": 0.9951,
+     "Harvested \u00b7 Crop fields": 0.9591
+    },
+    "all_qc_ok": true,
+    "design": "observational"
+   }
+  },
+  "rotation_nardostachys": {
+   "10": {
+    "1": 0.9582,
+    "3": 1.0014,
+    "5": 1.0115,
+    "10": 1.0195
+   },
+   "25": {
+    "1": 0.8912,
+    "3": 0.9704,
+    "5": 0.9916,
+    "10": 1.0092
+   },
+   "50": {
+    "1": 0.8305,
+    "3": 0.9393,
+    "5": 0.9708,
+    "10": 0.9983
+   },
+   "75": {
+    "1": 0.7369,
+    "3": 0.9296,
+    "5": 0.9664,
+    "10": 0.9962
+   }
+  },
+  "rotation_observational_blocked": true,
+  "deterministic_repeat_identical": true,
+  "hypothetical_example": {
+   "lambda_baseline": 1.15223271240996,
+   "lambda_scenario": 1.0102552231398076,
+   "tier": "B"
+  },
+  "quota": {
+   "Nardostachys jatamansi": "study-backed scenario only",
+   "Khaya senegalensis": "study-backed scenario only",
+   "Arnica montana": "cannot estimate safe local rate",
+   "Valeriana jatamansi": "cannot estimate safe local rate",
+   "Unknownus plantus": "cannot estimate safe local rate"
+  },
+  "quota_with_full_local_evidence": "conditional field assessment eligible",
+  "quota_with_5_of_6": "study-backed scenario only",
+  "scenarios_saved_and_listed": true,
+  "nardostachys_matrices_in_compadre": {
+   "n": 6,
+   "composites": [
+    "Mean"
+   ],
+   "year_specific_available": false,
+   "years": [
+    [
+     "1999",
+     "2002"
+    ]
+   ]
+  },
+  "_ok": true,
+  "_seconds": 1.0
+ },
+ "eligibility_species_panel": {
+  "rows": {
+   "Nardostachys jatamansi": {
+    "tier": "A",
+    "quota": "study-backed scenario only",
+    "enabled": [
+     "demographic_projection",
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Khaya senegalensis": {
+    "tier": "A",
+    "quota": "study-backed scenario only",
+    "enabled": [
+     "demographic_projection",
+     "harvest_comparison",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Prunus africana": {
+    "tier": "A",
+    "quota": "study-backed scenario only",
+    "enabled": [
+     "demographic_projection",
+     "harvest_comparison",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Echinacea angustifolia": {
+    "tier": "A",
+    "quota": "study-backed scenario only",
+    "enabled": [
+     "demographic_projection",
+     "harvest_comparison",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Panax quinquefolius": {
+    "tier": "B",
+    "quota": "cannot estimate safe local rate",
+    "enabled": [
+     "demographic_projection",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Arnica montana": {
+    "tier": "C",
+    "quota": "cannot estimate safe local rate",
+    "enabled": [
+     "evidence_planning"
+    ]
+   },
+   "Primula veris": {
+    "tier": "B",
+    "quota": "cannot estimate safe local rate",
+    "enabled": [
+     "demographic_projection",
+     "hypothetical_harvest",
+     "phenology_window",
+     "evidence_planning"
+    ]
+   },
+   "Hydrastis canadensis": {
+    "tier": "B",
+    "quota": "cannot estimate safe local rate",
+    "enabled": [
+     "demographic_projection",
+     "hypothetical_harvest",
+     "evidence_planning"
+    ]
+   },
+   "Valeriana jatamansi": {
+    "tier": "C",
+    "quota": "cannot estimate safe local rate",
+    "enabled": [
+     "phenology_window",
+     "evidence_planning"
+    ]
+   }
+  },
+  "tier_counts_all_medicinal": {
+   "A": 7,
+   "B": 189,
+   "C": 4
+  },
+  "_ok": true,
+  "_seconds": 0.0
+ },
+ "spatial_new_regions": {
+  "Mt Kenya (Prunus africana)": {
+   "seconds": 0.6,
+   "cells": 20,
+   "cells_with_climate": 20,
+   "layer_status": {
+    "climate_normals": "available",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending",
+    "occurrences": "available",
+    "cites": "available"
+   },
+   "clean_occurrences": 3,
+   "suitability": "withheld by scientific gate",
+   "extrapolated_cells": 0,
+   "georeferenced_cell_example": [
+    36.83333,
+    -0.5,
+    37.0,
+    -0.33333
+   ]
+  },
+  "Benin north (Khaya)": {
+   "seconds": 0.0,
+   "cells": 49,
+   "cells_with_climate": 49,
+   "layer_status": {
+    "climate_normals": "available",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending",
+    "occurrences": "available",
+    "cites": "available"
+   },
+   "clean_occurrences": 120,
+   "suitability": "withheld by scientific gate",
+   "extrapolated_cells": 0,
+   "georeferenced_cell_example": [
+    1.5,
+    10.0,
+    1.66667,
+    10.16667
+   ]
+  },
+  "Pyrenees (Arnica)": {
+   "seconds": 0.7,
+   "cells": 60,
+   "cells_with_climate": 60,
+   "layer_status": {
+    "climate_normals": "available",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending",
+    "occurrences": "available",
+    "cites": "available"
+   },
+   "clean_occurrences": 1239,
+   "suitability": "available",
+   "extrapolated_cells": 0,
+   "georeferenced_cell_example": [
+    0.0,
+    42.33333,
+    0.16667,
+    42.5
+   ]
+  },
+  "Bhutan (Nardostachys)": {
+   "seconds": 0.0,
+   "cells": 35,
+   "cells_with_climate": 35,
+   "layer_status": {
+    "climate_normals": "available",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending",
+    "occurrences": "available",
+    "cites": "available"
+   },
+   "clean_occurrences": 3,
+   "suitability": "available",
+   "extrapolated_cells": 5,
+   "georeferenced_cell_example": [
+    89.5,
+    27.16667,
+    89.66667,
+    27.33333
+   ]
+  },
+  "Mid-Atlantic ocean": {
+   "seconds": 0.1,
+   "cells": 78,
+   "cells_with_climate": 0,
+   "layer_status": {
+    "climate_normals": "unsupported",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending",
+    "occurrences": "available",
+    "cites": "available"
+   },
+   "clean_occurrences": 0,
+   "suitability": "unsupported",
+   "extrapolated_cells": 0,
+   "georeferenced_cell_example": [
+    -35.0,
+    30.0,
+    -34.83333,
+    30.16667
+   ]
+  },
+  "Point radius Andes": {
+   "seconds": 0.0,
+   "cells": 16,
+   "cells_with_climate": 16,
+   "layer_status": {
+    "climate_normals": "available",
+    "monthly_climatology": "available",
+    "elevation": "available",
+    "soil": "available",
+    "land_cover": "display-only",
+    "tree_cover_loss": "display-only",
+    "protected_areas": "pending",
+    "fire": "pending",
+    "iucn": "pending"
+   },
+   "clean_occurrences": null,
+   "suitability": "no species",
+   "extrapolated_cells": 0,
+   "georeferenced_cell_example": [
+    -78.83333,
+    -0.5,
+    -78.66667,
+    -0.33333
+   ]
+  },
+  "_repeatable": true,
+  "_geometry_checks": {
+   "too large": {
+    "accepted": false,
+    "error": "region too large (580,904,589 km\u00b2 > 2,500,000 km\u00b2); choose a smaller area"
+   },
+   "inverted": {
+    "accepted": false,
+    "error": "bbox must be [west, south, east, north] with west<east and south<north (antimeridian crossing unsupported)"
+   },
+   "bowtie polygon": {
+    "accepted": true,
+    "issues": [
+     "invalid geometry repaired: Self-intersection[0.5 0.5]"
+    ],
+    "area_km2": 6196
+   }
+  },
+  "_ok": true,
+  "_seconds": 1.5
+ },
+ "planner_new_region": {
+  "cells": 130,
+  "sweep": [
+   {
+    "budget": 3,
+    "selected": 3,
+    "strata": "3/8",
+    "cost": 3.0,
+    "within_budget": true,
+    "obj": 34.5,
+    "greedy_obj": 34.5
+   },
+   {
+    "budget": 6,
+    "selected": 6,
+    "strata": "6/8",
+    "cost": 6.0,
+    "within_budget": true,
+    "obj": 69.0,
+    "greedy_obj": 69.0
+   },
+   {
+    "budget": 12,
+    "selected": 12,
+    "strata": "8/8",
+    "cost": 12.0,
+    "within_budget": true,
+    "obj": 98.0,
+    "greedy_obj": 98.0
+   },
+   {
+    "budget": 24,
+    "selected": 24,
+    "strata": "8/8",
+    "cost": 24.0,
+    "within_budget": true,
+    "obj": 116.0,
+    "greedy_obj": 116.0
+   }
+  ],
+  "monotone": true,
+  "reverify": {
+   "status": "Optimal",
+   "selected": 6
+  },
+  "evidence": {
+   "items": [
+    "local_stage_counts",
+    "post_harvest_recovery",
+    "harvest_yield",
+    "identity_verified",
+    "site_rights",
+    "expert_threshold",
+    "phenology_monitoring"
+   ],
+   "unlocks": [
+    "local_quota",
+    "phenology_window"
+   ],
+   "greedy_unlocks": [
+    "local_quota",
+    "phenology_window"
+   ]
+  },
+  "_ok": true,
+  "_seconds": 0.4
+ },
+ "agent_runs": {
+  "normal": {
+   "run_id": "run_20261107121018_e4913e",
+   "status": "completed",
+   "seconds": 9.0,
+   "node_states": {
+    "intake": "completed",
+    "route": "completed",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "completed",
+    "demography": "completed",
+    "literature": "completed",
+    "triage": "human-review",
+    "habitat": "blocked",
+    "plan": "completed",
+    "verify": "completed",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [
+    [
+     "route",
+     "harvest_research",
+     0.98,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.99,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.82,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ]
+   ],
+   "route": "JEV choice",
+   "quota_answer": "study-backed scenario only",
+   "trace_matches_final_states": true
+  },
+  "provider_failure": {
+   "run_id": "run_20261107121027_f31fbd",
+   "status": "completed-with-failures",
+   "seconds": 9.1,
+   "node_states": {
+    "intake": "completed",
+    "route": "skipped",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "failed",
+    "demography": "blocked",
+    "literature": "completed",
+    "triage": "completed",
+    "habitat": "blocked",
+    "plan": "completed",
+    "verify": "human-review",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [
+    [
+     "study_triage",
+     "irrelevant",
+     0.89,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.94,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ]
+   ],
+   "route": "explicit app route (no classification needed)",
+   "quota_answer": "cannot estimate safe local rate",
+   "trace_matches_final_states": true
+  },
+  "unknown_study": {
+   "run_id": "run_20261107121036_7cc335",
+   "status": "completed",
+   "seconds": 6.9,
+   "node_states": {
+    "intake": "completed",
+    "route": "skipped",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "skipped",
+    "demography": "completed",
+    "literature": "completed",
+    "triage": "human-review",
+    "habitat": "skipped",
+    "plan": "completed",
+    "verify": "human-review",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "human_review",
+     0.55,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.99,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.4,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ]
+   ],
+   "route": "explicit app route (no classification needed)",
+   "quota_answer": "study-backed scenario only",
+   "trace_matches_final_states": true
+  },
+  "low_jev_confidence": {
+   "run_id": "run_20261107121043_723cad",
+   "status": "completed",
+   "seconds": 7.7,
+   "node_states": {
+    "intake": "completed",
+    "route": "human-review",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "skipped",
+    "demography": "blocked",
+    "literature": "completed",
+    "triage": "human-review",
+    "habitat": "skipped",
+    "plan": "completed",
+    "verify": "completed",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [
+    [
+     "route",
+     "needs_clarification",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.42,
+     false
+    ]
+   ],
+   "route": "rule fallback (JEV below threshold)",
+   "quota_answer": "cannot estimate safe local rate",
+   "trace_matches_final_states": true
+  },
+  "unsupported_population_model": {
+   "run_id": "run_20261107121051_d487e8",
+   "status": "completed",
+   "seconds": 6.7,
+   "node_states": {
+    "intake": "completed",
+    "route": "skipped",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "skipped",
+    "demography": "blocked",
+    "literature": "completed",
+    "triage": "completed",
+    "habitat": "skipped",
+    "plan": "completed",
+    "verify": "completed",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [
+    [
+     "study_triage",
+     "irrelevant",
+     0.92,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.99,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     0.94,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ],
+    [
+     "study_triage",
+     "irrelevant",
+     1.0,
+     true
+    ]
+   ],
+   "route": "explicit app route (no classification needed)",
+   "quota_answer": "cannot estimate safe local rate",
+   "trace_matches_final_states": true
+  },
+  "jev+groq unavailable": {
+   "run_id": "run_20261107121058_249342",
+   "status": "completed",
+   "seconds": 1.7,
+   "node_states": {
+    "intake": "completed",
+    "route": "completed",
+    "taxonomy": "completed",
+    "gate": "completed",
+    "geo": "skipped",
+    "demography": "completed",
+    "literature": "completed",
+    "triage": "completed",
+    "habitat": "skipped",
+    "plan": "completed",
+    "verify": "completed",
+    "explain": "completed",
+    "report": "completed"
+   },
+   "events": 40,
+   "jev_decisions": [],
+   "route": "deterministic rules (JEV unavailable)",
+   "quota_answer": "cannot estimate safe local rate",
+   "trace_matches_final_states": true
+  },
+  "_ok": true,
+  "_seconds": 41.0
+ },
+ "api_contract": {
+  "checks": {
+   "health": {
+    "status": 200,
+    "ok": true
+   },
+   "species search": {
+    "status": 200,
+    "ok": true
+   },
+   "species profile": {
+    "status": 200,
+    "ok": true
+   },
+   "species outside catalog": {
+    "status": 200,
+    "ok": true
+   },
+   "cases": {
+    "status": 200,
+    "ok": true
+   },
+   "layers": {
+    "status": 200,
+    "ok": true
+   },
+   "matrix": {
+    "status": 200,
+    "ok": true
+   },
+   "simulate study": {
+    "status": 200,
+    "ok": true
+   },
+   "simulate rotation": {
+    "status": 200,
+    "ok": true
+   },
+   "simulate rotation on observational -> 422": {
+    "status": 422,
+    "ok": true
+   },
+   "quota": {
+    "status": 200,
+    "ok": true
+   },
+   "plan evidence": {
+    "status": 200,
+    "ok": true
+   },
+   "plan survey w/o region -> 422": {
+    "status": 422,
+    "ok": true
+   },
+   "bad bbox -> 422": {
+    "status": 422,
+    "ok": true
+   },
+   "experiments": {
+    "status": 200,
+    "ok": true
+   },
+   "sources": {
+    "status": 200,
+    "ok": true
+   },
+   "studies": {
+    "status": 200,
+    "ok": true
+   },
+   "scenario list": {
+    "status": 200,
+    "ok": true
+   },
+   "run detail": {
+    "status": 200,
+    "ok": true
+   },
+   "report html": {
+    "status": 200,
+    "ok": true
+   },
+   "sse replay of finished run": {
+    "status": 200,
+    "ok": true
+   }
+  },
+  "passed": 21,
+  "total": 21,
+  "_ok": true,
+  "_seconds": 1.5
+ },
+ "finished_utc": "2026-11-07T17:11:01Z"
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "name": "TreeDivNet: Tree diversity reduces variability in sapling survival under drought (data)",
+    "doi_or_url": "https://doi.org/10.6084/m9.figshare.25359751",
+    "licence": "CC BY 4.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "sapling survival",
+      "drought indices (SPEI, REW)",
+      "species functional traits (TLP, P50, seed mass, wood density, leaf N/P, LMA, height)"
+    ],
+    "notes": "Figshare API lists 14 files incl. data_surv_synthesis.csv (181.7 MB) and traits_species_update.csv; ranged GET on ndownloader.figshare.com/files/44913304 returned CSV content without login (HEAD on signed S3 URL returns 403, GET works). Not a harvest dataset; tree plantations (no medicinal focus claimed)."
+  },
+  {
+    "name": "European seed germination records (Gioria et al., J Ecol) - 1,146 herbaceous species",
+    "doi_or_url": "https://doi.org/10.5061/dryad.nk98sf86v",
+    "licence": "CC0-1.0",
+    "downloadable": false,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "seeds tested",
+      "seeds germinated",
+      "temperature",
+      "alternating temperature",
+      "cold/warm stratification",
+      "light",
+      "scarification",
+      "naturalization extent"
+    ],
+    "notes": "Dryad metadata public (published 2025-12-11; files Gioria_et_al_JEcol_211125_f.xlsx 1.59 MB + README.md). Anonymous script download FAILED: Dryad API file download returns 401 'must have current bearer token'; web file_stream returns 403 (bot protection). No Zenodo mirror found. Likely downloadable manually in a browser or with a free Dryad API token. 18,596 lab tests. Not a harvest dataset."
+  },
+  {
+    "name": "Khaya senegalensis mean matrices 2004-2007 (Gaoue 2016, J Appl Ecol 53, transient dynamics under bark/foliage harvest)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.mb1d0",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "5x5 stage matrices (SDL, SAP, JUV, AD1, AD2) per population and harvest level (high/low) and region"
+    ],
+    "notes": "Zenodo mirror record 5001576: Khaya_MeanMatrices_2004_2007.csv fetched anonymously (HTTP 206). Related paper doi:10.1111/1365-2664.12553. Directly usable to cross-check COMPADRE Khaya matrices."
+  },
+  {
+    "name": "Harvesting has variable effects on demographic rates and population growth across three dry forest tree species",
+    "doi_or_url": "https://doi.org/10.5061/dryad.mcvdnck27",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "survival",
+      "size 2009",
+      "size 2016",
+      "sprouting",
+      "harvest (0/1)"
+    ],
+    "notes": "Zenodo mirror 6866003 Demogdata.csv fetched (HTTP 206); species include Acacia chundra; individual-level IPM data with harvest flag; 3 species, India dry forest (branch/NTFP harvest)."
+  },
+  {
+    "name": "Concurrent impacts with harvesting on NTFP plants (drought x leaf harvest greenhouse experiment)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.z08kprrgv",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "leaf production",
+      "morphology",
+      "growth after 1st and 2nd harvest",
+      "drought level (6 + control)",
+      "harvest level (4)"
+    ],
+    "notes": "2 wild vegetables (Amaranthus sp., Bidens pilosa; 1,334 + 391 plants); Zenodo 7149647 xlsx fetched (HTTP 206). Related paper doi:10.1371/journal.pone.0283900. Bidens pilosa has medicinal uses but dataset does not claim medicinal focus."
+  },
+  {
+    "name": "Pentadesma butyracea fruit harvest: density, basal area and individual demography (18 populations, Benin)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.h58kg",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "seedling density",
+      "clonal vs sexual recruitment",
+      "basal area",
+      "individual demography",
+      "fruit harvest intensity (low/moderate/high)"
+    ],
+    "notes": "Zenodo 4963270 files fetched (HTTP 206). Related paper doi:10.1111/btp.12486."
+  },
+  {
+    "name": "Chamaedorea ernesti-augustii leaf-removal experiment (Hernandez-Barrios et al. 2015 J Appl Ecol)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.6j19m",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 0,
+    "response_variables": [
+      "leaf production",
+      "survival",
+      "growth",
+      "reproduction under increasing leaf-removal levels",
+      "economic yield"
+    ],
+    "notes": "Zenodo 4954661 .xlsm fetched (HTTP 206). Ornamental palm, not medicinal. Related doi:10.1111/1365-2664.12384."
+  },
+  {
+    "name": "Chamaedorea elegans 67% defoliation experiment + internode data (smarter harvesting)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.q755t",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 0,
+    "response_variables": [
+      "vital rates under defoliation (830 palms, 3 yr)",
+      "internode lengths"
+    ],
+    "notes": "Zenodo 5013302 xlsx fetched (HTTP 206). Related doi:10.1111/1365-2664.13100."
+  },
+  {
+    "name": "Euterpe precatoria and Mauritia flexuosa demography for harvest IPMs (Amazonas, Colombia)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.bn3kd",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 0,
+    "response_variables": [
+      "growth",
+      "survival",
+      "reproduction of >1400 palms 2011-2013",
+      "simulated adult felling vs direct fruit harvest"
+    ],
+    "notes": "Zenodo 5015543 xls fetched (HTTP 206). Related doi:10.1111/btp.12424."
+  },
+  {
+    "name": "Brazil nut (Bertholletia excelsa) survival, growth, fruit production and regeneration at 39% vs 81% harvest sites",
+    "doi_or_url": "https://doi.org/10.5061/dryad.br360",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 0,
+    "response_variables": [
+      "survival",
+      "growth",
+      "fruit production",
+      "regeneration",
+      "nut harvest intensity (39%, 81%)"
+    ],
+    "notes": "Zenodo 5025703 CSVs fetched (HTTP 206). 14 years, Acre, Brazil. Related doi:10.1111/btp.12505."
+  },
+  {
+    "name": "Cymbopogon flexuosus (lemongrass essential oil NTFP) burning x harvest, Bhutan",
+    "doi_or_url": "https://doi.org/10.5061/dryad.m64s2",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "ground vegetation cover",
+      "lemongrass biomass",
+      "oil content",
+      "citral"
+    ],
+    "notes": "Zenodo 4954721 txt fetched (HTTP 206). Aromatic/medicinal-oil grass; prescribed fire treatment. Related doi:10.1111/1365-2664.12746."
+  },
+  {
+    "name": "Mimusops andongensis degradation/invasive species impacts (Lama Forest, Benin)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.d1m02",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "adult density",
+      "regeneration density",
+      "diameter structure",
+      "Chromolaena cover"
+    ],
+    "notes": "Zenodo 4977482 xlsx fetched (HTTP 206). Multipurpose NTFP; observational, no harvest experiment."
+  },
+  {
+    "name": "Ruwanza & Shackleton: NTFP harvesting effects on soil nutrients (Acacia karroo, Opuntia ficus-indica, Cymbopogon marginatus)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.mp6d3",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "plant size",
+      "soil pH, P, N, K, Na, Ca, Mg under canopy vs open, harvested vs non-harvested"
+    ],
+    "notes": "Zenodo 4959561 xlsx fetched (HTTP 206). Ecosystem-level, not demographic."
+  },
+  {
+    "name": "Rauvolfia serpentina population, life-history and germination data across disturbance levels (Nepal)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.vt4b8gv2q",
+    "licence": "CC0-1.0",
+    "downloadable": false,
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "population density/structure",
+      "adult height, stem and canopy diameter",
+      "fruit mass",
+      "reproductive output",
+      "seed germination",
+      "seedling growth"
+    ],
+    "notes": "Medicinal species. Published 2026-01-09; no Zenodo mirror found; Dryad file download requires token (401 via API) - treat as manual-download only. Related doi:10.1002/ece3.72731."
+  },
+  {
+    "name": "Securidaca longepedunculata population dynamics under lethal harvest (South Africa)",
+    "doi_or_url": "https://doi.org/10.6084/m9.figshare.33094676.v1",
+    "licence": "CC BY 4.0",
+    "downloadable": "unknown",
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "individual demographic data (data_pop_securidaca.txt)",
+      "bootstrap matrix models",
+      "PVA under harvest levels (R script)"
+    ],
+    "notes": "Medicinal species explicitly lethally harvested; Figshare API lists 2 files; download not tested. Associated paper not verified."
+  },
+  {
+    "name": "Prunus africana population structure and regeneration, Volcanoes NP, Rwanda",
+    "doi_or_url": "https://doi.org/10.5061/dryad.wdbrv165t",
+    "licence": "CC0-1.0",
+    "downloadable": false,
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "population structure",
+      "regeneration"
+    ],
+    "notes": "Published 2026-09-22; no Zenodo mirror; Dryad file download needs token. Not a harvest experiment per title."
+  },
+  {
+    "name": "Coe & Gaoue 2021: therapeutic redundancy vs use pressure (Shipibo medicinal flora, phylogeny)",
+    "doi_or_url": "https://doi.org/10.5061/dryad.69p8cz91x",
+    "licence": "CC0-1.0",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "use pressure",
+      "therapeutic redundancy",
+      "phylogeny"
+    ],
+    "notes": "Zenodo 4748263 fetched (HTTP 206). Multi-species medicinal plant use data, not harvest/regeneration measurements. Related doi:10.1002/pan3.10216."
+  },
+  {
+    "name": "Smith-Hall et al. 2023 N. jatamansi trade data (ERDA, University of Copenhagen)",
+    "doi_or_url": "https://doi.org/10.17894/ucph.48227096-1bcf-4c57-a7c5-d478bcef59bd",
+    "licence": "unknown",
+    "downloadable": "unknown",
+    "medicinal_species_count_claimed": 1,
+    "response_variables": [
+      "district-level trade volumes 1997-98 and 2014-15",
+      "suitability model"
+    ],
+    "notes": "Cited in Data Availability Statement of PNAS Nexus pgad328; accessibility not tested."
+  },
+  {
+    "name": "COMPADRE v6.26.3.0 (already in project)",
+    "doi_or_url": "https://compadre-db.org",
+    "licence": "CC BY 4.0 (per COMPADRE terms; verify)",
+    "downloadable": true,
+    "medicinal_species_count_claimed": null,
+    "response_variables": [
+      "matrix population models A/U/F/C"
+    ],
+    "notes": "Local copy V:/projects/ethnoharvest-ai/data/raw/compadre/COMPADRE_v.6.26.3.0.RData. Licence string not re-verified in this session."
+  }
+]

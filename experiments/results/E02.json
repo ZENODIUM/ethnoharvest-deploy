@@ -1,0 +1,56 @@
+{
+ "id": "E02",
+ "title": "Medicinal-species coverage audit (independent verification of prior claims)",
+ "question": "How many COMPADRE / Environmental-Demography / PhenObs taxa have documented medicinal use in open checklists, and do the prior-agent claims (>=333, >=68, >=307) replicate?",
+ "hypothesis": "Counts will be lower than prior claims because open checklists (USDA Duke, Herbolario) replace restricted Kew WCUPS/MPNS; each dataset still exceeds 10 medicinal species with usable outcomes.",
+ "data": "COMPADRE 6.26.3.0; GBIF backbone; USDA Duke ETHNOBOT; Herbolario; EnvDemog GLMMdata; PhenObs 2019-2023",
+ "method": "GBIF accepted+true synonyms, manual synonym review, binomial match",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "replicated",
+ "finding": "All three datasets pass the >=10 medicinal-species threshold; the larger prior counts are not reproduced with open checklists.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:09:53+00:00",
+ "runtime_s": 0.61,
+ "command": "python -m backend.ethnoharvest.experiments E02",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E02.json",
+ "result": {
+  "compadre": {
+   "taxa": 812,
+   "medicinal_taxa": 200,
+   "medicinal_taxa_2plus_refs": 137,
+   "medicinal_via_reviewed_synonym": 14,
+   "medicinal_matrices": 2612,
+   "medicinal_independent_studies": 216,
+   "medicinal_populations": 771,
+   "medicinal_with_harvest_like_treatment": 8,
+   "prior_claim": ">=333",
+   "replicated": false
+  },
+  "envdemog": {
+   "populations": 121,
+   "species": 78,
+   "medicinal_species": 24,
+   "prior_claim": ">=68 (raw records)",
+   "note": "complete-case modelling table (121 pops); raw-record denominator differs"
+  },
+  "phenobs": {
+   "species_with_flowering_peak": 436,
+   "medicinal_species": 220,
+   "prior_claim": ">=307",
+   "replicated": false
+  },
+  "threshold_10_medicinal": {
+   "compadre": true,
+   "envdemog": true,
+   "phenobs": true
+  }
+ }
+}

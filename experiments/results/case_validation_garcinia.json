@@ -1,0 +1,398 @@
+{
+  "generated": "2026-11-08 00:21:42",
+  "literature": true,
+  "note": "Operational records and documents are SYNTHETIC (demo workspace, watermarked PDFs). Scientific numbers come from COMPADRE v6.26.3.0 matrices. No result here is a harvest rate, quota or permit.",
+  "cases": [
+    {
+      "id": "garcinia",
+      "species": "Garcinia lucida",
+      "organ": "bark",
+      "jurisdiction": "Cameroon",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 5,
+        "n_studies": 1,
+        "n_populations": 1,
+        "median_lambda": 1.0571,
+        "family": "Clusiaceae",
+        "harvest_studies": [
+          "garcinia-guedje2007"
+        ],
+        "medicinal_sources": "Curated literature: Guedje et al. 2003, For Ecol Manage 177:231-241; Guedje et al. 2007, For Ecol Manage 240:1-12",
+        "example_uses": "Bark and seeds traded for medicinal use and palm-wine processing (Cameroon, Gabon, Equatorial Guinea)",
+        "sensitive": false,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 858
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "garcinia-guedje2007",
+            "design": "modelled",
+            "caveat": "Harvest treatments are the authors' model scenarios applied to field-measured matrices, not harvests observed in plots.",
+            "series": [
+              {
+                "matrix": 247569,
+                "role": "control",
+                "label": "No bark harvest",
+                "lambda": 1.0633,
+                "qc_ok": true,
+                "relative_size_y30": 630.4
+              },
+              {
+                "matrix": 247570,
+                "role": "treatment",
+                "label": "Partial debarking (one side)",
+                "lambda": 1.0596,
+                "qc_ok": true,
+                "relative_size_y30": 541.7
+              },
+              {
+                "matrix": 247571,
+                "role": "treatment",
+                "label": "Ring-barking (whole circumference)",
+                "lambda": 1.0571,
+                "qc_ok": true,
+                "relative_size_y30": 472.1
+              },
+              {
+                "matrix": 239739,
+                "role": "treatment",
+                "label": "Felling at 1 m after fruiting",
+                "lambda": 1.0567,
+                "qc_ok": true,
+                "relative_size_y30": 523.5
+              },
+              {
+                "matrix": 239740,
+                "role": "treatment",
+                "label": "Felling at 1 m before fruiting",
+                "lambda": 1.0562,
+                "qc_ok": true,
+                "relative_size_y30": 515.6
+              }
+            ],
+            "mean_control": 1.0633,
+            "mean_treatment": 1.0574,
+            "delta_mean": -0.0059,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "247570": "stasis",
+              "247571": "stasis"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 137
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 1.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 53
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "bark",
+        "agent_organ": "bark",
+        "process": "survival and growth of established plants",
+        "methods": [
+          "Strip panels from opposite sides",
+          "Girdling or full stripping",
+          "Felling then stripping"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_8f297db9738b",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1001",
+        "prefill": {
+          "organ": "bark",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": null
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "computed-from-matrices": 1,
+          "transferred-from-other-species": 2,
+          "requires-authority-confirmation": 1,
+          "needs-review": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published modelled harvest scenarios on field-measured matrices on bark harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "How sensitive this population is to the harvested process (survival and growth of established plants)",
+            "kind": "computed-from-matrices",
+            "applicability": "this species",
+            "review": "shown with caveats; awaiting expert review",
+            "route": "publishable_with_caveat"
+          },
+          {
+            "issue": "Evidence from another species harvested for bark + foliage: Khaya senegalensis",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for bark: Prunus africana",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for Cameroon",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Cameroon",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "4 papers the AI could not classify confidently",
+            "kind": "needs-review",
+            "applicability": "search results",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": {
+          "retrieved": 14,
+          "triage": {
+            "needs_human": 4,
+            "other_topic": 8
+          },
+          "triage_mode": "JEV + rule agreement gate",
+          "jev_calls": 12,
+          "agreement": 0.667,
+          "claims": 0,
+          "claims_dropped": 0,
+          "claims_mode": "nothing to extract",
+          "verification": {
+            "checked": 0,
+            "rejected": 0,
+            "partly": 0,
+            "mode": "nothing to verify"
+          },
+          "flags": [
+            {
+              "kind": "single-study",
+              "detail": "Only one audited study (garcinia-guedje2007) covers this species and part."
+            }
+          ],
+          "duration_ms": 17540.4
+        },
+        "sensitivity": {
+          "status": "ok",
+          "basis": "this species",
+          "process": "survival and growth of established plants",
+          "matrices": 5,
+          "share_mean": 0.98,
+          "share_ci95": [
+            0.98,
+            0.981
+          ],
+          "declining_fraction": 0.0,
+          "groups": {
+            "unharvested": {
+              "matrices": 1,
+              "median_lambda": 1.0633,
+              "mean_share": 0.981
+            },
+            "harvested": {
+              "matrices": 1,
+              "median_lambda": 1.0596,
+              "mean_share": 0.98
+            },
+            "other": {
+              "matrices": 3,
+              "median_lambda": 1.0567,
+              "mean_share": 0.98,
+              "note": "non-harvest manipulations (e.g. grazing, shading, protection); not used in the harvest contrast"
+            }
+          },
+          "plain": "About 98% (95% range 98\u201398%) of this plant's long-run population growth depends on survival and growth of established plants, the process a bark harvest affects (5 published matrices, this species)."
+        },
+        "stochastic": {
+          "status": "ok",
+          "groups": {
+            "unharvested": {
+              "matrices": 1,
+              "status": "needs at least 2 same-size matrices"
+            },
+            "harvested": {
+              "matrices": 1,
+              "status": "needs at least 2 same-size matrices"
+            }
+          },
+          "plain": null,
+          "latency_ms": 17.6,
+          "studies": [
+            "10.1016/j.foreco.2006.09.029"
+          ],
+          "note": "Each simulated year draws one of the published matrices at random: a model of year-to-year variation, not a forecast."
+        },
+        "forbidden_phrases": [],
+        "tasks_open": 9,
+        "ms": 22999
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 70000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 44000.0
+        },
+        "lots": [
+          {
+            "code": "GAR-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "GAR-D1",
+            "basis": "dry",
+            "on_hand_g": 42000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "GAR-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 72
+      },
+      "documents": {
+        "ok": true,
+        "planted": "date_outside_authorisation",
+        "found": true,
+        "rules": [
+          "date_outside_authorisation"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "date_outside_authorisation",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf is dated 2026-09-12, outside the authorisation window 2026-07-01 to 2026-08-31 in authorisation.pdf."
+          }
+        ],
+        "ms": 243
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 14910,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4407,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4308,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3948,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 7969,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4321,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 123
+      }
+    }
+  ]
+}

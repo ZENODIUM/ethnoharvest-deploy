@@ -1,0 +1,41 @@
+{
+ "id": "E01",
+ "title": "Numerical verification of lambda across all COMPADRE matrices",
+ "question": "Do two independent algorithms (LAPACK eigendecomposition vs power iteration) agree on lambda for every valid COMPADRE v6.26.3.0 matrix?",
+ "hypothesis": "Agreement within 1e-6 for >=99% of primitive matrices; disagreements only for imprimitive/reducible matrices.",
+ "data": "COMPADRE v6.26.3.0 (9,178 matrices)",
+ "method": "eig vs power iteration; Validation flags",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "validated within scope",
+ "finding": "Two independent numerical methods agree; imprimitive matrices need eigen-based lambda (power iteration oscillates).",
+ "error": null,
+ "ran_utc": "2026-11-07T09:09:53+00:00",
+ "runtime_s": 14.7,
+ "command": "python -m backend.ethnoharvest.experiments E01",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E01.json",
+ "result": {
+  "n_matrices": 9178,
+  "n_excluded_na_or_negative": 132,
+  "n_valid": 9046,
+  "n_primitive": 6576,
+  "n_irreducible": 6659,
+  "share_primitive_agree_1e-6": 0.9995437956204379,
+  "max_absdiff_primitive": 2.8236545669191315e-05,
+  "n_nonprimitive_disagree": 170,
+  "lambda_quantiles_valid": {
+   "0.05": 0.5069,
+   "0.25": 0.9041,
+   "0.5": 0.9986,
+   "0.75": 1.0875,
+   "0.95": 1.9611
+  }
+ }
+}

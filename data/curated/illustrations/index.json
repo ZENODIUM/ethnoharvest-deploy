@@ -1,0 +1,323 @@
+{
+ "Arnica montana": {
+  "id": "arnica-montana",
+  "orig": "arnica-montana-orig",
+  "species": "Arnica montana",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Antique illustration of arnica montana",
+   "creator": "Free Public Domain Illustrations by rawpixel",
+   "licence": "CC BY 2.0",
+   "landing": "https://www.flickr.com/photos/153584064@N07/27104977957",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-9c48e9864f66511d"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "markers on flower head, leaves, roots | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Primula veris": {
+  "id": "primula-veris",
+  "orig": "primula-veris-orig",
+  "species": "Primula veris",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Cowslip (Primula veris L., Synonym: Primula officinalis)",
+   "creator": "mikkeldybdal.md",
+   "licence": "Public domain",
+   "landing": "https://www.flickr.com/photos/203835554@N06/55388822505",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-d41b7e6ecce76331"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "markers on flower cluster, leaf, roots | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Nardostachys jatamansi": {
+  "id": "nardostachys-jatamansi",
+  "orig": "nardostachys-jatamansi-orig",
+  "species": "Nardostachys jatamansi",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Image of Nardostachys jatamansi",
+   "creator": "Wang.QG",
+   "licence": "CC BY 4.0",
+   "landing": "https://www.gbif.org/occurrence/6470157396",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-b9b149dd94e88d32"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "rhizome not visible in the photo, so marker 1 skipped | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Panax quinquefolius": {
+  "id": "panax-quinquefolius",
+  "orig": "panax-quinquefolius-orig",
+  "species": "Panax quinquefolius",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Panax quinquefolium, ginseng",
+   "creator": "uwdigitalcollections",
+   "licence": "CC BY 2.0",
+   "landing": "https://www.flickr.com/photos/23327394@N05/3543549600",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-9bcf3b903d11e8d9"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "root, leaves, flowers | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Echinacea angustifolia": {
+  "id": "echinacea-angustifolia",
+  "orig": "echinacea-angustifolia-orig",
+  "species": "Echinacea angustifolia",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Echinacea angustifolia",
+   "creator": "Matt Lavin",
+   "licence": "CC BY-SA 2.0",
+   "landing": "https://www.flickr.com/photos/35478170@N08/36092550620",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-3a3c3674954f9670"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "close-up of the flower head; root and leaves not visible | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Prunus africana": {
+  "id": "prunus-africana",
+  "orig": "prunus-africana-orig",
+  "species": "Prunus africana",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Image of Prunus africana",
+   "creator": "robert njau",
+   "licence": "CC BY-SA (version unspecified)",
+   "landing": "https://www.gbif.org/occurrence/5110068445",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-cff9b36cab0e6597"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "1 on bark-stripping wound; 2 on leaves at the side | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Khaya senegalensis": {
+  "id": "khaya-senegalensis",
+  "orig": "khaya-senegalensis-orig",
+  "species": "Khaya senegalensis",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "starr-120716-8602-Khaya_senegalensis-trunk_and_bark-Hawaii_Tropical_Botanical_Garden-Hawaii",
+   "creator": "Starr Environmental",
+   "licence": "CC BY 2.0",
+   "landing": "https://www.flickr.com/photos/97499887@N06/24557202344",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-8c9191bf0d5da987"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "trunk close-up: marker on bark; leaves in view belong to other plants | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Boswellia papyrifera": {
+  "id": "boswellia-papyrifera",
+  "orig": "boswellia-papyrifera-orig",
+  "species": "Boswellia papyrifera",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Image of Boswellia papyrifera",
+   "creator": "Naturalis Biodiversity Center",
+   "licence": "CC0",
+   "landing": "https://www.gbif.org/occurrence/2516200287",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-92e8b4a18a33a9ba"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "herbarium twig: no trunk, so the tapping marker is skipped | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Phyllanthus emblica": {
+  "id": "phyllanthus-emblica",
+  "orig": "phyllanthus-emblica-orig",
+  "species": "Phyllanthus emblica",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Fruits of Phyllanthus emblica L.",
+   "creator": "lalithamba",
+   "licence": "CC BY 2.0",
+   "landing": "https://www.flickr.com/photos/45835639@N04/4327531563",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-839cf17adc11ac5d"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "1 fruits, 2 leaves, 3 branch bark | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Colchicum autumnale": {
+  "id": "colchicum-autumnale",
+  "orig": "colchicum-autumnale-orig",
+  "species": "Colchicum autumnale",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Autumn crocus (Colchicum autumnale): flowering",
+   "creator": "unknown",
+   "licence": "CC0",
+   "landing": "https://www.rawpixel.com/image/13954448/image-flower-plant-art",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-2a0d0ddd257e773d"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "1 leaves, 2 flowers, 3 seed capsule area | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1,
+   2,
+   3
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ },
+ "Sabal yapa": {
+  "id": "sabal-yapa",
+  "orig": "sabal-yapa-orig",
+  "species": "Sabal yapa",
+  "model": "gemini:gemini-3.1-flash-image",
+  "source": {
+   "title": "Sabal yapa",
+   "creator": "wallygrom",
+   "licence": "CC BY-SA 2.0",
+   "landing": "https://www.flickr.com/photos/33037982@N04/5434926514",
+   "kind": "hand-picked plate or photo",
+   "id": "cu-00c73450956e06e2"
+  },
+  "generated": "2026-11-08",
+  "markers": [
+   1,
+   2,
+   3
+  ],
+  "checked": true,
+  "check_note": "only the leaf crown is visible; flowers and fruit skipped | markers recoloured yellow (Gemini), composited onto the previous checked image so only marker pixels changed; compared by eye: same positions and parts",
+  "visible": [
+   1
+  ],
+  "marker_colour": "yellow",
+  "recoloured": "2026-11-08",
+  "recolour_model": "gemini:gemini-3.1-flash-image"
+ }
+}

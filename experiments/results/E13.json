@@ -1,0 +1,501 @@
+{
+ "id": "E13",
+ "title": "Evidence planning: complementarity-aware ILP vs item-greedy",
+ "question": "When decisions need ALL of several measurements (e.g. a local quota needs 6), does a greedy ranking of individual measurements waste budget compared with an ILP that models complementarity?",
+ "hypothesis": "Greedy buys individually attractive items that complete no decision at some budgets; ILP unlocks >= as much decision value at every budget.",
+ "data": "eligibility rules + planner.EVIDENCE_ITEMS (assumed costs)",
+ "method": "budgets 10..120 person-days; 4 species with different tiers",
+ "registered_utc": "2026-11-07T10:40:00Z",
+ "status": "validated within scope",
+ "finding": "ILP >= greedy in all 24 cases; greedy strictly worse in 15 (mean value gap 1.34). Evidence planning must model 'all-of' requirements; the app uses the ILP and shows the greedy result for transparency.",
+ "error": null,
+ "ran_utc": "2026-11-08T07:48:59+00:00",
+ "runtime_s": 2.01,
+ "command": "python -m backend.ethnoharvest.experiments E13",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E13.json",
+ "result": {
+  "rows": [
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 10,
+    "ilp_value": 4.876,
+    "greedy_value": 2.1,
+    "ilp_unlocks": [
+     "process_sensitivity"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 20,
+    "ilp_value": 8.976,
+    "greedy_value": 3.9,
+    "ilp_unlocks": [
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 30,
+    "ilp_value": 9.576,
+    "greedy_value": 8.776,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 50,
+    "ilp_value": 9.576,
+    "greedy_value": 9.576,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 80,
+    "ilp_value": 14.076,
+    "greedy_value": 14.076,
+    "ilp_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Nardostachys jatamansi",
+    "budget": 120,
+    "ilp_value": 14.076,
+    "greedy_value": 14.076,
+    "ilp_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 10,
+    "ilp_value": 4.4,
+    "greedy_value": 0.6,
+    "ilp_unlocks": [
+     "habitat_model",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_unlocks": [
+     "habitat_model"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 20,
+    "ilp_value": 5.564,
+    "greedy_value": 2.4,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "trade_pressure"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 30,
+    "ilp_value": 9.364,
+    "greedy_value": 4.4,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 50,
+    "ilp_value": 9.364,
+    "greedy_value": 9.364,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 80,
+    "ilp_value": 9.364,
+    "greedy_value": 9.364,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Khaya senegalensis",
+    "budget": 120,
+    "ilp_value": 13.564,
+    "greedy_value": 13.564,
+    "ilp_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 10,
+    "ilp_value": 3.1,
+    "greedy_value": 2.1,
+    "ilp_unlocks": [
+     "phenology_window",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 20,
+    "ilp_value": 4.5,
+    "greedy_value": 2.1,
+    "ilp_unlocks": [
+     "habitat_model",
+     "phenology_window",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 30,
+    "ilp_value": 5.588,
+    "greedy_value": 4.5,
+    "ilp_unlocks": [
+     "habitat_model",
+     "phenology_window",
+     "process_sensitivity",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "phenology_window",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 50,
+    "ilp_value": 5.588,
+    "greedy_value": 4.5,
+    "ilp_unlocks": [
+     "habitat_model",
+     "phenology_window",
+     "process_sensitivity",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "phenology_window",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 80,
+    "ilp_value": 7.6,
+    "greedy_value": 7.588,
+    "ilp_unlocks": [
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "habitat_model",
+     "phenology_window",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "phenology_window",
+     "process_sensitivity",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Arnica montana",
+    "budget": 120,
+    "ilp_value": 10.688,
+    "greedy_value": 10.688,
+    "ilp_unlocks": [
+     "local_quota",
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "habitat_model",
+     "phenology_window",
+     "process_sensitivity",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "habitat_model",
+     "phenology_window",
+     "process_sensitivity",
+     "regeneration_status",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 10,
+    "ilp_value": 3.08,
+    "greedy_value": 2.1,
+    "ilp_unlocks": [
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 20,
+    "ilp_value": 4.356,
+    "greedy_value": 2.88,
+    "ilp_unlocks": [
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 30,
+    "ilp_value": 4.956,
+    "greedy_value": 2.1,
+    "ilp_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 50,
+    "ilp_value": 5.73,
+    "greedy_value": 4.956,
+    "ilp_unlocks": [
+     "local_quota",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 80,
+    "ilp_value": 8.406,
+    "greedy_value": 8.406,
+    "ilp_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   },
+   {
+    "species": "Primula veris",
+    "budget": 120,
+    "ilp_value": 10.906,
+    "greedy_value": 10.906,
+    "ilp_unlocks": [
+     "local_quota",
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_unlocks": [
+     "local_quota",
+     "harvest_comparison",
+     "rotation_extrapolation",
+     "habitat_model",
+     "process_sensitivity",
+     "regeneration_status",
+     "trade_pressure",
+     "identity_assurance"
+    ],
+    "greedy_spent_without_unlock": 0
+   }
+  ],
+  "ilp_ge_greedy": true,
+  "cases_greedy_worse": 15,
+  "n_cases": 24,
+  "mean_value_gap": 1.3439166666666669
+ }
+}

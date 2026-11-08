@@ -1,0 +1,254 @@
+{
+  "compadre": {
+    "title": "COMPADRE Plant Matrix Database v6.26.3.0",
+    "citation": "Salguero-Gomez R. et al. (2015) J Ecol 103:202-218; COMPADRE v6.26.3.0",
+    "license": "COMPADRE Data User Agreement (cite; no raw redistribution)",
+    "redistribute_raw": false,
+    "retrieved_utc": "2026-11-07T08:36:57+00:00",
+    "files": [
+      {
+        "name": "COMPADRE_v.6.26.3.0.RData",
+        "bytes": 1558536,
+        "sha256": "baac5b63382c990d486fb59444aa0e932027f46a92ea45b559365b5770e1457d",
+        "provider_md5_verified": null,
+        "acquisition": "existing-local",
+        "url": "https://compadre-db.org/Data/Download/COMPADRE_v.6.26.3.0.RData"
+      }
+    ],
+    "status": "ok"
+  },
+  "phenobs": {
+    "title": "PhenObs flowering data & R scripts (Zenodo 15411418)",
+    "citation": "Species' competitive ability and phenology niche affects the flowering intensity in herbaceous species. Zenodo. doi:10.5281/zenodo.15411418",
+    "license": "CC-BY-4.0",
+    "redistribute_raw": true,
+    "zenodo": "15411418",
+    "retrieved_utc": "2026-11-07T08:37:12+00:00",
+    "files": [
+      {
+        "name": "CS_values.csv",
+        "bytes": 39666,
+        "sha256": "d5e5d77e65c2b92066a2034b9f326fc9cb73ea419a6894e82e338c6f6df63637",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/CS_values.csv/content"
+      },
+      {
+        "name": "rawdata_PhenObs_2022.csv",
+        "bytes": 4059132,
+        "sha256": "5ef1b79a02594d7bf33a3a1b0b9eea7c5d83e661a8ed9ce39149c9b95b65770d",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/rawdata_PhenObs_2022.csv/content"
+      },
+      {
+        "name": "3_Analyse_Flowering_Curves_ExampleCurves.R",
+        "bytes": 7142,
+        "sha256": "f548d1a4d01d95f033bd0d8c74141280358f7e1e9d49fee10d58c9602a6af6ad",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/3_Analyse_Flowering_Curves_ExampleCurves.R/content"
+      },
+      {
+        "name": "2_Flowering_Curves_Analyses.R",
+        "bytes": 23135,
+        "sha256": "4ada1c2cf9ee24aad3c8b51eacae1e31d9eed86fddb049216042dbf6235a9c11",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/2_Flowering_Curves_Analyses.R/content"
+      },
+      {
+        "name": "rawdata_PhenObs_2020.csv",
+        "bytes": 2352059,
+        "sha256": "930a0169536d9fd302fbfaad9cb2f5c6af4a54f0914739118cf231631bc10b54",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/rawdata_PhenObs_2020.csv/content"
+      },
+      {
+        "name": "rawdata_PhenObs_2023.csv",
+        "bytes": 4153353,
+        "sha256": "d4be3577e1539f4c8387bfe26179508e66901ea948b533391b99dfafaa46e3d4",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/rawdata_PhenObs_2023.csv/content"
+      },
+      {
+        "name": "Phenology_stages_2019_2023.csv",
+        "bytes": 459536,
+        "sha256": "094075606382ef49292004a123438459226b06c78fa821e7b7a64cbe6228f72e",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/Phenology_stages_2019_2023.csv/content"
+      },
+      {
+        "name": "rawdata_PhenObs_2019.csv",
+        "bytes": 1789253,
+        "sha256": "f7a65d15af739161cd884c2b417c081be12789608ef4e73860d691309633614c",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/rawdata_PhenObs_2019.csv/content"
+      },
+      {
+        "name": "Metadata.xlsx.xlsx",
+        "bytes": 13892,
+        "sha256": "b4ff4d6ec735ced640b0908d5f996934cb94623daefb477fa3c5453712a88936",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/Metadata.xlsx.xlsx/content"
+      },
+      {
+        "name": "rawdata_PhenObs_2021.csv",
+        "bytes": 3037955,
+        "sha256": "91b6874c0742c4139aecfa57ac16dec88a68fe3b302e9f760fd41716e6ee842d",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/rawdata_PhenObs_2021.csv/content"
+      },
+      {
+        "name": "Example Curves.csv",
+        "bytes": 16291,
+        "sha256": "3011e417508a54f37eff87284ab29ca53b613207868c7a558cf0af114e7fbd2e",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/Example%20Curves.csv/content"
+      },
+      {
+        "name": "1_Flowering_Curves_Skewness.R",
+        "bytes": 2937,
+        "sha256": "6a260047c4eb815cf74121d236d4a8f9f96873596f8a5dd76fc7165320ace0c7",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/1_Flowering_Curves_Skewness.R/content"
+      },
+      {
+        "name": "1_Flowering_Curves_NumberPeak_FloweringIntensity.R",
+        "bytes": 3155,
+        "sha256": "021225a07aeaf2dfbde3fa9644037cbe16949658338b144dce4512479ad75849",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/15411418/files/1_Flowering_Curves_NumberPeak_FloweringIntensity.R/content"
+      }
+    ],
+    "status": "ok"
+  },
+  "envdemog": {
+    "title": "Environmental Demography manuscript archive v4 (Zenodo 18922678)",
+    "citation": "Plant population responses to environmental variability are primarily driven by survival-reproduction trade-offs and mediated by aridity. Zenodo manuscript_v4. doi:10.5281/zenodo.18922678",
+    "license": "CC-BY-4.0",
+    "redistribute_raw": true,
+    "zenodo": "18922678",
+    "unzip": true,
+    "retrieved_utc": "2026-11-07T08:38:00+00:00",
+    "files": [
+      {
+        "name": "Demogbuff2-manuscript_v4.zip",
+        "bytes": 32463132,
+        "sha256": "9cf0b8fff5671c251c5917d5dc5450004d24f37e625ebbe1a29090f73d25244f",
+        "provider_md5_verified": true,
+        "acquisition": "download",
+        "url": "https://zenodo.org/api/records/18922678/files/Ecosantos/Demogbuff2-manuscript_v4.zip/content"
+      }
+    ],
+    "status": "ok"
+  },
+  "duke": {
+    "title": "USDA Dr. Duke's Phytochemical and Ethnobotanical Databases (CSV tables)",
+    "citation": "U.S. Department of Agriculture, Agricultural Research Service. Dr. Duke's Phytochemical and Ethnobotanical Databases. doi:10.15482/USDA.ADC/1239279",
+    "license": "CC0 / US public domain",
+    "redistribute_raw": true,
+    "copy_from_old": "duke/tables",
+    "retrieved_utc": "2026-11-07T08:38:00+00:00",
+    "files": [
+      {
+        "name": "ETHNOBOT.csv",
+        "bytes": 12122539,
+        "sha256": "2b82ad566c89c276f65bfd6c2a7644a9247c5391c069432b8432cd07afb52a69",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      },
+      {
+        "name": "FARMACY.csv",
+        "bytes": 6810139,
+        "sha256": "b79020cb2ceb33cf765fceebdd9b31aa2d4e8a433398bcb1c5adb95f8bd6d46b",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      },
+      {
+        "name": "COMMON_NAMES.csv",
+        "bytes": 167001,
+        "sha256": "2895514a899120f06fafdb0208cf9b7dbc4e8e6e79a12ed319979f831d84b6f3",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      },
+      {
+        "name": "ACTIVITIES.csv",
+        "bytes": 156920,
+        "sha256": "ba764111d935b2936e77647a5af8ca35b19609a8dab521c9c2b6a53b289b42ef",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      }
+    ],
+    "status": "ok"
+  },
+  "herbolario": {
+    "title": "Herbolario: global medicinal-plant use records (GBIF dataset)",
+    "citation": "Herbolario dataset via GBIF; see herbolario-gbif-metadata.json for DOI",
+    "license": "see metadata (CC-BY-4.0 per GBIF record)",
+    "redistribute_raw": true,
+    "copy_from_old": "ethnobotany",
+    "retrieved_utc": "2026-11-07T08:38:00+00:00",
+    "files": [
+      {
+        "name": "herbolario.csv",
+        "bytes": 8190430,
+        "sha256": "af6826396ac13084c9fe89e77d5072d32b56f6ea17310aa66e6b984de89ac5cc",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      },
+      {
+        "name": "herbolario-gbif-metadata.json",
+        "bytes": 6903,
+        "sha256": "b79ce93a5e1721c3e8c1d428a11683ed523722ff1fe662f086f14e92bb62a4b1",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      },
+      {
+        "name": "herbolario-metadata.json",
+        "bytes": 4261,
+        "sha256": "dc8dbcdc60a1ae1d210e9f79269757747e03ede9110a20d30272be3488d73d62",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      }
+    ],
+    "status": "ok"
+  },
+  "worldclim": {
+    "title": "WorldClim 2.1 bioclimatic variables, 10 arc-minute (1970-2000)",
+    "citation": "Fick SE, Hijmans RJ (2017) Int J Climatol 37:4302-4315",
+    "license": "WorldClim terms (free for research; cite)",
+    "redistribute_raw": false,
+    "copy_from_old": "worldclim",
+    "fallback_url": "https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip",
+    "unzip": true,
+    "retrieved_utc": "2026-11-07T08:38:00+00:00",
+    "files": [
+      {
+        "name": "wc2.1_10m_bio.zip",
+        "bytes": 49869449,
+        "sha256": "00513224583665ec0f2f955a4ec252730c4deb2004cce9e793492a3f26df4dcf",
+        "provider_md5_verified": null,
+        "acquisition": "copied-from-old-project-cache (provenance re-checked)",
+        "url": null
+      }
+    ],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "E05",
+ "title": "Back-test: can a generic counterfactual removal model (Tier B) predict observed harvest effects?",
+ "question": "If we had no harvest experiment for Nardostachys, would a simple 'remove fraction h of plants in harvested stages' model applied to the control matrix predict the observed treatment lambdas?",
+ "hypothesis": "Generic removal models are miscalibrated because rhizome harvest causes partial biomass loss and stage regression rather than death; error will exceed 0.05 in lambda for >=25% intensities.",
+ "data": "COMPADRE 244455-244459",
+ "method": "3 counterfactual variants vs observed; MAE",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "failed/negative",
+ "finding": "No generic removal model reproduces the experiment (best MAE 0.068; lethal-all bias -0.226, largest-class-only bias +0.068). Decision rule: Tier-B counterfactuals may be shown only as labelled sensitivity ranges, never as harvest-rate advice.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:09:54+00:00",
+ "runtime_s": 0.0,
+ "command": "python -m backend.ethnoharvest.experiments E05",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E05.json",
+ "result": {
+  "variants": {
+   "lethal_all_post_seedling": {
+    "predictions": [
+     {
+      "intensity": 10,
+      "predicted": 0.9283,
+      "observed": 0.9582
+     },
+     {
+      "intensity": 25,
+      "predicted": 0.779,
+      "observed": 0.8912
+     },
+     {
+      "intensity": 50,
+      "predicted": 0.5292,
+      "observed": 0.8305
+     },
+     {
+      "intensity": 75,
+      "predicted": 0.2766,
+      "observed": 0.7369
+     }
+    ],
+    "mae": 0.225925,
+    "bias": -0.225925
+   },
+   "lethal_adults_only": {
+    "predictions": [
+     {
+      "intensity": 10,
+      "predicted": 0.9318,
+      "observed": 0.9582
+     },
+     {
+      "intensity": 25,
+      "predicted": 0.789,
+      "observed": 0.8912
+     },
+     {
+      "intensity": 50,
+      "predicted": 0.5559,
+      "observed": 0.8305
+     },
+     {
+      "intensity": 75,
+      "predicted": 0.3355,
+      "observed": 0.7369
+     }
+    ],
+    "mae": 0.20115000000000002,
+    "bias": -0.20115000000000002
+   },
+   "lethal_largest_class_only": {
+    "predictions": [
+     {
+      "intensity": 10,
+      "predicted": 0.9901,
+      "observed": 0.9582
+     },
+     {
+      "intensity": 25,
+      "predicted": 0.9445,
+      "observed": 0.8912
+     },
+     {
+      "intensity": 50,
+      "predicted": 0.8926,
+      "observed": 0.8305
+     },
+     {
+      "intensity": 75,
+      "predicted": 0.8611,
+      "observed": 0.7369
+     }
+    ],
+    "mae": 0.06787499999999996,
+    "bias": 0.06787499999999996
+   }
+  },
+  "best_variant": "lethal_largest_class_only",
+  "best_mae": 0.06787499999999996
+ }
+}

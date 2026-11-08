@@ -1,0 +1,82 @@
+{
+ "id": "E09",
+ "title": "Environmental Demography: reproduce life-history and aridity association with demographic buffering",
+ "question": "Do life-history axes (LHPC) and climate axes (ClimPC) predict the cumulative stochastic elasticity of variance across 121 populations, as the manuscript reports?",
+ "hypothesis": "LHPC.1 (survival-reproduction trade-off axis) has a significant association with log cumulative SigElas; ClimPC terms add explanatory power. Non-phylogenetic mixed model is a simplification of the authors' MCMCglmm.",
+ "data": "Zenodo 18922678 GLMMdata.Rdata (derived partly from COMPADRE 6.23.5)",
+ "method": "linear mixed model (species random intercept) vs LH-only vs null; AIC; medicinal subset",
+ "registered_utc": "2026-11-07T08:40:00Z",
+ "status": "inconclusive",
+ "finding": "Not replicated for life history: LH1 p=0.34 in a non-phylogenetic mixed model. Climate axes are associated (ClimPC1 p=0.0001, ClimPC2 p=0.0007; AIC 506 -> 486). The authors' phylogenetic MCMCglmm on separate vital-rate elasticities may detect what this simplification misses; treated as contextual, not used for harvest decisions.",
+ "error": null,
+ "ran_utc": "2026-11-07T09:10:37+00:00",
+ "runtime_s": 0.3,
+ "command": "python -m backend.ethnoharvest.experiments E09",
+ "environment": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "compadre_version": "6.26.3.0",
+ "seed": 42,
+ "artifact": "experiments/results/E09.json",
+ "result": {
+  "n_populations": 121,
+  "n_species": 78,
+  "n_medicinal_species": 24,
+  "models": {
+   "null": {
+    "aic": 506.0566264898773,
+    "llf": -250.02831324493866,
+    "params": {
+     "Intercept": -4.119115600568877,
+     "Group Var": 1.7119398814451203
+    },
+    "pvalues": {
+     "Intercept": 1.144457818747853e-69,
+     "Group Var": 0.008043113331492997
+    }
+   },
+   "lh": {
+    "aic": 508.11399837987415,
+    "llf": -249.05699918993707,
+    "params": {
+     "Intercept": -4.125180779450142,
+     "LH1": -0.10181706467397084,
+     "LH2": 0.15725575612706164,
+     "Group Var": 1.7568879612677353
+    },
+    "pvalues": {
+     "Intercept": 3.095769850580626e-70,
+     "LH1": 0.3358911667712001,
+     "LH2": 0.31602984893134367,
+     "Group Var": 0.007006727883929054
+    }
+   },
+   "lh_clim": {
+    "aic": 486.05280179532383,
+    "llf": -235.02640089766192,
+    "params": {
+     "Intercept": -4.465533794789079,
+     "LH1": -0.055547683106167936,
+     "LH2": 0.10614123970204245,
+     "C1": 0.6315438162511984,
+     "C2": 0.5850944519015269,
+     "C3": 0.005644722778891207,
+     "Group Var": 2.2180865720347844
+    },
+    "pvalues": {
+     "Intercept": 3.470616685730538e-86,
+     "LH1": 0.5538994900283587,
+     "LH2": 0.44620825828541055,
+     "C1": 0.00010059322533405086,
+     "C2": 0.0007045800137626195,
+     "C3": 0.9854493267568689,
+     "Group Var": 0.0039074601107493825
+    }
+   }
+  },
+  "note": "Overlaps COMPADRE; separate analysis, not independent confirmation of COMPADRE harvest results."
+ }
+}

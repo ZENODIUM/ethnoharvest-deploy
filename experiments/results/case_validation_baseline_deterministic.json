@@ -1,0 +1,2650 @@
+{
+  "generated": "2026-11-07 23:54:21",
+  "literature": false,
+  "note": "Operational records and documents are SYNTHETIC (demo workspace, watermarked PDFs). Scientific numbers come from COMPADRE v6.26.3.0 matrices. No result here is a harvest rate, quota or permit.",
+  "cases": [
+    {
+      "id": "jatamansi",
+      "species": "Nardostachys jatamansi",
+      "organ": "rhizome",
+      "jurisdiction": "Nepal",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 6,
+        "n_studies": 1,
+        "n_populations": 2,
+        "median_lambda": 0.9247,
+        "family": "Caprifoliaceae",
+        "harvest_studies": [
+          "nardostachys-ghimire2008"
+        ],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Bronchitis; Carminative; Cholera; Chorea; CNS depressant; Tuberculosis; Convulsion; Cough",
+        "sensitive": true,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "enabled-with-caveats",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 851
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "nardostachys-ghimire2008",
+            "design": "experimental",
+            "caveat": "Randomised harvest treatment with same-population control.",
+            "series": [
+              {
+                "matrix": 244455,
+                "role": "control",
+                "label": "0% (control subplots)",
+                "lambda": 1.0277,
+                "qc_ok": true,
+                "relative_size_y30": 227.2
+              },
+              {
+                "matrix": 244456,
+                "role": "treatment",
+                "label": "10% rhizome harvest",
+                "lambda": 0.9582,
+                "qc_ok": true,
+                "relative_size_y30": 27.8
+              },
+              {
+                "matrix": 244457,
+                "role": "treatment",
+                "label": "25% rhizome harvest",
+                "lambda": 0.8912,
+                "qc_ok": true,
+                "relative_size_y30": 3.1
+              },
+              {
+                "matrix": 244458,
+                "role": "treatment",
+                "label": "50% rhizome harvest",
+                "lambda": 0.8305,
+                "qc_ok": true,
+                "relative_size_y30": 0.4
+              },
+              {
+                "matrix": 244459,
+                "role": "treatment",
+                "label": "75% rhizome harvest",
+                "lambda": 0.7369,
+                "qc_ok": true,
+                "relative_size_y30": 0.0
+              }
+            ],
+            "mean_control": 1.0277,
+            "mean_treatment": 0.8542,
+            "delta_mean": -0.1735,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "244456": "retrogression",
+              "244457": "retrogression",
+              "244458": "progression",
+              "244459": "progression"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 135
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.6666666666666666,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "enabled-with-caveats",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 38
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "root",
+        "agent_organ": "rhizome",
+        "process": "survival",
+        "methods": [
+          "Whole-plant digging",
+          "Partial rhizome cutting, replanting the crown"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_f8e99222e32b",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1001",
+        "prefill": {
+          "organ": "rhizome",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": true,
+            "appendices": [
+              "II"
+            ]
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "practitioner-guidance": 1,
+          "regulatory-listing": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published harvest experiment on rhizome harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Field guidance: leave part of the rhizome and harvest rotationally",
+            "kind": "practitioner-guidance",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "CITES Appendix II listing",
+            "kind": "regulatory-listing",
+            "applicability": "same species; parts covered depend on the annotation",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Export of unprocessed rhizome",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Nepal, Nardostachys jatamansi",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 9,
+        "ms": 412
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 80000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 26000.0
+        },
+        "lots": [
+          {
+            "code": "JAT-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "JAT-D1",
+            "basis": "dry",
+            "on_hand_g": 24000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "JAT-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 57
+      },
+      "documents": {
+        "ok": true,
+        "planted": "quantity_exceeds_authorised",
+        "found": true,
+        "rules": [
+          "quantity_exceeds_authorised"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "quantity_exceeds_authorised",
+            "severity": "mismatch",
+            "detail": "Weigh-in slips total 80 kg fresh, above the 60 kg authorised in authorisation.pdf."
+          }
+        ],
+        "ms": 161
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 12726,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4585,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4316,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3910,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 7121,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4372,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 76
+      }
+    },
+    {
+      "id": "panax",
+      "species": "Panax quinquefolius",
+      "organ": "root",
+      "jurisdiction": "United States",
+      "missing_studies": [
+        "panax-vandervoort2006"
+      ],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "B",
+        "n_matrices": 61,
+        "n_studies": 6,
+        "n_populations": 13,
+        "median_lambda": 1.0514,
+        "family": "Araliaceae",
+        "harvest_studies": [],
+        "medicinal_sources": "Herbolario (GBIF)|USDA Duke ETHNOBOT",
+        "example_uses": "Apertif; Aphrodisiac; Cachexia; Contraceptive; Energy; Forgetfulness; Hangover; Nerves",
+        "sensitive": true,
+        "overall_tier": "B",
+        "quota_answer": "cannot estimate safe local rate",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 11
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "projection_only": 244581,
+            "lambda": 1.0553,
+            "treatment": "Unmanipulated"
+          }
+        ],
+        "quota_question": {
+          "answer": "cannot estimate safe local rate",
+          "missing": 6
+        },
+        "ms": 9
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 1.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 42
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "root",
+        "agent_organ": "rhizome",
+        "process": "survival",
+        "methods": [
+          "Whole-plant digging",
+          "Partial rhizome cutting, replanting the crown"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_b04b5dd1fe32",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1002",
+        "prefill": {
+          "organ": "root",
+          "evidence_tier": "B",
+          "quota_answer": "cannot estimate safe local rate",
+          "cites": {
+            "status": "available",
+            "listed": true,
+            "appendices": [
+              "II"
+            ]
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "transferred-from-other-species": 1,
+          "regulatory-listing": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Evidence from another species harvested for root: Echinacea angustifolia",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "CITES Appendix II listing",
+            "kind": "regulatory-listing",
+            "applicability": "same species; parts covered depend on the annotation",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for United States",
+            "kind": "requires-authority-confirmation",
+            "applicability": "United States",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 0,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 9,
+        "ms": 253
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 12000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 6000.0
+        },
+        "lots": [
+          {
+            "code": "PAN-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PAN-D1",
+            "basis": "dry",
+            "on_hand_g": 4000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PAN-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 74
+      },
+      "documents": {
+        "ok": true,
+        "planted": "date_outside_authorisation",
+        "found": true,
+        "rules": [
+          "date_outside_authorisation"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "date_outside_authorisation",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf is dated 2026-09-12, outside the authorisation window 2026-07-01 to 2026-08-31 in authorisation.pdf."
+          }
+        ],
+        "ms": 126
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 11447,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4240,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4319,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3956,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 4922,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4426,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 115
+      }
+    },
+    {
+      "id": "echinacea",
+      "species": "Echinacea angustifolia",
+      "organ": "root",
+      "jurisdiction": "United States",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 53,
+        "n_studies": 3,
+        "n_populations": 5,
+        "median_lambda": 0.9759,
+        "family": "Asteraceae",
+        "harvest_studies": [
+          "echinacea-hurlburt1999"
+        ],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Alterative; Antiseptic; Apertif; Aphrodisiac; Cancer(Breast); Cough; Depurative; Digestive",
+        "sensitive": false,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 17
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "echinacea-hurlburt1999",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 242921,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Natoma",
+                "lambda": 0.9884,
+                "qc_ok": true,
+                "relative_size_y30": 70.4
+              },
+              {
+                "matrix": 242924,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Woodston",
+                "lambda": 1.0436,
+                "qc_ok": true,
+                "relative_size_y30": 531.0
+              },
+              {
+                "matrix": 242931,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Natoma",
+                "lambda": 1.0515,
+                "qc_ok": true,
+                "relative_size_y30": 662.6
+              },
+              {
+                "matrix": 242934,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Woodston",
+                "lambda": 0.9759,
+                "qc_ok": true,
+                "relative_size_y30": 78.9
+              }
+            ],
+            "mean_control": 1.016,
+            "mean_treatment": 1.0137,
+            "delta_mean": -0.0023,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "242931": "fecundity",
+              "242934": "progression"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 22
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 50
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "root",
+        "agent_organ": "rhizome",
+        "process": "survival",
+        "methods": [
+          "Whole-plant digging",
+          "Partial rhizome cutting, replanting the crown"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_aeb17b04a314",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1003",
+        "prefill": {
+          "organ": "root",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": null
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published observational comparison (harvest not randomised) on root harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for United States",
+            "kind": "requires-authority-confirmation",
+            "applicability": "United States",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 8,
+        "ms": 341
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 40000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 15000.0
+        },
+        "lots": [
+          {
+            "code": "ECH-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "ECH-D1",
+            "basis": "dry",
+            "on_hand_g": 13000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "ECH-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 67
+      },
+      "documents": {
+        "ok": true,
+        "planted": "species_mismatch",
+        "found": true,
+        "rules": [
+          "species_mismatch"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "species_mismatch",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf names Echinacea pallida, not Echinacea angustifolia."
+          }
+        ],
+        "ms": 146
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 11221,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4311,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4325,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3905,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 4574,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4283,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 117
+      }
+    },
+    {
+      "id": "prunus",
+      "species": "Prunus africana",
+      "organ": "bark",
+      "jurisdiction": "Cameroon",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 16,
+        "n_studies": 1,
+        "n_populations": 6,
+        "median_lambda": 0.9856,
+        "family": "Rosaceae",
+        "harvest_studies": [
+          "prunus-stewart2001"
+        ],
+        "medicinal_sources": "Curated citation",
+        "example_uses": "Bark: benign prostatic hyperplasia (Cortex Pruni africanae)",
+        "sensitive": true,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 13
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "prunus-stewart2001",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 247846,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Plot 1",
+                "lambda": 0.9845,
+                "qc_ok": true,
+                "relative_size_y30": 62.6
+              },
+              {
+                "matrix": 247850,
+                "role": "treatment",
+                "label": "Harvested once per year \u00b7 Plot 2",
+                "lambda": 1.0006,
+                "qc_ok": true,
+                "relative_size_y30": 3204.2
+              },
+              {
+                "matrix": 247853,
+                "role": "treatment",
+                "label": "Harvested twice per year \u00b7 Plot 3",
+                "lambda": 1.0044,
+                "qc_ok": true,
+                "relative_size_y30": 14.7
+              },
+              {
+                "matrix": 247856,
+                "role": "treatment",
+                "label": "Harvested twice per year \u00b7 Plot 4",
+                "lambda": 0.9664,
+                "qc_ok": true,
+                "relative_size_y30": 10.6
+              },
+              {
+                "matrix": 247859,
+                "role": "treatment",
+                "label": "Harvested once per year \u00b7 Plot 5",
+                "lambda": 1.0254,
+                "qc_ok": true,
+                "relative_size_y30": 977.0
+              }
+            ],
+            "mean_control": 0.9845,
+            "mean_treatment": 0.9992,
+            "delta_mean": 0.0147,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "247850": "fecundity",
+              "247853": "progression",
+              "247856": "fecundity",
+              "247859": "fecundity"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 43
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 50
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "bark",
+        "agent_organ": "bark",
+        "process": "survival and growth of established plants",
+        "methods": [
+          "Strip panels from opposite sides",
+          "Girdling or full stripping",
+          "Felling then stripping"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_b426175b05c9",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1004",
+        "prefill": {
+          "organ": "bark",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": true,
+            "appendices": [
+              "II"
+            ]
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "transferred-from-other-species": 2,
+          "regulatory-listing": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published observational comparison (harvest not randomised) on bark harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for bark + foliage: Khaya senegalensis",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for bark + foliage: Khaya senegalensis",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "CITES Appendix II listing",
+            "kind": "regulatory-listing",
+            "applicability": "same species; parts covered depend on the annotation",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Export quota and non-detriment finding",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Cameroon, Prunus africana",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 9,
+        "ms": 774
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 300000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 182000.0
+        },
+        "lots": [
+          {
+            "code": "PRU-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PRU-D1",
+            "basis": "dry",
+            "on_hand_g": 180000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PRU-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 63
+      },
+      "documents": {
+        "ok": true,
+        "planted": "organ_mismatch",
+        "found": true,
+        "rules": [
+          "organ_mismatch"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "organ_mismatch",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf records leaf; this passport covers bark."
+          }
+        ],
+        "ms": 121
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 12710,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4398,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4313,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3890,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 7251,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4356,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 108
+      }
+    },
+    {
+      "id": "khaya",
+      "species": "Khaya senegalensis",
+      "organ": "bark",
+      "jurisdiction": "Benin",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 76,
+        "n_studies": 2,
+        "n_populations": 18,
+        "median_lambda": 0.9999,
+        "family": "Meliaceae",
+        "harvest_studies": [
+          "khaya-gaoue2010",
+          "khaya-gaoue2013"
+        ],
+        "medicinal_sources": "Curated citation|USDA Duke ETHNOBOT",
+        "example_uses": "Repellant(Insect); Bark: fever/malaria and other ethnomedicinal uses (Benin)",
+        "sensitive": false,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 14
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "khaya-gaoue2010",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 247595,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Boukoussera",
+                "lambda": 1.0423,
+                "qc_ok": true,
+                "relative_size_y30": 347.1
+              },
+              {
+                "matrix": 247598,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Fetekou",
+                "lambda": 0.9999,
+                "qc_ok": true,
+                "relative_size_y30": 45.6
+              },
+              {
+                "matrix": 247601,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Sinisson",
+                "lambda": 1.0751,
+                "qc_ok": true,
+                "relative_size_y30": 1282.4
+              },
+              {
+                "matrix": 247604,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Penelan",
+                "lambda": 0.9255,
+                "qc_ok": true,
+                "relative_size_y30": 13.5
+              },
+              {
+                "matrix": 247607,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Nipuni",
+                "lambda": 1.0002,
+                "qc_ok": true,
+                "relative_size_y30": 46.9
+              },
+              {
+                "matrix": 247610,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Barabon",
+                "lambda": 1.0032,
+                "qc_ok": true,
+                "relative_size_y30": 101.3
+              },
+              {
+                "matrix": 247614,
+                "role": "treatment",
+                "label": "High harvest \u00b7 Gbeba",
+                "lambda": 1.0002,
+                "qc_ok": true,
+                "relative_size_y30": 33.3
+              },
+              {
+                "matrix": 247617,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Dogue",
+                "lambda": 0.9799,
+                "qc_ok": true,
+                "relative_size_y30": 51.9
+              },
+              {
+                "matrix": 247620,
+                "role": "treatment",
+                "label": "High harvest \u00b7 Nigoussourou",
+                "lambda": 0.9999,
+                "qc_ok": true,
+                "relative_size_y30": 53.9
+              },
+              {
+                "matrix": 247623,
+                "role": "treatment",
+                "label": "High harvest \u00b7 Soassararou",
+                "lambda": 0.9641,
+                "qc_ok": true,
+                "relative_size_y30": 15.5
+              },
+              {
+                "matrix": 247626,
+                "role": "treatment",
+                "label": "High harvest \u00b7 Sakarou",
+                "lambda": 0.9946,
+                "qc_ok": true,
+                "relative_size_y30": 145.5
+              },
+              {
+                "matrix": 247629,
+                "role": "treatment",
+                "label": "High harvest \u00b7 Okpara",
+                "lambda": 0.9545,
+                "qc_ok": true,
+                "relative_size_y30": 3.1
+              }
+            ],
+            "mean_control": 1.0077,
+            "mean_treatment": 0.9822,
+            "delta_mean": -0.0255,
+            "permutation_test": {
+              "observed_difference": -0.025516976046468298,
+              "p_value": 0.2837,
+              "n_treatment": 6,
+              "n_control": 6,
+              "ci95": [
+                -0.06352513248888146,
+                0.01485204256615013
+              ],
+              "seed": 1,
+              "unit": "population mean matrix"
+            },
+            "ltre_main_process": {
+              "247614": "stasis",
+              "247617": "stasis",
+              "247620": "stasis",
+              "247623": "progression",
+              "247626": "stasis",
+              "247629": "fecundity"
+            }
+          },
+          {
+            "study": "khaya-gaoue2013",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 250249,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Barabon",
+                "lambda": 1.0032,
+                "qc_ok": true,
+                "relative_size_y30": 110.0
+              },
+              {
+                "matrix": 250250,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Boukoussera",
+                "lambda": 1.0142,
+                "qc_ok": true,
+                "relative_size_y30": 162.1
+              },
+              {
+                "matrix": 250252,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Fetekou",
+                "lambda": 0.9696,
+                "qc_ok": true,
+                "relative_size_y30": 46.6
+              },
+              {
+                "matrix": 250255,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Nipuni",
+                "lambda": 1.001,
+                "qc_ok": true,
+                "relative_size_y30": 79.8
+              },
+              {
+                "matrix": 250257,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Penelan",
+                "lambda": 0.9416,
+                "qc_ok": true,
+                "relative_size_y30": 29.4
+              },
+              {
+                "matrix": 250259,
+                "role": "control",
+                "label": "Unmanipualted \u00b7 Sinisson",
+                "lambda": 1.0201,
+                "qc_ok": true,
+                "relative_size_y30": 302.9
+              },
+              {
+                "matrix": 250251,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Dogue",
+                "lambda": 0.9866,
+                "qc_ok": true,
+                "relative_size_y30": 39.4
+              },
+              {
+                "matrix": 250253,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Gbeba",
+                "lambda": 0.9988,
+                "qc_ok": true,
+                "relative_size_y30": 33.0
+              },
+              {
+                "matrix": 250254,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Nigoussourou",
+                "lambda": 0.9224,
+                "qc_ok": true,
+                "relative_size_y30": 6.8
+              },
+              {
+                "matrix": 250256,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Okpara",
+                "lambda": 0.9696,
+                "qc_ok": true,
+                "relative_size_y30": 19.5
+              },
+              {
+                "matrix": 250258,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Sakarou",
+                "lambda": 0.9938,
+                "qc_ok": true,
+                "relative_size_y30": 131.8
+              },
+              {
+                "matrix": 250260,
+                "role": "treatment",
+                "label": "Harvested \u00b7 Soassararou",
+                "lambda": 0.9767,
+                "qc_ok": true,
+                "relative_size_y30": 34.1
+              }
+            ],
+            "mean_control": 0.9916,
+            "mean_treatment": 0.9747,
+            "delta_mean": -0.017,
+            "permutation_test": {
+              "observed_difference": -0.01695031457427021,
+              "p_value": 0.3432,
+              "n_treatment": 6,
+              "n_control": 6,
+              "ci95": [
+                -0.046833169847606944,
+                0.013126143231856381
+              ],
+              "seed": 1,
+              "unit": "population mean matrix"
+            },
+            "ltre_main_process": {
+              "250251": "stasis",
+              "250253": "stasis",
+              "250254": "progression",
+              "250256": "progression",
+              "250258": "stasis",
+              "250260": "progression"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 290
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 47
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "bark",
+        "agent_organ": "bark",
+        "process": "survival and growth of established plants",
+        "methods": [
+          "Strip panels from opposite sides",
+          "Girdling or full stripping",
+          "Felling then stripping"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_240866c5d31a",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1005",
+        "prefill": {
+          "organ": "bark",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": true,
+            "appendices": [
+              "II"
+            ]
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 2,
+          "transferred-from-other-species": 1,
+          "regulatory-listing": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published observational comparison (harvest not randomised) on bark + foliage harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Published observational comparison (harvest not randomised) on bark + foliage harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for bark: Prunus africana",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "CITES Appendix II listing",
+            "kind": "regulatory-listing",
+            "applicability": "same species; parts covered depend on the annotation",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "National collection rules",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Benin",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 2,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 9,
+        "ms": 262
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 60000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 38000.0
+        },
+        "lots": [
+          {
+            "code": "KHA-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "KHA-D1",
+            "basis": "dry",
+            "on_hand_g": 36000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "KHA-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 66
+      },
+      "documents": {
+        "ok": true,
+        "planted": "area_mismatch",
+        "found": true,
+        "rules": [
+          "area_mismatch"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "area_mismatch",
+            "severity": "mismatch",
+            "detail": "plan.pdf names Block C; authorisation.pdf authorises Block A."
+          }
+        ],
+        "ms": 163
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 12669,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4712,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4310,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3949,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 7006,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4418,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 112
+      }
+    },
+    {
+      "id": "boswellia",
+      "species": "Boswellia papyrifera",
+      "organ": "resin",
+      "jurisdiction": "Ethiopia",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 2,
+        "n_studies": 1,
+        "n_populations": 1,
+        "median_lambda": 0.9581,
+        "family": "Burseraceae",
+        "harvest_studies": [
+          "boswellia-groenendijk2012"
+        ],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Evil eye; Fever; Tranquilizer",
+        "sensitive": false,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 12
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "boswellia-groenendijk2012",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 247441,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Metema; Adi Arkay",
+                "lambda": 0.9539,
+                "qc_ok": true,
+                "relative_size_y30": 24.3
+              },
+              {
+                "matrix": 247440,
+                "role": "treatment",
+                "label": "Tapped \u00b7 Metema; Adi Arkay",
+                "lambda": 0.9623,
+                "qc_ok": true,
+                "relative_size_y30": 35.2
+              }
+            ],
+            "mean_control": 0.9539,
+            "mean_treatment": 0.9623,
+            "delta_mean": 0.0084,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "247440": "progression"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 18
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 47
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "resin",
+        "agent_organ": "resin (stem tapping)",
+        "process": "reproduction",
+        "methods": [
+          "Stem tapping (incisions)",
+          "Resting periods between tapping seasons"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_6be1de9626de",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1006",
+        "prefill": {
+          "organ": "resin",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": []
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "regulatory-listing": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published observational comparison (harvest not randomised) on resin (stem tapping) harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Federal forest law applies",
+            "kind": "regulatory-listing",
+            "applicability": "Ethiopia",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 7,
+        "ms": 260
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 50000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 47000.0
+        },
+        "lots": [
+          {
+            "code": "BOS-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "BOS-D1",
+            "basis": "dry",
+            "on_hand_g": 45000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "BOS-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 62
+      },
+      "documents": {
+        "ok": true,
+        "planted": "mass_balance_gap",
+        "found": true,
+        "rules": [
+          "mass_balance_gap"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "mass_balance_gap",
+            "severity": "review",
+            "detail": "drying-log.pdf: 5.00 kg is not explained by output, water loss, rejected material or waste. Record what happened; this is a reconciliation gap, not an accusatio\u2026"
+          }
+        ],
+        "ms": 172
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 11478,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4251,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4314,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3994,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 4822,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4291,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 103
+      }
+    },
+    {
+      "id": "phyllanthus",
+      "species": "Phyllanthus emblica",
+      "organ": "fruit",
+      "jurisdiction": "India",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "A",
+        "n_matrices": 61,
+        "n_studies": 3,
+        "n_populations": 3,
+        "median_lambda": 0.935,
+        "family": "Phyllanthaceae",
+        "harvest_studies": [
+          "phyllanthus-ticktin2012"
+        ],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Acrid; Anemia; Anodyne; Anthrax; Bactericide; Candida; Carbuncle; Cholera",
+        "sensitive": false,
+        "overall_tier": "A",
+        "quota_answer": "study-backed scenario only",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 15
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "study": "phyllanthus-ticktin2012",
+            "design": "observational",
+            "caveat": "Harvested vs unharvested populations differ in site/period too: contrast is not a causal effect estimate.",
+            "series": [
+              {
+                "matrix": 247692,
+                "role": "control",
+                "label": "Unmanipulated \u00b7 Biligiri Rangaswamy Temple Wildlife Sanctuary",
+                "lambda": 0.9758,
+                "qc_ok": true,
+                "relative_size_y30": 47.9
+              },
+              {
+                "matrix": 247708,
+                "role": "treatment",
+                "label": "Fruit harvesting \u00b7 Biligiri Rangaswamy Temple Wildlife Sanctuary",
+                "lambda": 0.9301,
+                "qc_ok": true,
+                "relative_size_y30": 12.1
+              }
+            ],
+            "mean_control": 0.9758,
+            "mean_treatment": 0.9301,
+            "delta_mean": -0.0457,
+            "permutation_test": null,
+            "ltre_main_process": {
+              "247708": "stasis"
+            }
+          }
+        ],
+        "quota_question": {
+          "answer": "study-backed scenario only",
+          "missing": 6
+        },
+        "ms": 15
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "enabled",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 48
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "fruit",
+        "agent_organ": "fruit",
+        "process": "reproduction",
+        "methods": [
+          "Collecting fallen fruit",
+          "Cutting branches to reach fruit"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_32ba06dd8873",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1007",
+        "prefill": {
+          "organ": "fruit",
+          "evidence_tier": "A",
+          "quota_answer": "study-backed scenario only",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": null
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "supported-by-study": 1,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Published observational comparison (harvest not randomised) on fruit harvest",
+            "kind": "supported-by-study",
+            "applicability": "same species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for India",
+            "kind": "requires-authority-confirmation",
+            "applicability": "India",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 1,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 8,
+        "ms": 268
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 90000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 20000.0
+        },
+        "lots": [
+          {
+            "code": "PHY-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PHY-D1",
+            "basis": "dry",
+            "on_hand_g": 18000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "PHY-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 60
+      },
+      "documents": {
+        "ok": true,
+        "planted": "lot_not_traceable",
+        "found": false,
+        "rules": [],
+        "false_alarms": [],
+        "issues": [],
+        "ms": 119
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 11175,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4212,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4311,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3724,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 4651,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4080,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 99
+      }
+    },
+    {
+      "id": "colchicum",
+      "species": "Colchicum autumnale",
+      "organ": "leaf",
+      "jurisdiction": "Austria",
+      "missing_studies": [
+        "colchicum-winter2014-cut",
+        "colchicum-winter2014-flower"
+      ],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "B",
+        "n_matrices": 32,
+        "n_studies": 1,
+        "n_populations": 2,
+        "median_lambda": 0.8925,
+        "family": "Colchicaceae",
+        "harvest_studies": [],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Alterative; Diuretic; Laxative; Leukemia; Rheumatism; Sudorific; Cancer; Corn",
+        "sensitive": false,
+        "overall_tier": "B",
+        "quota_answer": "cannot estimate safe local rate",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "enabled-with-caveats",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 15
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "projection_only": 242523,
+            "lambda": 1.0027,
+            "treatment": "Unmanipulated"
+          }
+        ],
+        "quota_question": {
+          "answer": "cannot estimate safe local rate",
+          "missing": 6
+        },
+        "ms": 12
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey"
+        ],
+        "unlocks": [
+          "habitat_model"
+        ],
+        "cost_person_days": 10,
+        "greedy_unlocks": [],
+        "flip_probability": 0.3333333333333333,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "enabled-with-caveats"
+        },
+        "ms": 47
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "leaf",
+        "agent_organ": "leaf",
+        "process": "growth",
+        "methods": [
+          "Partial leaf removal, leaving the growing point",
+          "Cutting the growing point (palm heart)"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_74718957e20b",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1008",
+        "prefill": {
+          "organ": "leaf",
+          "evidence_tier": "B",
+          "quota_answer": "cannot estimate safe local rate",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": null
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "transferred-from-other-species": 3,
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "Evidence from another species harvested for bark + foliage: Khaya senegalensis",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for bark + foliage: Khaya senegalensis",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Evidence from another species harvested for leaf: Sabal yapa",
+            "kind": "transferred-from-other-species",
+            "applicability": "different species, same part",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "No rule recorded for Austria",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Austria",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 0,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 8,
+        "ms": 259
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 80000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 18000.0
+        },
+        "lots": [
+          {
+            "code": "COL-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "COL-D1",
+            "basis": "dry",
+            "on_hand_g": 16000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "COL-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 74
+      },
+      "documents": {
+        "ok": true,
+        "planted": "quantity_exceeds_authorised",
+        "found": true,
+        "rules": [
+          "quantity_exceeds_authorised"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "quantity_exceeds_authorised",
+            "severity": "mismatch",
+            "detail": "Weigh-in slips total 80 kg fresh, above the 60 kg authorised in authorisation.pdf."
+          }
+        ],
+        "ms": 110
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 11844,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4121,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4319,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3904,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 6399,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4275,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 107
+      }
+    },
+    {
+      "id": "carapa",
+      "species": "Carapa guianensis",
+      "organ": "seed",
+      "jurisdiction": "Brazil",
+      "missing_studies": [],
+      "explore": {
+        "ok": true,
+        "in_catalog": true,
+        "tier": "B",
+        "n_matrices": 11,
+        "n_studies": 2,
+        "n_populations": 3,
+        "median_lambda": 0.9961,
+        "family": "Meliaceae",
+        "harvest_studies": [],
+        "medicinal_sources": "USDA Duke ETHNOBOT",
+        "example_uses": "Arthritis; Cold; Feet; Fever; Flu; Itch; Malaria; Parasiticide",
+        "sensitive": false,
+        "overall_tier": "B",
+        "quota_answer": "cannot estimate safe local rate",
+        "tasks": {
+          "demographic_projection": "enabled",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "hypothetical_harvest": "enabled-with-caveats",
+          "local_quota": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked",
+          "survey_planning": "unknown",
+          "evidence_planning": "enabled"
+        },
+        "ms": 14
+      },
+      "simulate": {
+        "ok": true,
+        "studies": [
+          {
+            "projection_only": 247465,
+            "lambda": 1.0017,
+            "treatment": "Unmanipulated"
+          }
+        ],
+        "quota_question": {
+          "answer": "cannot estimate safe local rate",
+          "missing": 6
+        },
+        "ms": 18
+      },
+      "plan": {
+        "ok": true,
+        "selected_items": [
+          "occurrence_survey",
+          "phenology_monitoring"
+        ],
+        "unlocks": [
+          "habitat_model",
+          "phenology_window"
+        ],
+        "cost_person_days": 18,
+        "greedy_unlocks": [],
+        "flip_probability": 0.0,
+        "decisions_currently": {
+          "local_quota": "blocked",
+          "harvest_comparison": "blocked",
+          "rotation_extrapolation": "blocked",
+          "habitat_model": "unknown",
+          "phenology_window": "blocked"
+        },
+        "ms": 50
+      },
+      "methods": {
+        "ok": true,
+        "organ_id": "fruit",
+        "agent_organ": "fruit",
+        "process": "reproduction",
+        "methods": [
+          "Collecting fallen fruit",
+          "Cutting branches to reach fruit"
+        ],
+        "sources": 0,
+        "ms": 0
+      },
+      "passport_id": "hp_2970ca4841af",
+      "harvestops_research": {
+        "ok": true,
+        "passport": "DEMO-EH-1009",
+        "prefill": {
+          "organ": "seed",
+          "evidence_tier": "B",
+          "quota_answer": "cannot estimate safe local rate",
+          "cites": {
+            "status": "available",
+            "listed": false,
+            "appendices": null
+          }
+        },
+        "research_status": "ok",
+        "cards_by_kind": {
+          "requires-authority-confirmation": 1,
+          "general": 3
+        },
+        "cards": [
+          {
+            "issue": "No rule recorded for Brazil",
+            "kind": "requires-authority-confirmation",
+            "applicability": "Brazil",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Legal compliance is part of sustainable collection",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Customary rights and benefit sharing",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          },
+          {
+            "issue": "Collection and post-harvest quality practice",
+            "kind": "general",
+            "applicability": "any wild collection",
+            "review": "awaiting expert review",
+            "route": null
+          }
+        ],
+        "same_species_study_cards": 0,
+        "ai_findings": [],
+        "agent": null,
+        "sensitivity": null,
+        "stochastic": null,
+        "forbidden_phrases": [],
+        "tasks_open": 8,
+        "ms": 262
+      },
+      "inventory": {
+        "ok": true,
+        "received_g": 100000.0,
+        "process": {
+          "unexplained_g": 0.0,
+          "flag": false
+        },
+        "reconciliation": {
+          "unexplained_total_g": 0,
+          "dry_on_hand_g": 62000.0
+        },
+        "lots": [
+          {
+            "code": "CAR-F1",
+            "basis": "fresh",
+            "on_hand_g": 0.0,
+            "synthetic": 1
+          },
+          {
+            "code": "CAR-D1",
+            "basis": "dry",
+            "on_hand_g": 60000.0,
+            "synthetic": 1
+          },
+          {
+            "code": "CAR-D1-REJ",
+            "basis": "dry",
+            "on_hand_g": 2000.0,
+            "synthetic": 1
+          }
+        ],
+        "lineage_nodes": 3,
+        "lineage_edges": 2,
+        "regeneration_task": true,
+        "ms": 71
+      },
+      "documents": {
+        "ok": true,
+        "planted": "organ_mismatch",
+        "found": true,
+        "rules": [
+          "organ_mismatch"
+        ],
+        "false_alarms": [],
+        "issues": [
+          {
+            "rule": "organ_mismatch",
+            "severity": "mismatch",
+            "detail": "weigh-in.pdf records bark; this passport covers seed."
+          }
+        ],
+        "ms": 121
+      },
+      "reports": {
+        "ok": true,
+        "exports": {
+          "passport": {
+            "bytes": 10389,
+            "pdf": true
+          },
+          "checklist": {
+            "bytes": 4077,
+            "pdf": true
+          },
+          "ledger": {
+            "bytes": 4310,
+            "pdf": true
+          },
+          "quality": {
+            "bytes": 3890,
+            "pdf": true
+          },
+          "research": {
+            "bytes": 4000,
+            "pdf": true
+          },
+          "transfer": {
+            "bytes": 4265,
+            "pdf": true
+          }
+        },
+        "all_valid_pdf": true,
+        "ms": 102
+      }
+    }
+  ]
+}

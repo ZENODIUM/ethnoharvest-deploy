@@ -1,0 +1,1 @@
+{"status": "available", "source": {"name": "Copernicus GLO-90 DEM via Open-Meteo elevation API", "url": "https://open-meteo.com/en/docs/elevation-api", "resolution": "90 m"}, "values": [891.0, 916.0, 1057.0, 546.0, 724.0, 721.0, 852.0, 583.0, 686.0, 647.0, 689.0, 573.0, 658.0, 645.0, 624.0, 495.0], "_retrieved_utc": "2026-11-08T12:01:52Z"}
